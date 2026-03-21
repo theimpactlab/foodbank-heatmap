@@ -1,0 +1,24 @@
+{
+  "mappings": {
+    "Scotland": "S92000001",
+    "Wales": "W92000004",
+    "Northern Ireland": "N92000002",
+    "North East England": "E12000001",
+    "North West England": "E12000002",
+    "Yorkshire and the Humber": "E12000003",
+    "East Midlands": "E12000004",
+    "West Midlands": "E12000005",
+    "East of England": "E12000006",
+    "London": "E12000007",
+    "South East England": "E12000008",
+    "South West England": "E12000009"
+  },
+  "aliases": {
+    "North East": "E12000001",
+    "North West": "E12000002",
+    "Yorkshire": "E12000003",
+    "East": "E12000006",
+    "South East": "E12000008",
+    "South West": "E12000009"
+  }
+}

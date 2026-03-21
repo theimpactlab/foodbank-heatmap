@@ -1,0 +1,1356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UK Food Bank Search Intensity | The Impact Lab</title>
+    <meta name="description" content="Near-live heatmap showing the relative intensity of food bank-related Google searches across UK regions. Updated every 6 hours.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="UK Food Bank Search Intensity">
+    <meta property="og:description" content="Near-live heatmap of food bank search demand across UK regions, powered by Google Trends data.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://impctlab.uk/foodbank-heatmap/">
+    <meta property="og:image" content="https://impctlab.uk/foodbank-heatmap/assets/og-image.png">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UK Food Bank Search Intensity">
+    <meta name="twitter:description" content="Near-live heatmap of food bank search demand across UK regions.">
+    <meta name="twitter:image" content="https://impctlab.uk/foodbank-heatmap/assets/og-image.png">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <!-- Inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-primary: #0f1117;
+            --bg-secondary: #1a1d27;
+            --bg-card: #222633;
+            --text-primary: #f0f0f5;
+            --text-secondary: #a0a4b8;
+            --text-muted: #6b7084;
+            --accent: #e05c3a;
+            --accent-light: #f28c6e;
+            --border: #2d3148;
+            --success: #34c759;
+            --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+            --radius: 10px;
+            --shadow: 0 4px 24px rgba(0,0,0,0.3);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font);
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            min-height: 100vh;
+            line-height: 1.5;
+        }
+
+        /* Loading overlay */
+        .loading-overlay {
+            position: fixed;
+            inset: 0;
+            background: var(--bg-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10000;
+            transition: opacity 0.4s ease;
+        }
+        .loading-overlay.hidden { opacity: 0; pointer-events: none; }
+        .spinner {
+            width: 48px; height: 48px;
+            border: 3px solid var(--border);
+            border-top-color: var(--accent);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* Error banner */
+        .error-banner {
+            background: #3a1f1f;
+            border: 1px solid #6b3030;
+            color: #f5a0a0;
+            padding: 16px 24px;
+            text-align: center;
+            display: none;
+            font-size: 14px;
+        }
+        .error-banner.show { display: block; }
+
+        /* Header */
+        .site-header {
+            background: var(--bg-secondary);
+            border-bottom: 1px solid var(--border);
+            padding: 20px 24px;
+        }
+        .header-inner {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+        .header-brand {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .logo-placeholder {
+            width: 40px; height: 40px;
+            background: var(--accent);
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 18px;
+            color: white;
+            flex-shrink: 0;
+        }
+        .header-text h1 {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.3px;
+        }
+        .header-text .subtitle {
+            font-size: 13px;
+            color: var(--text-secondary);
+            margin-top: 2px;
+        }
+        .header-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .last-updated {
+            font-size: 12px;
+            color: var(--text-muted);
+            background: var(--bg-card);
+            padding: 6px 12px;
+            border-radius: 20px;
+            border: 1px solid var(--border);
+        }
+        .last-updated .dot {
+            display: inline-block;
+            width: 7px; height: 7px;
+            background: var(--success);
+            border-radius: 50%;
+            margin-right: 6px;
+            animation: pulse 2s ease infinite;
+        }
+        @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
+
+        .share-btn {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--text-secondary);
+            padding: 6px 14px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 12px;
+            font-family: var(--font);
+            transition: all 0.2s;
+        }
+        .share-btn:hover { background: var(--border); color: var(--text-primary); }
+        .share-btn.copied { background: #1a3a1a; border-color: var(--success); color: var(--success); }
+
+        /* Controls bar */
+        .controls {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+        .toggle-group {
+            display: flex;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .toggle-btn {
+            padding: 8px 18px;
+            font-size: 13px;
+            font-family: var(--font);
+            font-weight: 500;
+            border: none;
+            background: transparent;
+            color: var(--text-secondary);
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .toggle-btn.active {
+            background: var(--accent);
+            color: white;
+        }
+        .toggle-btn:hover:not(.active) { background: var(--bg-card); }
+
+        .methodology-toggle {
+            font-size: 13px;
+            color: var(--text-muted);
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: var(--font);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .methodology-toggle:hover { color: var(--text-secondary); }
+
+        /* Map container */
+        .map-section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        .map-wrapper {
+            position: relative;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            overflow: hidden;
+        }
+        #map {
+            width: 100%;
+            height: 560px;
+        }
+
+        /* Legend */
+        .legend {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 12px 14px;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+        }
+        .legend-title {
+            font-size: 11px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+        .legend-scale {
+            display: flex;
+            gap: 2px;
+        }
+        .legend-block {
+            width: 24px;
+            height: 14px;
+            border-radius: 2px;
+        }
+        .legend-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 10px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        /* Custom tooltip */
+        .region-tooltip {
+            position: absolute;
+            z-index: 2000;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 14px 16px;
+            box-shadow: var(--shadow);
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.15s;
+            min-width: 220px;
+        }
+        .region-tooltip.visible { opacity: 1; }
+        .tooltip-name {
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 8px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid var(--border);
+        }
+        .tooltip-scores {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px 16px;
+            margin-bottom: 8px;
+        }
+        .tooltip-score-label {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.3px;
+        }
+        .tooltip-score-value {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .tooltip-terms {
+            border-top: 1px solid var(--border);
+            padding-top: 8px;
+        }
+        .tooltip-term {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: var(--text-secondary);
+            padding: 2px 0;
+        }
+        .tooltip-term span:last-child { font-weight: 600; color: var(--text-primary); }
+
+        /* Chart section */
+        .chart-section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px 24px;
+        }
+        .chart-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+        }
+        .chart-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+        .chart-title {
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .chart-subtitle {
+            font-size: 12px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+        .chart-container {
+            position: relative;
+            height: 220px;
+        }
+
+        /* Methodology panel */
+        .methodology-panel {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px 20px;
+            display: none;
+        }
+        .methodology-panel.show { display: block; }
+        .methodology-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 24px;
+        }
+        .methodology-card h3 {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .methodology-card p {
+            font-size: 14px;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+            line-height: 1.6;
+        }
+        .methodology-card a {
+            color: var(--accent-light);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .methodology-card .detail-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-top: 16px;
+        }
+        .detail-item {
+            background: var(--bg-card);
+            padding: 14px;
+            border-radius: 8px;
+        }
+        .detail-item .label {
+            font-size: 11px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+        .detail-item .value {
+            font-size: 14px;
+            color: var(--text-primary);
+        }
+
+        /* Region table (accessible alternative) */
+        .table-section {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 24px 20px;
+        }
+        .table-toggle {
+            font-size: 13px;
+            color: var(--text-muted);
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-family: var(--font);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+            margin-bottom: 12px;
+            display: block;
+        }
+        .table-toggle:hover { color: var(--text-secondary); }
+        .region-table-wrapper { display: none; }
+        .region-table-wrapper.show { display: block; }
+        .region-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-secondary);
+            border-radius: var(--radius);
+            overflow: hidden;
+            border: 1px solid var(--border);
+        }
+        .region-table th, .region-table td {
+            padding: 10px 14px;
+            text-align: left;
+            font-size: 13px;
+            border-bottom: 1px solid var(--border);
+        }
+        .region-table th {
+            background: var(--bg-card);
+            font-weight: 600;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+        }
+        .region-table td { color: var(--text-secondary); }
+        .region-table td:nth-child(2), .region-table td:nth-child(3) {
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+        .score-bar {
+            display: inline-block;
+            height: 6px;
+            border-radius: 3px;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+
+        /* Footer */
+        .site-footer {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 24px;
+            border-top: 1px solid var(--border);
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+        .footer-text {
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+        .footer-text a {
+            color: var(--text-secondary);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+        .footer-links {
+            display: flex;
+            gap: 16px;
+        }
+        .footer-links a {
+            font-size: 12px;
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+        .footer-links a:hover { color: var(--text-secondary); }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .header-inner { flex-direction: column; align-items: flex-start; }
+            .header-text h1 { font-size: 17px; }
+            #map { height: 400px; }
+            .controls { flex-direction: column; align-items: flex-start; }
+            .legend { bottom: 10px; right: 10px; }
+            .chart-container { height: 180px; }
+            .methodology-card .detail-grid { grid-template-columns: 1fr; }
+            .site-footer { flex-direction: column; }
+        }
+
+        /* City markers */
+        .city-marker {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.9);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+            font-size: 11px;
+            font-weight: 700;
+            font-family: var(--font);
+            color: #fff;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+            cursor: pointer;
+            transition: transform 0.15s ease;
+        }
+        .city-marker:hover { transform: scale(1.2); z-index: 1000 !important; }
+
+        .city-tooltip-custom {
+            background: var(--bg-card) !important;
+            border: 1px solid var(--border) !important;
+            border-radius: 8px !important;
+            padding: 10px 14px !important;
+            box-shadow: var(--shadow) !important;
+            font-family: var(--font) !important;
+            color: var(--text-primary) !important;
+            font-size: 13px !important;
+        }
+        .city-tooltip-custom .city-tt-name {
+            font-weight: 600;
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+        .city-tooltip-custom .city-tt-score {
+            font-size: 22px;
+            font-weight: 700;
+        }
+        .city-tooltip-custom .city-tt-nation {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 2px;
+        }
+        .leaflet-tooltip.city-tooltip-custom::before { display: none; }
+
+        /* Back to overview button */
+        .back-btn {
+            position: absolute;
+            top: 12px;
+            left: 56px;
+            z-index: 1000;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            padding: 7px 14px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-family: var(--font);
+            font-weight: 500;
+            cursor: pointer;
+            display: none;
+            box-shadow: var(--shadow);
+            transition: background 0.2s;
+        }
+        .back-btn:hover { background: var(--bg-card); }
+        .back-btn.show { display: flex; align-items: center; gap: 5px; }
+
+        /* Leaflet overrides */
+        .leaflet-container { background: var(--bg-primary) !important; }
+        .leaflet-control-zoom a {
+            background: var(--bg-secondary) !important;
+            color: var(--text-primary) !important;
+            border-color: var(--border) !important;
+        }
+        .leaflet-control-zoom a:hover { background: var(--bg-card) !important; }
+        .leaflet-control-attribution {
+            background: rgba(15,17,23,0.85) !important;
+            color: var(--text-muted) !important;
+            font-size: 10px !important;
+        }
+        .leaflet-control-attribution a { color: var(--text-secondary) !important; }
+    </style>
+</head>
+<body>
+    <!-- Loading -->
+    <div class="loading-overlay" id="loading">
+        <div style="text-align:center">
+            <div class="spinner"></div>
+            <p style="margin-top:16px;font-size:13px;color:var(--text-muted)">Loading heatmap data...</p>
+        </div>
+    </div>
+
+    <!-- Error -->
+    <div class="error-banner" id="error-banner" role="alert">
+        <strong>Unable to load data.</strong> The heatmap data could not be fetched. Please try refreshing.
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="header-inner">
+            <div class="header-brand">
+                <div class="logo-placeholder" aria-label="The Impact Lab logo">TI</div>
+                <div class="header-text">
+                    <h1>UK Food Bank Search Intensity</h1>
+                    <p class="subtitle">Near-live heatmap based on Google Trends data</p>
+                </div>
+            </div>
+            <div class="header-meta">
+                <span class="last-updated" id="last-updated" aria-live="polite">
+                    <span class="dot"></span>
+                    <span id="update-time">Loading...</span>
+                </span>
+                <button class="share-btn" id="share-btn" aria-label="Copy link to clipboard">
+                    Share
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Controls -->
+    <div class="controls" role="toolbar" aria-label="Map controls">
+        <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
+            <div class="toggle-group" role="radiogroup" aria-label="Time period">
+                <button class="toggle-btn active" data-period="7d" role="radio" aria-checked="true">Last 7 days</button>
+                <button class="toggle-btn" data-period="90d" role="radio" aria-checked="false">Last 90 days</button>
+            </div>
+            <div class="toggle-group" role="radiogroup" aria-label="Map view">
+                <button class="toggle-btn view-btn active" data-view="regions" role="radio" aria-checked="true">Regions</button>
+                <button class="toggle-btn view-btn" data-view="cities" role="radio" aria-checked="false">Cities</button>
+            </div>
+        </div>
+        <button class="methodology-toggle" id="methodology-btn" aria-expanded="false" aria-controls="methodology">
+            How is this calculated?
+        </button>
+    </div>
+
+    <!-- Map -->
+    <section class="map-section" aria-label="Heatmap">
+        <div class="map-wrapper">
+            <div id="map" role="img" aria-label="Choropleth map of UK regions coloured by food bank search intensity"></div>
+            <button class="back-btn" id="back-btn" aria-label="Back to UK overview">&#8592; UK Overview</button>
+            <div class="legend" aria-label="Colour scale legend">
+                <div class="legend-title">Search intensity</div>
+                <div class="legend-scale" id="legend-scale"></div>
+                <div class="legend-labels">
+                    <span>Low</span>
+                    <span>High</span>
+                </div>
+            </div>
+        </div>
+        <!-- Tooltip -->
+        <div class="region-tooltip" id="tooltip"></div>
+    </section>
+
+    <!-- Chart -->
+    <section class="chart-section" aria-label="National trend">
+        <div class="chart-card">
+            <div class="chart-header">
+                <div>
+                    <div class="chart-title">National Search Trend</div>
+                    <div class="chart-subtitle">Google Trends interest for "food bank" over the last 90 days</div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <canvas id="trend-chart" aria-label="Line chart showing national food bank search trend over time"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <!-- Methodology -->
+    <div class="methodology-panel" id="methodology">
+        <div class="methodology-card">
+            <h3>Methodology</h3>
+            <p>This heatmap visualises the relative intensity of food bank-related Google searches across UK regions. It uses Google Trends data as a near-real-time proxy for demand — faster than official statistics, though not a direct measure of food bank usage.</p>
+            <p>Scores range from 0 to 100, representing relative interest. A score of 100 means peak search interest relative to other regions; a score of 50 means half that level. These are not absolute search volumes.</p>
+            <p><strong>Important:</strong> High search volume may reflect genuine need, but can also be driven by media coverage, awareness campaigns, or seasonal patterns. This tool shows search behaviour, not actual food bank usage. For official statistics, see <a href="https://www.trusselltrust.org/news-and-blog/latest-stats/" target="_blank" rel="noopener">The Trussell Trust</a>.</p>
+
+            <div class="detail-grid">
+                <div class="detail-item">
+                    <div class="label">Data source</div>
+                    <div class="value"><a href="https://trends.google.com/trends/explore?geo=GB&q=food%20bank" target="_blank" rel="noopener">Google Trends</a></div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Search terms</div>
+                    <div class="value">"food bank", "food bank near me", "food bank help"</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Update frequency</div>
+                    <div class="value">Every 6 hours (automated)</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Scoring</div>
+                    <div class="value">Average of normalised scores across all three terms</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Granularity</div>
+                    <div class="value">UK nations + English regions, with city-level drill-down (click a region)</div>
+                </div>
+                <div class="detail-item">
+                    <div class="label">Limitations</div>
+                    <div class="value">Relative not absolute; proxy not direct measure; limited regional detail</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Accessible table view -->
+    <div class="table-section">
+        <button class="table-toggle" id="table-toggle-btn" aria-expanded="false" aria-controls="region-table-wrapper">
+            View as table (accessible alternative)
+        </button>
+        <div class="region-table-wrapper" id="region-table-wrapper">
+            <table class="region-table" id="region-table" aria-label="Food bank search scores">
+                <thead id="region-table-head">
+                    <tr>
+                        <th>Region</th>
+                        <th>7-Day Score</th>
+                        <th>90-Day Score</th>
+                        <th>"food bank"</th>
+                        <th>"near me"</th>
+                        <th>"help"</th>
+                    </tr>
+                </thead>
+                <tbody id="region-table-body"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-text">
+            Built by <a href="https://theimpactlab.co.uk" target="_blank" rel="noopener">The Impact Lab</a> &middot; Data from <a href="https://trends.google.com" target="_blank" rel="noopener">Google Trends</a>
+        </div>
+        <div class="footer-links">
+            <a href="https://theimpactlab.co.uk" target="_blank" rel="noopener">theimpactlab.co.uk</a>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+    <script>
+    (function() {
+        'use strict';
+
+        // ── Colour ramp (colourblind-safe: orange-red sequential) ──
+        const COLOURS = ['#fef0d9','#fdcc8a','#fc8d59','#e34a33','#b30000'];
+        const NO_DATA_COLOUR = '#2d3148';
+        const BREAKS = [0, 25, 50, 65, 80, 100];
+
+        function getColour(score) {
+            if (score == null || isNaN(score)) return NO_DATA_COLOUR;
+            for (let i = BREAKS.length - 2; i >= 0; i--) {
+                if (score >= BREAKS[i]) return COLOURS[i];
+            }
+            return COLOURS[0];
+        }
+
+        // ── State ──
+        let currentPeriod = '7d';
+        let currentView = 'regions'; // 'regions' or 'cities'
+        let trendsData = null;
+        let geoData = null;
+        let regionLookup = null;
+        let geoLayer = null;
+        let trendChart = null;
+        let map = null;
+        let cityMarkersLayer = null;
+        let allCityMarkersLayer = null;
+        let isDrilledDown = false;
+
+        // ── Initialise legend ──
+        function initLegend() {
+            const scale = document.getElementById('legend-scale');
+            COLOURS.forEach(c => {
+                const block = document.createElement('div');
+                block.className = 'legend-block';
+                block.style.background = c;
+                scale.appendChild(block);
+            });
+        }
+        initLegend();
+
+        // ── Data source config ──
+        // Set this to your GitHub repo's raw URL once the repo is created.
+        // Format: https://raw.githubusercontent.com/OWNER/REPO/main/data/trends_data.json
+        // Leave empty to use the local file (data/trends_data.json)
+        const GITHUB_DATA_URL = '';
+
+        // ── Fetch data ──
+        async function fetchTrendsData() {
+            // Try GitHub raw URL first (if configured), fall back to local
+            if (GITHUB_DATA_URL) {
+                try {
+                    const res = await fetch(GITHUB_DATA_URL + '?t=' + Date.now());
+                    if (res.ok) return await res.json();
+                    console.warn('GitHub data fetch failed, trying local fallback');
+                } catch (e) {
+                    console.warn('GitHub data fetch error, trying local fallback:', e);
+                }
+            }
+            const res = await fetch('data/trends_data.json');
+            if (!res.ok) throw new Error('Failed to fetch trends data');
+            return await res.json();
+        }
+
+        async function loadData() {
+            try {
+                const [trendsResult, geoRes, lookupRes] = await Promise.all([
+                    fetchTrendsData(),
+                    fetch('data/uk_regions.geojson'),
+                    fetch('data/region_lookup.json')
+                ]);
+
+                if (!geoRes.ok || !lookupRes.ok) {
+                    throw new Error('Failed to fetch data files');
+                }
+
+                trendsData = trendsResult;
+                geoData = await geoRes.json();
+                regionLookup = await lookupRes.json();
+
+                mergeData();
+                initMap();
+                initChart();
+                updateTimestamp();
+                buildTable();
+
+                document.getElementById('loading').classList.add('hidden');
+            } catch (err) {
+                console.error('Data load error:', err);
+                document.getElementById('loading').classList.add('hidden');
+                document.getElementById('error-banner').classList.add('show');
+            }
+        }
+
+        // ── Merge trends data into GeoJSON features ──
+        function mergeData() {
+            const allMappings = { ...regionLookup.mappings, ...regionLookup.aliases };
+            // Build reverse lookup: ID → region data
+            const idToRegion = {};
+            trendsData.regions.forEach(r => {
+                const id = allMappings[r.name];
+                if (id) idToRegion[id] = r;
+            });
+
+            geoData.features.forEach(feature => {
+                const id = feature.id || feature.properties.id;
+                const region = idToRegion[id];
+                if (region) {
+                    feature.properties.score_7d = region.score_7d;
+                    feature.properties.score_90d = region.score_90d;
+                    feature.properties.terms = region.terms;
+                    feature.properties.regionName = region.name;
+                } else {
+                    feature.properties.score_7d = null;
+                    feature.properties.score_90d = null;
+                    feature.properties.terms = null;
+                }
+            });
+        }
+
+        // ── Map ──
+        function initMap() {
+            map = L.map('map', {
+                zoomControl: true,
+                scrollWheelZoom: true,
+                attributionControl: true
+            }).setView([55.0, -3.5], 6);
+
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+                attribution: '&copy; <a href="https://carto.com/">CARTO</a> &copy; <a href="https://www.openstreetmap.org/copyright">OSM</a>',
+                subdomains: 'abcd',
+                maxZoom: 12
+            }).addTo(map);
+
+            // Add labels layer on top
+            L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_only_labels/{z}/{x}/{y}{r}.png', {
+                subdomains: 'abcd',
+                maxZoom: 12,
+                pane: 'overlayPane'
+            }).addTo(map);
+
+            addGeoLayer();
+        }
+
+        function addGeoLayer() {
+            if (geoLayer) map.removeLayer(geoLayer);
+
+            geoLayer = L.geoJSON(geoData, {
+                style: featureStyle,
+                onEachFeature: onEachFeature
+            }).addTo(map);
+        }
+
+        function featureStyle(feature) {
+            const score = currentPeriod === '7d' ? feature.properties.score_7d : feature.properties.score_90d;
+            const isNoData = score == null;
+            return {
+                fillColor: getColour(score),
+                weight: 1.5,
+                opacity: 1,
+                color: isNoData ? '#555' : '#444',
+                dashArray: isNoData ? '4 4' : '',
+                fillOpacity: 0.8
+            };
+        }
+
+        function onEachFeature(feature, layer) {
+            layer.on({
+                mouseover: highlightFeature,
+                mouseout: resetHighlight,
+                mousemove: moveTooltip,
+                click: zoomToFeature
+            });
+        }
+
+        function highlightFeature(e) {
+            const layer = e.target;
+            layer.setStyle({ weight: 3, color: '#fff', fillOpacity: 0.95 });
+            layer.bringToFront();
+            showTooltip(e);
+        }
+
+        function resetHighlight(e) {
+            geoLayer.resetStyle(e.target);
+            hideTooltip();
+        }
+
+        function moveTooltip(e) {
+            const tooltip = document.getElementById('tooltip');
+            const mapRect = document.getElementById('map').getBoundingClientRect();
+            let x = e.originalEvent.clientX - mapRect.left + 16;
+            let y = e.originalEvent.clientY - mapRect.top - 10;
+
+            // Keep tooltip in view
+            const tw = tooltip.offsetWidth;
+            const th = tooltip.offsetHeight;
+            if (x + tw > mapRect.width - 10) x = x - tw - 32;
+            if (y + th > mapRect.height - 10) y = mapRect.height - th - 10;
+            if (y < 10) y = 10;
+
+            tooltip.style.left = x + 'px';
+            tooltip.style.top = y + 'px';
+        }
+
+        function showTooltip(e) {
+            const props = e.target.feature.properties;
+            const score7d = props.score_7d;
+            const score90d = props.score_90d;
+            const name = props.regionName || props.name;
+            const terms = props.terms;
+
+            const tooltip = document.getElementById('tooltip');
+            let html = `<div class="tooltip-name">${name}</div>`;
+            html += '<div class="tooltip-scores">';
+            html += `<div><div class="tooltip-score-label">7-day</div><div class="tooltip-score-value" style="color:${getColour(score7d)}">${score7d != null ? score7d : '—'}</div></div>`;
+            html += `<div><div class="tooltip-score-label">90-day</div><div class="tooltip-score-value" style="color:${getColour(score90d)}">${score90d != null ? score90d : '—'}</div></div>`;
+            html += '</div>';
+
+            if (terms) {
+                html += '<div class="tooltip-terms">';
+                Object.entries(terms).forEach(([term, score]) => {
+                    html += `<div class="tooltip-term"><span>"${term}"</span><span>${score}</span></div>`;
+                });
+                html += '</div>';
+            }
+
+            tooltip.innerHTML = html;
+            tooltip.classList.add('visible');
+            moveTooltip(e);
+        }
+
+        function hideTooltip() {
+            document.getElementById('tooltip').classList.remove('visible');
+        }
+
+        function zoomToFeature(e) {
+            const regionName = e.target.feature.properties.regionName || e.target.feature.properties.name;
+            map.fitBounds(e.target.getBounds(), { padding: [40, 40], maxZoom: 9 });
+            if (currentView === 'regions') {
+                showCityMarkers(regionName);
+            }
+        }
+
+        // ── City markers ──
+
+        // Map region names to nation names for filtering
+        const REGION_TO_NATION = {
+            'Scotland': 'Scotland',
+            'Wales': 'Wales',
+            'Northern Ireland': 'Northern Ireland',
+            'North East England': 'England',
+            'North West England': 'England',
+            'Yorkshire and the Humber': 'England',
+            'West Midlands': 'England',
+            'East Midlands': 'England',
+            'East of England': 'England',
+            'London': 'England',
+            'South East England': 'England',
+            'South West England': 'England'
+        };
+
+        // Approximate bounding boxes for English regions to filter cities
+        const REGION_BOUNDS = {
+            'North East England': { latMin: 54.3, latMax: 55.9, lngMin: -2.7, lngMax: 0.0 },
+            'North West England': { latMin: 53.0, latMax: 55.2, lngMin: -3.3, lngMax: -1.8 },
+            'Yorkshire and the Humber': { latMin: 53.0, latMax: 54.6, lngMin: -2.3, lngMax: 0.2 },
+            'West Midlands': { latMin: 51.8, latMax: 53.0, lngMin: -3.2, lngMax: -1.4 },
+            'East Midlands': { latMin: 52.0, latMax: 53.5, lngMin: -1.9, lngMax: 0.5 },
+            'East of England': { latMin: 51.5, latMax: 53.1, lngMin: -0.5, lngMax: 2.0 },
+            'London': { latMin: 51.2, latMax: 51.8, lngMin: -0.6, lngMax: 0.4 },
+            'South East England': { latMin: 50.5, latMax: 51.9, lngMin: -2.0, lngMax: 1.5 },
+            'South West England': { latMin: 49.9, latMax: 51.8, lngMin: -5.8, lngMax: -1.8 }
+        };
+
+        function getCitiesForRegion(regionName) {
+            const cities = trendsData.cities || [];
+            const nation = REGION_TO_NATION[regionName];
+            if (!nation) return [];
+
+            if (nation !== 'England') {
+                // Non-England nations: show all cities for that nation
+                return cities.filter(c => c.nation === nation);
+            }
+
+            // For English regions, filter by bounding box
+            const bounds = REGION_BOUNDS[regionName];
+            if (!bounds) return cities.filter(c => c.nation === 'England');
+
+            return cities.filter(c => {
+                if (c.nation !== 'England') return false;
+                return c.lat >= bounds.latMin && c.lat <= bounds.latMax &&
+                       c.lng >= bounds.lngMin && c.lng <= bounds.lngMax;
+            });
+        }
+
+        function showCityMarkers(regionName) {
+            clearCityMarkers();
+
+            const cities = getCitiesForRegion(regionName);
+            if (cities.length === 0) return;
+
+            cityMarkersLayer = L.layerGroup();
+
+            cities.forEach(city => {
+                const size = Math.max(28, Math.min(44, 20 + city.score * 0.24));
+                const colour = getColour(city.score);
+
+                const icon = L.divIcon({
+                    className: 'city-marker',
+                    html: `<div style="width:${size}px;height:${size}px;background:${colour};border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid rgba(255,255,255,0.9);box-shadow:0 2px 8px rgba(0,0,0,0.5);font-size:11px;font-weight:700;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,0.6);font-family:Inter,sans-serif">${city.score}</div>`,
+                    iconSize: [size, size],
+                    iconAnchor: [size/2, size/2]
+                });
+
+                const marker = L.marker([city.lat, city.lng], { icon: icon });
+
+                const tooltipHtml = `<div class="city-tt-name">${city.name}</div><div class="city-tt-score" style="color:${colour}">${city.score}</div><div class="city-tt-nation">${city.nation}</div>`;
+                marker.bindTooltip(tooltipHtml, {
+                    className: 'city-tooltip-custom',
+                    direction: 'top',
+                    offset: [0, -size/2 - 4],
+                    opacity: 1
+                });
+
+                cityMarkersLayer.addLayer(marker);
+            });
+
+            cityMarkersLayer.addTo(map);
+            isDrilledDown = true;
+            document.getElementById('back-btn').classList.add('show');
+        }
+
+        function clearCityMarkers() {
+            if (cityMarkersLayer) {
+                map.removeLayer(cityMarkersLayer);
+                cityMarkersLayer = null;
+            }
+            isDrilledDown = false;
+            document.getElementById('back-btn').classList.remove('show');
+        }
+
+        function resetToOverview() {
+            clearCityMarkers();
+            map.setView([55.0, -3.5], 6, { animate: true });
+        }
+
+        // ── All cities view (top-level toggle) ──
+        function showAllCityMarkers() {
+            clearAllCityMarkers();
+            const cities = trendsData.cities || [];
+            if (cities.length === 0) return;
+
+            allCityMarkersLayer = L.layerGroup();
+
+            cities.forEach(city => {
+                const size = Math.max(30, Math.min(48, 20 + city.score * 0.28));
+                const colour = getColour(city.score);
+
+                const icon = L.divIcon({
+                    className: 'city-marker',
+                    html: `<div style="width:${size}px;height:${size}px;background:${colour};border-radius:50%;display:flex;align-items:center;justify-content:center;border:2px solid rgba(255,255,255,0.9);box-shadow:0 2px 8px rgba(0,0,0,0.5);font-size:11px;font-weight:700;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,0.6);font-family:Inter,sans-serif">${city.score}</div>`,
+                    iconSize: [size, size],
+                    iconAnchor: [size/2, size/2]
+                });
+
+                const marker = L.marker([city.lat, city.lng], { icon: icon });
+
+                const tooltipHtml = `<div class="city-tt-name">${city.name}</div><div class="city-tt-score" style="color:${colour}">${city.score}</div><div class="city-tt-nation">${city.nation}</div>`;
+                marker.bindTooltip(tooltipHtml, {
+                    className: 'city-tooltip-custom',
+                    direction: 'top',
+                    offset: [0, -size/2 - 4],
+                    opacity: 1
+                });
+
+                allCityMarkersLayer.addLayer(marker);
+            });
+
+            allCityMarkersLayer.addTo(map);
+        }
+
+        function clearAllCityMarkers() {
+            if (allCityMarkersLayer) {
+                map.removeLayer(allCityMarkersLayer);
+                allCityMarkersLayer = null;
+            }
+        }
+
+        function switchView(view) {
+            currentView = view;
+            if (view === 'regions') {
+                clearAllCityMarkers();
+                clearCityMarkers();
+                if (geoLayer) geoLayer.addTo(map);
+                map.setView([55.0, -3.5], 6, { animate: true });
+            } else {
+                // Cities view
+                clearCityMarkers();
+                if (geoLayer) map.removeLayer(geoLayer);
+                showAllCityMarkers();
+                map.setView([54.5, -3.5], 6, { animate: true });
+            }
+            buildTable();
+        }
+
+        // ── Chart ──
+        function initChart() {
+            const ctx = document.getElementById('trend-chart').getContext('2d');
+            const trend = trendsData.national_trend || [];
+            const labels = trend.map(d => d.date);
+            const values = trend.map(d => d.value != null ? d.value : d.score);
+
+            trendChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: labels,
+                    datasets: [{
+                        label: 'Search interest',
+                        data: values,
+                        borderColor: '#e05c3a',
+                        backgroundColor: 'rgba(224,92,58,0.1)',
+                        borderWidth: 2,
+                        pointRadius: 0,
+                        pointHoverRadius: 4,
+                        pointHoverBackgroundColor: '#e05c3a',
+                        fill: true,
+                        tension: 0.3
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    interaction: {
+                        intersect: false,
+                        mode: 'index'
+                    },
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: '#222633',
+                            borderColor: '#2d3148',
+                            borderWidth: 1,
+                            titleColor: '#f0f0f5',
+                            bodyColor: '#a0a4b8',
+                            padding: 12,
+                            displayColors: false,
+                            callbacks: {
+                                title: function(items) {
+                                    const d = new Date(items[0].label);
+                                    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
+                                },
+                                label: function(item) {
+                                    return 'Interest: ' + item.raw;
+                                }
+                            }
+                        }
+                    },
+                    scales: {
+                        x: {
+                            grid: { color: 'rgba(45,49,72,0.5)', drawBorder: false },
+                            ticks: {
+                                color: '#6b7084',
+                                font: { size: 11 },
+                                maxTicksLimit: 8,
+                                callback: function(val, idx) {
+                                    const d = new Date(this.getLabelForValue(val));
+                                    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+                                }
+                            }
+                        },
+                        y: {
+                            min: 0,
+                            max: 100,
+                            grid: { color: 'rgba(45,49,72,0.5)', drawBorder: false },
+                            ticks: {
+                                color: '#6b7084',
+                                font: { size: 11 },
+                                stepSize: 25
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // ── Timestamp ──
+        function updateTimestamp() {
+            const ts = trendsData.last_updated;
+            if (!ts) return;
+            const d = new Date(ts);
+            const str = d.toLocaleDateString('en-GB', {
+                day: 'numeric', month: 'short', year: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+            });
+            document.getElementById('update-time').textContent = 'Updated ' + str;
+        }
+
+        // ── Accessible table ──
+        function buildTable() {
+            const thead = document.getElementById('region-table-head');
+            const tbody = document.getElementById('region-table-body');
+            tbody.innerHTML = '';
+
+            if (currentView === 'cities') {
+                thead.innerHTML = `<tr><th>City</th><th>Nation</th><th>Score</th><th></th></tr>`;
+                const cities = [...(trendsData.cities || [])].sort((a, b) => b.score - a.score);
+                cities.forEach(c => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${c.name}</td>
+                        <td>${c.nation}</td>
+                        <td>${c.score}<span class="score-bar" style="width:${c.score}px;background:${getColour(c.score)}"></span></td>
+                        <td></td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            } else {
+                thead.innerHTML = `<tr><th>Region</th><th>7-Day Score</th><th>90-Day Score</th><th>"food bank"</th><th>"near me"</th><th>"help"</th></tr>`;
+                const regions = [...trendsData.regions].sort((a, b) => (b.score_7d || 0) - (a.score_7d || 0));
+                regions.forEach(r => {
+                    const tr = document.createElement('tr');
+                    tr.innerHTML = `
+                        <td>${r.name}</td>
+                        <td>${r.score_7d != null ? r.score_7d : '—'}<span class="score-bar" style="width:${r.score_7d || 0}px;background:${getColour(r.score_7d)}"></span></td>
+                        <td>${r.score_90d != null ? r.score_90d : '—'}<span class="score-bar" style="width:${r.score_90d || 0}px;background:${getColour(r.score_90d)}"></span></td>
+                        <td>${r.terms ? r.terms['food bank'] : '—'}</td>
+                        <td>${r.terms ? r.terms['food bank near me'] : '—'}</td>
+                        <td>${r.terms ? r.terms['food bank help'] : '—'}</td>
+                    `;
+                    tbody.appendChild(tr);
+                });
+            }
+        }
+
+        // ── Event listeners ──
+
+        // Period toggle
+        document.querySelectorAll('.toggle-btn[data-period]').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.toggle-btn[data-period]').forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-checked', 'false');
+                });
+                this.classList.add('active');
+                this.setAttribute('aria-checked', 'true');
+                currentPeriod = this.dataset.period;
+                if (currentView === 'regions' && geoLayer) addGeoLayer();
+            });
+        });
+
+        // View toggle (regions / cities)
+        document.querySelectorAll('.view-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                document.querySelectorAll('.view-btn').forEach(b => {
+                    b.classList.remove('active');
+                    b.setAttribute('aria-checked', 'false');
+                });
+                this.classList.add('active');
+                this.setAttribute('aria-checked', 'true');
+                switchView(this.dataset.view);
+            });
+        });
+
+        // Methodology toggle
+        document.getElementById('methodology-btn').addEventListener('click', function() {
+            const panel = document.getElementById('methodology');
+            const isOpen = panel.classList.contains('show');
+            panel.classList.toggle('show');
+            this.setAttribute('aria-expanded', !isOpen);
+            this.textContent = isOpen ? 'How is this calculated?' : 'Hide methodology';
+        });
+
+        // Table toggle
+        document.getElementById('table-toggle-btn').addEventListener('click', function() {
+            const wrapper = document.getElementById('region-table-wrapper');
+            const isOpen = wrapper.classList.contains('show');
+            wrapper.classList.toggle('show');
+            this.setAttribute('aria-expanded', !isOpen);
+            this.textContent = isOpen ? 'View as table (accessible alternative)' : 'Hide table view';
+        });
+
+        // Share button
+        document.getElementById('share-btn').addEventListener('click', function() {
+            const url = window.location.href;
+            const text = 'UK Food Bank Search Intensity — near-live heatmap of food bank demand across UK regions. ' + url;
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(text).then(() => {
+                    this.textContent = 'Copied!';
+                    this.classList.add('copied');
+                    setTimeout(() => {
+                        this.textContent = 'Share';
+                        this.classList.remove('copied');
+                    }, 2000);
+                });
+            }
+        });
+
+        // Back button
+        document.getElementById('back-btn').addEventListener('click', resetToOverview);
+
+        // ── Boot ──
+        loadData();
+
+    })();
+    </script>
+</body>
+</html>
