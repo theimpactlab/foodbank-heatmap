@@ -204,6 +204,7 @@ class GoogleTrendsFetcher:
 
         self.data = {
             "last_updated": datetime.utcnow().isoformat() + "Z",
+            "timeframe_1d": "now 1-d",
             "timeframe_short": "now 7-d",
             "timeframe_long": "today 3-m",
             "regions": [],
@@ -380,7 +381,7 @@ class GoogleTrendsFetcher:
     def fetch_regional_data(self) -> bool:
         """
         Fetch regional data for primary search term across GB.
-        Fetches for both 7-day and 90-day timeframes.
+        Fetches for 1-day, 7-day, and 90-day timeframes.
 
         Returns:
             True if successful, False otherwise
@@ -390,6 +391,28 @@ class GoogleTrendsFetcher:
             return True
 
         regional_data = {}
+
+        # Fetch 1-day data
+        logger.info(f"Fetching regional data for 1-day timeframe ('{self.PRIMARY_TERM}')...")
+
+        def fetch_1d():
+            return self._fetch_regional_for_timeframe(self.PRIMARY_TERM, 'GB', 'now 1-d')
+
+        result_1d = self._request_with_backoff(
+            f"Fetch regional data (1d): '{self.PRIMARY_TERM}'",
+            fetch_1d
+        )
+
+        if result_1d is None:
+            logger.error("Failed to fetch 1-day regional data")
+            return False
+
+        regional_data['1d'] = result_1d
+
+        # Delay before switching timeframe
+        delay = random.uniform(self.REQUEST_DELAY_MIN, self.REQUEST_DELAY_MAX)
+        logger.info(f"Waiting {delay:.1f}s before 7-day fetch...")
+        time.sleep(delay)
 
         # Fetch 7-day data
         logger.info(f"Fetching regional data for 7-day timeframe ('{self.PRIMARY_TERM}')...")
@@ -431,16 +454,18 @@ class GoogleTrendsFetcher:
         regional_data['90d'] = result_90d
 
         # Process and combine data
-        all_regions = set(regional_data['7d'].keys()) | set(regional_data['90d'].keys())
+        all_regions = set(regional_data['1d'].keys()) | set(regional_data['7d'].keys()) | set(regional_data['90d'].keys())
 
         for region in sorted(all_regions):
+            score_1d = regional_data['1d'].get(region, 0)
             score_7d = regional_data['7d'].get(region, 0)
             score_90d = regional_data['90d'].get(region, 0)
 
             # Only include if there's data for at least one timeframe
-            if score_7d or score_90d:
+            if score_1d or score_7d or score_90d:
                 self.data["regions"].append({
                     "name": region,
+                    "score_1d": score_1d,
                     "score_7d": score_7d,
                     "score_90d": score_90d,
                     "terms": {
@@ -744,6 +769,7 @@ class GoogleTrendsFetcher:
         self.data["regions"] = [
             {
                 "name": "London",
+                "score_1d": 90,
                 "score_7d": 85,
                 "score_90d": 72,
                 "terms": {
@@ -754,6 +780,7 @@ class GoogleTrendsFetcher:
             },
             {
                 "name": "Manchester",
+                "score_1d": 82,
                 "score_7d": 78,
                 "score_90d": 68,
                 "terms": {
@@ -764,6 +791,7 @@ class GoogleTrendsFetcher:
             },
             {
                 "name": "Birmingham",
+                "score_1d": 75,
                 "score_7d": 71,
                 "score_90d": 65,
                 "terms": {
@@ -774,6 +802,7 @@ class GoogleTrendsFetcher:
             },
             {
                 "name": "Glasgow",
+                "score_1d": 71,
                 "score_7d": 68,
                 "score_90d": 62,
                 "terms": {
