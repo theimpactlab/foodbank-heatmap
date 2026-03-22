@@ -628,6 +628,7 @@
     <div class="controls" role="toolbar" aria-label="Map controls">
         <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center">
             <div class="toggle-group" role="radiogroup" aria-label="Time period">
+                <button class="toggle-btn" data-period="1d" role="radio" aria-checked="false">Past day</button>
                 <button class="toggle-btn active" data-period="7d" role="radio" aria-checked="true">Last 7 days</button>
                 <button class="toggle-btn" data-period="90d" role="radio" aria-checked="false">Last 90 days</button>
             </div>
@@ -855,11 +856,13 @@
                 const id = feature.id || feature.properties.id;
                 const region = idToRegion[id];
                 if (region) {
+                    feature.properties.score_1d = region.score_1d;
                     feature.properties.score_7d = region.score_7d;
                     feature.properties.score_90d = region.score_90d;
                     feature.properties.terms = region.terms;
                     feature.properties.regionName = region.name;
                 } else {
+                    feature.properties.score_1d = null;
                     feature.properties.score_7d = null;
                     feature.properties.score_90d = null;
                     feature.properties.terms = null;
@@ -901,7 +904,7 @@
         }
 
         function featureStyle(feature) {
-            const score = currentPeriod === '7d' ? feature.properties.score_7d : feature.properties.score_90d;
+            const score = currentPeriod === '1d' ? feature.properties.score_1d : currentPeriod === '7d' ? feature.properties.score_7d : feature.properties.score_90d;
             const isNoData = score == null;
             return {
                 fillColor: getColour(score),
@@ -953,6 +956,7 @@
 
         function showTooltip(e) {
             const props = e.target.feature.properties;
+            const score1d = props.score_1d;
             const score7d = props.score_7d;
             const score90d = props.score_90d;
             const name = props.regionName || props.name;
@@ -960,7 +964,8 @@
 
             const tooltip = document.getElementById('tooltip');
             let html = `<div class="tooltip-name">${name}</div>`;
-            html += '<div class="tooltip-scores">';
+            html += '<div class="tooltip-scores" style="grid-template-columns:1fr 1fr 1fr">';
+            html += `<div><div class="tooltip-score-label">1-day</div><div class="tooltip-score-value" style="color:${getColour(score1d)}">${score1d != null ? score1d : '—'}</div></div>`;
             html += `<div><div class="tooltip-score-label">7-day</div><div class="tooltip-score-value" style="color:${getColour(score7d)}">${score7d != null ? score7d : '—'}</div></div>`;
             html += `<div><div class="tooltip-score-label">90-day</div><div class="tooltip-score-value" style="color:${getColour(score90d)}">${score90d != null ? score90d : '—'}</div></div>`;
             html += '</div>';
@@ -1264,12 +1269,13 @@
                     tbody.appendChild(tr);
                 });
             } else {
-                thead.innerHTML = `<tr><th>Region</th><th>7-Day Score</th><th>90-Day Score</th><th>"food bank"</th><th>"near me"</th><th>"help"</th></tr>`;
+                thead.innerHTML = `<tr><th>Region</th><th>1-Day</th><th>7-Day</th><th>90-Day</th><th>"food bank"</th><th>"near me"</th><th>"help"</th></tr>`;
                 const regions = [...trendsData.regions].sort((a, b) => (b.score_7d || 0) - (a.score_7d || 0));
                 regions.forEach(r => {
                     const tr = document.createElement('tr');
                     tr.innerHTML = `
                         <td>${r.name}</td>
+                        <td>${r.score_1d != null ? r.score_1d : '—'}<span class="score-bar" style="width:${r.score_1d || 0}px;background:${getColour(r.score_1d)}"></span></td>
                         <td>${r.score_7d != null ? r.score_7d : '—'}<span class="score-bar" style="width:${r.score_7d || 0}px;background:${getColour(r.score_7d)}"></span></td>
                         <td>${r.score_90d != null ? r.score_90d : '—'}<span class="score-bar" style="width:${r.score_90d || 0}px;background:${getColour(r.score_90d)}"></span></td>
                         <td>${r.terms ? r.terms['food bank'] : '—'}</td>
