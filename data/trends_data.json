@@ -1,370 +1,233 @@
 {
-  "last_updated": "2026-03-21T14:30:00Z",
+  "last_updated": "2026-03-22T10:24:06.966611Z",
   "timeframe_1d": "now 1-d",
   "timeframe_short": "now 7-d",
   "timeframe_long": "today 3-m",
-  "regions": [
-    {
-      "name": "Scotland",
-      "score_1d": 68,
-      "score_7d": 72,
-      "score_90d": 68,
-      "terms": {
-        "food bank": 78,
-        "food bank near me": 70,
-        "food bank help": 68
-      }
-    },
-    {
-      "name": "Wales",
-      "score_1d": 80,
-      "score_7d": 75,
-      "score_90d": 71,
-      "terms": {
-        "food bank": 81,
-        "food bank near me": 73,
-        "food bank help": 71
-      }
-    },
-    {
-      "name": "Northern Ireland",
-      "score_1d": 62,
-      "score_7d": 68,
-      "score_90d": 65,
-      "terms": {
-        "food bank": 74,
-        "food bank near me": 66,
-        "food bank help": 64
-      }
-    },
-    {
-      "name": "North East England",
-      "score_1d": 89,
-      "score_7d": 82,
-      "score_90d": 78,
-      "terms": {
-        "food bank": 88,
-        "food bank near me": 80,
-        "food bank help": 78
-      }
-    },
-    {
-      "name": "North West England",
-      "score_1d": 84,
-      "score_7d": 79,
-      "score_90d": 75,
-      "terms": {
-        "food bank": 85,
-        "food bank near me": 77,
-        "food bank help": 75
-      }
-    },
-    {
-      "name": "Yorkshire and the Humber",
-      "score_1d": 73,
-      "score_7d": 77,
-      "score_90d": 73,
-      "terms": {
-        "food bank": 83,
-        "food bank near me": 75,
-        "food bank help": 73
-      }
-    },
-    {
-      "name": "West Midlands",
-      "score_1d": 76,
-      "score_7d": 71,
-      "score_90d": 68,
-      "terms": {
-        "food bank": 77,
-        "food bank near me": 69,
-        "food bank help": 67
-      }
-    },
-    {
-      "name": "East Midlands",
-      "score_1d": 65,
-      "score_7d": 69,
-      "score_90d": 66,
-      "terms": {
-        "food bank": 75,
-        "food bank near me": 67,
-        "food bank help": 65
-      }
-    },
-    {
-      "name": "East of England",
-      "score_1d": 58,
-      "score_7d": 64,
-      "score_90d": 62,
-      "terms": {
-        "food bank": 70,
-        "food bank near me": 62,
-        "food bank help": 60
-      }
-    },
-    {
-      "name": "London",
-      "score_1d": 52,
-      "score_7d": 58,
-      "score_90d": 60,
-      "terms": {
-        "food bank": 64,
-        "food bank near me": 56,
-        "food bank help": 54
-      }
-    },
-    {
-      "name": "South East England",
-      "score_1d": 47,
-      "score_7d": 52,
-      "score_90d": 54,
-      "terms": {
-        "food bank": 58,
-        "food bank near me": 50,
-        "food bank help": 48
-      }
-    },
-    {
-      "name": "South West England",
-      "score_1d": 55,
-      "score_7d": 61,
-      "score_90d": 59,
-      "terms": {
-        "food bank": 67,
-        "food bank near me": 59,
-        "food bank help": 57
-      }
-    }
-  ],
+  "regions": [],
   "national_trend": [
     {
-      "date": "2025-12-21",
-      "value": 52
-    },
-    {
       "date": "2025-12-22",
-      "value": 51
+      "value": 93
     },
     {
       "date": "2025-12-23",
-      "value": 50
+      "value": 100
     },
     {
       "date": "2025-12-24",
-      "value": 48
-    },
-    {
-      "date": "2025-12-25",
-      "value": 43
-    },
-    {
-      "date": "2025-12-26",
-      "value": 45
-    },
-    {
-      "date": "2025-12-27",
-      "value": 49
-    },
-    {
-      "date": "2025-12-28",
-      "value": 51
-    },
-    {
-      "date": "2025-12-29",
-      "value": 50
-    },
-    {
-      "date": "2025-12-30",
-      "value": 48
-    },
-    {
-      "date": "2025-12-31",
-      "value": 47
-    },
-    {
-      "date": "2026-01-01",
-      "value": 55
-    },
-    {
-      "date": "2026-01-02",
-      "value": 62
-    },
-    {
-      "date": "2026-01-03",
       "value": 71
     },
     {
+      "date": "2025-12-25",
+      "value": 38
+    },
+    {
+      "date": "2025-12-26",
+      "value": 44
+    },
+    {
+      "date": "2025-12-27",
+      "value": 47
+    },
+    {
+      "date": "2025-12-28",
+      "value": 49
+    },
+    {
+      "date": "2025-12-29",
+      "value": 75
+    },
+    {
+      "date": "2025-12-30",
+      "value": 58
+    },
+    {
+      "date": "2025-12-31",
+      "value": 67
+    },
+    {
+      "date": "2026-01-01",
+      "value": 51
+    },
+    {
+      "date": "2026-01-02",
+      "value": 67
+    },
+    {
+      "date": "2026-01-03",
+      "value": 55
+    },
+    {
       "date": "2026-01-04",
-      "value": 77
+      "value": 42
     },
     {
       "date": "2026-01-05",
-      "value": 78
-    },
-    {
-      "date": "2026-01-06",
-      "value": 76
-    },
-    {
-      "date": "2026-01-07",
-      "value": 72
-    },
-    {
-      "date": "2026-01-08",
-      "value": 70
-    },
-    {
-      "date": "2026-01-09",
       "value": 68
     },
     {
+      "date": "2026-01-06",
+      "value": 79
+    },
+    {
+      "date": "2026-01-07",
+      "value": 67
+    },
+    {
+      "date": "2026-01-08",
+      "value": 68
+    },
+    {
+      "date": "2026-01-09",
+      "value": 65
+    },
+    {
       "date": "2026-01-10",
-      "value": 62
+      "value": 48
     },
     {
       "date": "2026-01-11",
-      "value": 60
+      "value": 35
     },
     {
       "date": "2026-01-12",
-      "value": 59
+      "value": 62
     },
     {
       "date": "2026-01-13",
-      "value": 61
+      "value": 60
     },
     {
       "date": "2026-01-14",
-      "value": 58
+      "value": 72
     },
     {
       "date": "2026-01-15",
-      "value": 57
+      "value": 63
     },
     {
       "date": "2026-01-16",
-      "value": 59
+      "value": 57
     },
     {
       "date": "2026-01-17",
-      "value": 61
+      "value": 45
     },
     {
       "date": "2026-01-18",
-      "value": 60
+      "value": 57
     },
     {
       "date": "2026-01-19",
-      "value": 59
+      "value": 68
     },
     {
       "date": "2026-01-20",
-      "value": 58
+      "value": 67
     },
     {
       "date": "2026-01-21",
-      "value": 57
+      "value": 70
     },
     {
       "date": "2026-01-22",
-      "value": 59
+      "value": 81
     },
     {
       "date": "2026-01-23",
-      "value": 60
+      "value": 68
     },
     {
       "date": "2026-01-24",
-      "value": 59
+      "value": 46
     },
     {
       "date": "2026-01-25",
-      "value": 58
+      "value": 51
     },
     {
       "date": "2026-01-26",
-      "value": 56
+      "value": 82
     },
     {
       "date": "2026-01-27",
-      "value": 57
+      "value": 84
     },
     {
       "date": "2026-01-28",
-      "value": 58
+      "value": 70
     },
     {
       "date": "2026-01-29",
-      "value": 60
+      "value": 80
     },
     {
       "date": "2026-01-30",
-      "value": 61
+      "value": 70
     },
     {
       "date": "2026-01-31",
-      "value": 60
+      "value": 50
     },
     {
       "date": "2026-02-01",
-      "value": 59
+      "value": 52
     },
     {
       "date": "2026-02-02",
-      "value": 58
+      "value": 70
     },
     {
       "date": "2026-02-03",
-      "value": 60
+      "value": 87
     },
     {
       "date": "2026-02-04",
-      "value": 62
+      "value": 69
     },
     {
       "date": "2026-02-05",
-      "value": 61
+      "value": 66
     },
     {
       "date": "2026-02-06",
-      "value": 60
+      "value": 70
     },
     {
       "date": "2026-02-07",
-      "value": 59
-    },
-    {
-      "date": "2026-02-08",
-      "value": 57
-    },
-    {
-      "date": "2026-02-09",
-      "value": 59
-    },
-    {
-      "date": "2026-02-10",
-      "value": 61
-    },
-    {
-      "date": "2026-02-11",
-      "value": 62
-    },
-    {
-      "date": "2026-02-12",
-      "value": 61
-    },
-    {
-      "date": "2026-02-13",
       "value": 60
     },
     {
+      "date": "2026-02-08",
+      "value": 55
+    },
+    {
+      "date": "2026-02-09",
+      "value": 79
+    },
+    {
+      "date": "2026-02-10",
+      "value": 92
+    },
+    {
+      "date": "2026-02-11",
+      "value": 80
+    },
+    {
+      "date": "2026-02-12",
+      "value": 68
+    },
+    {
+      "date": "2026-02-13",
+      "value": 56
+    },
+    {
       "date": "2026-02-14",
-      "value": 59
+      "value": 32
     },
     {
       "date": "2026-02-15",
-      "value": 58
+      "value": 39
     },
     {
       "date": "2026-02-16",
@@ -372,398 +235,140 @@
     },
     {
       "date": "2026-02-17",
-      "value": 62
+      "value": 55
     },
     {
       "date": "2026-02-18",
-      "value": 63
+      "value": 58
     },
     {
       "date": "2026-02-19",
-      "value": 62
-    },
-    {
-      "date": "2026-02-20",
-      "value": 61
-    },
-    {
-      "date": "2026-02-21",
-      "value": 60
-    },
-    {
-      "date": "2026-02-22",
       "value": 59
     },
     {
+      "date": "2026-02-20",
+      "value": 55
+    },
+    {
+      "date": "2026-02-21",
+      "value": 38
+    },
+    {
+      "date": "2026-02-22",
+      "value": 43
+    },
+    {
       "date": "2026-02-23",
-      "value": 61
+      "value": 65
     },
     {
       "date": "2026-02-24",
-      "value": 63
-    },
-    {
-      "date": "2026-02-25",
-      "value": 65
-    },
-    {
-      "date": "2026-02-26",
-      "value": 64
-    },
-    {
-      "date": "2026-02-27",
-      "value": 63
-    },
-    {
-      "date": "2026-02-28",
       "value": 62
     },
     {
-      "date": "2026-03-01",
-      "value": 61
+      "date": "2026-02-25",
+      "value": 62
     },
     {
-      "date": "2026-03-02",
-      "value": 63
-    },
-    {
-      "date": "2026-03-03",
+      "date": "2026-02-26",
       "value": 65
     },
     {
+      "date": "2026-02-27",
+      "value": 69
+    },
+    {
+      "date": "2026-02-28",
+      "value": 36
+    },
+    {
+      "date": "2026-03-01",
+      "value": 37
+    },
+    {
+      "date": "2026-03-02",
+      "value": 57
+    },
+    {
+      "date": "2026-03-03",
+      "value": 69
+    },
+    {
       "date": "2026-03-04",
-      "value": 67
+      "value": 57
     },
     {
       "date": "2026-03-05",
-      "value": 71
+      "value": 57
     },
     {
       "date": "2026-03-06",
-      "value": 76
+      "value": 56
     },
     {
       "date": "2026-03-07",
-      "value": 78
+      "value": 46
     },
     {
       "date": "2026-03-08",
-      "value": 77
+      "value": 33
     },
     {
       "date": "2026-03-09",
-      "value": 75
+      "value": 58
     },
     {
       "date": "2026-03-10",
-      "value": 73
+      "value": 51
     },
     {
       "date": "2026-03-11",
-      "value": 72
+      "value": 51
     },
     {
       "date": "2026-03-12",
-      "value": 71
+      "value": 51
     },
     {
       "date": "2026-03-13",
-      "value": 70
+      "value": 49
     },
     {
       "date": "2026-03-14",
-      "value": 69
+      "value": 30
     },
     {
       "date": "2026-03-15",
-      "value": 68
+      "value": 32
     },
     {
       "date": "2026-03-16",
-      "value": 70
+      "value": 56
     },
     {
       "date": "2026-03-17",
-      "value": 72
+      "value": 53
     },
     {
       "date": "2026-03-18",
-      "value": 71
+      "value": 54
     },
     {
       "date": "2026-03-19",
-      "value": 70
+      "value": 53
     },
     {
       "date": "2026-03-20",
-      "value": 69
+      "value": 54
     },
     {
       "date": "2026-03-21",
-      "value": 68
+      "value": 30
+    },
+    {
+      "date": "2026-03-22",
+      "value": 31
     }
   ],
-  "cities": [
-    {
-      "name": "Pudsey",
-      "nation": "England",
-      "score_1d": 88,
-      "score_7d": 98,
-      "score_90d": 100,
-      "lat": 53.797,
-      "lng": -1.662
-    },
-    {
-      "name": "Desborough",
-      "nation": "England",
-      "score_1d": 87,
-      "score_7d": 95,
-      "score_90d": 92,
-      "lat": 52.441,
-      "lng": -0.818
-    },
-    {
-      "name": "Dinnington",
-      "nation": "England",
-      "score_1d": 83,
-      "score_7d": 93,
-      "score_90d": 91,
-      "lat": 53.368,
-      "lng": -1.209
-    },
-    {
-      "name": "Middleton",
-      "nation": "England",
-      "score_1d": 97,
-      "score_7d": 86,
-      "score_90d": 88,
-      "lat": 53.555,
-      "lng": -2.187
-    },
-    {
-      "name": "Glasgow",
-      "nation": "Scotland",
-      "score_1d": 91,
-      "score_7d": 82,
-      "score_90d": 85,
-      "lat": 55.864,
-      "lng": -4.252
-    },
-    {
-      "name": "Wick",
-      "nation": "England",
-      "score_1d": 71,
-      "score_7d": 90,
-      "score_90d": 82,
-      "lat": 50.609,
-      "lng": -2.995
-    },
-    {
-      "name": "Westoning",
-      "nation": "England",
-      "score_1d": 70,
-      "score_7d": 75,
-      "score_90d": 80,
-      "lat": 52.009,
-      "lng": -0.486
-    },
-    {
-      "name": "Cardiff",
-      "nation": "Wales",
-      "score_1d": 73,
-      "score_7d": 79,
-      "score_90d": 78,
-      "lat": 51.481,
-      "lng": -3.179
-    },
-    {
-      "name": "Dudley",
-      "nation": "England",
-      "score_1d": 82,
-      "score_7d": 72,
-      "score_90d": 77,
-      "lat": 52.512,
-      "lng": -2.087
-    },
-    {
-      "name": "Hastings",
-      "nation": "England",
-      "score_1d": 86,
-      "score_7d": 77,
-      "score_90d": 76,
-      "lat": 50.854,
-      "lng": 0.573
-    },
-    {
-      "name": "Belfast",
-      "nation": "Northern Ireland",
-      "score_1d": 69,
-      "score_7d": 82,
-      "score_90d": 74,
-      "lat": 54.597,
-      "lng": -5.93
-    },
-    {
-      "name": "Staindrop",
-      "nation": "England",
-      "score_1d": 80,
-      "score_7d": 83,
-      "score_90d": 74,
-      "lat": 54.583,
-      "lng": -1.8
-    },
-    {
-      "name": "Edinburgh",
-      "nation": "Scotland",
-      "score_1d": 85,
-      "score_7d": 75,
-      "score_90d": 72,
-      "lat": 55.953,
-      "lng": -3.189
-    },
-    {
-      "name": "Swansea",
-      "nation": "Wales",
-      "score_1d": 83,
-      "score_7d": 66,
-      "score_90d": 71,
-      "lat": 51.622,
-      "lng": -3.943
-    },
-    {
-      "name": "Worcester",
-      "nation": "England",
-      "score_1d": 79,
-      "score_7d": 69,
-      "score_90d": 69,
-      "lat": 52.192,
-      "lng": -2.22
-    },
-    {
-      "name": "Shrewsbury",
-      "nation": "England",
-      "score_1d": 67,
-      "score_7d": 77,
-      "score_90d": 69,
-      "lat": 52.708,
-      "lng": -2.754
-    },
-    {
-      "name": "Newport",
-      "nation": "Wales",
-      "score_1d": 61,
-      "score_7d": 72,
-      "score_90d": 69,
-      "lat": 51.589,
-      "lng": -2.998
-    },
-    {
-      "name": "Dundee",
-      "nation": "Scotland",
-      "score_1d": 86,
-      "score_7d": 69,
-      "score_90d": 68,
-      "lat": 56.462,
-      "lng": -2.97
-    },
-    {
-      "name": "Bushey",
-      "nation": "England",
-      "score_1d": 59,
-      "score_7d": 73,
-      "score_90d": 68,
-      "lat": 51.642,
-      "lng": -0.36
-    },
-    {
-      "name": "Oldham",
-      "nation": "England",
-      "score_1d": 67,
-      "score_7d": 64,
-      "score_90d": 67,
-      "lat": 53.541,
-      "lng": -2.117
-    },
-    {
-      "name": "Aldershot",
-      "nation": "England",
-      "score_1d": 65,
-      "score_7d": 64,
-      "score_90d": 66,
-      "lat": 51.249,
-      "lng": -0.763
-    },
-    {
-      "name": "Cleobury Mortimer",
-      "nation": "England",
-      "score_1d": 73,
-      "score_7d": 72,
-      "score_90d": 66,
-      "lat": 52.378,
-      "lng": -2.477
-    },
-    {
-      "name": "Canterbury",
-      "nation": "England",
-      "score_1d": 79,
-      "score_7d": 69,
-      "score_90d": 66,
-      "lat": 51.28,
-      "lng": 1.08
-    },
-    {
-      "name": "Derry",
-      "nation": "Northern Ireland",
-      "score_1d": 77,
-      "score_7d": 62,
-      "score_90d": 66,
-      "lat": 54.997,
-      "lng": -7.319
-    },
-    {
-      "name": "Wythenshawe",
-      "nation": "England",
-      "score_1d": 70,
-      "score_7d": 74,
-      "score_90d": 65,
-      "lat": 53.389,
-      "lng": -2.263
-    },
-    {
-      "name": "Williton",
-      "nation": "England",
-      "score_1d": 81,
-      "score_7d": 62,
-      "score_90d": 64,
-      "lat": 51.159,
-      "lng": -3.344
-    },
-    {
-      "name": "Luton",
-      "nation": "England",
-      "score_1d": 52,
-      "score_7d": 69,
-      "score_90d": 62,
-      "lat": 51.879,
-      "lng": -0.417
-    },
-    {
-      "name": "Aberdeen",
-      "nation": "Scotland",
-      "score_1d": 75,
-      "score_7d": 65,
-      "score_90d": 61,
-      "lat": 57.15,
-      "lng": -2.094
-    },
-    {
-      "name": "Newry",
-      "nation": "Northern Ireland",
-      "score_1d": 64,
-      "score_7d": 64,
-      "score_90d": 58,
-      "lat": 54.176,
-      "lng": -6.337
-    }
-  ]
+  "cities": []
 }
