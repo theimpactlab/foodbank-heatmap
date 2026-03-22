@@ -183,6 +183,7 @@ class GoogleTrendsFetcher:
     API_GEO_MAP_URL = "https://trends.google.com/trends/api/widgetdata/comparedgeo"
     API_TIMESERIES_URL = "https://trends.google.com/trends/api/widgetdata/multiline"
     TRENDS_BASE_URL = "https://trends.google.com/"
+    NOMINATIM_URL = "https://nominatim.openstreetmap.org/search"
 
     def __init__(self, dry_run: bool = False):
         """
@@ -234,6 +235,41 @@ class GoogleTrendsFetcher:
             self.session.get(self.TRENDS_BASE_URL, timeout=10)
         except Exception as e:
             logger.warning(f"Failed to initialize session: {e}")
+
+    def _geocode_city(self, city_name: str, nation_name: str) -> Optional[Dict]:
+        """
+        Look up lat/lng for an unknown city using the Nominatim (OpenStreetMap) API.
+        Returns dict with nation, lat, lng on success, or None on failure.
+        """
+        try:
+            # Build a country-scoped query for better accuracy
+            query = f"{city_name}, {nation_name}, United Kingdom"
+            resp = requests.get(
+                self.NOMINATIM_URL,
+                params={
+                    "q": query,
+                    "format": "json",
+                    "limit": 1,
+                    "countrycodes": "gb",
+                },
+                headers={"User-Agent": "FoodBankViz/1.0 (ryan@theimpactlab.co.uk)"},
+                timeout=10,
+            )
+            if resp.status_code == 200 and resp.json():
+                result = resp.json()[0]
+                lat = float(result["lat"])
+                lng = float(result["lon"])
+                logger.info(
+                    f"Geocoded new city '{city_name}' -> lat={lat:.3f}, lng={lng:.3f}. "
+                    f"Consider adding to CITY_GEOCODES: "
+                    f'"{city_name}": {{"nation": "{nation_name}", "lat": {lat:.3f}, "lng": {lng:.3f}}}'
+                )
+                return {"nation": nation_name, "lat": lat, "lng": lng}
+            else:
+                logger.warning(f"Nominatim returned no results for '{city_name}'")
+        except Exception as e:
+            logger.warning(f"Geocoding failed for '{city_name}': {e}")
+        return None
 
     def _strip_json_prefix(self, response_text: str) -> str:
         """Strip the ')]}'' prefix from Google Trends API responses."""
@@ -679,15 +715,23 @@ class GoogleTrendsFetcher:
             for city_name, score in result.items():
                 if city_name in CITY_GEOCODES:
                     geo_data = CITY_GEOCODES[city_name]
-                    self.data["cities"].append({
-                        "name": city_name,
-                        "score": score,
-                        "nation": geo_data["nation"],
-                        "lat": geo_data["lat"],
-                        "lng": geo_data["lng"],
-                    })
                 else:
-                    logger.warning(f"City '{city_name}' not in geocoding lookup, skipping")
+                    # Try geocoding the unknown city via Nominatim
+                    logger.info(f"City '{city_name}' not in CITY_GEOCODES, attempting geocode...")
+                    geo_data = self._geocode_city(city_name, nation_name)
+                    if geo_data is None:
+                        logger.warning(f"Could not geocode '{city_name}', skipping")
+                        continue
+                    # Brief pause to respect Nominatim rate limit (1 req/sec)
+                    time.sleep(1.5)
+
+                self.data["cities"].append({
+                    "name": city_name,
+                    "score": score,
+                    "nation": geo_data["nation"],
+                    "lat": geo_data["lat"],
+                    "lng": geo_data["lng"],
+                })
 
             city_count = len([c for c in self.data['cities'] if c['nation'] == nation_name])
             logger.info(f"Successfully fetched city data for {nation_name}: {city_count} cities")
