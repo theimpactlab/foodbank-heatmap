@@ -678,7 +678,7 @@ class GoogleTrendsFetcher:
 
     def fetch_city_data(self) -> bool:
         """
-        Fetch city-level data for each nation.
+        Fetch city-level data for each nation across all three timeframes (1d, 7d, 90d).
 
         Returns:
             True if at least one nation succeeds, False if all fail
@@ -687,59 +687,82 @@ class GoogleTrendsFetcher:
             logger.info("DRY RUN: Skipping city data fetch")
             return True
 
+        CITY_TIMEFRAMES = [
+            ('1d', 'now 1-d'),
+            ('7d', 'now 7-d'),
+            ('90d', 'today 3-m'),
+        ]
+
+        # Collect per-timeframe results keyed by (nation_name, city_name)
+        city_scores = {}  # {city_name: {"nation": ..., "score_1d": ..., "score_7d": ..., "score_90d": ...}}
         any_success = False
 
-        for nation_code, nation_name in self.NATIONS.items():
-            logger.info(f"Fetching city-level data for {nation_name}...")
+        for tf_key, tf_value in CITY_TIMEFRAMES:
+            logger.info(f"Fetching city data for {tf_key} timeframe...")
 
-            # Delay between nation requests
-            delay = random.uniform(self.REQUEST_DELAY_MIN, self.REQUEST_DELAY_MAX)
-            logger.info(f"Waiting {delay:.1f}s before {nation_name} fetch...")
-            time.sleep(delay)
+            for nation_code, nation_name in self.NATIONS.items():
+                logger.info(f"  Fetching {tf_key} city data for {nation_name}...")
 
-            def fetch_cities():
-                return self._fetch_city_data_for_nation(self.PRIMARY_TERM, nation_code, 'today 3-m')
+                delay = random.uniform(self.REQUEST_DELAY_MIN, self.REQUEST_DELAY_MAX)
+                logger.info(f"  Waiting {delay:.1f}s before {nation_name} {tf_key} fetch...")
+                time.sleep(delay)
 
-            result = self._request_with_backoff(
-                f"Fetch city data: {nation_name}",
-                fetch_cities
-            )
+                # Use default argument to capture current values in closure
+                def fetch_cities(nc=nation_code, tv=tf_value):
+                    return self._fetch_city_data_for_nation(self.PRIMARY_TERM, nc, tv)
 
-            if result is None:
-                logger.warning(f"Failed to fetch city data for {nation_name}, continuing with other nations...")
-                continue
+                result = self._request_with_backoff(
+                    f"Fetch city data ({tf_key}): {nation_name}",
+                    fetch_cities
+                )
 
-            any_success = True
+                if result is None:
+                    logger.warning(f"  Failed to fetch {tf_key} city data for {nation_name}, continuing...")
+                    continue
 
-            # Process city data
-            for city_name, score in result.items():
-                if city_name in CITY_GEOCODES:
-                    geo_data = CITY_GEOCODES[city_name]
-                else:
-                    # Try geocoding the unknown city via Nominatim
-                    logger.info(f"City '{city_name}' not in CITY_GEOCODES, attempting geocode...")
-                    geo_data = self._geocode_city(city_name, nation_name)
-                    if geo_data is None:
-                        logger.warning(f"Could not geocode '{city_name}', skipping")
-                        continue
-                    # Brief pause to respect Nominatim rate limit (1 req/sec)
-                    time.sleep(1.5)
+                any_success = True
 
-                self.data["cities"].append({
-                    "name": city_name,
-                    "score": score,
-                    "nation": geo_data["nation"],
-                    "lat": geo_data["lat"],
-                    "lng": geo_data["lng"],
-                })
+                for city_name, score in result.items():
+                    if city_name not in city_scores:
+                        # Look up or geocode the city
+                        if city_name in CITY_GEOCODES:
+                            geo_data = CITY_GEOCODES[city_name]
+                        else:
+                            logger.info(f"  City '{city_name}' not in CITY_GEOCODES, attempting geocode...")
+                            geo_data = self._geocode_city(city_name, nation_name)
+                            if geo_data is None:
+                                logger.warning(f"  Could not geocode '{city_name}', skipping")
+                                continue
+                            time.sleep(1.5)
 
-            city_count = len([c for c in self.data['cities'] if c['nation'] == nation_name])
-            logger.info(f"Successfully fetched city data for {nation_name}: {city_count} cities")
+                        city_scores[city_name] = {
+                            "nation": geo_data["nation"],
+                            "lat": geo_data["lat"],
+                            "lng": geo_data["lng"],
+                            "score_1d": 0,
+                            "score_7d": 0,
+                            "score_90d": 0,
+                        }
+
+                    city_scores[city_name][f"score_{tf_key}"] = score
 
         if not any_success:
-            logger.error("Failed to fetch city data for any nation")
+            logger.error("Failed to fetch city data for any nation/timeframe")
             return False
 
+        # Build the cities list from the merged data
+        for city_name, data in sorted(city_scores.items(), key=lambda x: x[1].get('score_90d', 0), reverse=True):
+            self.data["cities"].append({
+                "name": city_name,
+                "nation": data["nation"],
+                "score_1d": data["score_1d"],
+                "score_7d": data["score_7d"],
+                "score_90d": data["score_90d"],
+                "lat": data["lat"],
+                "lng": data["lng"],
+            })
+
+        logger.info(f"Successfully fetched city data: {len(self.data['cities'])} cities total")
         return True
 
     def _fetch_city_data_for_nation(self, keyword: str, nation_code: str, timeframe: str) -> Optional[Dict[str, int]]:
@@ -869,20 +892,22 @@ class GoogleTrendsFetcher:
 
         # Sample cities
         sample_cities = [
-            ("Pudsey", "England", 53.797, -1.662, 92),
-            ("London", "England", 51.507, -0.128, 88),
-            ("Manchester", "England", 53.483, -2.244, 85),
-            ("Glasgow", "Scotland", 55.864, -4.252, 82),
-            ("Edinburgh", "Scotland", 55.953, -3.189, 78),
-            ("Cardiff", "Wales", 51.481, -3.179, 75),
-            ("Belfast", "Northern Ireland", 54.597, -5.930, 72),
+            ("Pudsey", "England", 53.797, -1.662, 95, 92, 88),
+            ("London", "England", 51.507, -0.128, 91, 88, 82),
+            ("Manchester", "England", 53.483, -2.244, 89, 85, 80),
+            ("Glasgow", "Scotland", 55.864, -4.252, 86, 82, 78),
+            ("Edinburgh", "Scotland", 55.953, -3.189, 80, 78, 74),
+            ("Cardiff", "Wales", 51.481, -3.179, 78, 75, 71),
+            ("Belfast", "Northern Ireland", 54.597, -5.930, 74, 72, 68),
         ]
 
-        for city_name, nation, lat, lng, score in sample_cities:
+        for city_name, nation, lat, lng, s1d, s7d, s90d in sample_cities:
             self.data["cities"].append({
                 "name": city_name,
-                "score": score,
                 "nation": nation,
+                "score_1d": s1d,
+                "score_7d": s7d,
+                "score_90d": s90d,
                 "lat": lat,
                 "lng": lng,
             })
