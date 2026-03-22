@@ -13,7 +13,7 @@ permissions:
 jobs:
   fetch-trends:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - name: Checkout repository
@@ -22,7 +22,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
+          python-version: '3.12'
 
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
@@ -31,14 +31,29 @@ jobs:
         run: python scripts/fetch_trends.py --output data/trends_data.json
         env:
           PYTHONUNBUFFERED: '1'
+        continue-on-error: true
+        id: fetch
+
+      - name: Check fetch result
+        if: steps.fetch.outcome == 'failure'
+        run: |
+          echo "::warning::Google Trends fetch failed (likely rate-limited). Keeping existing data."
+          echo "The script will retry on the next scheduled run."
 
       - name: Check if data changed
+        if: steps.fetch.outcome == 'success'
         id: check_changes
         run: |
-          git diff --quiet data/trends_data.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          if git diff --quiet data/trends_data.json 2>/dev/null; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "No data changes detected"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+            echo "Data changes detected, will commit"
+          fi
 
       - name: Commit and push updated data
-        if: steps.check_changes.outputs.changed == 'true'
+        if: steps.fetch.outcome == 'success' && steps.check_changes.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
