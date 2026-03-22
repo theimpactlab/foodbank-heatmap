@@ -1,460 +1,251 @@
 {
-  "last_updated": "2026-03-21T20:10:17.116116Z",
+  "last_updated": "2026-03-21T14:30:00Z",
   "timeframe_short": "now 7-d",
   "timeframe_long": "today 3-m",
   "regions": [
     {
-      "name": "London",
-      "score_7d": 85,
-      "score_90d": 72,
+      "name": "Scotland",
+      "score_7d": 72,
+      "score_90d": 68,
       "terms": {
-        "food bank": 90,
-        "food bank near me": 82,
-        "food bank help": 83
+        "food bank": 78,
+        "food bank near me": 70,
+        "food bank help": 68
       }
     },
     {
-      "name": "Manchester",
-      "score_7d": 78,
-      "score_90d": 68,
+      "name": "Wales",
+      "score_7d": 75,
+      "score_90d": 71,
       "terms": {
-        "food bank": 88,
-        "food bank near me": 75,
+        "food bank": 81,
+        "food bank near me": 73,
         "food bank help": 71
       }
     },
     {
-      "name": "Birmingham",
-      "score_7d": 71,
+      "name": "Northern Ireland",
+      "score_7d": 68,
       "score_90d": 65,
       "terms": {
-        "food bank": 82,
-        "food bank near me": 68,
+        "food bank": 74,
+        "food bank near me": 66,
+        "food bank help": 64
+      }
+    },
+    {
+      "name": "North East England",
+      "score_7d": 82,
+      "score_90d": 78,
+      "terms": {
+        "food bank": 88,
+        "food bank near me": 80,
+        "food bank help": 78
+      }
+    },
+    {
+      "name": "North West England",
+      "score_7d": 79,
+      "score_90d": 75,
+      "terms": {
+        "food bank": 85,
+        "food bank near me": 77,
+        "food bank help": 75
+      }
+    },
+    {
+      "name": "Yorkshire and the Humber",
+      "score_7d": 77,
+      "score_90d": 73,
+      "terms": {
+        "food bank": 83,
+        "food bank near me": 75,
+        "food bank help": 73
+      }
+    },
+    {
+      "name": "West Midlands",
+      "score_7d": 71,
+      "score_90d": 68,
+      "terms": {
+        "food bank": 77,
+        "food bank near me": 69,
+        "food bank help": 67
+      }
+    },
+    {
+      "name": "East Midlands",
+      "score_7d": 69,
+      "score_90d": 66,
+      "terms": {
+        "food bank": 75,
+        "food bank near me": 67,
         "food bank help": 65
       }
     },
     {
-      "name": "Glasgow",
-      "score_7d": 68,
+      "name": "East of England",
+      "score_7d": 64,
       "score_90d": 62,
       "terms": {
-        "food bank": 75,
-        "food bank near me": 65,
-        "food bank help": 58
+        "food bank": 70,
+        "food bank near me": 62,
+        "food bank help": 60
+      }
+    },
+    {
+      "name": "London",
+      "score_7d": 58,
+      "score_90d": 60,
+      "terms": {
+        "food bank": 64,
+        "food bank near me": 56,
+        "food bank help": 54
+      }
+    },
+    {
+      "name": "South East England",
+      "score_7d": 52,
+      "score_90d": 54,
+      "terms": {
+        "food bank": 58,
+        "food bank near me": 50,
+        "food bank help": 48
+      }
+    },
+    {
+      "name": "South West England",
+      "score_7d": 61,
+      "score_90d": 59,
+      "terms": {
+        "food bank": 67,
+        "food bank near me": 59,
+        "food bank help": 57
       }
     }
   ],
   "national_trend": [
-    {
-      "date": "2025-12-21",
-      "value": 60
-    },
-    {
-      "date": "2025-12-22",
-      "value": 60
-    },
-    {
-      "date": "2025-12-23",
-      "value": 60
-    },
-    {
-      "date": "2025-12-24",
-      "value": 60
-    },
-    {
-      "date": "2025-12-25",
-      "value": 60
-    },
-    {
-      "date": "2025-12-26",
-      "value": 60
-    },
-    {
-      "date": "2025-12-27",
-      "value": 60
-    },
-    {
-      "date": "2025-12-28",
-      "value": 60
-    },
-    {
-      "date": "2025-12-29",
-      "value": 60
-    },
-    {
-      "date": "2025-12-30",
-      "value": 61
-    },
-    {
-      "date": "2025-12-31",
-      "value": 61
-    },
-    {
-      "date": "2026-01-01",
-      "value": 61
-    },
-    {
-      "date": "2026-01-02",
-      "value": 61
-    },
-    {
-      "date": "2026-01-03",
-      "value": 61
-    },
-    {
-      "date": "2026-01-04",
-      "value": 61
-    },
-    {
-      "date": "2026-01-05",
-      "value": 61
-    },
-    {
-      "date": "2026-01-06",
-      "value": 61
-    },
-    {
-      "date": "2026-01-07",
-      "value": 61
-    },
-    {
-      "date": "2026-01-08",
-      "value": 62
-    },
-    {
-      "date": "2026-01-09",
-      "value": 62
-    },
-    {
-      "date": "2026-01-10",
-      "value": 62
-    },
-    {
-      "date": "2026-01-11",
-      "value": 62
-    },
-    {
-      "date": "2026-01-12",
-      "value": 62
-    },
-    {
-      "date": "2026-01-13",
-      "value": 62
-    },
-    {
-      "date": "2026-01-14",
-      "value": 62
-    },
-    {
-      "date": "2026-01-15",
-      "value": 62
-    },
-    {
-      "date": "2026-01-16",
-      "value": 62
-    },
-    {
-      "date": "2026-01-17",
-      "value": 63
-    },
-    {
-      "date": "2026-01-18",
-      "value": 63
-    },
-    {
-      "date": "2026-01-19",
-      "value": 63
-    },
-    {
-      "date": "2026-01-20",
-      "value": 63
-    },
-    {
-      "date": "2026-01-21",
-      "value": 63
-    },
-    {
-      "date": "2026-01-22",
-      "value": 63
-    },
-    {
-      "date": "2026-01-23",
-      "value": 63
-    },
-    {
-      "date": "2026-01-24",
-      "value": 63
-    },
-    {
-      "date": "2026-01-25",
-      "value": 63
-    },
-    {
-      "date": "2026-01-26",
-      "value": 64
-    },
-    {
-      "date": "2026-01-27",
-      "value": 64
-    },
-    {
-      "date": "2026-01-28",
-      "value": 64
-    },
-    {
-      "date": "2026-01-29",
-      "value": 64
-    },
-    {
-      "date": "2026-01-30",
-      "value": 64
-    },
-    {
-      "date": "2026-01-31",
-      "value": 64
-    },
-    {
-      "date": "2026-02-01",
-      "value": 64
-    },
-    {
-      "date": "2026-02-02",
-      "value": 64
-    },
-    {
-      "date": "2026-02-03",
-      "value": 64
-    },
-    {
-      "date": "2026-02-04",
-      "value": 65
-    },
-    {
-      "date": "2026-02-05",
-      "value": 65
-    },
-    {
-      "date": "2026-02-06",
-      "value": 65
-    },
-    {
-      "date": "2026-02-07",
-      "value": 65
-    },
-    {
-      "date": "2026-02-08",
-      "value": 65
-    },
-    {
-      "date": "2026-02-09",
-      "value": 65
-    },
-    {
-      "date": "2026-02-10",
-      "value": 65
-    },
-    {
-      "date": "2026-02-11",
-      "value": 65
-    },
-    {
-      "date": "2026-02-12",
-      "value": 65
-    },
-    {
-      "date": "2026-02-13",
-      "value": 66
-    },
-    {
-      "date": "2026-02-14",
-      "value": 66
-    },
-    {
-      "date": "2026-02-15",
-      "value": 66
-    },
-    {
-      "date": "2026-02-16",
-      "value": 66
-    },
-    {
-      "date": "2026-02-17",
-      "value": 66
-    },
-    {
-      "date": "2026-02-18",
-      "value": 66
-    },
-    {
-      "date": "2026-02-19",
-      "value": 66
-    },
-    {
-      "date": "2026-02-20",
-      "value": 66
-    },
-    {
-      "date": "2026-02-21",
-      "value": 66
-    },
-    {
-      "date": "2026-02-22",
-      "value": 67
-    },
-    {
-      "date": "2026-02-23",
-      "value": 67
-    },
-    {
-      "date": "2026-02-24",
-      "value": 67
-    },
-    {
-      "date": "2026-02-25",
-      "value": 67
-    },
-    {
-      "date": "2026-02-26",
-      "value": 67
-    },
-    {
-      "date": "2026-02-27",
-      "value": 67
-    },
-    {
-      "date": "2026-02-28",
-      "value": 67
-    },
-    {
-      "date": "2026-03-01",
-      "value": 67
-    },
-    {
-      "date": "2026-03-02",
-      "value": 67
-    },
-    {
-      "date": "2026-03-03",
-      "value": 68
-    },
-    {
-      "date": "2026-03-04",
-      "value": 68
-    },
-    {
-      "date": "2026-03-05",
-      "value": 68
-    },
-    {
-      "date": "2026-03-06",
-      "value": 68
-    },
-    {
-      "date": "2026-03-07",
-      "value": 68
-    },
-    {
-      "date": "2026-03-08",
-      "value": 68
-    },
-    {
-      "date": "2026-03-09",
-      "value": 68
-    },
-    {
-      "date": "2026-03-10",
-      "value": 68
-    },
-    {
-      "date": "2026-03-11",
-      "value": 68
-    },
-    {
-      "date": "2026-03-12",
-      "value": 69
-    },
-    {
-      "date": "2026-03-13",
-      "value": 69
-    },
-    {
-      "date": "2026-03-14",
-      "value": 69
-    },
-    {
-      "date": "2026-03-15",
-      "value": 69
-    },
-    {
-      "date": "2026-03-16",
-      "value": 69
-    },
-    {
-      "date": "2026-03-17",
-      "value": 69
-    },
-    {
-      "date": "2026-03-18",
-      "value": 69
-    },
-    {
-      "date": "2026-03-19",
-      "value": 69
-    },
-    {
-      "date": "2026-03-20",
-      "value": 69
-    }
+    {"date": "2025-12-21", "value": 52},
+    {"date": "2025-12-22", "value": 51},
+    {"date": "2025-12-23", "value": 50},
+    {"date": "2025-12-24", "value": 48},
+    {"date": "2025-12-25", "value": 43},
+    {"date": "2025-12-26", "value": 45},
+    {"date": "2025-12-27", "value": 49},
+    {"date": "2025-12-28", "value": 51},
+    {"date": "2025-12-29", "value": 50},
+    {"date": "2025-12-30", "value": 48},
+    {"date": "2025-12-31", "value": 47},
+    {"date": "2026-01-01", "value": 55},
+    {"date": "2026-01-02", "value": 62},
+    {"date": "2026-01-03", "value": 71},
+    {"date": "2026-01-04", "value": 77},
+    {"date": "2026-01-05", "value": 78},
+    {"date": "2026-01-06", "value": 76},
+    {"date": "2026-01-07", "value": 72},
+    {"date": "2026-01-08", "value": 70},
+    {"date": "2026-01-09", "value": 68},
+    {"date": "2026-01-10", "value": 62},
+    {"date": "2026-01-11", "value": 60},
+    {"date": "2026-01-12", "value": 59},
+    {"date": "2026-01-13", "value": 61},
+    {"date": "2026-01-14", "value": 58},
+    {"date": "2026-01-15", "value": 57},
+    {"date": "2026-01-16", "value": 59},
+    {"date": "2026-01-17", "value": 61},
+    {"date": "2026-01-18", "value": 60},
+    {"date": "2026-01-19", "value": 59},
+    {"date": "2026-01-20", "value": 58},
+    {"date": "2026-01-21", "value": 57},
+    {"date": "2026-01-22", "value": 59},
+    {"date": "2026-01-23", "value": 60},
+    {"date": "2026-01-24", "value": 59},
+    {"date": "2026-01-25", "value": 58},
+    {"date": "2026-01-26", "value": 56},
+    {"date": "2026-01-27", "value": 57},
+    {"date": "2026-01-28", "value": 58},
+    {"date": "2026-01-29", "value": 60},
+    {"date": "2026-01-30", "value": 61},
+    {"date": "2026-01-31", "value": 60},
+    {"date": "2026-02-01", "value": 59},
+    {"date": "2026-02-02", "value": 58},
+    {"date": "2026-02-03", "value": 60},
+    {"date": "2026-02-04", "value": 62},
+    {"date": "2026-02-05", "value": 61},
+    {"date": "2026-02-06", "value": 60},
+    {"date": "2026-02-07", "value": 59},
+    {"date": "2026-02-08", "value": 57},
+    {"date": "2026-02-09", "value": 59},
+    {"date": "2026-02-10", "value": 61},
+    {"date": "2026-02-11", "value": 62},
+    {"date": "2026-02-12", "value": 61},
+    {"date": "2026-02-13", "value": 60},
+    {"date": "2026-02-14", "value": 59},
+    {"date": "2026-02-15", "value": 58},
+    {"date": "2026-02-16", "value": 60},
+    {"date": "2026-02-17", "value": 62},
+    {"date": "2026-02-18", "value": 63},
+    {"date": "2026-02-19", "value": 62},
+    {"date": "2026-02-20", "value": 61},
+    {"date": "2026-02-21", "value": 60},
+    {"date": "2026-02-22", "value": 59},
+    {"date": "2026-02-23", "value": 61},
+    {"date": "2026-02-24", "value": 63},
+    {"date": "2026-02-25", "value": 65},
+    {"date": "2026-02-26", "value": 64},
+    {"date": "2026-02-27", "value": 63},
+    {"date": "2026-02-28", "value": 62},
+    {"date": "2026-03-01", "value": 61},
+    {"date": "2026-03-02", "value": 63},
+    {"date": "2026-03-03", "value": 65},
+    {"date": "2026-03-04", "value": 67},
+    {"date": "2026-03-05", "value": 71},
+    {"date": "2026-03-06", "value": 76},
+    {"date": "2026-03-07", "value": 78},
+    {"date": "2026-03-08", "value": 77},
+    {"date": "2026-03-09", "value": 75},
+    {"date": "2026-03-10", "value": 73},
+    {"date": "2026-03-11", "value": 72},
+    {"date": "2026-03-12", "value": 71},
+    {"date": "2026-03-13", "value": 70},
+    {"date": "2026-03-14", "value": 69},
+    {"date": "2026-03-15", "value": 68},
+    {"date": "2026-03-16", "value": 70},
+    {"date": "2026-03-17", "value": 72},
+    {"date": "2026-03-18", "value": 71},
+    {"date": "2026-03-19", "value": 70},
+    {"date": "2026-03-20", "value": 69},
+    {"date": "2026-03-21", "value": 68}
   ],
   "cities": [
-    {
-      "name": "Pudsey",
-      "score": 92,
-      "nation": "England",
-      "lat": 53.797,
-      "lng": -1.662
-    },
-    {
-      "name": "London",
-      "score": 88,
-      "nation": "England",
-      "lat": 51.507,
-      "lng": -0.128
-    },
-    {
-      "name": "Manchester",
-      "score": 85,
-      "nation": "England",
-      "lat": 53.483,
-      "lng": -2.244
-    },
-    {
-      "name": "Glasgow",
-      "score": 82,
-      "nation": "Scotland",
-      "lat": 55.864,
-      "lng": -4.252
-    },
-    {
-      "name": "Edinburgh",
-      "score": 78,
-      "nation": "Scotland",
-      "lat": 55.953,
-      "lng": -3.189
-    },
-    {
-      "name": "Cardiff",
-      "score": 75,
-      "nation": "Wales",
-      "lat": 51.481,
-      "lng": -3.179
-    },
-    {
-      "name": "Belfast",
-      "score": 72,
-      "nation": "Northern Ireland",
-      "lat": 54.597,
-      "lng": -5.93
-    }
+    {"name": "Pudsey", "score": 100, "lat": 53.797, "lng": -1.662},
+    {"name": "Desborough", "score": 92, "lat": 52.441, "lng": -0.818},
+    {"name": "Dinnington", "score": 91, "lat": 53.368, "lng": -1.209},
+    {"name": "Middleton", "score": 88, "lat": 53.555, "lng": -2.187},
+    {"name": "Glasgow", "score": 85, "lat": 55.864, "lng": -4.252},
+    {"name": "Wick", "score": 82, "lat": 50.609, "lng": -2.995},
+    {"name": "Westoning", "score": 80, "lat": 52.009, "lng": -0.486},
+    {"name": "Cardiff", "score": 78, "lat": 51.481, "lng": -3.179},
+    {"name": "Dudley", "score": 77, "lat": 52.512, "lng": -2.087},
+    {"name": "Hastings", "score": 76, "lat": 50.854, "lng": 0.573},
+    {"name": "Belfast", "score": 74, "lat": 54.597, "lng": -5.930},
+    {"name": "Staindrop", "score": 74, "lat": 54.583, "lng": -1.800},
+    {"name": "Edinburgh", "score": 72, "lat": 55.953, "lng": -3.189},
+    {"name": "Swansea", "score": 71, "lat": 51.622, "lng": -3.943},
+    {"name": "Worcester", "score": 69, "lat": 52.192, "lng": -2.220},
+    {"name": "Shrewsbury", "score": 69, "lat": 52.708, "lng": -2.754},
+    {"name": "Newport", "score": 69, "lat": 51.589, "lng": -2.998},
+    {"name": "Dundee", "score": 68, "lat": 56.462, "lng": -2.970},
+    {"name": "Bushey", "score": 68, "lat": 51.642, "lng": -0.360},
+    {"name": "Oldham", "score": 67, "lat": 53.541, "lng": -2.117},
+    {"name": "Aldershot", "score": 66, "lat": 51.249, "lng": -0.763},
+    {"name": "Cleobury Mortimer", "score": 66, "lat": 52.378, "lng": -2.477},
+    {"name": "Canterbury", "score": 66, "lat": 51.280, "lng": 1.080},
+    {"name": "Derry", "score": 66, "lat": 54.997, "lng": -7.319},
+    {"name": "Wythenshawe", "score": 65, "lat": 53.389, "lng": -2.263},
+    {"name": "Williton", "score": 64, "lat": 51.159, "lng": -3.344},
+    {"name": "Luton", "score": 62, "lat": 51.879, "lng": -0.417},
+    {"name": "Aberdeen", "score": 61, "lat": 57.150, "lng": -2.094},
+    {"name": "Newry", "score": 58, "lat": 54.176, "lng": -6.337}
   ]
 }
