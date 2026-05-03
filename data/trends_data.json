@@ -1,9 +1,1001 @@
 {
-  "last_updated": "2026-05-03T13:13:56.100914Z",
+  "last_updated": "2026-05-03T23:06:27.431278Z",
   "timeframe_1d": "now 1-d",
   "timeframe_short": "now 7-d",
   "timeframe_long": "today 3-m",
   "regions": [],
-  "national_trend": [],
-  "cities": []
+  "national_trend": [
+    {
+      "date": "2026-02-03",
+      "value": 95
+    },
+    {
+      "date": "2026-02-04",
+      "value": 77
+    },
+    {
+      "date": "2026-02-05",
+      "value": 72
+    },
+    {
+      "date": "2026-02-06",
+      "value": 74
+    },
+    {
+      "date": "2026-02-07",
+      "value": 69
+    },
+    {
+      "date": "2026-02-08",
+      "value": 60
+    },
+    {
+      "date": "2026-02-09",
+      "value": 85
+    },
+    {
+      "date": "2026-02-10",
+      "value": 100
+    },
+    {
+      "date": "2026-02-11",
+      "value": 87
+    },
+    {
+      "date": "2026-02-12",
+      "value": 68
+    },
+    {
+      "date": "2026-02-13",
+      "value": 61
+    },
+    {
+      "date": "2026-02-14",
+      "value": 33
+    },
+    {
+      "date": "2026-02-15",
+      "value": 39
+    },
+    {
+      "date": "2026-02-16",
+      "value": 63
+    },
+    {
+      "date": "2026-02-17",
+      "value": 59
+    },
+    {
+      "date": "2026-02-18",
+      "value": 60
+    },
+    {
+      "date": "2026-02-19",
+      "value": 61
+    },
+    {
+      "date": "2026-02-20",
+      "value": 60
+    },
+    {
+      "date": "2026-02-21",
+      "value": 42
+    },
+    {
+      "date": "2026-02-22",
+      "value": 46
+    },
+    {
+      "date": "2026-02-23",
+      "value": 68
+    },
+    {
+      "date": "2026-02-24",
+      "value": 66
+    },
+    {
+      "date": "2026-02-25",
+      "value": 70
+    },
+    {
+      "date": "2026-02-26",
+      "value": 71
+    },
+    {
+      "date": "2026-02-27",
+      "value": 77
+    },
+    {
+      "date": "2026-02-28",
+      "value": 34
+    },
+    {
+      "date": "2026-03-01",
+      "value": 43
+    },
+    {
+      "date": "2026-03-02",
+      "value": 65
+    },
+    {
+      "date": "2026-03-03",
+      "value": 72
+    },
+    {
+      "date": "2026-03-04",
+      "value": 61
+    },
+    {
+      "date": "2026-03-05",
+      "value": 62
+    },
+    {
+      "date": "2026-03-06",
+      "value": 65
+    },
+    {
+      "date": "2026-03-07",
+      "value": 51
+    },
+    {
+      "date": "2026-03-08",
+      "value": 47
+    },
+    {
+      "date": "2026-03-09",
+      "value": 81
+    },
+    {
+      "date": "2026-03-10",
+      "value": 74
+    },
+    {
+      "date": "2026-03-11",
+      "value": 77
+    },
+    {
+      "date": "2026-03-12",
+      "value": 67
+    },
+    {
+      "date": "2026-03-13",
+      "value": 77
+    },
+    {
+      "date": "2026-03-14",
+      "value": 58
+    },
+    {
+      "date": "2026-03-15",
+      "value": 47
+    },
+    {
+      "date": "2026-03-16",
+      "value": 78
+    },
+    {
+      "date": "2026-03-17",
+      "value": 80
+    },
+    {
+      "date": "2026-03-18",
+      "value": 76
+    },
+    {
+      "date": "2026-03-19",
+      "value": 79
+    },
+    {
+      "date": "2026-03-20",
+      "value": 76
+    },
+    {
+      "date": "2026-03-21",
+      "value": 54
+    },
+    {
+      "date": "2026-03-22",
+      "value": 62
+    },
+    {
+      "date": "2026-03-23",
+      "value": 83
+    },
+    {
+      "date": "2026-03-24",
+      "value": 81
+    },
+    {
+      "date": "2026-03-25",
+      "value": 86
+    },
+    {
+      "date": "2026-03-26",
+      "value": 92
+    },
+    {
+      "date": "2026-03-27",
+      "value": 86
+    },
+    {
+      "date": "2026-03-28",
+      "value": 75
+    },
+    {
+      "date": "2026-03-29",
+      "value": 86
+    },
+    {
+      "date": "2026-03-30",
+      "value": 99
+    },
+    {
+      "date": "2026-03-31",
+      "value": 89
+    },
+    {
+      "date": "2026-04-01",
+      "value": 91
+    },
+    {
+      "date": "2026-04-02",
+      "value": 67
+    },
+    {
+      "date": "2026-04-03",
+      "value": 69
+    },
+    {
+      "date": "2026-04-04",
+      "value": 59
+    },
+    {
+      "date": "2026-04-05",
+      "value": 58
+    },
+    {
+      "date": "2026-04-06",
+      "value": 96
+    },
+    {
+      "date": "2026-04-07",
+      "value": 86
+    },
+    {
+      "date": "2026-04-08",
+      "value": 57
+    },
+    {
+      "date": "2026-04-09",
+      "value": 80
+    },
+    {
+      "date": "2026-04-10",
+      "value": 69
+    },
+    {
+      "date": "2026-04-11",
+      "value": 51
+    },
+    {
+      "date": "2026-04-12",
+      "value": 56
+    },
+    {
+      "date": "2026-04-13",
+      "value": 79
+    },
+    {
+      "date": "2026-04-14",
+      "value": 86
+    },
+    {
+      "date": "2026-04-15",
+      "value": 67
+    },
+    {
+      "date": "2026-04-16",
+      "value": 72
+    },
+    {
+      "date": "2026-04-17",
+      "value": 69
+    },
+    {
+      "date": "2026-04-18",
+      "value": 49
+    },
+    {
+      "date": "2026-04-19",
+      "value": 33
+    },
+    {
+      "date": "2026-04-20",
+      "value": 60
+    },
+    {
+      "date": "2026-04-21",
+      "value": 56
+    },
+    {
+      "date": "2026-04-22",
+      "value": 56
+    },
+    {
+      "date": "2026-04-23",
+      "value": 56
+    },
+    {
+      "date": "2026-04-24",
+      "value": 51
+    },
+    {
+      "date": "2026-04-25",
+      "value": 33
+    },
+    {
+      "date": "2026-04-26",
+      "value": 36
+    },
+    {
+      "date": "2026-04-27",
+      "value": 58
+    },
+    {
+      "date": "2026-04-28",
+      "value": 66
+    },
+    {
+      "date": "2026-04-29",
+      "value": 57
+    },
+    {
+      "date": "2026-04-30",
+      "value": 57
+    },
+    {
+      "date": "2026-05-01",
+      "value": 57
+    },
+    {
+      "date": "2026-05-02",
+      "value": 42
+    },
+    {
+      "date": "2026-05-03",
+      "value": 33
+    }
+  ],
+  "cities": [
+    {
+      "name": "Dinnington",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 62,
+      "score_90d": 100,
+      "lat": 53.368,
+      "lng": -1.209
+    },
+    {
+      "name": "Wick",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 99,
+      "lat": 50.609,
+      "lng": -2.995
+    },
+    {
+      "name": "Shrewsbury",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 97,
+      "lat": 52.708,
+      "lng": -2.754
+    },
+    {
+      "name": "Llanelli",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 89,
+      "lat": 51.684,
+      "lng": -4.163
+    },
+    {
+      "name": "Pudsey",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 78,
+      "lat": 53.797,
+      "lng": -1.662
+    },
+    {
+      "name": "Bangor",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 38,
+      "score_90d": 67,
+      "lat": 53.228,
+      "lng": -4.129
+    },
+    {
+      "name": "Desborough",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 66,
+      "lat": 52.441,
+      "lng": -0.818
+    },
+    {
+      "name": "Falkirk",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 66,
+      "lat": 56.001,
+      "lng": -3.784
+    },
+    {
+      "name": "Bedford",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 65,
+      "lat": 52.136,
+      "lng": -0.46
+    },
+    {
+      "name": "Livingston",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 63,
+      "lat": 55.883,
+      "lng": -3.516
+    },
+    {
+      "name": "Canterbury",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 63,
+      "lat": 51.28,
+      "lng": 1.08
+    },
+    {
+      "name": "Westoning",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 63,
+      "lat": 52.009,
+      "lng": -0.486
+    },
+    {
+      "name": "Gloucester",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 61,
+      "lat": 51.864,
+      "lng": -2.245
+    },
+    {
+      "name": "Hastings",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 56,
+      "lat": 50.854,
+      "lng": 0.573
+    },
+    {
+      "name": "Yelvertoft",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 52.372388,
+      "lng": -1.1396112
+    },
+    {
+      "name": "Steeple",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 50.6294876,
+      "lng": -2.127575
+    },
+    {
+      "name": "Albrighton",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 52.6353685,
+      "lng": -2.27814
+    },
+    {
+      "name": "Pateley Bridge",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.0870914,
+      "lng": -1.7596404
+    },
+    {
+      "name": "Kirby Muxloe",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 52.6287267,
+      "lng": -1.2340047
+    },
+    {
+      "name": "Sawston",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 52.1252327,
+      "lng": 0.1693457
+    },
+    {
+      "name": "Shenley Church End",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 52.0243003,
+      "lng": -0.7924996
+    },
+    {
+      "name": "High Spen",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.9328143,
+      "lng": -1.7829673
+    },
+    {
+      "name": "Hale",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.3287644,
+      "lng": -2.7966123
+    },
+    {
+      "name": "Much Hoole",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.69695,
+      "lng": -2.7950147
+    },
+    {
+      "name": "Burnley",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.789,
+      "lng": -2.248
+    },
+    {
+      "name": "Paisley",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 55.846,
+      "lng": -4.424
+    },
+    {
+      "name": "Inverness",
+      "nation": "Scotland",
+      "score_1d": 99,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 57.478,
+      "lng": -4.224
+    },
+    {
+      "name": "Dundee",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 56.462,
+      "lng": -2.97
+    },
+    {
+      "name": "Edinburgh",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 55.953,
+      "lng": -3.189
+    },
+    {
+      "name": "Glasgow",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 55.864,
+      "lng": -4.252
+    },
+    {
+      "name": "Aberdeen",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 57.15,
+      "lng": -2.094
+    },
+    {
+      "name": "Kilmarnock",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 55.611,
+      "lng": -4.495
+    },
+    {
+      "name": "Merthyr Tydfil",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.748,
+      "lng": -3.378
+    },
+    {
+      "name": "Barry",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.4,
+      "lng": -3.268
+    },
+    {
+      "name": "Cardiff",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.481,
+      "lng": -3.179
+    },
+    {
+      "name": "Newport",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.589,
+      "lng": -2.998
+    },
+    {
+      "name": "Aberystwyth",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 52.416,
+      "lng": -4.082
+    },
+    {
+      "name": "Belfast",
+      "nation": "Northern Ireland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.597,
+      "lng": -5.93
+    },
+    {
+      "name": "Bridgnorth",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 52.5345626,
+      "lng": -2.4194132
+    },
+    {
+      "name": "Aldershot",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.249,
+      "lng": -0.763
+    },
+    {
+      "name": "Kirkwall",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 58.9816049,
+      "lng": -2.960369
+    },
+    {
+      "name": "Clarkston",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 55.7894597,
+      "lng": -4.2757616
+    },
+    {
+      "name": "Howwood",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 55.8105718,
+      "lng": -4.5625091
+    },
+    {
+      "name": "Newton Stewart",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.959045,
+      "lng": -4.4836737
+    },
+    {
+      "name": "Stirling",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 56.12,
+      "lng": -3.937
+    },
+    {
+      "name": "Perth",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 56.395,
+      "lng": -3.437
+    },
+    {
+      "name": "Ayr",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 55.459,
+      "lng": -4.629
+    },
+    {
+      "name": "Swansea",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.622,
+      "lng": -3.943
+    },
+    {
+      "name": "Carmarthen",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.857,
+      "lng": -4.311
+    },
+    {
+      "name": "Bridgend",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.504,
+      "lng": -3.577
+    },
+    {
+      "name": "Wrexham",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.046,
+      "lng": -2.993
+    },
+    {
+      "name": "Lisburn",
+      "nation": "Northern Ireland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.51,
+      "lng": -6.038
+    },
+    {
+      "name": "Enniskillen",
+      "nation": "Northern Ireland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.344,
+      "lng": -7.639
+    },
+    {
+      "name": "Ballymena",
+      "nation": "Northern Ireland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.864,
+      "lng": -6.276
+    },
+    {
+      "name": "Omagh",
+      "nation": "Northern Ireland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.6,
+      "lng": -7.3
+    },
+    {
+      "name": "Middleton",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.555,
+      "lng": -2.187
+    },
+    {
+      "name": "Slough",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.511,
+      "lng": -0.595
+    },
+    {
+      "name": "Staindrop",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.583,
+      "lng": -1.8
+    },
+    {
+      "name": "Telford",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 52.677,
+      "lng": -2.449
+    },
+    {
+      "name": "Wythenshawe",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.389,
+      "lng": -2.263
+    },
+    {
+      "name": "Luton",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.879,
+      "lng": -0.417
+    },
+    {
+      "name": "Colchester",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.889,
+      "lng": 0.903
+    },
+    {
+      "name": "Blackpool",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.814,
+      "lng": -3.055
+    },
+    {
+      "name": "Stockport",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.406,
+      "lng": -2.159
+    },
+    {
+      "name": "Oldham",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.541,
+      "lng": -2.117
+    },
+    {
+      "name": "Warrington",
+      "nation": "England",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 53.39,
+      "lng": -2.597
+    },
+    {
+      "name": "Ladybank",
+      "nation": "Scotland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 56.2742464,
+      "lng": -3.1215949
+    },
+    {
+      "name": "Pontypridd",
+      "nation": "Wales",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 51.602,
+      "lng": -3.342
+    },
+    {
+      "name": "Newry",
+      "nation": "Northern Ireland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.176,
+      "lng": -6.337
+    },
+    {
+      "name": "Craigavon",
+      "nation": "Northern Ireland",
+      "score_1d": 0,
+      "score_7d": 0,
+      "score_90d": 0,
+      "lat": 54.447,
+      "lng": -6.389
+    }
+  ]
 }
