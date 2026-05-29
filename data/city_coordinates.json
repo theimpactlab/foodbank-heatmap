@@ -1,0 +1,7406 @@
+{
+  "cities": {
+    "Abbots Bromley": {
+      "aliases": [],
+      "lat": 52.819147,
+      "lng": -1.880893,
+      "nation": "England"
+    },
+    "Abercarn": {
+      "aliases": [],
+      "lat": 51.647975,
+      "lng": -3.125183,
+      "nation": "Wales"
+    },
+    "Abercynon": {
+      "aliases": [],
+      "lat": 51.6448956,
+      "lng": -3.3283645,
+      "nation": "Wales"
+    },
+    "Aberdare": {
+      "aliases": [],
+      "lat": 51.713353,
+      "lng": -3.445555,
+      "nation": "Wales"
+    },
+    "Aberdeen": {
+      "aliases": [],
+      "lat": 57.15,
+      "lng": -2.094,
+      "nation": "Scotland"
+    },
+    "Aberdulais": {
+      "aliases": [],
+      "lat": 51.6791431,
+      "lng": -3.7794145,
+      "nation": "Wales"
+    },
+    "Aberdyfi": {
+      "aliases": [],
+      "lat": 52.545125,
+      "lng": -4.053362,
+      "nation": "Wales"
+    },
+    "Aberfan": {
+      "aliases": [],
+      "lat": 51.6916974,
+      "lng": -3.346164,
+      "nation": "Wales"
+    },
+    "Aberfeldy": {
+      "aliases": [],
+      "lat": 56.619321,
+      "lng": -3.86509,
+      "nation": "Scotland"
+    },
+    "Abergavenny": {
+      "aliases": [],
+      "lat": 51.8213212,
+      "lng": -3.0147935,
+      "nation": "Wales"
+    },
+    "Abergele": {
+      "aliases": [],
+      "lat": 53.2840692,
+      "lng": -3.5810655,
+      "nation": "Wales"
+    },
+    "Aberkenfig": {
+      "aliases": [],
+      "lat": 51.5410988,
+      "lng": -3.5974384,
+      "nation": "Wales"
+    },
+    "Abernethy": {
+      "aliases": [],
+      "lat": 56.3327064,
+      "lng": -3.31157,
+      "nation": "Scotland"
+    },
+    "Abersoch": {
+      "aliases": [],
+      "lat": 52.8226822,
+      "lng": -4.5075491,
+      "nation": "Wales"
+    },
+    "Abersychan": {
+      "aliases": [],
+      "lat": 51.7284015,
+      "lng": -3.0595405,
+      "nation": "Wales"
+    },
+    "Aberteifi": {
+      "aliases": [],
+      "lat": 52.083997,
+      "lng": -4.660422,
+      "nation": "Wales"
+    },
+    "Abertillery": {
+      "aliases": [],
+      "lat": 51.7299485,
+      "lng": -3.1359867,
+      "nation": "Wales"
+    },
+    "Abertridwr": {
+      "aliases": [],
+      "lat": 52.760048,
+      "lng": -3.434,
+      "nation": "Wales"
+    },
+    "Abertysswg": {
+      "aliases": [],
+      "lat": 51.7425871,
+      "lng": -3.2601049,
+      "nation": "Wales"
+    },
+    "Aberystwyth": {
+      "aliases": [],
+      "lat": 52.416,
+      "lng": -4.082,
+      "nation": "Wales"
+    },
+    "Abingdon": {
+      "aliases": [],
+      "lat": 51.6714842,
+      "lng": -1.2779715,
+      "nation": "England"
+    },
+    "Aboyne": {
+      "aliases": [],
+      "lat": 57.076583,
+      "lng": -2.779152,
+      "nation": "Scotland"
+    },
+    "Accrington": {
+      "aliases": [],
+      "lat": 53.754116,
+      "lng": -2.365543,
+      "nation": "England"
+    },
+    "Ackworth": {
+      "aliases": [],
+      "lat": 53.651807,
+      "lng": -1.325333,
+      "nation": "England"
+    },
+    "Admaston": {
+      "aliases": [],
+      "lat": 52.71387,
+      "lng": -2.54394,
+      "nation": "England"
+    },
+    "Aghalee": {
+      "aliases": [],
+      "lat": 54.5205213,
+      "lng": -6.2679269,
+      "nation": "Northern Ireland"
+    },
+    "Alcester": {
+      "aliases": [],
+      "lat": 52.21502,
+      "lng": -1.869576,
+      "nation": "England"
+    },
+    "Aldbourne": {
+      "aliases": [],
+      "lat": 51.484332,
+      "lng": -1.651187,
+      "nation": "England"
+    },
+    "Aldershot": {
+      "aliases": [],
+      "lat": 51.249,
+      "lng": -0.763,
+      "nation": "England"
+    },
+    "Alexandria": {
+      "aliases": [],
+      "lat": 55.9878736,
+      "lng": -4.5822088,
+      "nation": "Scotland"
+    },
+    "Alfriston": {
+      "aliases": [],
+      "lat": 50.805933,
+      "lng": 0.134896,
+      "nation": "England"
+    },
+    "Allanton": {
+      "aliases": [],
+      "lat": 55.7819164,
+      "lng": -2.2158486,
+      "nation": "Scotland"
+    },
+    "Alloa": {
+      "aliases": [],
+      "lat": 56.1156137,
+      "lng": -3.7922423,
+      "nation": "Scotland"
+    },
+    "Alsager": {
+      "aliases": [],
+      "lat": 53.0960614,
+      "lng": -2.3046307,
+      "nation": "England"
+    },
+    "Alton": {
+      "aliases": [],
+      "lat": 51.148904,
+      "lng": -0.975768,
+      "nation": "England"
+    },
+    "Alvechurch": {
+      "aliases": [],
+      "lat": 52.3507123,
+      "lng": -1.9579114,
+      "nation": "England"
+    },
+    "Alyth": {
+      "aliases": [],
+      "lat": 56.622554,
+      "lng": -3.230263,
+      "nation": "Scotland"
+    },
+    "Amble": {
+      "aliases": [],
+      "lat": 55.3337748,
+      "lng": -1.5839378,
+      "nation": "England"
+    },
+    "Ambrosden": {
+      "aliases": [],
+      "lat": 51.871261,
+      "lng": -1.124306,
+      "nation": "England"
+    },
+    "Amesbury": {
+      "aliases": [],
+      "lat": 51.170687,
+      "lng": -1.770613,
+      "nation": "England"
+    },
+    "Amlwch": {
+      "aliases": [],
+      "lat": 53.4090317,
+      "lng": -4.342649,
+      "nation": "Wales"
+    },
+    "Ammanford": {
+      "aliases": [],
+      "lat": 51.7955509,
+      "lng": -3.996828,
+      "nation": "Wales"
+    },
+    "Ampthill": {
+      "aliases": [],
+      "lat": 52.031889,
+      "lng": -0.492908,
+      "nation": "England"
+    },
+    "Andover": {
+      "aliases": [],
+      "lat": 51.207828,
+      "lng": -1.479355,
+      "nation": "England"
+    },
+    "Annan": {
+      "aliases": [],
+      "lat": 54.9873333,
+      "lng": -3.2620207,
+      "nation": "Scotland"
+    },
+    "Annfield Plain": {
+      "aliases": [],
+      "lat": 54.8578249,
+      "lng": -1.7374865,
+      "nation": "England"
+    },
+    "Anstruther": {
+      "aliases": [],
+      "lat": 56.2227638,
+      "lng": -2.7005643,
+      "nation": "Scotland"
+    },
+    "Antrim": {
+      "aliases": [],
+      "lat": 54.715139,
+      "lng": -6.2192038,
+      "nation": "Northern Ireland"
+    },
+    "Appleby Magna": {
+      "aliases": [],
+      "lat": 52.684401,
+      "lng": -1.532821,
+      "nation": "England"
+    },
+    "Arbroath": {
+      "aliases": [],
+      "lat": 56.558673,
+      "lng": -2.581567,
+      "nation": "Scotland"
+    },
+    "Ardleigh": {
+      "aliases": [],
+      "lat": 51.915818,
+      "lng": 0.974649,
+      "nation": "England"
+    },
+    "Ardrossan": {
+      "aliases": [],
+      "lat": 55.64005,
+      "lng": -4.814857,
+      "nation": "Scotland"
+    },
+    "Armadale": {
+      "aliases": [],
+      "lat": 57.066008,
+      "lng": -5.898656,
+      "nation": "Scotland"
+    },
+    "Armagh": {
+      "aliases": [],
+      "lat": 54.3161086,
+      "lng": -6.7189182,
+      "nation": "Northern Ireland"
+    },
+    "Armthorpe": {
+      "aliases": [],
+      "lat": 53.539518,
+      "lng": -1.059895,
+      "nation": "England"
+    },
+    "Arnside": {
+      "aliases": [],
+      "lat": 54.201311,
+      "lng": -2.834299,
+      "nation": "England"
+    },
+    "Arundel": {
+      "aliases": [],
+      "lat": 50.854538,
+      "lng": -0.564816,
+      "nation": "England"
+    },
+    "Ash": {
+      "aliases": [],
+      "lat": 51.280986,
+      "lng": 1.280306,
+      "nation": "England"
+    },
+    "Ashcott": {
+      "aliases": [],
+      "lat": 51.1286864,
+      "lng": -2.8140889,
+      "nation": "England"
+    },
+    "Ashford": {
+      "aliases": [],
+      "lat": 51.148555,
+      "lng": 0.872257,
+      "nation": "England"
+    },
+    "Ashington": {
+      "aliases": [],
+      "lat": 55.183236,
+      "lng": -1.57027,
+      "nation": "England"
+    },
+    "Ashton-under-Lyne": {
+      "aliases": [],
+      "lat": 53.486541,
+      "lng": -2.098691,
+      "nation": "England"
+    },
+    "Askern": {
+      "aliases": [],
+      "lat": 53.616793,
+      "lng": -1.153183,
+      "nation": "England"
+    },
+    "Aspull": {
+      "aliases": [],
+      "lat": 53.5686712,
+      "lng": -2.5862312,
+      "nation": "England"
+    },
+    "Aston Clinton": {
+      "aliases": [],
+      "lat": 51.8025136,
+      "lng": -0.7274903,
+      "nation": "England"
+    },
+    "Astwood Bank": {
+      "aliases": [],
+      "lat": 52.261342,
+      "lng": -1.939149,
+      "nation": "England"
+    },
+    "Atherton": {
+      "aliases": [],
+      "lat": 53.524968,
+      "lng": -2.49058,
+      "nation": "England"
+    },
+    "Attleborough": {
+      "aliases": [],
+      "lat": 52.5179648,
+      "lng": 1.0105931,
+      "nation": "England"
+    },
+    "Auchinleck": {
+      "aliases": [],
+      "lat": 55.4698739,
+      "lng": -4.2959612,
+      "nation": "Scotland"
+    },
+    "Auchterarder": {
+      "aliases": [],
+      "lat": 56.2963188,
+      "lng": -3.7065827,
+      "nation": "Scotland"
+    },
+    "Aveley": {
+      "aliases": [],
+      "lat": 51.5001066,
+      "lng": 0.2561792,
+      "nation": "England"
+    },
+    "Avonbridge": {
+      "aliases": [],
+      "lat": 55.934302,
+      "lng": -3.744836,
+      "nation": "Scotland"
+    },
+    "Aylesford": {
+      "aliases": [],
+      "lat": 51.309309,
+      "lng": 0.486733,
+      "nation": "England"
+    },
+    "Ayr": {
+      "aliases": [],
+      "lat": 55.459,
+      "lng": -4.629,
+      "nation": "Scotland"
+    },
+    "Bagillt": {
+      "aliases": [],
+      "lat": 53.264097,
+      "lng": -3.16763,
+      "nation": "Wales"
+    },
+    "Bakewell": {
+      "aliases": [],
+      "lat": 53.2148429,
+      "lng": -1.6758613,
+      "nation": "England"
+    },
+    "Bala": {
+      "aliases": [],
+      "lat": 52.9112205,
+      "lng": -3.59947,
+      "nation": "Wales"
+    },
+    "Balderton": {
+      "aliases": [],
+      "lat": 53.057323,
+      "lng": -0.77627,
+      "nation": "England"
+    },
+    "Balerno": {
+      "aliases": [],
+      "lat": 55.8839143,
+      "lng": -3.3387606,
+      "nation": "Scotland"
+    },
+    "Balfron": {
+      "aliases": [],
+      "lat": 56.0680711,
+      "lng": -4.3356705,
+      "nation": "Scotland"
+    },
+    "Ballater": {
+      "aliases": [],
+      "lat": 57.049506,
+      "lng": -3.040517,
+      "nation": "Scotland"
+    },
+    "Ballingry": {
+      "aliases": [],
+      "lat": 56.1647569,
+      "lng": -3.325291,
+      "nation": "Scotland"
+    },
+    "Balloch": {
+      "aliases": [],
+      "lat": 57.4965568,
+      "lng": -4.1162967,
+      "nation": "Scotland"
+    },
+    "Ballycastle": {
+      "aliases": [],
+      "lat": 55.2006882,
+      "lng": -6.250282,
+      "nation": "Northern Ireland"
+    },
+    "Ballymena": {
+      "aliases": [],
+      "lat": 54.864,
+      "lng": -6.276,
+      "nation": "Northern Ireland"
+    },
+    "Ballymoney": {
+      "aliases": [],
+      "lat": 55.070273,
+      "lng": -6.517276,
+      "nation": "Northern Ireland"
+    },
+    "Ballynahinch": {
+      "aliases": [],
+      "lat": 54.4026038,
+      "lng": -5.8960151,
+      "nation": "Northern Ireland"
+    },
+    "Balmedie": {
+      "aliases": [],
+      "lat": 57.246473,
+      "lng": -2.0571418,
+      "nation": "Scotland"
+    },
+    "Balmullo": {
+      "aliases": [],
+      "lat": 56.377278,
+      "lng": -2.926939,
+      "nation": "Scotland"
+    },
+    "Banbridge": {
+      "aliases": [],
+      "lat": 54.3514168,
+      "lng": -6.2714623,
+      "nation": "Northern Ireland"
+    },
+    "Banbury": {
+      "aliases": [],
+      "lat": 52.060181,
+      "lng": -1.34028,
+      "nation": "England"
+    },
+    "Banchory": {
+      "aliases": [],
+      "lat": 57.0513874,
+      "lng": -2.5044583,
+      "nation": "Scotland"
+    },
+    "Banff": {
+      "aliases": [],
+      "lat": 57.6645459,
+      "lng": -2.5217539,
+      "nation": "Scotland"
+    },
+    "Bangor": {
+      "aliases": [],
+      "lat": 53.228,
+      "lng": -4.129,
+      "nation": "Wales"
+    },
+    "Bangor NI": {
+      "aliases": [],
+      "lat": 54.654,
+      "lng": -5.67,
+      "nation": "Northern Ireland"
+    },
+    "Bangor-on-Dee": {
+      "aliases": [],
+      "lat": 53.002969,
+      "lng": -2.909153,
+      "nation": "Wales"
+    },
+    "Banknock": {
+      "aliases": [],
+      "lat": 55.989822,
+      "lng": -3.955378,
+      "nation": "Scotland"
+    },
+    "Banstead": {
+      "aliases": [],
+      "lat": 51.323897,
+      "lng": -0.198681,
+      "nation": "England"
+    },
+    "Barking": {
+      "aliases": [],
+      "lat": 51.540268,
+      "lng": 0.079324,
+      "nation": "England"
+    },
+    "Barmouth": {
+      "aliases": [],
+      "lat": 52.7210389,
+      "lng": -4.0535692,
+      "nation": "Wales"
+    },
+    "Barnard Castle": {
+      "aliases": [],
+      "lat": 54.5448091,
+      "lng": -1.924642,
+      "nation": "England"
+    },
+    "Barnet": {
+      "aliases": [],
+      "lat": 51.65309,
+      "lng": -0.2002261,
+      "nation": "England"
+    },
+    "Barnsley": {
+      "aliases": [],
+      "lat": 53.553,
+      "lng": -1.479,
+      "nation": "England"
+    },
+    "Barnstaple": {
+      "aliases": [],
+      "lat": 51.080406,
+      "lng": -4.060047,
+      "nation": "England"
+    },
+    "Barrhead": {
+      "aliases": [],
+      "lat": 55.8011027,
+      "lng": -4.3899826,
+      "nation": "Scotland"
+    },
+    "Barrow upon Soar": {
+      "aliases": [],
+      "lat": 52.751484,
+      "lng": -1.133892,
+      "nation": "England"
+    },
+    "Barrow-in-Furness": {
+      "aliases": [],
+      "lat": 54.1288796,
+      "lng": -3.2269008,
+      "nation": "England"
+    },
+    "Barry": {
+      "aliases": [],
+      "lat": 51.4,
+      "lng": -3.268,
+      "nation": "Wales"
+    },
+    "Bartestree": {
+      "aliases": [],
+      "lat": 52.067111,
+      "lng": -2.628887,
+      "nation": "England"
+    },
+    "Barton Seagrave": {
+      "aliases": [],
+      "lat": 52.378381,
+      "lng": -0.692594,
+      "nation": "England"
+    },
+    "Barton on Sea": {
+      "aliases": [],
+      "lat": 50.73691,
+      "lng": -1.665119,
+      "nation": "England"
+    },
+    "Barton-upon-Humber": {
+      "aliases": [],
+      "lat": 53.685806,
+      "lng": -0.439522,
+      "nation": "England"
+    },
+    "Barwick in Elmet": {
+      "aliases": [],
+      "lat": 53.830315,
+      "lng": -1.393549,
+      "nation": "England"
+    },
+    "Basildon": {
+      "aliases": [],
+      "lat": 51.576,
+      "lng": 0.489,
+      "nation": "England"
+    },
+    "Basingstoke": {
+      "aliases": [],
+      "lat": 51.262826,
+      "lng": -1.086198,
+      "nation": "England"
+    },
+    "Baslow": {
+      "aliases": [],
+      "lat": 53.246958,
+      "lng": -1.620164,
+      "nation": "England"
+    },
+    "Bassaleg": {
+      "aliases": [],
+      "lat": 51.5766335,
+      "lng": -3.0480378,
+      "nation": "Wales"
+    },
+    "Bath": {
+      "aliases": [],
+      "lat": 51.383,
+      "lng": -2.359,
+      "nation": "England"
+    },
+    "Bathgate": {
+      "aliases": [],
+      "lat": 55.9009224,
+      "lng": -3.6414828,
+      "nation": "Scotland"
+    },
+    "Batley": {
+      "aliases": [],
+      "lat": 53.716564,
+      "lng": -1.636386,
+      "nation": "England"
+    },
+    "Bawtry": {
+      "aliases": [],
+      "lat": 53.4311798,
+      "lng": -1.0207327,
+      "nation": "England"
+    },
+    "Beaminster": {
+      "aliases": [],
+      "lat": 50.809033,
+      "lng": -2.739159,
+      "nation": "England"
+    },
+    "Bearsden": {
+      "aliases": [],
+      "lat": 55.920461,
+      "lng": -4.333205,
+      "nation": "Scotland"
+    },
+    "Bearsted": {
+      "aliases": [],
+      "lat": 51.2720563,
+      "lng": 0.5805457,
+      "nation": "England"
+    },
+    "Beauly": {
+      "aliases": [],
+      "lat": 57.483651,
+      "lng": -4.4598354,
+      "nation": "Scotland"
+    },
+    "Bedale": {
+      "aliases": [],
+      "lat": 54.288201,
+      "lng": -1.591446,
+      "nation": "England"
+    },
+    "Bedford": {
+      "aliases": [],
+      "lat": 52.136,
+      "lng": -0.46,
+      "nation": "England"
+    },
+    "Bedlinog": {
+      "aliases": [],
+      "lat": 51.702558,
+      "lng": -3.313794,
+      "nation": "Wales"
+    },
+    "Bedworth": {
+      "aliases": [],
+      "lat": 52.479283,
+      "lng": -1.46632,
+      "nation": "England"
+    },
+    "Beeford": {
+      "aliases": [],
+      "lat": 53.967636,
+      "lng": -0.283701,
+      "nation": "England"
+    },
+    "Beetley": {
+      "aliases": [],
+      "lat": 52.730922,
+      "lng": 0.91052,
+      "nation": "England"
+    },
+    "Belfast": {
+      "aliases": [],
+      "lat": 54.597,
+      "lng": -5.93,
+      "nation": "Northern Ireland"
+    },
+    "Bellshill": {
+      "aliases": [],
+      "lat": 55.8189311,
+      "lng": -4.0225794,
+      "nation": "Scotland"
+    },
+    "Belton": {
+      "aliases": [],
+      "lat": 52.7829529,
+      "lng": -1.3387918,
+      "nation": "England"
+    },
+    "Belvedere": {
+      "aliases": [],
+      "lat": 51.4922273,
+      "lng": 0.1533667,
+      "nation": "England"
+    },
+    "Benson": {
+      "aliases": [],
+      "lat": 51.621183,
+      "lng": -1.108479,
+      "nation": "England"
+    },
+    "Bentley": {
+      "aliases": [],
+      "lat": 51.989667,
+      "lng": 1.075096,
+      "nation": "England"
+    },
+    "Bere Regis": {
+      "aliases": [],
+      "lat": 50.739685,
+      "lng": -2.205124,
+      "nation": "England"
+    },
+    "Berwick-upon-Tweed": {
+      "aliases": [],
+      "lat": 55.7692442,
+      "lng": -2.0026472,
+      "nation": "England"
+    },
+    "Bestwood Village": {
+      "aliases": [],
+      "lat": 53.0245547,
+      "lng": -1.1754342,
+      "nation": "England"
+    },
+    "Bettws": {
+      "aliases": [],
+      "lat": 51.6108349,
+      "lng": -3.0281527,
+      "nation": "Wales"
+    },
+    "Beverley": {
+      "aliases": [],
+      "lat": 53.8425488,
+      "lng": -0.4315677,
+      "nation": "England"
+    },
+    "Bexhill": {
+      "aliases": [],
+      "lat": 50.841955,
+      "lng": 0.470906,
+      "nation": "England"
+    },
+    "Bexleyheath": {
+      "aliases": [],
+      "lat": 51.4634854,
+      "lng": 0.1480552,
+      "nation": "England"
+    },
+    "Bicester": {
+      "aliases": [],
+      "lat": 51.898838,
+      "lng": -1.151877,
+      "nation": "England"
+    },
+    "Bickershaw": {
+      "aliases": [],
+      "lat": 53.5108735,
+      "lng": -2.5627948,
+      "nation": "England"
+    },
+    "Bickerstaffe": {
+      "aliases": [],
+      "lat": 53.5238888,
+      "lng": -2.8420946,
+      "nation": "England"
+    },
+    "Biddenham": {
+      "aliases": [],
+      "lat": 52.140481,
+      "lng": -0.505166,
+      "nation": "England"
+    },
+    "Biddulph": {
+      "aliases": [],
+      "lat": 53.116459,
+      "lng": -2.17309,
+      "nation": "England"
+    },
+    "Bideford": {
+      "aliases": [],
+      "lat": 51.018145,
+      "lng": -4.206422,
+      "nation": "England"
+    },
+    "Bieldside": {
+      "aliases": [],
+      "lat": 57.1147638,
+      "lng": -2.2032614,
+      "nation": "Scotland"
+    },
+    "Biggar": {
+      "aliases": [],
+      "lat": 55.6244917,
+      "lng": -3.5215795,
+      "nation": "Scotland"
+    },
+    "Biggin Hill": {
+      "aliases": [],
+      "lat": 51.33199,
+      "lng": 0.029007,
+      "nation": "England"
+    },
+    "Binfield": {
+      "aliases": [],
+      "lat": 51.43211,
+      "lng": -0.791363,
+      "nation": "England"
+    },
+    "Bingham": {
+      "aliases": [],
+      "lat": 52.951568,
+      "lng": -0.952245,
+      "nation": "England"
+    },
+    "Birchgrove": {
+      "aliases": [],
+      "lat": 51.521535,
+      "lng": -3.20246,
+      "nation": "Wales"
+    },
+    "Birchington-on-Sea": {
+      "aliases": [],
+      "lat": 51.3738758,
+      "lng": 1.3070658,
+      "nation": "England"
+    },
+    "Birmingham": {
+      "aliases": [],
+      "lat": 52.486,
+      "lng": -1.89,
+      "nation": "England"
+    },
+    "Bishop's Lydeard": {
+      "aliases": [],
+      "lat": 51.057685,
+      "lng": -3.187372,
+      "nation": "England"
+    },
+    "Bishopbriggs": {
+      "aliases": [],
+      "lat": 55.9039668,
+      "lng": -4.2245231,
+      "nation": "Scotland"
+    },
+    "Bishopston": {
+      "aliases": [],
+      "lat": 51.5785703,
+      "lng": -4.0531985,
+      "nation": "Wales"
+    },
+    "Bishopton": {
+      "aliases": [],
+      "lat": 55.902358,
+      "lng": -4.5008,
+      "nation": "Scotland"
+    },
+    "Biwmares": {
+      "aliases": [],
+      "lat": 53.262963,
+      "lng": -4.092054,
+      "nation": "Wales"
+    },
+    "Blackburn": {
+      "aliases": [],
+      "lat": 57.208445,
+      "lng": -2.2899714,
+      "nation": "Scotland"
+    },
+    "Blackpool": {
+      "aliases": [],
+      "lat": 53.814,
+      "lng": -3.055,
+      "nation": "England"
+    },
+    "Blackridge": {
+      "aliases": [],
+      "lat": 55.8843825,
+      "lng": -3.7502801,
+      "nation": "Scotland"
+    },
+    "Blackwood": {
+      "aliases": [],
+      "lat": 51.6663189,
+      "lng": -3.1974329,
+      "nation": "Wales"
+    },
+    "Blaenau Ffestiniog": {
+      "aliases": [],
+      "lat": 52.9945942,
+      "lng": -3.9379224,
+      "nation": "Wales"
+    },
+    "Blaenavon": {
+      "aliases": [],
+      "lat": 51.7728191,
+      "lng": -3.0843833,
+      "nation": "Wales"
+    },
+    "Blairgowrie and Rattray": {
+      "aliases": [],
+      "lat": 56.5927172,
+      "lng": -3.3389425,
+      "nation": "Scotland"
+    },
+    "Blyth": {
+      "aliases": [],
+      "lat": 55.12709,
+      "lng": -1.509973,
+      "nation": "England"
+    },
+    "Blythe Bridge": {
+      "aliases": [],
+      "lat": 52.966529,
+      "lng": -2.065296,
+      "nation": "England"
+    },
+    "Blyton": {
+      "aliases": [],
+      "lat": 53.442805,
+      "lng": -0.718079,
+      "nation": "England"
+    },
+    "Bo'ness": {
+      "aliases": [],
+      "lat": 56.017687,
+      "lng": -3.60736,
+      "nation": "Scotland"
+    },
+    "Bodelwyddan": {
+      "aliases": [],
+      "lat": 53.2705527,
+      "lng": -3.5129657,
+      "nation": "Wales"
+    },
+    "Boldon Colliery": {
+      "aliases": [],
+      "lat": 54.950168,
+      "lng": -1.465256,
+      "nation": "England"
+    },
+    "Bolsover": {
+      "aliases": [],
+      "lat": 53.196946,
+      "lng": -1.256213,
+      "nation": "England"
+    },
+    "Bolton": {
+      "aliases": [],
+      "lat": 53.577,
+      "lng": -2.429,
+      "nation": "England"
+    },
+    "Bon-y-maen": {
+      "aliases": [],
+      "lat": 51.6406601,
+      "lng": -3.9080659,
+      "nation": "Wales"
+    },
+    "Bonnyrigg": {
+      "aliases": [],
+      "lat": 55.875119,
+      "lng": -3.105908,
+      "nation": "Scotland"
+    },
+    "Bootle": {
+      "aliases": [],
+      "lat": 53.450693,
+      "lng": -2.994883,
+      "nation": "England"
+    },
+    "Borehamwood": {
+      "aliases": [],
+      "lat": 51.65553,
+      "lng": -0.276405,
+      "nation": "England"
+    },
+    "Boscastle": {
+      "aliases": [],
+      "lat": 50.689537,
+      "lng": -4.692369,
+      "nation": "England"
+    },
+    "Bothwell": {
+      "aliases": [],
+      "lat": 55.802655,
+      "lng": -4.067696,
+      "nation": "Scotland"
+    },
+    "Boughton Monchelsea": {
+      "aliases": [],
+      "lat": 51.2187598,
+      "lng": 0.5423546,
+      "nation": "England"
+    },
+    "Bournemouth": {
+      "aliases": [],
+      "lat": 50.72,
+      "lng": -1.879,
+      "nation": "England"
+    },
+    "Bourton-on-the-Water": {
+      "aliases": [],
+      "lat": 51.884073,
+      "lng": -1.757312,
+      "nation": "England"
+    },
+    "Bovey Tracey": {
+      "aliases": [],
+      "lat": 50.6046632,
+      "lng": -3.6856762,
+      "nation": "England"
+    },
+    "Bowness-on-Windermere": {
+      "aliases": [],
+      "lat": 54.3647264,
+      "lng": -2.9195522,
+      "nation": "England"
+    },
+    "Bracknell": {
+      "aliases": [],
+      "lat": 51.41657,
+      "lng": -0.749388,
+      "nation": "England"
+    },
+    "Bradford": {
+      "aliases": [],
+      "lat": 53.795,
+      "lng": -1.752,
+      "nation": "England"
+    },
+    "Bradford-on-Avon": {
+      "aliases": [],
+      "lat": 51.346715,
+      "lng": -2.250433,
+      "nation": "England"
+    },
+    "Brading": {
+      "aliases": [],
+      "lat": 50.681208,
+      "lng": -1.142232,
+      "nation": "England"
+    },
+    "Bradley Stoke": {
+      "aliases": [],
+      "lat": 51.536104,
+      "lng": -2.549841,
+      "nation": "England"
+    },
+    "Bradwell Common": {
+      "aliases": [],
+      "lat": 52.044945,
+      "lng": -0.771276,
+      "nation": "England"
+    },
+    "Bratton Fleming": {
+      "aliases": [],
+      "lat": 51.130999,
+      "lng": -3.918805,
+      "nation": "England"
+    },
+    "Braunstone Town": {
+      "aliases": [],
+      "lat": 52.615963,
+      "lng": -1.1826524,
+      "nation": "England"
+    },
+    "Braunton": {
+      "aliases": [],
+      "lat": 51.107248,
+      "lng": -4.175323,
+      "nation": "England"
+    },
+    "Brean": {
+      "aliases": [],
+      "lat": 51.3062859,
+      "lng": -3.016137,
+      "nation": "England"
+    },
+    "Brechin": {
+      "aliases": [],
+      "lat": 56.7315193,
+      "lng": -2.6600193,
+      "nation": "Scotland"
+    },
+    "Brecon": {
+      "aliases": [],
+      "lat": 51.9472048,
+      "lng": -3.391696,
+      "nation": "Wales"
+    },
+    "Bredon": {
+      "aliases": [],
+      "lat": 52.031108,
+      "lng": -2.112163,
+      "nation": "England"
+    },
+    "Brentwood": {
+      "aliases": [],
+      "lat": 51.620165,
+      "lng": 0.301866,
+      "nation": "England"
+    },
+    "Bridge of Allan": {
+      "aliases": [],
+      "lat": 56.1550362,
+      "lng": -3.9480672,
+      "nation": "Scotland"
+    },
+    "Bridge of Don": {
+      "aliases": [],
+      "lat": 57.1756156,
+      "lng": -2.0905805,
+      "nation": "Scotland"
+    },
+    "Bridge of Earn": {
+      "aliases": [],
+      "lat": 56.3490571,
+      "lng": -3.4064791,
+      "nation": "Scotland"
+    },
+    "Bridgend": {
+      "aliases": [],
+      "lat": 51.504,
+      "lng": -3.577,
+      "nation": "Wales"
+    },
+    "Bridgwater": {
+      "aliases": [],
+      "lat": 51.1284037,
+      "lng": -3.0037793,
+      "nation": "England"
+    },
+    "Bridlington": {
+      "aliases": [],
+      "lat": 54.082242,
+      "lng": -0.190865,
+      "nation": "England"
+    },
+    "Bridport": {
+      "aliases": [],
+      "lat": 50.733785,
+      "lng": -2.7589005,
+      "nation": "England"
+    },
+    "Brierley Hill": {
+      "aliases": [],
+      "lat": 52.4796381,
+      "lng": -2.1247527,
+      "nation": "England"
+    },
+    "Brighton": {
+      "aliases": [],
+      "lat": 50.823,
+      "lng": -0.137,
+      "nation": "England"
+    },
+    "Brimington": {
+      "aliases": [],
+      "lat": 53.257508,
+      "lng": -1.39485,
+      "nation": "England"
+    },
+    "Brinscall": {
+      "aliases": [],
+      "lat": 53.688464,
+      "lng": -2.566535,
+      "nation": "England"
+    },
+    "Bristol": {
+      "aliases": [],
+      "lat": 51.455,
+      "lng": -2.587,
+      "nation": "England"
+    },
+    "Briston": {
+      "aliases": [],
+      "lat": 51.453802,
+      "lng": -2.597298,
+      "nation": "England"
+    },
+    "Brixham": {
+      "aliases": [],
+      "lat": 50.3952404,
+      "lng": -3.514544,
+      "nation": "England"
+    },
+    "Brockworth": {
+      "aliases": [],
+      "lat": 51.8474636,
+      "lng": -2.1551249,
+      "nation": "England"
+    },
+    "Brodick": {
+      "aliases": [],
+      "lat": 55.577516,
+      "lng": -5.150686,
+      "nation": "Scotland"
+    },
+    "Bromyard": {
+      "aliases": [],
+      "lat": 52.18847,
+      "lng": -2.510732,
+      "nation": "England"
+    },
+    "Brookmans Park": {
+      "aliases": [],
+      "lat": 51.721157,
+      "lng": -0.204836,
+      "nation": "England"
+    },
+    "Brookwood": {
+      "aliases": [],
+      "lat": 51.3049285,
+      "lng": -0.6350115,
+      "nation": "England"
+    },
+    "Broughshane": {
+      "aliases": [],
+      "lat": 54.893692,
+      "lng": -6.20378,
+      "nation": "Northern Ireland"
+    },
+    "Broughton": {
+      "aliases": [],
+      "lat": 53.5655669,
+      "lng": -0.5536713,
+      "nation": "England"
+    },
+    "Broughton Astley": {
+      "aliases": [],
+      "lat": 52.5356492,
+      "lng": -1.2308696,
+      "nation": "England"
+    },
+    "Brymbo": {
+      "aliases": [],
+      "lat": 53.0766362,
+      "lng": -3.0607814,
+      "nation": "Wales"
+    },
+    "Bryncethin": {
+      "aliases": [],
+      "lat": 51.54764,
+      "lng": -3.568331,
+      "nation": "Wales"
+    },
+    "Brynmawr": {
+      "aliases": [],
+      "lat": 51.7982408,
+      "lng": -3.1740109,
+      "nation": "Wales"
+    },
+    "Brynna": {
+      "aliases": [],
+      "lat": 51.5389249,
+      "lng": -3.4631462,
+      "nation": "Wales"
+    },
+    "Buckhaven": {
+      "aliases": [],
+      "lat": 56.17107,
+      "lng": -3.033397,
+      "nation": "Scotland"
+    },
+    "Buckhurst Hill": {
+      "aliases": [],
+      "lat": 51.625944,
+      "lng": 0.046816,
+      "nation": "England"
+    },
+    "Buckingham": {
+      "aliases": [],
+      "lat": 51.999928,
+      "lng": -0.987683,
+      "nation": "England"
+    },
+    "Buckland": {
+      "aliases": [],
+      "lat": 51.802726,
+      "lng": -0.713672,
+      "nation": "England"
+    },
+    "Buckley": {
+      "aliases": [],
+      "lat": 53.170226,
+      "lng": -3.079987,
+      "nation": "Wales"
+    },
+    "Builth Wells": {
+      "aliases": [],
+      "lat": 52.1493287,
+      "lng": -3.4058015,
+      "nation": "Wales"
+    },
+    "Bungay": {
+      "aliases": [],
+      "lat": 52.456225,
+      "lng": 1.437341,
+      "nation": "England"
+    },
+    "Buntingford": {
+      "aliases": [],
+      "lat": 51.946424,
+      "lng": -0.008696,
+      "nation": "England"
+    },
+    "Burbage": {
+      "aliases": [],
+      "lat": 52.5279306,
+      "lng": -1.3486528,
+      "nation": "England"
+    },
+    "Burgh le Marsh": {
+      "aliases": [],
+      "lat": 53.162026,
+      "lng": 0.243838,
+      "nation": "England"
+    },
+    "Burnham-on-Crouch": {
+      "aliases": [],
+      "lat": 51.635522,
+      "lng": 0.845936,
+      "nation": "England"
+    },
+    "Burnhope": {
+      "aliases": [],
+      "lat": 54.827516,
+      "lng": -1.709815,
+      "nation": "England"
+    },
+    "Burnley": {
+      "aliases": [],
+      "lat": 53.789,
+      "lng": -2.248,
+      "nation": "England"
+    },
+    "Burnopfield": {
+      "aliases": [],
+      "lat": 54.9060459,
+      "lng": -1.7288018,
+      "nation": "England"
+    },
+    "Burntisland": {
+      "aliases": [],
+      "lat": 56.059363,
+      "lng": -3.233099,
+      "nation": "Scotland"
+    },
+    "Burton Latimer": {
+      "aliases": [],
+      "lat": 52.364069,
+      "lng": -0.664166,
+      "nation": "England"
+    },
+    "Bushey": {
+      "aliases": [],
+      "lat": 51.642,
+      "lng": -0.36,
+      "nation": "England"
+    },
+    "Byfield": {
+      "aliases": [],
+      "lat": 52.180531,
+      "lng": -1.254174,
+      "nation": "England"
+    },
+    "Caddington": {
+      "aliases": [],
+      "lat": 51.8656601,
+      "lng": -0.456191,
+      "nation": "England"
+    },
+    "Caerleon": {
+      "aliases": [],
+      "lat": 51.612004,
+      "lng": -2.952904,
+      "nation": "Wales"
+    },
+    "Caernarfon": {
+      "aliases": [],
+      "lat": 53.1394364,
+      "lng": -4.2769751,
+      "nation": "Wales"
+    },
+    "Caerphilly": {
+      "aliases": [],
+      "lat": 51.6723809,
+      "lng": -3.1783938,
+      "nation": "Wales"
+    },
+    "Caerwent": {
+      "aliases": [],
+      "lat": 51.6100619,
+      "lng": -2.7643084,
+      "nation": "Wales"
+    },
+    "Cairnryan": {
+      "aliases": [],
+      "lat": 54.9738045,
+      "lng": -5.0250851,
+      "nation": "Scotland"
+    },
+    "Callander": {
+      "aliases": [],
+      "lat": 56.243694,
+      "lng": -4.214803,
+      "nation": "Scotland"
+    },
+    "Callow End": {
+      "aliases": [],
+      "lat": 52.1435428,
+      "lng": -2.242468,
+      "nation": "England"
+    },
+    "Calne": {
+      "aliases": [],
+      "lat": 51.4388615,
+      "lng": -2.0013196,
+      "nation": "England"
+    },
+    "Camberley": {
+      "aliases": [],
+      "lat": 51.339284,
+      "lng": -0.746098,
+      "nation": "England"
+    },
+    "Camborne": {
+      "aliases": [],
+      "lat": 50.2138802,
+      "lng": -5.299378,
+      "nation": "England"
+    },
+    "Cambourne": {
+      "aliases": [],
+      "lat": 52.219984,
+      "lng": -0.070078,
+      "nation": "England"
+    },
+    "Cambridge": {
+      "aliases": [],
+      "lat": 52.205,
+      "lng": 0.122,
+      "nation": "England"
+    },
+    "Cambuslang": {
+      "aliases": [],
+      "lat": 55.8191936,
+      "lng": -4.1685904,
+      "nation": "Scotland"
+    },
+    "Camelon": {
+      "aliases": [],
+      "lat": 56.0062328,
+      "lng": -3.8183922,
+      "nation": "Scotland"
+    },
+    "Campbeltown": {
+      "aliases": [],
+      "lat": 55.4241858,
+      "lng": -5.6051005,
+      "nation": "Scotland"
+    },
+    "Canterbury": {
+      "aliases": [],
+      "lat": 51.28,
+      "lng": 1.08,
+      "nation": "England"
+    },
+    "Canvey Island": {
+      "aliases": [],
+      "lat": 51.524177,
+      "lng": 0.608459,
+      "nation": "England"
+    },
+    "Carbis Bay": {
+      "aliases": [],
+      "lat": 50.196791,
+      "lng": -5.464633,
+      "nation": "England"
+    },
+    "Cardiff": {
+      "aliases": [],
+      "lat": 51.481,
+      "lng": -3.179,
+      "nation": "Wales"
+    },
+    "Cardross": {
+      "aliases": [],
+      "lat": 55.9602378,
+      "lng": -4.652967,
+      "nation": "Scotland"
+    },
+    "Carlisle": {
+      "aliases": [],
+      "lat": 54.894848,
+      "lng": -2.936231,
+      "nation": "England"
+    },
+    "Carluke": {
+      "aliases": [],
+      "lat": 55.73432,
+      "lng": -3.838255,
+      "nation": "Scotland"
+    },
+    "Carmarthen": {
+      "aliases": [],
+      "lat": 51.857,
+      "lng": -4.311,
+      "nation": "Wales"
+    },
+    "Carrickfergus": {
+      "aliases": [],
+      "lat": 54.7136165,
+      "lng": -5.8073112,
+      "nation": "Northern Ireland"
+    },
+    "Carryduff": {
+      "aliases": [],
+      "lat": 54.5184788,
+      "lng": -5.8874586,
+      "nation": "Northern Ireland"
+    },
+    "Carterton": {
+      "aliases": [],
+      "lat": 51.759243,
+      "lng": -1.594442,
+      "nation": "England"
+    },
+    "Castle Cary": {
+      "aliases": [],
+      "lat": 51.0785623,
+      "lng": -2.5313643,
+      "nation": "England"
+    },
+    "Castle Donington": {
+      "aliases": [],
+      "lat": 52.8411689,
+      "lng": -1.3409476,
+      "nation": "England"
+    },
+    "Castle Douglas": {
+      "aliases": [],
+      "lat": 54.9401,
+      "lng": -3.930535,
+      "nation": "Scotland"
+    },
+    "Castlederg": {
+      "aliases": [],
+      "lat": 54.7087956,
+      "lng": -7.593125,
+      "nation": "Northern Ireland"
+    },
+    "Castlewellan": {
+      "aliases": [],
+      "lat": 54.2574364,
+      "lng": -5.9435178,
+      "nation": "Northern Ireland"
+    },
+    "Catrine": {
+      "aliases": [],
+      "lat": 55.5043269,
+      "lng": -4.3318299,
+      "nation": "Scotland"
+    },
+    "Cawthorne": {
+      "aliases": [],
+      "lat": 53.567583,
+      "lng": -1.570401,
+      "nation": "England"
+    },
+    "Chalfont Saint Peter": {
+      "aliases": [],
+      "lat": 51.607174,
+      "lng": -0.556568,
+      "nation": "England"
+    },
+    "Chapel-en-le-Frith": {
+      "aliases": [],
+      "lat": 53.323251,
+      "lng": -1.914835,
+      "nation": "England"
+    },
+    "Cheadle": {
+      "aliases": [],
+      "lat": 53.3936441,
+      "lng": -2.2122068,
+      "nation": "England"
+    },
+    "Cheddington": {
+      "aliases": [],
+      "lat": 51.851182,
+      "lng": -0.668181,
+      "nation": "England"
+    },
+    "Chedworth": {
+      "aliases": [],
+      "lat": 51.8049026,
+      "lng": -1.9218321,
+      "nation": "England"
+    },
+    "Chelmsford": {
+      "aliases": [],
+      "lat": 51.736,
+      "lng": 0.48,
+      "nation": "England"
+    },
+    "Cheltenham": {
+      "aliases": [],
+      "lat": 51.901,
+      "lng": -2.074,
+      "nation": "England"
+    },
+    "Cheshunt": {
+      "aliases": [],
+      "lat": 51.702052,
+      "lng": -0.033591,
+      "nation": "England"
+    },
+    "Chichester": {
+      "aliases": [],
+      "lat": 50.8364862,
+      "lng": -0.7791721,
+      "nation": "England"
+    },
+    "Chiddingfold": {
+      "aliases": [],
+      "lat": 51.110543,
+      "lng": -0.628199,
+      "nation": "England"
+    },
+    "Chigwell": {
+      "aliases": [],
+      "lat": 51.617644,
+      "lng": 0.07572,
+      "nation": "England"
+    },
+    "Chippenham": {
+      "aliases": [],
+      "lat": 51.4587621,
+      "lng": -2.1159032,
+      "nation": "England"
+    },
+    "Chislehurst": {
+      "aliases": [],
+      "lat": 51.411572,
+      "lng": 0.076954,
+      "nation": "England"
+    },
+    "Chobham": {
+      "aliases": [],
+      "lat": 51.347771,
+      "lng": -0.601013,
+      "nation": "England"
+    },
+    "Christleton": {
+      "aliases": [],
+      "lat": 53.188994,
+      "lng": -2.820641,
+      "nation": "England"
+    },
+    "Chryston": {
+      "aliases": [],
+      "lat": 55.906462,
+      "lng": -4.099311,
+      "nation": "Scotland"
+    },
+    "Church Stretton": {
+      "aliases": [],
+      "lat": 52.539073,
+      "lng": -2.807766,
+      "nation": "England"
+    },
+    "Church Stoke": {
+      "aliases": [
+        "Churchstoke"
+      ],
+      "lat": 52.540608,
+      "lng": -3.07303,
+      "nation": "Wales"
+    },
+    "Churchdown": {
+      "aliases": [],
+      "lat": 51.880336,
+      "lng": -2.175002,
+      "nation": "England"
+    },
+    "Clackmannan": {
+      "aliases": [],
+      "lat": 56.107371,
+      "lng": -3.752477,
+      "nation": "Scotland"
+    },
+    "Clapham": {
+      "aliases": [],
+      "lat": 51.461447,
+      "lng": -0.138627,
+      "nation": "England"
+    },
+    "Clare": {
+      "aliases": [],
+      "lat": 52.205306,
+      "lng": 0.114061,
+      "nation": "England"
+    },
+    "Clarkston": {
+      "aliases": [],
+      "lat": 55.7894597,
+      "lng": -4.2757616,
+      "nation": "Scotland"
+    },
+    "Clay Cross": {
+      "aliases": [],
+      "lat": 53.1652765,
+      "lng": -1.4132383,
+      "nation": "England"
+    },
+    "Clayton-le-Moors": {
+      "aliases": [],
+      "lat": 53.7734032,
+      "lng": -2.3892947,
+      "nation": "England"
+    },
+    "Clayton-le-Woods": {
+      "aliases": [],
+      "lat": 53.703327,
+      "lng": -2.654784,
+      "nation": "England"
+    },
+    "Cleobury Mortimer": {
+      "aliases": [],
+      "lat": 52.378,
+      "lng": -2.477,
+      "nation": "England"
+    },
+    "Cliffe": {
+      "aliases": [],
+      "lat": 53.7908163,
+      "lng": -0.97869,
+      "nation": "England"
+    },
+    "Clifton": {
+      "aliases": [],
+      "lat": 51.461588,
+      "lng": -2.620285,
+      "nation": "England"
+    },
+    "Clifton upon Dunsmore": {
+      "aliases": [],
+      "lat": 52.383084,
+      "lng": -1.222453,
+      "nation": "England"
+    },
+    "Clydach": {
+      "aliases": [],
+      "lat": 51.6964314,
+      "lng": -3.8916304,
+      "nation": "Wales"
+    },
+    "Clydebank": {
+      "aliases": [],
+      "lat": 55.9026837,
+      "lng": -4.4034151,
+      "nation": "Scotland"
+    },
+    "Coalburn": {
+      "aliases": [],
+      "lat": 55.591941,
+      "lng": -3.889674,
+      "nation": "Scotland"
+    },
+    "Coatbridge": {
+      "aliases": [],
+      "lat": 55.862489,
+      "lng": -4.025989,
+      "nation": "Scotland"
+    },
+    "Coedpoeth": {
+      "aliases": [],
+      "lat": 53.0539823,
+      "lng": -3.063956,
+      "nation": "Wales"
+    },
+    "Colchester": {
+      "aliases": [],
+      "lat": 51.889,
+      "lng": 0.903,
+      "nation": "England"
+    },
+    "Coldstream": {
+      "aliases": [],
+      "lat": 55.6511811,
+      "lng": -2.252957,
+      "nation": "Scotland"
+    },
+    "Coleraine": {
+      "aliases": [],
+      "lat": 55.1315912,
+      "lng": -6.671861,
+      "nation": "Northern Ireland"
+    },
+    "Colwyn Bay": {
+      "aliases": [],
+      "lat": 53.2953269,
+      "lng": -3.7262534,
+      "nation": "Wales"
+    },
+    "Colyton": {
+      "aliases": [],
+      "lat": 50.7405628,
+      "lng": -3.0701242,
+      "nation": "England"
+    },
+    "Comber": {
+      "aliases": [],
+      "lat": 54.5498342,
+      "lng": -5.7454313,
+      "nation": "Northern Ireland"
+    },
+    "Congresbury": {
+      "aliases": [],
+      "lat": 51.372009,
+      "lng": -2.805563,
+      "nation": "England"
+    },
+    "Connah's Quay": {
+      "aliases": [],
+      "lat": 53.2199037,
+      "lng": -3.0661782,
+      "nation": "Wales"
+    },
+    "Conon Bridge": {
+      "aliases": [],
+      "lat": 57.565245,
+      "lng": -4.434724,
+      "nation": "Scotland"
+    },
+    "Consett": {
+      "aliases": [],
+      "lat": 54.851878,
+      "lng": -1.833374,
+      "nation": "England"
+    },
+    "Conwy": {
+      "aliases": [],
+      "lat": 53.1460931,
+      "lng": -3.7599202,
+      "nation": "Wales"
+    },
+    "Cookstown": {
+      "aliases": [],
+      "lat": 54.643673,
+      "lng": -6.741601,
+      "nation": "Northern Ireland"
+    },
+    "Copford": {
+      "aliases": [],
+      "lat": 51.866758,
+      "lng": 0.795726,
+      "nation": "England"
+    },
+    "Copthorne": {
+      "aliases": [],
+      "lat": 51.1375872,
+      "lng": -0.1197822,
+      "nation": "England"
+    },
+    "Corby": {
+      "aliases": [],
+      "lat": 52.4877341,
+      "lng": -0.7032713,
+      "nation": "England"
+    },
+    "Corfe Castle": {
+      "aliases": [],
+      "lat": 50.638888,
+      "lng": -2.057226,
+      "nation": "England"
+    },
+    "Corringham": {
+      "aliases": [],
+      "lat": 51.525058,
+      "lng": 0.44771,
+      "nation": "England"
+    },
+    "Costessey": {
+      "aliases": [],
+      "lat": 52.6592662,
+      "lng": 1.2101245,
+      "nation": "England"
+    },
+    "Coupar Angus": {
+      "aliases": [],
+      "lat": 56.545417,
+      "lng": -3.26743,
+      "nation": "Scotland"
+    },
+    "Coventry": {
+      "aliases": [],
+      "lat": 52.407,
+      "lng": -1.51,
+      "nation": "England"
+    },
+    "Cowbridge": {
+      "aliases": [],
+      "lat": 51.4616852,
+      "lng": -3.4472705,
+      "nation": "Wales"
+    },
+    "Cowdenbeath": {
+      "aliases": [],
+      "lat": 56.1110634,
+      "lng": -3.3438843,
+      "nation": "Scotland"
+    },
+    "Cowfold": {
+      "aliases": [],
+      "lat": 50.989701,
+      "lng": -0.2719704,
+      "nation": "England"
+    },
+    "Cowie": {
+      "aliases": [],
+      "lat": 56.082189,
+      "lng": -3.868786,
+      "nation": "Scotland"
+    },
+    "Cradley Heath": {
+      "aliases": [],
+      "lat": 52.469443,
+      "lng": -2.090705,
+      "nation": "England"
+    },
+    "Craigavon": {
+      "aliases": [],
+      "lat": 54.447,
+      "lng": -6.389,
+      "nation": "Northern Ireland"
+    },
+    "Craven Arms": {
+      "aliases": [],
+      "lat": 52.439652,
+      "lng": -2.83564,
+      "nation": "England"
+    },
+    "Crawley": {
+      "aliases": [],
+      "lat": 51.109,
+      "lng": -0.187,
+      "nation": "England"
+    },
+    "Crediton": {
+      "aliases": [],
+      "lat": 50.789587,
+      "lng": -3.658963,
+      "nation": "England"
+    },
+    "Creigiau": {
+      "aliases": [],
+      "lat": 51.5241838,
+      "lng": -3.3247038,
+      "nation": "Wales"
+    },
+    "Criccieth": {
+      "aliases": [],
+      "lat": 52.9206106,
+      "lng": -4.2332414,
+      "nation": "Wales"
+    },
+    "Cricklade": {
+      "aliases": [],
+      "lat": 51.641419,
+      "lng": -1.857941,
+      "nation": "England"
+    },
+    "Cringleford": {
+      "aliases": [],
+      "lat": 52.604289,
+      "lng": 1.239639,
+      "nation": "England"
+    },
+    "Crofty": {
+      "aliases": [],
+      "lat": 51.635465,
+      "lng": -4.129858,
+      "nation": "Wales"
+    },
+    "Crookham Village": {
+      "aliases": [],
+      "lat": 51.2611407,
+      "lng": -0.8622987,
+      "nation": "England"
+    },
+    "Cross Hands": {
+      "aliases": [],
+      "lat": 51.7949672,
+      "lng": -4.08594,
+      "nation": "Wales"
+    },
+    "Crossgates": {
+      "aliases": [],
+      "lat": 56.0849176,
+      "lng": -3.3757208,
+      "nation": "Scotland"
+    },
+    "Crosshouse": {
+      "aliases": [],
+      "lat": 55.612199,
+      "lng": -4.55272,
+      "nation": "Scotland"
+    },
+    "Crumlin": {
+      "aliases": [],
+      "lat": 54.6206167,
+      "lng": -6.2149351,
+      "nation": "Northern Ireland"
+    },
+    "Cudworth": {
+      "aliases": [],
+      "lat": 53.5733843,
+      "lng": -1.4196437,
+      "nation": "England"
+    },
+    "Cullen": {
+      "aliases": [],
+      "lat": 57.6911126,
+      "lng": -2.8195913,
+      "nation": "Scotland"
+    },
+    "Culloden": {
+      "aliases": [],
+      "lat": 57.4891455,
+      "lng": -4.1348941,
+      "nation": "Scotland"
+    },
+    "Cumbernauld": {
+      "aliases": [],
+      "lat": 55.9477764,
+      "lng": -3.9882568,
+      "nation": "Scotland"
+    },
+    "Cumnock": {
+      "aliases": [],
+      "lat": 55.4540605,
+      "lng": -4.2660965,
+      "nation": "Scotland"
+    },
+    "Cupar": {
+      "aliases": [],
+      "lat": 56.3193913,
+      "lng": -3.0116545,
+      "nation": "Scotland"
+    },
+    "Curdridge": {
+      "aliases": [],
+      "lat": 50.917413,
+      "lng": -1.251572,
+      "nation": "England"
+    },
+    "Cwmafan": {
+      "aliases": [],
+      "lat": 51.6130794,
+      "lng": -3.7626552,
+      "nation": "Wales"
+    },
+    "Cwmbran": {
+      "aliases": [],
+      "lat": 51.6536438,
+      "lng": -3.0208217,
+      "nation": "Wales"
+    },
+    "Cwmfelinfach": {
+      "aliases": [],
+      "lat": 51.6175541,
+      "lng": -3.178175,
+      "nation": "Wales"
+    },
+    "Cwmllynfell": {
+      "aliases": [],
+      "lat": 51.798994,
+      "lng": -3.82057,
+      "nation": "Wales"
+    },
+    "Cymmer": {
+      "aliases": [],
+      "lat": 51.607807,
+      "lng": -3.409634,
+      "nation": "Wales"
+    },
+    "Dalbeattie": {
+      "aliases": [],
+      "lat": 54.9307016,
+      "lng": -3.8200724,
+      "nation": "Scotland"
+    },
+    "Dalgety Bay": {
+      "aliases": [],
+      "lat": 56.0422731,
+      "lng": -3.367249,
+      "nation": "Scotland"
+    },
+    "Dalmellington": {
+      "aliases": [],
+      "lat": 55.3232537,
+      "lng": -4.3970298,
+      "nation": "Scotland"
+    },
+    "Danderhall": {
+      "aliases": [],
+      "lat": 55.9139849,
+      "lng": -3.1104118,
+      "nation": "Scotland"
+    },
+    "Darton": {
+      "aliases": [],
+      "lat": 53.5880035,
+      "lng": -1.5307942,
+      "nation": "England"
+    },
+    "Darwen": {
+      "aliases": [],
+      "lat": 53.696096,
+      "lng": -2.466509,
+      "nation": "England"
+    },
+    "Dawlish": {
+      "aliases": [],
+      "lat": 50.5797391,
+      "lng": -3.468931,
+      "nation": "England"
+    },
+    "Deal": {
+      "aliases": [],
+      "lat": 51.2239544,
+      "lng": 1.4027344,
+      "nation": "England"
+    },
+    "Denbigh": {
+      "aliases": [],
+      "lat": 53.1853776,
+      "lng": -3.4178289,
+      "nation": "Wales"
+    },
+    "Denby Dale": {
+      "aliases": [],
+      "lat": 53.571193,
+      "lng": -1.658882,
+      "nation": "England"
+    },
+    "Denny": {
+      "aliases": [],
+      "lat": 56.0237411,
+      "lng": -3.9081978,
+      "nation": "Scotland"
+    },
+    "Derby": {
+      "aliases": [],
+      "lat": 52.922,
+      "lng": -1.476,
+      "nation": "England"
+    },
+    "Derry": {
+      "aliases": [],
+      "lat": 54.997,
+      "lng": -7.319,
+      "nation": "Northern Ireland"
+    },
+    "Desborough": {
+      "aliases": [],
+      "lat": 52.441,
+      "lng": -0.818,
+      "nation": "England"
+    },
+    "Dewsbury": {
+      "aliases": [],
+      "lat": 53.6909103,
+      "lng": -1.6302142,
+      "nation": "England"
+    },
+    "Didcot": {
+      "aliases": [],
+      "lat": 51.606359,
+      "lng": -1.245999,
+      "nation": "England"
+    },
+    "Diggle": {
+      "aliases": [],
+      "lat": 53.5685864,
+      "lng": -1.9935635,
+      "nation": "England"
+    },
+    "Dinas Powys": {
+      "aliases": [],
+      "lat": 51.4334895,
+      "lng": -3.213502,
+      "nation": "Wales"
+    },
+    "Dingwall": {
+      "aliases": [],
+      "lat": 57.5954797,
+      "lng": -4.4284337,
+      "nation": "Scotland"
+    },
+    "Dinnington": {
+      "aliases": [],
+      "lat": 53.368,
+      "lng": -1.209,
+      "nation": "England"
+    },
+    "Distington": {
+      "aliases": [],
+      "lat": 54.5865959,
+      "lng": -3.5200489,
+      "nation": "England"
+    },
+    "Doddington": {
+      "aliases": [],
+      "lat": 52.497531,
+      "lng": 0.060381,
+      "nation": "England"
+    },
+    "Dolgellau": {
+      "aliases": [],
+      "lat": 52.7426873,
+      "lng": -3.8855673,
+      "nation": "Wales"
+    },
+    "Dollar": {
+      "aliases": [],
+      "lat": 56.1628355,
+      "lng": -3.6740886,
+      "nation": "Scotland"
+    },
+    "Donaghadee": {
+      "aliases": [],
+      "lat": 54.6425446,
+      "lng": -5.5375794,
+      "nation": "Northern Ireland"
+    },
+    "Doncaster": {
+      "aliases": [],
+      "lat": 53.523,
+      "lng": -1.134,
+      "nation": "England"
+    },
+    "Dorchester": {
+      "aliases": [],
+      "lat": 50.713206,
+      "lng": -2.437123,
+      "nation": "England"
+    },
+    "Dornoch": {
+      "aliases": [],
+      "lat": 57.879695,
+      "lng": -4.027887,
+      "nation": "Scotland"
+    },
+    "Dorridge": {
+      "aliases": [],
+      "lat": 52.371854,
+      "lng": -1.7528556,
+      "nation": "England"
+    },
+    "Douglas": {
+      "aliases": [],
+      "lat": 55.556821,
+      "lng": -3.848002,
+      "nation": "Scotland"
+    },
+    "Dowlais": {
+      "aliases": [],
+      "lat": 51.7625134,
+      "lng": -3.3555584,
+      "nation": "Wales"
+    },
+    "Drefach": {
+      "aliases": [],
+      "lat": 52.023337,
+      "lng": -4.399215,
+      "nation": "Wales"
+    },
+    "Droitwich Spa": {
+      "aliases": [],
+      "lat": 52.26851,
+      "lng": -2.148607,
+      "nation": "England"
+    },
+    "Dromore": {
+      "aliases": [],
+      "lat": 54.5128552,
+      "lng": -7.4576175,
+      "nation": "Northern Ireland"
+    },
+    "Drongan": {
+      "aliases": [],
+      "lat": 55.4349632,
+      "lng": -4.4581786,
+      "nation": "Scotland"
+    },
+    "Drumnadrochit": {
+      "aliases": [],
+      "lat": 57.3362302,
+      "lng": -4.479799,
+      "nation": "Scotland"
+    },
+    "Dudley": {
+      "aliases": [],
+      "lat": 52.512,
+      "lng": -2.087,
+      "nation": "England"
+    },
+    "Dufftown": {
+      "aliases": [],
+      "lat": 57.444904,
+      "lng": -3.128348,
+      "nation": "Scotland"
+    },
+    "Dumbarton": {
+      "aliases": [],
+      "lat": 55.9432443,
+      "lng": -4.5708479,
+      "nation": "Scotland"
+    },
+    "Dumfries": {
+      "aliases": [],
+      "lat": 55.0691831,
+      "lng": -3.6106856,
+      "nation": "Scotland"
+    },
+    "Dunbar": {
+      "aliases": [],
+      "lat": 56.002139,
+      "lng": -2.515824,
+      "nation": "Scotland"
+    },
+    "Dundee": {
+      "aliases": [],
+      "lat": 56.462,
+      "lng": -2.97,
+      "nation": "Scotland"
+    },
+    "Dundonald": {
+      "aliases": [],
+      "lat": 54.5947412,
+      "lng": -5.8105342,
+      "nation": "Northern Ireland"
+    },
+    "Dunfermline": {
+      "aliases": [],
+      "lat": 56.0713724,
+      "lng": -3.4616183,
+      "nation": "Scotland"
+    },
+    "Dunlop": {
+      "aliases": [],
+      "lat": 55.7119142,
+      "lng": -4.5323997,
+      "nation": "Scotland"
+    },
+    "Dunloy": {
+      "aliases": [],
+      "lat": 55.0111673,
+      "lng": -6.4111633,
+      "nation": "Northern Ireland"
+    },
+    "Dunmurry": {
+      "aliases": [],
+      "lat": 54.5532988,
+      "lng": -6.0030208,
+      "nation": "Northern Ireland"
+    },
+    "Duns": {
+      "aliases": [],
+      "lat": 55.777842,
+      "lng": -2.343848,
+      "nation": "Scotland"
+    },
+    "Dunstable": {
+      "aliases": [],
+      "lat": 51.886132,
+      "lng": -0.520934,
+      "nation": "England"
+    },
+    "Durham": {
+      "aliases": [],
+      "lat": 54.666667,
+      "lng": -1.75,
+      "nation": "England"
+    },
+    "Dyce": {
+      "aliases": [],
+      "lat": 57.2057069,
+      "lng": -2.1926918,
+      "nation": "Scotland"
+    },
+    "Dyserth": {
+      "aliases": [],
+      "lat": 53.3004802,
+      "lng": -3.4130545,
+      "nation": "Wales"
+    },
+    "Eaglesham": {
+      "aliases": [],
+      "lat": 55.7407281,
+      "lng": -4.2738525,
+      "nation": "Scotland"
+    },
+    "Earlston": {
+      "aliases": [],
+      "lat": 55.638166,
+      "lng": -2.676903,
+      "nation": "Scotland"
+    },
+    "Earlswood": {
+      "aliases": [],
+      "lat": 52.366599,
+      "lng": -1.861403,
+      "nation": "England"
+    },
+    "East Calder": {
+      "aliases": [],
+      "lat": 55.894922,
+      "lng": -3.46425,
+      "nation": "Scotland"
+    },
+    "East Harling": {
+      "aliases": [],
+      "lat": 52.439252,
+      "lng": 0.932676,
+      "nation": "England"
+    },
+    "East Kilbride": {
+      "aliases": [],
+      "lat": 55.7605737,
+      "lng": -4.177663,
+      "nation": "Scotland"
+    },
+    "East Linton": {
+      "aliases": [],
+      "lat": 55.9871488,
+      "lng": -2.6628247,
+      "nation": "Scotland"
+    },
+    "East Preston": {
+      "aliases": [],
+      "lat": 50.8087876,
+      "lng": -0.4832171,
+      "nation": "England"
+    },
+    "East Wemyss": {
+      "aliases": [],
+      "lat": 56.1616165,
+      "lng": -3.0624745,
+      "nation": "Scotland"
+    },
+    "Eastchurch": {
+      "aliases": [],
+      "lat": 51.395084,
+      "lng": 0.855954,
+      "nation": "England"
+    },
+    "Eastfield": {
+      "aliases": [],
+      "lat": 54.245487,
+      "lng": -0.400193,
+      "nation": "England"
+    },
+    "Edenfield": {
+      "aliases": [],
+      "lat": 53.668818,
+      "lng": -2.306615,
+      "nation": "England"
+    },
+    "Edinburgh": {
+      "aliases": [],
+      "lat": 55.953,
+      "lng": -3.189,
+      "nation": "Scotland"
+    },
+    "Efail Isaf": {
+      "aliases": [],
+      "lat": 51.5515232,
+      "lng": -3.3227515,
+      "nation": "Wales"
+    },
+    "Elgin": {
+      "aliases": [],
+      "lat": 57.6487891,
+      "lng": -3.3148459,
+      "nation": "Scotland"
+    },
+    "Ellesmere Port": {
+      "aliases": [],
+      "lat": 53.278935,
+      "lng": -2.902251,
+      "nation": "England"
+    },
+    "Ellon": {
+      "aliases": [],
+      "lat": 57.365049,
+      "lng": -2.0710305,
+      "nation": "Scotland"
+    },
+    "Elstree": {
+      "aliases": [],
+      "lat": 51.643773,
+      "lng": -0.298935,
+      "nation": "England"
+    },
+    "Emley": {
+      "aliases": [],
+      "lat": 53.615378,
+      "lng": -1.629248,
+      "nation": "England"
+    },
+    "Enfield": {
+      "aliases": [],
+      "lat": 51.652085,
+      "lng": -0.081018,
+      "nation": "England"
+    },
+    "Enniskillen": {
+      "aliases": [],
+      "lat": 54.344,
+      "lng": -7.639,
+      "nation": "Northern Ireland"
+    },
+    "Erith": {
+      "aliases": [],
+      "lat": 51.480819,
+      "lng": 0.1792322,
+      "nation": "England"
+    },
+    "Erskine": {
+      "aliases": [],
+      "lat": 55.904212,
+      "lng": -4.449233,
+      "nation": "Scotland"
+    },
+    "Exeter": {
+      "aliases": [],
+      "lat": 50.726,
+      "lng": -3.527,
+      "nation": "England"
+    },
+    "Exmouth": {
+      "aliases": [],
+      "lat": 50.619096,
+      "lng": -3.41468,
+      "nation": "England"
+    },
+    "Eyemouth": {
+      "aliases": [],
+      "lat": 55.8722469,
+      "lng": -2.0893924,
+      "nation": "Scotland"
+    },
+    "Failsworth": {
+      "aliases": [],
+      "lat": 53.50781,
+      "lng": -2.161864,
+      "nation": "England"
+    },
+    "Fair Oak": {
+      "aliases": [],
+      "lat": 50.9652971,
+      "lng": -1.2998218,
+      "nation": "England"
+    },
+    "Falkirk": {
+      "aliases": [],
+      "lat": 56.001,
+      "lng": -3.784,
+      "nation": "Scotland"
+    },
+    "Fallin": {
+      "aliases": [],
+      "lat": 56.104257,
+      "lng": -3.874953,
+      "nation": "Scotland"
+    },
+    "Farnham": {
+      "aliases": [],
+      "lat": 51.215175,
+      "lng": -0.798485,
+      "nation": "England"
+    },
+    "Farnham Common": {
+      "aliases": [],
+      "lat": 51.55916,
+      "lng": -0.612814,
+      "nation": "England"
+    },
+    "Fawley": {
+      "aliases": [],
+      "lat": 51.5296931,
+      "lng": -1.4353837,
+      "nation": "England"
+    },
+    "Felixstowe": {
+      "aliases": [],
+      "lat": 51.964296,
+      "lng": 1.328994,
+      "nation": "England"
+    },
+    "Feltwell": {
+      "aliases": [],
+      "lat": 52.485832,
+      "lng": 0.523368,
+      "nation": "England"
+    },
+    "Ferndale": {
+      "aliases": [],
+      "lat": 51.6604343,
+      "lng": -3.447014,
+      "nation": "Wales"
+    },
+    "Fernhill Heath": {
+      "aliases": [],
+      "lat": 52.2290568,
+      "lng": -2.1933083,
+      "nation": "England"
+    },
+    "Ferryside": {
+      "aliases": [],
+      "lat": 51.7671929,
+      "lng": -4.3685183,
+      "nation": "Wales"
+    },
+    "Fforest-fach": {
+      "aliases": [],
+      "lat": 51.6480336,
+      "lng": -3.9856602,
+      "nation": "Wales"
+    },
+    "Fishguard": {
+      "aliases": [],
+      "lat": 51.9938353,
+      "lng": -4.97681,
+      "nation": "Wales"
+    },
+    "Fleet": {
+      "aliases": [],
+      "lat": 51.2828601,
+      "lng": -0.8316334,
+      "nation": "England"
+    },
+    "Flint": {
+      "aliases": [],
+      "lat": 53.249283,
+      "lng": -3.134526,
+      "nation": "Wales"
+    },
+    "Fochabers": {
+      "aliases": [],
+      "lat": 57.6140998,
+      "lng": -3.0974475,
+      "nation": "Scotland"
+    },
+    "Forfar": {
+      "aliases": [],
+      "lat": 56.644301,
+      "lng": -2.888212,
+      "nation": "Scotland"
+    },
+    "Formby": {
+      "aliases": [],
+      "lat": 53.556303,
+      "lng": -3.065656,
+      "nation": "England"
+    },
+    "Forres": {
+      "aliases": [],
+      "lat": 57.609864,
+      "lng": -3.613215,
+      "nation": "Scotland"
+    },
+    "Fort Augustus": {
+      "aliases": [],
+      "lat": 57.144332,
+      "lng": -4.681487,
+      "nation": "Scotland"
+    },
+    "Fort William": {
+      "aliases": [],
+      "lat": 56.817826,
+      "lng": -5.110952,
+      "nation": "Scotland"
+    },
+    "Forth": {
+      "aliases": [],
+      "lat": 55.765585,
+      "lng": -3.6882358,
+      "nation": "Scotland"
+    },
+    "Foulridge": {
+      "aliases": [],
+      "lat": 53.87958,
+      "lng": -2.169218,
+      "nation": "England"
+    },
+    "Fraserburgh": {
+      "aliases": [],
+      "lat": 57.6935974,
+      "lng": -2.0051497,
+      "nation": "Scotland"
+    },
+    "Freckleton": {
+      "aliases": [],
+      "lat": 53.75568,
+      "lng": -2.852727,
+      "nation": "England"
+    },
+    "Freshwater": {
+      "aliases": [],
+      "lat": 50.68144,
+      "lng": -1.523137,
+      "nation": "England"
+    },
+    "Fressingfield": {
+      "aliases": [],
+      "lat": 52.3468235,
+      "lng": 1.3177377,
+      "nation": "England"
+    },
+    "Friday Bridge": {
+      "aliases": [],
+      "lat": 52.620579,
+      "lng": 0.164784,
+      "nation": "England"
+    },
+    "Fulford": {
+      "aliases": [],
+      "lat": 53.9396739,
+      "lng": -1.0740062,
+      "nation": "England"
+    },
+    "Gaerwen": {
+      "aliases": [],
+      "lat": 53.2234878,
+      "lng": -4.2733853,
+      "nation": "Wales"
+    },
+    "Galashiels": {
+      "aliases": [],
+      "lat": 55.6156505,
+      "lng": -2.8061618,
+      "nation": "Scotland"
+    },
+    "Galston": {
+      "aliases": [],
+      "lat": 55.60041,
+      "lng": -4.379746,
+      "nation": "Scotland"
+    },
+    "Gamlingay": {
+      "aliases": [],
+      "lat": 52.1566586,
+      "lng": -0.1916634,
+      "nation": "England"
+    },
+    "Garelochhead": {
+      "aliases": [],
+      "lat": 56.0802337,
+      "lng": -4.8253592,
+      "nation": "Scotland"
+    },
+    "Garvagh": {
+      "aliases": [],
+      "lat": 54.982536,
+      "lng": -6.6877148,
+      "nation": "Northern Ireland"
+    },
+    "Gatehouse of Fleet": {
+      "aliases": [],
+      "lat": 54.882824,
+      "lng": -4.182461,
+      "nation": "Scotland"
+    },
+    "Giffnock": {
+      "aliases": [],
+      "lat": 55.8039361,
+      "lng": -4.2929605,
+      "nation": "Scotland"
+    },
+    "Giggleswick": {
+      "aliases": [],
+      "lat": 54.0718632,
+      "lng": -2.2881032,
+      "nation": "England"
+    },
+    "Gilfach Goch": {
+      "aliases": [],
+      "lat": 51.593581,
+      "lng": -3.471397,
+      "nation": "Wales"
+    },
+    "Gilmorton": {
+      "aliases": [],
+      "lat": 52.481265,
+      "lng": -1.167904,
+      "nation": "England"
+    },
+    "Gilwern": {
+      "aliases": [],
+      "lat": 51.8255754,
+      "lng": -3.0927521,
+      "nation": "Wales"
+    },
+    "Glasgow": {
+      "aliases": [],
+      "lat": 55.864,
+      "lng": -4.252,
+      "nation": "Scotland"
+    },
+    "Glenboig": {
+      "aliases": [],
+      "lat": 55.8934973,
+      "lng": -4.0457383,
+      "nation": "Scotland"
+    },
+    "Glengormley": {
+      "aliases": [],
+      "lat": 54.6718077,
+      "lng": -5.9594082,
+      "nation": "Northern Ireland"
+    },
+    "Glenmavis": {
+      "aliases": [],
+      "lat": 55.8864105,
+      "lng": -3.9958428,
+      "nation": "Scotland"
+    },
+    "Glenrothes": {
+      "aliases": [],
+      "lat": 56.1961905,
+      "lng": -3.1716324,
+      "nation": "Scotland"
+    },
+    "Gloucester": {
+      "aliases": [],
+      "lat": 51.864,
+      "lng": -2.245,
+      "nation": "England"
+    },
+    "Glyncorrwg": {
+      "aliases": [],
+      "lat": 51.6796234,
+      "lng": -3.6273026,
+      "nation": "Wales"
+    },
+    "Glynneath": {
+      "aliases": [],
+      "lat": 51.748412,
+      "lng": -3.61693,
+      "nation": "Wales"
+    },
+    "Godmanchester": {
+      "aliases": [],
+      "lat": 52.319613,
+      "lng": -0.17471,
+      "nation": "England"
+    },
+    "Golspie": {
+      "aliases": [],
+      "lat": 57.973318,
+      "lng": -3.9758786,
+      "nation": "Scotland"
+    },
+    "Goodwick": {
+      "aliases": [],
+      "lat": 52.004437,
+      "lng": -4.9960186,
+      "nation": "Wales"
+    },
+    "Gorebridge": {
+      "aliases": [],
+      "lat": 55.8399603,
+      "lng": -3.0461111,
+      "nation": "Scotland"
+    },
+    "Gorseinon": {
+      "aliases": [],
+      "lat": 51.66938,
+      "lng": -4.041592,
+      "nation": "Wales"
+    },
+    "Gorslas": {
+      "aliases": [],
+      "lat": 51.8031593,
+      "lng": -4.07366,
+      "nation": "Wales"
+    },
+    "Grangemouth": {
+      "aliases": [],
+      "lat": 56.0189027,
+      "lng": -3.7230303,
+      "nation": "Scotland"
+    },
+    "Grantham": {
+      "aliases": [],
+      "lat": 52.913192,
+      "lng": -0.643897,
+      "nation": "England"
+    },
+    "Grantown-on-Spey": {
+      "aliases": [],
+      "lat": 57.3295089,
+      "lng": -3.6104018,
+      "nation": "Scotland"
+    },
+    "Great Linford": {
+      "aliases": [],
+      "lat": 52.0717778,
+      "lng": -0.7600445,
+      "nation": "England"
+    },
+    "Great Torrington": {
+      "aliases": [],
+      "lat": 50.961639,
+      "lng": -4.139834,
+      "nation": "England"
+    },
+    "Great Yarmouth": {
+      "aliases": [],
+      "lat": 52.6071742,
+      "lng": 1.7314845,
+      "nation": "England"
+    },
+    "Great Yeldham": {
+      "aliases": [],
+      "lat": 52.0169,
+      "lng": 0.564993,
+      "nation": "England"
+    },
+    "Greenfield": {
+      "aliases": [],
+      "lat": 53.288492,
+      "lng": -3.209983,
+      "nation": "Wales"
+    },
+    "Greenock": {
+      "aliases": [],
+      "lat": 55.9473423,
+      "lng": -4.7564721,
+      "nation": "Scotland"
+    },
+    "Greenside": {
+      "aliases": [],
+      "lat": 54.9517423,
+      "lng": -1.7884489,
+      "nation": "England"
+    },
+    "Greetland": {
+      "aliases": [],
+      "lat": 53.6877973,
+      "lng": -1.8714477,
+      "nation": "England"
+    },
+    "Gresford": {
+      "aliases": [],
+      "lat": 53.085507,
+      "lng": -2.971985,
+      "nation": "Wales"
+    },
+    "Gretna": {
+      "aliases": [],
+      "lat": 54.9953097,
+      "lng": -3.0669404,
+      "nation": "Scotland"
+    },
+    "Gretton": {
+      "aliases": [],
+      "lat": 51.9748898,
+      "lng": -1.986357,
+      "nation": "England"
+    },
+    "Griffithstown": {
+      "aliases": [],
+      "lat": 51.6887716,
+      "lng": -3.0322361,
+      "nation": "Wales"
+    },
+    "Grimsby": {
+      "aliases": [],
+      "lat": 53.568,
+      "lng": -0.076,
+      "nation": "England"
+    },
+    "Groeslon": {
+      "aliases": [],
+      "lat": 53.0775016,
+      "lng": -4.2775957,
+      "nation": "Wales"
+    },
+    "Grove": {
+      "aliases": [],
+      "lat": 51.60751,
+      "lng": -1.42535,
+      "nation": "England"
+    },
+    "Guilsfield": {
+      "aliases": [],
+      "lat": 52.695412,
+      "lng": -3.1532907,
+      "nation": "Wales"
+    },
+    "Guisborough": {
+      "aliases": [],
+      "lat": 54.535955,
+      "lng": -1.051085,
+      "nation": "England"
+    },
+    "Gwaun-Cae-Gurwen": {
+      "aliases": [],
+      "lat": 51.789955,
+      "lng": -3.8808632,
+      "nation": "Wales"
+    },
+    "Gwersyllt": {
+      "aliases": [],
+      "lat": 53.0732616,
+      "lng": -3.0194675,
+      "nation": "Wales"
+    },
+    "Haddington": {
+      "aliases": [],
+      "lat": 55.955614,
+      "lng": -2.779317,
+      "nation": "Scotland"
+    },
+    "Hailsham": {
+      "aliases": [],
+      "lat": 50.862823,
+      "lng": 0.273061,
+      "nation": "England"
+    },
+    "Hale": {
+      "aliases": [],
+      "lat": 53.3287644,
+      "lng": -2.7966123,
+      "nation": "England"
+    },
+    "Hale Barns": {
+      "aliases": [],
+      "lat": 53.369132,
+      "lng": -2.314315,
+      "nation": "England"
+    },
+    "Halesowen": {
+      "aliases": [],
+      "lat": 52.4492074,
+      "lng": -2.0514646,
+      "nation": "England"
+    },
+    "Halifax": {
+      "aliases": [],
+      "lat": 53.725,
+      "lng": -1.863,
+      "nation": "England"
+    },
+    "Hamble-le-Rice": {
+      "aliases": [],
+      "lat": 50.862386,
+      "lng": -1.325898,
+      "nation": "England"
+    },
+    "Hambleton": {
+      "aliases": [],
+      "lat": 53.7728322,
+      "lng": -1.1649532,
+      "nation": "England"
+    },
+    "Hamilton": {
+      "aliases": [],
+      "lat": 55.7759095,
+      "lng": -4.033442,
+      "nation": "Scotland"
+    },
+    "Hardley": {
+      "aliases": [],
+      "lat": 50.8411142,
+      "lng": -1.3907109,
+      "nation": "England"
+    },
+    "Hardwicke": {
+      "aliases": [],
+      "lat": 51.814071,
+      "lng": -2.304265,
+      "nation": "England"
+    },
+    "Harefield": {
+      "aliases": [],
+      "lat": 51.6041828,
+      "lng": -0.4825622,
+      "nation": "England"
+    },
+    "Harlington": {
+      "aliases": [],
+      "lat": 51.96461,
+      "lng": -0.491569,
+      "nation": "England"
+    },
+    "Hastings": {
+      "aliases": [],
+      "lat": 50.854,
+      "lng": 0.573,
+      "nation": "England"
+    },
+    "Hatfield": {
+      "aliases": [],
+      "lat": 51.763467,
+      "lng": -0.225874,
+      "nation": "England"
+    },
+    "Hatton": {
+      "aliases": [],
+      "lat": 57.4251056,
+      "lng": -1.9160096,
+      "nation": "Scotland"
+    },
+    "Hawkinge": {
+      "aliases": [],
+      "lat": 51.1154427,
+      "lng": 1.1637543,
+      "nation": "England"
+    },
+    "Hay-on-Wye": {
+      "aliases": [],
+      "lat": 52.07446,
+      "lng": -3.124313,
+      "nation": "Wales"
+    },
+    "Haydon Bridge": {
+      "aliases": [],
+      "lat": 54.9752903,
+      "lng": -2.2472059,
+      "nation": "England"
+    },
+    "Heanor": {
+      "aliases": [],
+      "lat": 53.014582,
+      "lng": -1.357497,
+      "nation": "England"
+    },
+    "Heathhall": {
+      "aliases": [],
+      "lat": 55.0961464,
+      "lng": -3.5773549,
+      "nation": "Scotland"
+    },
+    "Hedon": {
+      "aliases": [],
+      "lat": 53.7403889,
+      "lng": -0.1939564,
+      "nation": "England"
+    },
+    "Helensburgh": {
+      "aliases": [],
+      "lat": 56.0033464,
+      "lng": -4.7342935,
+      "nation": "Scotland"
+    },
+    "Hemsworth": {
+      "aliases": [],
+      "lat": 53.613316,
+      "lng": -1.353829,
+      "nation": "England"
+    },
+    "Hendy": {
+      "aliases": [],
+      "lat": 51.714833,
+      "lng": -4.055137,
+      "nation": "Wales"
+    },
+    "Henley-on-Thames": {
+      "aliases": [],
+      "lat": 51.5375786,
+      "lng": -0.9050287,
+      "nation": "England"
+    },
+    "Henstridge": {
+      "aliases": [],
+      "lat": 50.977283,
+      "lng": -2.3945097,
+      "nation": "England"
+    },
+    "Hereford": {
+      "aliases": [],
+      "lat": 52.056,
+      "lng": -2.716,
+      "nation": "England"
+    },
+    "Heysham": {
+      "aliases": [],
+      "lat": 54.0494955,
+      "lng": -2.890311,
+      "nation": "England"
+    },
+    "High Littleton": {
+      "aliases": [],
+      "lat": 51.322342,
+      "lng": -2.5115294,
+      "nation": "England"
+    },
+    "High Spen": {
+      "aliases": [],
+      "lat": 54.9328143,
+      "lng": -1.7829673,
+      "nation": "England"
+    },
+    "Higher Kinnerton": {
+      "aliases": [],
+      "lat": 53.1439618,
+      "lng": -3.0034398,
+      "nation": "Wales"
+    },
+    "Highfields Caldecote": {
+      "aliases": [],
+      "lat": 52.209607,
+      "lng": -0.024368,
+      "nation": "England"
+    },
+    "Hillsborough": {
+      "aliases": [],
+      "lat": 54.462813,
+      "lng": -6.0830844,
+      "nation": "Northern Ireland"
+    },
+    "Hillside": {
+      "aliases": [],
+      "lat": 56.740491,
+      "lng": -2.476761,
+      "nation": "Scotland"
+    },
+    "Hilperton": {
+      "aliases": [],
+      "lat": 51.339666,
+      "lng": -2.182357,
+      "nation": "England"
+    },
+    "Hirwaun": {
+      "aliases": [],
+      "lat": 51.7403304,
+      "lng": -3.512634,
+      "nation": "Wales"
+    },
+    "Holbury": {
+      "aliases": [],
+      "lat": 50.8314274,
+      "lng": -1.3836505,
+      "nation": "England"
+    },
+    "Holmes Chapel": {
+      "aliases": [],
+      "lat": 53.198734,
+      "lng": -2.361846,
+      "nation": "England"
+    },
+    "Holmfirth": {
+      "aliases": [],
+      "lat": 53.570352,
+      "lng": -1.78703,
+      "nation": "England"
+    },
+    "Holt": {
+      "aliases": [],
+      "lat": 52.905438,
+      "lng": 1.092832,
+      "nation": "England"
+    },
+    "Holyhead": {
+      "aliases": [],
+      "lat": 53.3106715,
+      "lng": -4.6330966,
+      "nation": "Wales"
+    },
+    "Holywell": {
+      "aliases": [],
+      "lat": 53.2714061,
+      "lng": -3.2212991,
+      "nation": "Wales"
+    },
+    "Holywell Green": {
+      "aliases": [],
+      "lat": 53.6753101,
+      "lng": -1.8667308,
+      "nation": "England"
+    },
+    "Holywood": {
+      "aliases": [],
+      "lat": 54.6404494,
+      "lng": -5.8361723,
+      "nation": "Northern Ireland"
+    },
+    "Honiton": {
+      "aliases": [],
+      "lat": 50.799686,
+      "lng": -3.189088,
+      "nation": "England"
+    },
+    "Horam": {
+      "aliases": [],
+      "lat": 50.9322055,
+      "lng": 0.250539,
+      "nation": "England"
+    },
+    "Horden": {
+      "aliases": [],
+      "lat": 54.763936,
+      "lng": -1.316385,
+      "nation": "England"
+    },
+    "Horncastle": {
+      "aliases": [],
+      "lat": 53.208726,
+      "lng": -0.116953,
+      "nation": "England"
+    },
+    "Hornchurch": {
+      "aliases": [],
+      "lat": 51.5538747,
+      "lng": 0.2181092,
+      "nation": "England"
+    },
+    "Horndon on the Hill": {
+      "aliases": [],
+      "lat": 51.522637,
+      "lng": 0.405032,
+      "nation": "England"
+    },
+    "Houghton": {
+      "aliases": [],
+      "lat": 52.330324,
+      "lng": -0.1150244,
+      "nation": "England"
+    },
+    "Houghton Regis": {
+      "aliases": [],
+      "lat": 51.904659,
+      "lng": -0.519828,
+      "nation": "England"
+    },
+    "Houghton le Spring": {
+      "aliases": [],
+      "lat": 54.8406536,
+      "lng": -1.4699279,
+      "nation": "England"
+    },
+    "Howwood": {
+      "aliases": [],
+      "lat": 55.810572,
+      "lng": -4.562509,
+      "nation": "Scotland"
+    },
+    "Hucknall": {
+      "aliases": [],
+      "lat": 53.038363,
+      "lng": -1.203544,
+      "nation": "England"
+    },
+    "Huddersfield": {
+      "aliases": [],
+      "lat": 53.645,
+      "lng": -1.785,
+      "nation": "England"
+    },
+    "Hugglescote": {
+      "aliases": [],
+      "lat": 52.7115612,
+      "lng": -1.3709952,
+      "nation": "England"
+    },
+    "Hull": {
+      "aliases": [],
+      "lat": 53.745,
+      "lng": -0.335,
+      "nation": "England"
+    },
+    "Huntington": {
+      "aliases": [],
+      "lat": 53.998817,
+      "lng": -1.059113,
+      "nation": "England"
+    },
+    "Huntly": {
+      "aliases": [],
+      "lat": 57.4474806,
+      "lng": -2.7864246,
+      "nation": "Scotland"
+    },
+    "Hutton Rudby": {
+      "aliases": [],
+      "lat": 54.44912,
+      "lng": -1.27821,
+      "nation": "England"
+    },
+    "Hythe": {
+      "aliases": [],
+      "lat": 51.069187,
+      "lng": 1.084038,
+      "nation": "England"
+    },
+    "Ibstock": {
+      "aliases": [],
+      "lat": 52.6883907,
+      "lng": -1.3987871,
+      "nation": "England"
+    },
+    "Ilminster": {
+      "aliases": [],
+      "lat": 50.9267192,
+      "lng": -2.9102756,
+      "nation": "England"
+    },
+    "Inchinnan": {
+      "aliases": [],
+      "lat": 55.891458,
+      "lng": -4.437219,
+      "nation": "Scotland"
+    },
+    "Ingliston": {
+      "aliases": [],
+      "lat": 55.9409887,
+      "lng": -3.3600787,
+      "nation": "Scotland"
+    },
+    "Ingoldmells": {
+      "aliases": [],
+      "lat": 53.190915,
+      "lng": 0.343484,
+      "nation": "England"
+    },
+    "Inkberrow": {
+      "aliases": [],
+      "lat": 52.2117658,
+      "lng": -1.9784307,
+      "nation": "England"
+    },
+    "Innerleithen": {
+      "aliases": [],
+      "lat": 55.6190744,
+      "lng": -3.0633843,
+      "nation": "Scotland"
+    },
+    "Innsworth": {
+      "aliases": [],
+      "lat": 51.887147,
+      "lng": -2.203445,
+      "nation": "England"
+    },
+    "Insch": {
+      "aliases": [],
+      "lat": 57.3433947,
+      "lng": -2.6120391,
+      "nation": "Scotland"
+    },
+    "Invergordon": {
+      "aliases": [],
+      "lat": 57.6884029,
+      "lng": -4.1692103,
+      "nation": "Scotland"
+    },
+    "Inverkeithing": {
+      "aliases": [],
+      "lat": 56.0308767,
+      "lng": -3.3977498,
+      "nation": "Scotland"
+    },
+    "Inverkip": {
+      "aliases": [],
+      "lat": 55.906073,
+      "lng": -4.872369,
+      "nation": "Scotland"
+    },
+    "Inverness": {
+      "aliases": [],
+      "lat": 57.478,
+      "lng": -4.224,
+      "nation": "Scotland"
+    },
+    "Inverurie": {
+      "aliases": [],
+      "lat": 57.2839493,
+      "lng": -2.3742854,
+      "nation": "Scotland"
+    },
+    "Ipstones": {
+      "aliases": [],
+      "lat": 53.046002,
+      "lng": -1.970178,
+      "nation": "England"
+    },
+    "Ipswich": {
+      "aliases": [],
+      "lat": 52.059,
+      "lng": 1.155,
+      "nation": "England"
+    },
+    "Irlam": {
+      "aliases": [],
+      "lat": 53.448808,
+      "lng": -2.42238,
+      "nation": "England"
+    },
+    "Irthlingborough": {
+      "aliases": [],
+      "lat": 52.3261928,
+      "lng": -0.6128414,
+      "nation": "England"
+    },
+    "Irvine": {
+      "aliases": [],
+      "lat": 55.6131309,
+      "lng": -4.6696399,
+      "nation": "Scotland"
+    },
+    "Jedburgh": {
+      "aliases": [],
+      "lat": 55.4776435,
+      "lng": -2.5553768,
+      "nation": "Scotland"
+    },
+    "Johnston": {
+      "aliases": [],
+      "lat": 51.755408,
+      "lng": -4.9970891,
+      "nation": "Wales"
+    },
+    "Johnstone": {
+      "aliases": [],
+      "lat": 55.836517,
+      "lng": -4.512283,
+      "nation": "Scotland"
+    },
+    "Keith": {
+      "aliases": [],
+      "lat": 57.5427292,
+      "lng": -2.9523291,
+      "nation": "Scotland"
+    },
+    "Kelso": {
+      "aliases": [],
+      "lat": 55.5983788,
+      "lng": -2.4338366,
+      "nation": "Scotland"
+    },
+    "Kemnay": {
+      "aliases": [],
+      "lat": 57.2348184,
+      "lng": -2.4462028,
+      "nation": "Scotland"
+    },
+    "Kenfig Hill": {
+      "aliases": [],
+      "lat": 51.532974,
+      "lng": -3.677711,
+      "nation": "Wales"
+    },
+    "Kennoway": {
+      "aliases": [],
+      "lat": 56.2114871,
+      "lng": -3.0490999,
+      "nation": "Scotland"
+    },
+    "Kerry": {
+      "aliases": [],
+      "lat": 52.5025395,
+      "lng": -3.2573033,
+      "nation": "Wales"
+    },
+    "Keynsham": {
+      "aliases": [],
+      "lat": 51.415175,
+      "lng": -2.498313,
+      "nation": "England"
+    },
+    "Kidlington": {
+      "aliases": [],
+      "lat": 51.823462,
+      "lng": -1.288532,
+      "nation": "England"
+    },
+    "Kidsgrove": {
+      "aliases": [],
+      "lat": 53.08778,
+      "lng": -2.238549,
+      "nation": "England"
+    },
+    "Kidwelly": {
+      "aliases": [],
+      "lat": 51.7363873,
+      "lng": -4.3062309,
+      "nation": "Wales"
+    },
+    "Kilbirnie": {
+      "aliases": [],
+      "lat": 55.7551369,
+      "lng": -4.6854587,
+      "nation": "Scotland"
+    },
+    "Kilkeel": {
+      "aliases": [],
+      "lat": 54.0626664,
+      "lng": -6.0059949,
+      "nation": "Northern Ireland"
+    },
+    "Killay": {
+      "aliases": [],
+      "lat": 51.6195821,
+      "lng": -4.0188081,
+      "nation": "Wales"
+    },
+    "Killearn": {
+      "aliases": [],
+      "lat": 56.0440105,
+      "lng": -4.372733,
+      "nation": "Scotland"
+    },
+    "Kilmarnock": {
+      "aliases": [],
+      "lat": 55.611,
+      "lng": -4.495,
+      "nation": "Scotland"
+    },
+    "Kilmaurs": {
+      "aliases": [],
+      "lat": 55.6371026,
+      "lng": -4.5305498,
+      "nation": "Scotland"
+    },
+    "Kilsyth": {
+      "aliases": [],
+      "lat": 55.9765389,
+      "lng": -4.0559704,
+      "nation": "Scotland"
+    },
+    "Kilwinning": {
+      "aliases": [],
+      "lat": 55.654005,
+      "lng": -4.699201,
+      "nation": "Scotland"
+    },
+    "Kineton": {
+      "aliases": [],
+      "lat": 52.1574699,
+      "lng": -1.5080688,
+      "nation": "England"
+    },
+    "Kinghorn": {
+      "aliases": [],
+      "lat": 56.070737,
+      "lng": -3.174228,
+      "nation": "Scotland"
+    },
+    "Kinglassie": {
+      "aliases": [],
+      "lat": 56.1736338,
+      "lng": -3.2428208,
+      "nation": "Scotland"
+    },
+    "Kings Hill": {
+      "aliases": [],
+      "lat": 51.273833,
+      "lng": 0.406014,
+      "nation": "England"
+    },
+    "Kings Worthy": {
+      "aliases": [],
+      "lat": 51.1033985,
+      "lng": -1.3008489,
+      "nation": "England"
+    },
+    "Kingskerswell": {
+      "aliases": [],
+      "lat": 50.4962548,
+      "lng": -3.5837315,
+      "nation": "England"
+    },
+    "Kingsteignton": {
+      "aliases": [],
+      "lat": 50.549595,
+      "lng": -3.5955735,
+      "nation": "England"
+    },
+    "Kingswear": {
+      "aliases": [],
+      "lat": 50.3662559,
+      "lng": -3.5463214,
+      "nation": "England"
+    },
+    "Kingswells": {
+      "aliases": [],
+      "lat": 57.1575045,
+      "lng": -2.2234447,
+      "nation": "Scotland"
+    },
+    "Kingswinford": {
+      "aliases": [],
+      "lat": 52.4967692,
+      "lng": -2.1661721,
+      "nation": "England"
+    },
+    "Kinloss": {
+      "aliases": [],
+      "lat": 57.634864,
+      "lng": -3.5702598,
+      "nation": "Scotland"
+    },
+    "Kinross": {
+      "aliases": [],
+      "lat": 56.2033706,
+      "lng": -3.4214864,
+      "nation": "Scotland"
+    },
+    "Kintore": {
+      "aliases": [],
+      "lat": 57.2369921,
+      "lng": -2.3455269,
+      "nation": "Scotland"
+    },
+    "Kirk Hammerton": {
+      "aliases": [],
+      "lat": 53.991421,
+      "lng": -1.293505,
+      "nation": "England"
+    },
+    "Kirkcaldy": {
+      "aliases": [],
+      "lat": 56.1110218,
+      "lng": -3.1582296,
+      "nation": "Scotland"
+    },
+    "Kirkcudbright": {
+      "aliases": [],
+      "lat": 54.8352482,
+      "lng": -4.0543927,
+      "nation": "Scotland"
+    },
+    "Kirkintilloch": {
+      "aliases": [],
+      "lat": 55.938391,
+      "lng": -4.154905,
+      "nation": "Scotland"
+    },
+    "Kirkliston": {
+      "aliases": [],
+      "lat": 55.95609,
+      "lng": -3.401921,
+      "nation": "Scotland"
+    },
+    "Kirkmuirhill": {
+      "aliases": [],
+      "lat": 55.6661502,
+      "lng": -3.9197243,
+      "nation": "Scotland"
+    },
+    "Kirkwall": {
+      "aliases": [],
+      "lat": 58.981605,
+      "lng": -2.960369,
+      "nation": "Scotland"
+    },
+    "Kirriemuir": {
+      "aliases": [],
+      "lat": 56.6731057,
+      "lng": -3.0043927,
+      "nation": "Scotland"
+    },
+    "Knaphill": {
+      "aliases": [],
+      "lat": 51.316385,
+      "lng": -0.616912,
+      "nation": "England"
+    },
+    "Knighton": {
+      "aliases": [],
+      "lat": 52.34435,
+      "lng": -3.049562,
+      "nation": "Wales"
+    },
+    "Knowle": {
+      "aliases": [],
+      "lat": 52.3932659,
+      "lng": -1.738959,
+      "nation": "England"
+    },
+    "Knowsley": {
+      "aliases": [],
+      "lat": 53.4252386,
+      "lng": -2.8235991,
+      "nation": "England"
+    },
+    "Ladybank": {
+      "aliases": [],
+      "lat": 56.274246,
+      "lng": -3.121595,
+      "nation": "Scotland"
+    },
+    "Lampeter": {
+      "aliases": [],
+      "lat": 52.1130523,
+      "lng": -4.078761,
+      "nation": "Wales"
+    },
+    "Lanark": {
+      "aliases": [],
+      "lat": 55.673627,
+      "lng": -3.778036,
+      "nation": "Scotland"
+    },
+    "Lancaster": {
+      "aliases": [],
+      "lat": 54.048822,
+      "lng": -2.80135,
+      "nation": "England"
+    },
+    "Langdon Hills": {
+      "aliases": [],
+      "lat": 51.5626292,
+      "lng": 0.4125834,
+      "nation": "England"
+    },
+    "Langholm": {
+      "aliases": [],
+      "lat": 55.15059,
+      "lng": -2.998331,
+      "nation": "Scotland"
+    },
+    "Largs": {
+      "aliases": [],
+      "lat": 55.7948829,
+      "lng": -4.8695014,
+      "nation": "Scotland"
+    },
+    "Larkhall": {
+      "aliases": [],
+      "lat": 55.7401064,
+      "lng": -3.9746052,
+      "nation": "Scotland"
+    },
+    "Larne": {
+      "aliases": [],
+      "lat": 54.8508458,
+      "lng": -5.8183116,
+      "nation": "Northern Ireland"
+    },
+    "Launceston": {
+      "aliases": [],
+      "lat": 50.636774,
+      "lng": -4.360779,
+      "nation": "England"
+    },
+    "Launton": {
+      "aliases": [],
+      "lat": 51.89769,
+      "lng": -1.115968,
+      "nation": "England"
+    },
+    "Laurieston": {
+      "aliases": [],
+      "lat": 55.8507965,
+      "lng": -4.2564398,
+      "nation": "Scotland"
+    },
+    "Leatherhead": {
+      "aliases": [],
+      "lat": 51.295504,
+      "lng": -0.32931,
+      "nation": "England"
+    },
+    "Lechlade-on-Thames": {
+      "aliases": [],
+      "lat": 51.6944942,
+      "lng": -1.6922057,
+      "nation": "England"
+    },
+    "Leeds": {
+      "aliases": [],
+      "lat": 53.801,
+      "lng": -1.549,
+      "nation": "England"
+    },
+    "Leek": {
+      "aliases": [],
+      "lat": 53.105764,
+      "lng": -2.024284,
+      "nation": "England"
+    },
+    "Leicester": {
+      "aliases": [],
+      "lat": 52.637,
+      "lng": -1.133,
+      "nation": "England"
+    },
+    "Leighton Buzzard": {
+      "aliases": [],
+      "lat": 51.9165794,
+      "lng": -0.6620551,
+      "nation": "England"
+    },
+    "Lennoxtown": {
+      "aliases": [],
+      "lat": 55.973149,
+      "lng": -4.199243,
+      "nation": "Scotland"
+    },
+    "Lerwick": {
+      "aliases": [],
+      "lat": 60.153111,
+      "lng": -1.142707,
+      "nation": "Scotland"
+    },
+    "Leslie": {
+      "aliases": [],
+      "lat": 56.2013764,
+      "lng": -3.215211,
+      "nation": "Scotland"
+    },
+    "Lesmahagow": {
+      "aliases": [],
+      "lat": 55.6391875,
+      "lng": -3.8865415,
+      "nation": "Scotland"
+    },
+    "Letchworth Garden City": {
+      "aliases": [],
+      "lat": 51.979498,
+      "lng": -0.229461,
+      "nation": "England"
+    },
+    "Letham": {
+      "aliases": [],
+      "lat": 56.6288329,
+      "lng": -2.7695401,
+      "nation": "Scotland"
+    },
+    "Letterston": {
+      "aliases": [],
+      "lat": 51.9278455,
+      "lng": -4.9916123,
+      "nation": "Wales"
+    },
+    "Leuchars": {
+      "aliases": [],
+      "lat": 56.374796,
+      "lng": -2.8938545,
+      "nation": "Scotland"
+    },
+    "Leven": {
+      "aliases": [],
+      "lat": 53.8942472,
+      "lng": -0.3476196,
+      "nation": "England"
+    },
+    "Lewes": {
+      "aliases": [],
+      "lat": 50.8746139,
+      "lng": 0.0051153,
+      "nation": "England"
+    },
+    "Lhanbryde": {
+      "aliases": [],
+      "lat": 57.6355473,
+      "lng": -3.2163153,
+      "nation": "Scotland"
+    },
+    "Limavady": {
+      "aliases": [],
+      "lat": 55.0504857,
+      "lng": -6.9505134,
+      "nation": "Northern Ireland"
+    },
+    "Lincoln": {
+      "aliases": [],
+      "lat": 53.234,
+      "lng": -0.538,
+      "nation": "England"
+    },
+    "Lindfield": {
+      "aliases": [],
+      "lat": 51.01295,
+      "lng": -0.080769,
+      "nation": "England"
+    },
+    "Lisburn": {
+      "aliases": [],
+      "lat": 54.51,
+      "lng": -6.038,
+      "nation": "Northern Ireland"
+    },
+    "Little Neston": {
+      "aliases": [],
+      "lat": 53.2829132,
+      "lng": -3.0512176,
+      "nation": "England"
+    },
+    "Littleport": {
+      "aliases": [],
+      "lat": 52.4720244,
+      "lng": 0.3264148,
+      "nation": "England"
+    },
+    "Liverpool": {
+      "aliases": [],
+      "lat": 53.408,
+      "lng": -2.992,
+      "nation": "England"
+    },
+    "Livingston": {
+      "aliases": [],
+      "lat": 55.883,
+      "lng": -3.516,
+      "nation": "Scotland"
+    },
+    "Llanberis": {
+      "aliases": [],
+      "lat": 53.1212762,
+      "lng": -4.1277481,
+      "nation": "Wales"
+    },
+    "Llanbradach": {
+      "aliases": [],
+      "lat": 51.604107,
+      "lng": -3.233052,
+      "nation": "Wales"
+    },
+    "Llandeilo": {
+      "aliases": [],
+      "lat": 51.8853935,
+      "lng": -3.9925144,
+      "nation": "Wales"
+    },
+    "Llandovery": {
+      "aliases": [],
+      "lat": 51.995459,
+      "lng": -3.797707,
+      "nation": "Wales"
+    },
+    "Llandrindod Wells": {
+      "aliases": [],
+      "lat": 52.240522,
+      "lng": -3.379361,
+      "nation": "Wales"
+    },
+    "Llandudno": {
+      "aliases": [],
+      "lat": 53.322475,
+      "lng": -3.8243251,
+      "nation": "Wales"
+    },
+    "Llandudno Junction": {
+      "aliases": [],
+      "lat": 53.2871333,
+      "lng": -3.8105036,
+      "nation": "Wales"
+    },
+    "Llandyb\u00efe": {
+      "aliases": [],
+      "lat": 51.8201909,
+      "lng": -4.0065715,
+      "nation": "Wales"
+    },
+    "Llanelli": {
+      "aliases": [],
+      "lat": 51.684,
+      "lng": -4.163,
+      "nation": "Wales"
+    },
+    "Llanfairfechan": {
+      "aliases": [],
+      "lat": 53.2531977,
+      "lng": -3.9750615,
+      "nation": "Wales"
+    },
+    "Llanfairpwllgwyngyll": {
+      "aliases": [],
+      "lat": 53.2218931,
+      "lng": -4.2064976,
+      "nation": "Wales"
+    },
+    "Llanfyllin": {
+      "aliases": [],
+      "lat": 52.7669146,
+      "lng": -3.2717467,
+      "nation": "Wales"
+    },
+    "Llangefni": {
+      "aliases": [],
+      "lat": 53.2560986,
+      "lng": -4.3114568,
+      "nation": "Wales"
+    },
+    "Llangennech": {
+      "aliases": [],
+      "lat": 51.696002,
+      "lng": -4.083475,
+      "nation": "Wales"
+    },
+    "Llangollen": {
+      "aliases": [],
+      "lat": 52.9694033,
+      "lng": -3.1711111,
+      "nation": "Wales"
+    },
+    "Llangynwyd": {
+      "aliases": [],
+      "lat": 51.5880084,
+      "lng": -3.6340365,
+      "nation": "Wales"
+    },
+    "Llanhilleth": {
+      "aliases": [],
+      "lat": 51.7000382,
+      "lng": -3.1342108,
+      "nation": "Wales"
+    },
+    "Llanidloes": {
+      "aliases": [],
+      "lat": 52.4482359,
+      "lng": -3.5410891,
+      "nation": "Wales"
+    },
+    "Llanrhaeadr-ym-Mochnant": {
+      "aliases": [],
+      "lat": 52.8251536,
+      "lng": -3.3014351,
+      "nation": "Wales"
+    },
+    "Llanrumney": {
+      "aliases": [],
+      "lat": 51.5195945,
+      "lng": -3.1213256,
+      "nation": "Wales"
+    },
+    "Llanrwst": {
+      "aliases": [],
+      "lat": 53.1415318,
+      "lng": -3.7939311,
+      "nation": "Wales"
+    },
+    "Llansamlet": {
+      "aliases": [],
+      "lat": 51.663004,
+      "lng": -3.89939,
+      "nation": "Wales"
+    },
+    "Llansanffraid Glan Conwy": {
+      "aliases": [],
+      "lat": 53.2683303,
+      "lng": -3.7944098,
+      "nation": "Wales"
+    },
+    "Llantrisant": {
+      "aliases": [],
+      "lat": 51.5412874,
+      "lng": -3.3747857,
+      "nation": "Wales"
+    },
+    "Llantwit Fardre": {
+      "aliases": [],
+      "lat": 51.559421,
+      "lng": -3.333248,
+      "nation": "Wales"
+    },
+    "Llantwit Major": {
+      "aliases": [],
+      "lat": 51.4083212,
+      "lng": -3.4857779,
+      "nation": "Wales"
+    },
+    "Llanybydder": {
+      "aliases": [],
+      "lat": 52.073598,
+      "lng": -4.15488,
+      "nation": "Wales"
+    },
+    "Llay": {
+      "aliases": [],
+      "lat": 53.0970796,
+      "lng": -2.9994725,
+      "nation": "Wales"
+    },
+    "Llysfaen": {
+      "aliases": [],
+      "lat": 53.282711,
+      "lng": -3.659833,
+      "nation": "Wales"
+    },
+    "Locharbriggs": {
+      "aliases": [],
+      "lat": 55.104641,
+      "lng": -3.5838279,
+      "nation": "Scotland"
+    },
+    "Lochgelly": {
+      "aliases": [],
+      "lat": 56.1348998,
+      "lng": -3.3134751,
+      "nation": "Scotland"
+    },
+    "Lochgilphead": {
+      "aliases": [],
+      "lat": 56.037502,
+      "lng": -5.43309,
+      "nation": "Scotland"
+    },
+    "Lochmaben": {
+      "aliases": [],
+      "lat": 55.1288756,
+      "lng": -3.441277,
+      "nation": "Scotland"
+    },
+    "Lochwinnoch": {
+      "aliases": [],
+      "lat": 55.7871745,
+      "lng": -4.6157219,
+      "nation": "Scotland"
+    },
+    "Lockerbie": {
+      "aliases": [],
+      "lat": 55.1218578,
+      "lng": -3.355237,
+      "nation": "Scotland"
+    },
+    "Locking": {
+      "aliases": [],
+      "lat": 51.333664,
+      "lng": -2.914121,
+      "nation": "England"
+    },
+    "Loggerheads": {
+      "aliases": [],
+      "lat": 52.921889,
+      "lng": -2.3909029,
+      "nation": "England"
+    },
+    "London": {
+      "aliases": [],
+      "lat": 51.507,
+      "lng": -0.128,
+      "nation": "England"
+    },
+    "Londonderry": {
+      "aliases": [],
+      "lat": 54.9978678,
+      "lng": -7.3213056,
+      "nation": "Northern Ireland"
+    },
+    "Long Bennington": {
+      "aliases": [],
+      "lat": 52.989747,
+      "lng": -0.7665004,
+      "nation": "England"
+    },
+    "Long Buckby": {
+      "aliases": [],
+      "lat": 52.3025587,
+      "lng": -1.0806839,
+      "nation": "England"
+    },
+    "Long Eaton": {
+      "aliases": [],
+      "lat": 52.898572,
+      "lng": -1.270813,
+      "nation": "England"
+    },
+    "Long Sutton": {
+      "aliases": [],
+      "lat": 52.776787,
+      "lng": 0.119386,
+      "nation": "England"
+    },
+    "Longford": {
+      "aliases": [],
+      "lat": 52.935699,
+      "lng": -1.676428,
+      "nation": "England"
+    },
+    "Longforgan": {
+      "aliases": [],
+      "lat": 56.4571784,
+      "lng": -3.1199524,
+      "nation": "Scotland"
+    },
+    "Longniddry": {
+      "aliases": [],
+      "lat": 55.9762365,
+      "lng": -2.8886468,
+      "nation": "Scotland"
+    },
+    "Longridge": {
+      "aliases": [],
+      "lat": 53.819781,
+      "lng": -2.600844,
+      "nation": "England"
+    },
+    "Looe": {
+      "aliases": [],
+      "lat": 50.353465,
+      "lng": -4.453949,
+      "nation": "England"
+    },
+    "Lostock Hall": {
+      "aliases": [],
+      "lat": 53.72435,
+      "lng": -2.687001,
+      "nation": "England"
+    },
+    "Loudwater": {
+      "aliases": [],
+      "lat": 51.6056798,
+      "lng": -0.6969376,
+      "nation": "England"
+    },
+    "Loughor": {
+      "aliases": [],
+      "lat": 51.6654032,
+      "lng": -4.0677598,
+      "nation": "Wales"
+    },
+    "Loughton": {
+      "aliases": [],
+      "lat": 51.646706,
+      "lng": 0.05441,
+      "nation": "England"
+    },
+    "Louth": {
+      "aliases": [],
+      "lat": 53.367516,
+      "lng": -0.002238,
+      "nation": "England"
+    },
+    "Lowestoft": {
+      "aliases": [],
+      "lat": 52.476631,
+      "lng": 1.753764,
+      "nation": "England"
+    },
+    "Ludlow": {
+      "aliases": [],
+      "lat": 52.36799,
+      "lng": -2.719311,
+      "nation": "England"
+    },
+    "Lundin Links": {
+      "aliases": [],
+      "lat": 56.2126211,
+      "lng": -2.9544147,
+      "nation": "Scotland"
+    },
+    "Lurgan": {
+      "aliases": [],
+      "lat": 54.460824,
+      "lng": -6.3292491,
+      "nation": "Northern Ireland"
+    },
+    "Luton": {
+      "aliases": [],
+      "lat": 51.879,
+      "lng": -0.417,
+      "nation": "England"
+    },
+    "Lydney": {
+      "aliases": [],
+      "lat": 51.725929,
+      "lng": -2.531349,
+      "nation": "England"
+    },
+    "Lymington": {
+      "aliases": [],
+      "lat": 50.7583753,
+      "lng": -1.5426885,
+      "nation": "England"
+    },
+    "Lympstone": {
+      "aliases": [],
+      "lat": 50.648932,
+      "lng": -3.425723,
+      "nation": "England"
+    },
+    "Mabe Burnthouse": {
+      "aliases": [],
+      "lat": 50.1642721,
+      "lng": -5.1318738,
+      "nation": "England"
+    },
+    "Machynlleth": {
+      "aliases": [],
+      "lat": 52.5905191,
+      "lng": -3.8518104,
+      "nation": "Wales"
+    },
+    "Maddiston": {
+      "aliases": [],
+      "lat": 55.9718953,
+      "lng": -3.700389,
+      "nation": "Scotland"
+    },
+    "Madeley": {
+      "aliases": [],
+      "lat": 52.636249,
+      "lng": -2.450207,
+      "nation": "England"
+    },
+    "Maerdy": {
+      "aliases": [],
+      "lat": 51.674585,
+      "lng": -3.485174,
+      "nation": "Wales"
+    },
+    "Maesteg": {
+      "aliases": [],
+      "lat": 51.6091804,
+      "lng": -3.658015,
+      "nation": "Wales"
+    },
+    "Maghera": {
+      "aliases": [],
+      "lat": 54.8448023,
+      "lng": -6.6718648,
+      "nation": "Northern Ireland"
+    },
+    "Magherafelt": {
+      "aliases": [],
+      "lat": 54.7544757,
+      "lng": -6.6078073,
+      "nation": "Northern Ireland"
+    },
+    "Maidenhead": {
+      "aliases": [],
+      "lat": 51.522743,
+      "lng": -0.719737,
+      "nation": "England"
+    },
+    "Maidstone": {
+      "aliases": [],
+      "lat": 51.272,
+      "lng": 0.522,
+      "nation": "England"
+    },
+    "Malborough": {
+      "aliases": [],
+      "lat": 50.2335829,
+      "lng": -3.8248806,
+      "nation": "England"
+    },
+    "Maltby": {
+      "aliases": [],
+      "lat": 54.513785,
+      "lng": -1.279213,
+      "nation": "England"
+    },
+    "Manchester": {
+      "aliases": [],
+      "lat": 53.483,
+      "lng": -2.244,
+      "nation": "England"
+    },
+    "Marden": {
+      "aliases": [],
+      "lat": 51.176838,
+      "lng": 0.503182,
+      "nation": "England"
+    },
+    "Marford": {
+      "aliases": [],
+      "lat": 53.0911459,
+      "lng": -2.9600738,
+      "nation": "Wales"
+    },
+    "Markfield": {
+      "aliases": [],
+      "lat": 52.6906353,
+      "lng": -1.2858171,
+      "nation": "England"
+    },
+    "Marnhull": {
+      "aliases": [],
+      "lat": 50.96829,
+      "lng": -2.300311,
+      "nation": "England"
+    },
+    "Marshfield": {
+      "aliases": [],
+      "lat": 51.536537,
+      "lng": -3.069358,
+      "nation": "Wales"
+    },
+    "Marston Green": {
+      "aliases": [],
+      "lat": 52.466881,
+      "lng": -1.755095,
+      "nation": "England"
+    },
+    "Mauchline": {
+      "aliases": [],
+      "lat": 55.5159992,
+      "lng": -4.3790696,
+      "nation": "Scotland"
+    },
+    "Maud": {
+      "aliases": [],
+      "lat": 57.521428,
+      "lng": -2.129569,
+      "nation": "Scotland"
+    },
+    "Mayals": {
+      "aliases": [],
+      "lat": 51.5938097,
+      "lng": -4.0099331,
+      "nation": "Wales"
+    },
+    "Maybole": {
+      "aliases": [],
+      "lat": 55.3550738,
+      "lng": -4.6801392,
+      "nation": "Scotland"
+    },
+    "Medstead": {
+      "aliases": [],
+      "lat": 51.129972,
+      "lng": -1.0644445,
+      "nation": "England"
+    },
+    "Medway": {
+      "aliases": [],
+      "lat": 51.393,
+      "lng": 0.539,
+      "nation": "England"
+    },
+    "Meldreth": {
+      "aliases": [],
+      "lat": 52.095421,
+      "lng": 0.008808,
+      "nation": "England"
+    },
+    "Melksham": {
+      "aliases": [],
+      "lat": 51.3759342,
+      "lng": -2.1314633,
+      "nation": "England"
+    },
+    "Meltham": {
+      "aliases": [],
+      "lat": 53.5918594,
+      "lng": -1.8504515,
+      "nation": "England"
+    },
+    "Menai Bridge": {
+      "aliases": [],
+      "lat": 53.2259347,
+      "lng": -4.1631064,
+      "nation": "Wales"
+    },
+    "Mere": {
+      "aliases": [],
+      "lat": 51.0894379,
+      "lng": -2.2684427,
+      "nation": "England"
+    },
+    "Merthyr Tydfil": {
+      "aliases": [],
+      "lat": 51.748,
+      "lng": -3.378,
+      "nation": "Wales"
+    },
+    "Mevagissey": {
+      "aliases": [],
+      "lat": 50.2703522,
+      "lng": -4.7873201,
+      "nation": "England"
+    },
+    "Mid Calder": {
+      "aliases": [],
+      "lat": 55.890345,
+      "lng": -3.482052,
+      "nation": "Scotland"
+    },
+    "Middleton": {
+      "aliases": [],
+      "lat": 53.555,
+      "lng": -2.187,
+      "nation": "England"
+    },
+    "Middleton-in-Teesdale": {
+      "aliases": [],
+      "lat": 54.6239482,
+      "lng": -2.0829263,
+      "nation": "England"
+    },
+    "Midsomer Norton": {
+      "aliases": [],
+      "lat": 51.2865803,
+      "lng": -2.4808115,
+      "nation": "England"
+    },
+    "Milford Haven": {
+      "aliases": [],
+      "lat": 51.7130946,
+      "lng": -5.0359395,
+      "nation": "Wales"
+    },
+    "Milltimber": {
+      "aliases": [],
+      "lat": 57.107519,
+      "lng": -2.233274,
+      "nation": "Scotland"
+    },
+    "Milngavie": {
+      "aliases": [],
+      "lat": 55.9410791,
+      "lng": -4.3178027,
+      "nation": "Scotland"
+    },
+    "Milton Keynes": {
+      "aliases": [],
+      "lat": 52.04,
+      "lng": -0.759,
+      "nation": "England"
+    },
+    "Milton of Campsie": {
+      "aliases": [],
+      "lat": 55.962501,
+      "lng": -4.161718,
+      "nation": "Scotland"
+    },
+    "Minster on Sea": {
+      "aliases": [],
+      "lat": 51.4002361,
+      "lng": 0.7958479,
+      "nation": "England"
+    },
+    "Mintlaw": {
+      "aliases": [],
+      "lat": 57.5233507,
+      "lng": -2.0008451,
+      "nation": "Scotland"
+    },
+    "Miskin": {
+      "aliases": [],
+      "lat": 51.5194352,
+      "lng": -3.375041,
+      "nation": "Wales"
+    },
+    "Moffat": {
+      "aliases": [],
+      "lat": 55.3332407,
+      "lng": -3.444357,
+      "nation": "Scotland"
+    },
+    "Moira": {
+      "aliases": [],
+      "lat": 54.4792925,
+      "lng": -6.2301652,
+      "nation": "Northern Ireland"
+    },
+    "Mold": {
+      "aliases": [],
+      "lat": 53.1666274,
+      "lng": -3.1414228,
+      "nation": "Wales"
+    },
+    "Monifieth": {
+      "aliases": [],
+      "lat": 56.481796,
+      "lng": -2.8180074,
+      "nation": "Scotland"
+    },
+    "Monkton": {
+      "aliases": [],
+      "lat": 55.516418,
+      "lng": -4.602795,
+      "nation": "Scotland"
+    },
+    "Monmouth": {
+      "aliases": [],
+      "lat": 51.8098882,
+      "lng": -2.7160441,
+      "nation": "Wales"
+    },
+    "Moodiesburn": {
+      "aliases": [],
+      "lat": 55.9136347,
+      "lng": -4.0844767,
+      "nation": "Scotland"
+    },
+    "Moreton": {
+      "aliases": [],
+      "lat": 50.7006,
+      "lng": -2.291684,
+      "nation": "England"
+    },
+    "Morley": {
+      "aliases": [],
+      "lat": 53.744075,
+      "lng": -1.59886,
+      "nation": "England"
+    },
+    "Morpeth": {
+      "aliases": [],
+      "lat": 55.167544,
+      "lng": -1.690744,
+      "nation": "England"
+    },
+    "Morriston": {
+      "aliases": [],
+      "lat": 51.6667495,
+      "lng": -3.9243273,
+      "nation": "Wales"
+    },
+    "Motherwell": {
+      "aliases": [],
+      "lat": 55.7893512,
+      "lng": -3.9904173,
+      "nation": "Scotland"
+    },
+    "Moulton": {
+      "aliases": [],
+      "lat": 54.429461,
+      "lng": -1.638646,
+      "nation": "England"
+    },
+    "Mountain Ash": {
+      "aliases": [],
+      "lat": 51.6821033,
+      "lng": -3.3764418,
+      "nation": "Wales"
+    },
+    "Moy": {
+      "aliases": [],
+      "lat": 54.4467386,
+      "lng": -6.6911155,
+      "nation": "Northern Ireland"
+    },
+    "Much Hoole": {
+      "aliases": [],
+      "lat": 53.69695,
+      "lng": -2.795015,
+      "nation": "England"
+    },
+    "Muir of Ord": {
+      "aliases": [],
+      "lat": 57.5176698,
+      "lng": -4.4583927,
+      "nation": "Scotland"
+    },
+    "Muirhead": {
+      "aliases": [],
+      "lat": 56.4973583,
+      "lng": -3.0678975,
+      "nation": "Scotland"
+    },
+    "Muirkirk": {
+      "aliases": [],
+      "lat": 55.522275,
+      "lng": -4.06598,
+      "nation": "Scotland"
+    },
+    "Mullion": {
+      "aliases": [],
+      "lat": 50.006996,
+      "lng": -5.242131,
+      "nation": "England"
+    },
+    "Musselburgh": {
+      "aliases": [],
+      "lat": 55.94212,
+      "lng": -3.053852,
+      "nation": "Scotland"
+    },
+    "Mynydd Isa": {
+      "aliases": [],
+      "lat": 53.167727,
+      "lng": -3.112172,
+      "nation": "Wales"
+    },
+    "Nairn": {
+      "aliases": [],
+      "lat": 57.5850133,
+      "lng": -3.8681503,
+      "nation": "Scotland"
+    },
+    "Narberth": {
+      "aliases": [],
+      "lat": 51.7979622,
+      "lng": -4.7427383,
+      "nation": "Wales"
+    },
+    "Narborough": {
+      "aliases": [],
+      "lat": 52.5722525,
+      "lng": -1.2065723,
+      "nation": "England"
+    },
+    "Nazeing": {
+      "aliases": [],
+      "lat": 51.7399272,
+      "lng": 0.0470351,
+      "nation": "England"
+    },
+    "Neath": {
+      "aliases": [],
+      "lat": 51.6628422,
+      "lng": -3.8039117,
+      "nation": "Wales"
+    },
+    "Neilston": {
+      "aliases": [],
+      "lat": 55.782815,
+      "lng": -4.427202,
+      "nation": "Scotland"
+    },
+    "Nelson": {
+      "aliases": [],
+      "lat": 51.6512503,
+      "lng": -3.2827132,
+      "nation": "Wales"
+    },
+    "Netherton": {
+      "aliases": [],
+      "lat": 52.073062,
+      "lng": -2.013984,
+      "nation": "England"
+    },
+    "New Addington": {
+      "aliases": [],
+      "lat": 51.342541,
+      "lng": -0.016292,
+      "nation": "England"
+    },
+    "New Cumnock": {
+      "aliases": [],
+      "lat": 55.4022358,
+      "lng": -4.1833546,
+      "nation": "Scotland"
+    },
+    "New Ollerton": {
+      "aliases": [],
+      "lat": 53.204241,
+      "lng": -1.00676,
+      "nation": "England"
+    },
+    "New Quay": {
+      "aliases": [],
+      "lat": 52.214003,
+      "lng": -4.360321,
+      "nation": "Wales"
+    },
+    "Newbridge": {
+      "aliases": [],
+      "lat": 51.6653714,
+      "lng": -3.1442293,
+      "nation": "Wales"
+    },
+    "Newbuildings": {
+      "aliases": [],
+      "lat": 54.959093,
+      "lng": -7.3587103,
+      "nation": "Northern Ireland"
+    },
+    "Newburgh": {
+      "aliases": [],
+      "lat": 57.319409,
+      "lng": -2.003677,
+      "nation": "Scotland"
+    },
+    "Newbury": {
+      "aliases": [],
+      "lat": 51.402024,
+      "lng": -1.324221,
+      "nation": "England"
+    },
+    "Newcastle": {
+      "aliases": [],
+      "lat": 54.978,
+      "lng": -1.618,
+      "nation": "England"
+    },
+    "Newcastle Emlyn": {
+      "aliases": [],
+      "lat": 52.039014,
+      "lng": -4.468914,
+      "nation": "Wales"
+    },
+    "Newhall": {
+      "aliases": [],
+      "lat": 53.0014767,
+      "lng": -2.5631269,
+      "nation": "England"
+    },
+    "Newhouse": {
+      "aliases": [],
+      "lat": 55.831825,
+      "lng": -3.928102,
+      "nation": "Scotland"
+    },
+    "Newick": {
+      "aliases": [],
+      "lat": 50.972662,
+      "lng": 0.022715,
+      "nation": "England"
+    },
+    "Newmachar": {
+      "aliases": [],
+      "lat": 57.2666569,
+      "lng": -2.1912473,
+      "nation": "Scotland"
+    },
+    "Newmains": {
+      "aliases": [],
+      "lat": 55.7828371,
+      "lng": -3.8790785,
+      "nation": "Scotland"
+    },
+    "Newport": {
+      "aliases": [],
+      "lat": 51.589,
+      "lng": -2.998,
+      "nation": "Wales"
+    },
+    "Newport Pagnell": {
+      "aliases": [],
+      "lat": 52.0863864,
+      "lng": -0.7237341,
+      "nation": "England"
+    },
+    "Newport-on-Tay": {
+      "aliases": [],
+      "lat": 56.4397014,
+      "lng": -2.9416726,
+      "nation": "Scotland"
+    },
+    "Newry": {
+      "aliases": [],
+      "lat": 54.176,
+      "lng": -6.337,
+      "nation": "Northern Ireland"
+    },
+    "Newton Mearns": {
+      "aliases": [],
+      "lat": 55.7726726,
+      "lng": -4.3342366,
+      "nation": "Scotland"
+    },
+    "Newton Stewart": {
+      "aliases": [],
+      "lat": 54.959045,
+      "lng": -4.4836737,
+      "nation": "Scotland"
+    },
+    "Newtonhill": {
+      "aliases": [],
+      "lat": 57.0321018,
+      "lng": -2.1503377,
+      "nation": "Scotland"
+    },
+    "Newtown": {
+      "aliases": [],
+      "lat": 52.5135785,
+      "lng": -3.314371,
+      "nation": "Wales"
+    },
+    "Newtownabbey": {
+      "aliases": [],
+      "lat": 54.66,
+      "lng": -5.906,
+      "nation": "Northern Ireland"
+    },
+    "Ninfield": {
+      "aliases": [],
+      "lat": 50.876462,
+      "lng": 0.426852,
+      "nation": "England"
+    },
+    "Niwbwrch": {
+      "aliases": [],
+      "lat": 53.165651,
+      "lng": -4.3582469,
+      "nation": "Wales"
+    },
+    "North Cornelly": {
+      "aliases": [],
+      "lat": 51.5214781,
+      "lng": -3.7026884,
+      "nation": "Wales"
+    },
+    "North Kessock": {
+      "aliases": [],
+      "lat": 57.5012849,
+      "lng": -4.2443238,
+      "nation": "Scotland"
+    },
+    "North Wingfield": {
+      "aliases": [],
+      "lat": 53.1806848,
+      "lng": -1.387761,
+      "nation": "England"
+    },
+    "Northampton": {
+      "aliases": [],
+      "lat": 52.241,
+      "lng": -0.902,
+      "nation": "England"
+    },
+    "Norton": {
+      "aliases": [],
+      "lat": 54.127981,
+      "lng": -0.785037,
+      "nation": "England"
+    },
+    "Norwich": {
+      "aliases": [],
+      "lat": 52.629,
+      "lng": 1.299,
+      "nation": "England"
+    },
+    "Nottingham": {
+      "aliases": [],
+      "lat": 52.954,
+      "lng": -1.158,
+      "nation": "England"
+    },
+    "Nuneaton": {
+      "aliases": [],
+      "lat": 52.5227973,
+      "lng": -1.4679663,
+      "nation": "England"
+    },
+    "Nuthall": {
+      "aliases": [],
+      "lat": 52.995651,
+      "lng": -1.233024,
+      "nation": "England"
+    },
+    "Oakham": {
+      "aliases": [],
+      "lat": 52.66666,
+      "lng": -0.749968,
+      "nation": "England"
+    },
+    "Oban": {
+      "aliases": [],
+      "lat": 56.4120166,
+      "lng": -5.4723731,
+      "nation": "Scotland"
+    },
+    "Ochiltree": {
+      "aliases": [],
+      "lat": 55.4615754,
+      "lng": -4.36263,
+      "nation": "Scotland"
+    },
+    "Old Colwyn": {
+      "aliases": [],
+      "lat": 53.2885433,
+      "lng": -3.7015251,
+      "nation": "Wales"
+    },
+    "Oldbury": {
+      "aliases": [],
+      "lat": 52.5039074,
+      "lng": -2.0163917,
+      "nation": "England"
+    },
+    "Oldham": {
+      "aliases": [],
+      "lat": 53.541,
+      "lng": -2.117,
+      "nation": "England"
+    },
+    "Oldmeldrum": {
+      "aliases": [],
+      "lat": 57.3350184,
+      "lng": -2.319738,
+      "nation": "Scotland"
+    },
+    "Omagh": {
+      "aliases": [],
+      "lat": 54.6,
+      "lng": -7.3,
+      "nation": "Northern Ireland"
+    },
+    "Orpington": {
+      "aliases": [],
+      "lat": 51.3796373,
+      "lng": 0.1053732,
+      "nation": "England"
+    },
+    "Oswaldtwistle": {
+      "aliases": [],
+      "lat": 53.739821,
+      "lng": -2.398805,
+      "nation": "England"
+    },
+    "Oswestry": {
+      "aliases": [],
+      "lat": 52.8603096,
+      "lng": -3.0548201,
+      "nation": "England"
+    },
+    "Otley": {
+      "aliases": [],
+      "lat": 53.905508,
+      "lng": -1.693887,
+      "nation": "England"
+    },
+    "Over": {
+      "aliases": [],
+      "lat": 52.3152187,
+      "lng": 0.0170499,
+      "nation": "England"
+    },
+    "Oxford": {
+      "aliases": [],
+      "lat": 51.752,
+      "lng": -1.258,
+      "nation": "England"
+    },
+    "Oxted": {
+      "aliases": [],
+      "lat": 51.256651,
+      "lng": -0.004198,
+      "nation": "England"
+    },
+    "Padiham": {
+      "aliases": [],
+      "lat": 53.8011227,
+      "lng": -2.3200869,
+      "nation": "England"
+    },
+    "Padstow": {
+      "aliases": [],
+      "lat": 50.5412387,
+      "lng": -4.9389149,
+      "nation": "England"
+    },
+    "Paignton": {
+      "aliases": [],
+      "lat": 50.4377018,
+      "lng": -3.5632704,
+      "nation": "England"
+    },
+    "Paisley": {
+      "aliases": [],
+      "lat": 55.846,
+      "lng": -4.424,
+      "nation": "Scotland"
+    },
+    "Patchway": {
+      "aliases": [],
+      "lat": 51.535263,
+      "lng": -2.579065,
+      "nation": "England"
+    },
+    "Patna": {
+      "aliases": [],
+      "lat": 55.3637553,
+      "lng": -4.504322,
+      "nation": "Scotland"
+    },
+    "Peebles": {
+      "aliases": [],
+      "lat": 55.651755,
+      "lng": -3.188546,
+      "nation": "Scotland"
+    },
+    "Pembrey": {
+      "aliases": [],
+      "lat": 51.687901,
+      "lng": -4.279667,
+      "nation": "Wales"
+    },
+    "Pembroke Dock": {
+      "aliases": [],
+      "lat": 51.6937732,
+      "lng": -4.9411056,
+      "nation": "Wales"
+    },
+    "Pen-y-fai": {
+      "aliases": [],
+      "lat": 51.525366,
+      "lng": -3.595837,
+      "nation": "Wales"
+    },
+    "Penarth": {
+      "aliases": [],
+      "lat": 51.4357312,
+      "lng": -3.175096,
+      "nation": "Wales"
+    },
+    "Pencader": {
+      "aliases": [],
+      "lat": 52.0001337,
+      "lng": -4.2685111,
+      "nation": "Wales"
+    },
+    "Pencaitland": {
+      "aliases": [],
+      "lat": 55.911207,
+      "lng": -2.891473,
+      "nation": "Scotland"
+    },
+    "Pencoed": {
+      "aliases": [],
+      "lat": 51.5256116,
+      "lng": -3.506453,
+      "nation": "Wales"
+    },
+    "Penkridge": {
+      "aliases": [],
+      "lat": 52.724663,
+      "lng": -2.112756,
+      "nation": "England"
+    },
+    "Penlan": {
+      "aliases": [],
+      "lat": 51.6476785,
+      "lng": -3.9633315,
+      "nation": "Wales"
+    },
+    "Penllergaer": {
+      "aliases": [],
+      "lat": 51.6712005,
+      "lng": -4.0084399,
+      "nation": "Wales"
+    },
+    "Penmaenmawr": {
+      "aliases": [],
+      "lat": 53.2681395,
+      "lng": -3.9200268,
+      "nation": "Wales"
+    },
+    "Penpedairheol": {
+      "aliases": [],
+      "lat": 51.728492,
+      "lng": -2.963753,
+      "nation": "Wales"
+    },
+    "Penrhyndeudraeth": {
+      "aliases": [],
+      "lat": 52.92878,
+      "lng": -4.064506,
+      "nation": "Wales"
+    },
+    "Pentraeth": {
+      "aliases": [],
+      "lat": 53.2816608,
+      "lng": -4.2145365,
+      "nation": "Wales"
+    },
+    "Penycae": {
+      "aliases": [],
+      "lat": 53.000922,
+      "lng": -3.076666,
+      "nation": "Wales"
+    },
+    "Penyffordd": {
+      "aliases": [],
+      "lat": 53.1454462,
+      "lng": -3.0477811,
+      "nation": "Wales"
+    },
+    "Penygroes": {
+      "aliases": [],
+      "lat": 53.0540164,
+      "lng": -4.2834874,
+      "nation": "Wales"
+    },
+    "Perth": {
+      "aliases": [],
+      "lat": 56.395,
+      "lng": -3.437,
+      "nation": "Scotland"
+    },
+    "Peterborough": {
+      "aliases": [],
+      "lat": 52.573,
+      "lng": -0.24,
+      "nation": "England"
+    },
+    "Peterculter": {
+      "aliases": [],
+      "lat": 57.0961144,
+      "lng": -2.2674497,
+      "nation": "Scotland"
+    },
+    "Peterhead": {
+      "aliases": [],
+      "lat": 57.5052909,
+      "lng": -1.7813194,
+      "nation": "Scotland"
+    },
+    "Pilning": {
+      "aliases": [],
+      "lat": 51.556377,
+      "lng": -2.6267285,
+      "nation": "England"
+    },
+    "Pinner": {
+      "aliases": [],
+      "lat": 51.596871,
+      "lng": -0.377014,
+      "nation": "England"
+    },
+    "Pirbright": {
+      "aliases": [],
+      "lat": 51.292727,
+      "lng": -0.665989,
+      "nation": "England"
+    },
+    "Pitlochry": {
+      "aliases": [],
+      "lat": 56.701969,
+      "lng": -3.7306846,
+      "nation": "Scotland"
+    },
+    "Plymouth": {
+      "aliases": [],
+      "lat": 50.376,
+      "lng": -4.143,
+      "nation": "England"
+    },
+    "Pocklington": {
+      "aliases": [],
+      "lat": 53.931568,
+      "lng": -0.776104,
+      "nation": "England"
+    },
+    "Polbeth": {
+      "aliases": [],
+      "lat": 55.859456,
+      "lng": -3.553801,
+      "nation": "Scotland"
+    },
+    "Polmont": {
+      "aliases": [],
+      "lat": 55.9844795,
+      "lng": -3.7144735,
+      "nation": "Scotland"
+    },
+    "Pontardawe": {
+      "aliases": [],
+      "lat": 51.721986,
+      "lng": -3.848878,
+      "nation": "Wales"
+    },
+    "Pontllanfraith": {
+      "aliases": [],
+      "lat": 51.6538727,
+      "lng": -3.1941208,
+      "nation": "Wales"
+    },
+    "Pontlliw": {
+      "aliases": [],
+      "lat": 51.6902162,
+      "lng": -4.0126017,
+      "nation": "Wales"
+    },
+    "Pontprennau": {
+      "aliases": [],
+      "lat": 51.5364675,
+      "lng": -3.1407192,
+      "nation": "Wales"
+    },
+    "Pontyates": {
+      "aliases": [],
+      "lat": 51.754391,
+      "lng": -4.218656,
+      "nation": "Wales"
+    },
+    "Pontyberem": {
+      "aliases": [],
+      "lat": 51.7782395,
+      "lng": -4.1748134,
+      "nation": "Wales"
+    },
+    "Pontypool": {
+      "aliases": [],
+      "lat": 51.7016878,
+      "lng": -3.0405374,
+      "nation": "Wales"
+    },
+    "Pontypridd": {
+      "aliases": [],
+      "lat": 51.602,
+      "lng": -3.342,
+      "nation": "Wales"
+    },
+    "Poole": {
+      "aliases": [],
+      "lat": 50.715,
+      "lng": -1.987,
+      "nation": "England"
+    },
+    "Port Glasgow": {
+      "aliases": [],
+      "lat": 55.934286,
+      "lng": -4.689854,
+      "nation": "Scotland"
+    },
+    "Port Seton": {
+      "aliases": [],
+      "lat": 55.9719375,
+      "lng": -2.9515817,
+      "nation": "Scotland"
+    },
+    "Port Talbot": {
+      "aliases": [],
+      "lat": 51.5952353,
+      "lng": -3.7824148,
+      "nation": "Wales"
+    },
+    "Port Tennant": {
+      "aliases": [],
+      "lat": 51.6222941,
+      "lng": -3.9164987,
+      "nation": "Wales"
+    },
+    "Portglenone": {
+      "aliases": [],
+      "lat": 54.8733857,
+      "lng": -6.4751493,
+      "nation": "Northern Ireland"
+    },
+    "Porth": {
+      "aliases": [],
+      "lat": 51.6125883,
+      "lng": -3.4085863,
+      "nation": "Wales"
+    },
+    "Porthcawl": {
+      "aliases": [],
+      "lat": 51.479556,
+      "lng": -3.70407,
+      "nation": "Wales"
+    },
+    "Porthmadog": {
+      "aliases": [],
+      "lat": 52.9256029,
+      "lng": -4.129694,
+      "nation": "Wales"
+    },
+    "Portlethen": {
+      "aliases": [],
+      "lat": 57.061466,
+      "lng": -2.129707,
+      "nation": "Scotland"
+    },
+    "Portree": {
+      "aliases": [],
+      "lat": 57.4130532,
+      "lng": -6.194446,
+      "nation": "Scotland"
+    },
+    "Portskewett": {
+      "aliases": [],
+      "lat": 51.5904472,
+      "lng": -2.7262919,
+      "nation": "Wales"
+    },
+    "Portsmouth": {
+      "aliases": [],
+      "lat": 50.806,
+      "lng": -1.087,
+      "nation": "England"
+    },
+    "Portstewart": {
+      "aliases": [],
+      "lat": 55.1829096,
+      "lng": -6.7187008,
+      "nation": "Northern Ireland"
+    },
+    "Potters Bar": {
+      "aliases": [],
+      "lat": 51.695889,
+      "lng": -0.184893,
+      "nation": "England"
+    },
+    "Potton": {
+      "aliases": [],
+      "lat": 52.1305155,
+      "lng": -0.2039216,
+      "nation": "England"
+    },
+    "Prees": {
+      "aliases": [],
+      "lat": 52.897032,
+      "lng": -2.666002,
+      "nation": "England"
+    },
+    "Prestatyn": {
+      "aliases": [],
+      "lat": 53.3345598,
+      "lng": -3.4029487,
+      "nation": "Wales"
+    },
+    "Preston": {
+      "aliases": [],
+      "lat": 53.763,
+      "lng": -2.703,
+      "nation": "England"
+    },
+    "Prestonpans": {
+      "aliases": [],
+      "lat": 55.959395,
+      "lng": -2.98424,
+      "nation": "Scotland"
+    },
+    "Prudhoe": {
+      "aliases": [],
+      "lat": 54.9544857,
+      "lng": -1.8646841,
+      "nation": "England"
+    },
+    "Pudsey": {
+      "aliases": [],
+      "lat": 53.797,
+      "lng": -1.662,
+      "nation": "England"
+    },
+    "Purleigh": {
+      "aliases": [],
+      "lat": 51.6724344,
+      "lng": 0.695894,
+      "nation": "England"
+    },
+    "Quedgeley": {
+      "aliases": [],
+      "lat": 51.8274128,
+      "lng": -2.2773034,
+      "nation": "England"
+    },
+    "Quinton": {
+      "aliases": [],
+      "lat": 52.1823153,
+      "lng": -0.8646611,
+      "nation": "England"
+    },
+    "Radlett": {
+      "aliases": [],
+      "lat": 51.684423,
+      "lng": -0.317677,
+      "nation": "England"
+    },
+    "Radyr": {
+      "aliases": [],
+      "lat": 51.5165903,
+      "lng": -3.2490261,
+      "nation": "Wales"
+    },
+    "Raglan": {
+      "aliases": [],
+      "lat": 51.765054,
+      "lng": -2.85406,
+      "nation": "Wales"
+    },
+    "Rainham": {
+      "aliases": [],
+      "lat": 51.3633052,
+      "lng": 0.6083609,
+      "nation": "England"
+    },
+    "Ramsgate": {
+      "aliases": [],
+      "lat": 51.333473,
+      "lng": 1.419648,
+      "nation": "England"
+    },
+    "Randalstown": {
+      "aliases": [],
+      "lat": 54.7498918,
+      "lng": -6.3197638,
+      "nation": "Northern Ireland"
+    },
+    "Rassau": {
+      "aliases": [],
+      "lat": 51.7993404,
+      "lng": -3.2216353,
+      "nation": "Wales"
+    },
+    "Rathfriland": {
+      "aliases": [],
+      "lat": 54.2381785,
+      "lng": -6.1603136,
+      "nation": "Northern Ireland"
+    },
+    "Reading": {
+      "aliases": [],
+      "lat": 51.455,
+      "lng": -0.978,
+      "nation": "England"
+    },
+    "Renton": {
+      "aliases": [],
+      "lat": 55.9703118,
+      "lng": -4.5863543,
+      "nation": "Scotland"
+    },
+    "Resolven": {
+      "aliases": [],
+      "lat": 51.7110541,
+      "lng": -3.6955499,
+      "nation": "Wales"
+    },
+    "Rhayader": {
+      "aliases": [],
+      "lat": 52.2995285,
+      "lng": -3.5099938,
+      "nation": "Wales"
+    },
+    "Rhoose": {
+      "aliases": [],
+      "lat": 51.3871547,
+      "lng": -3.3494457,
+      "nation": "Wales"
+    },
+    "Rhos": {
+      "aliases": [],
+      "lat": 53.0127346,
+      "lng": -3.059416,
+      "nation": "Wales"
+    },
+    "Rhos on Sea": {
+      "aliases": [],
+      "lat": 53.3129676,
+      "lng": -3.7439749,
+      "nation": "Wales"
+    },
+    "Rhosllanerchrugog": {
+      "aliases": [],
+      "lat": 53.0127346,
+      "lng": -3.059416,
+      "nation": "Wales"
+    },
+    "Rhosneigr": {
+      "aliases": [],
+      "lat": 53.2262292,
+      "lng": -4.5203608,
+      "nation": "Wales"
+    },
+    "Rhostyllen": {
+      "aliases": [],
+      "lat": 53.0316266,
+      "lng": -3.0251932,
+      "nation": "Wales"
+    },
+    "Rhuddlan": {
+      "aliases": [],
+      "lat": 53.2914745,
+      "lng": -3.4655568,
+      "nation": "Wales"
+    },
+    "Rhyl": {
+      "aliases": [],
+      "lat": 53.3207425,
+      "lng": -3.4907258,
+      "nation": "Wales"
+    },
+    "Riddings": {
+      "aliases": [],
+      "lat": 53.0673874,
+      "lng": -1.3672383,
+      "nation": "England"
+    },
+    "Ringwood": {
+      "aliases": [],
+      "lat": 50.829262,
+      "lng": -1.771128,
+      "nation": "England"
+    },
+    "Ripponden": {
+      "aliases": [],
+      "lat": 53.673013,
+      "lng": -1.942588,
+      "nation": "England"
+    },
+    "Risca": {
+      "aliases": [],
+      "lat": 51.611954,
+      "lng": -3.096482,
+      "nation": "Wales"
+    },
+    "Rivington": {
+      "aliases": [],
+      "lat": 53.6220628,
+      "lng": -2.5454159,
+      "nation": "England"
+    },
+    "Rochdale": {
+      "aliases": [],
+      "lat": 53.616,
+      "lng": -2.155,
+      "nation": "England"
+    },
+    "Rogerstone": {
+      "aliases": [],
+      "lat": 51.591707,
+      "lng": -3.0546846,
+      "nation": "Wales"
+    },
+    "Romsey": {
+      "aliases": [],
+      "lat": 50.98914,
+      "lng": -1.499904,
+      "nation": "England"
+    },
+    "Roslin": {
+      "aliases": [],
+      "lat": 55.8573199,
+      "lng": -3.1645521,
+      "nation": "Scotland"
+    },
+    "Rosyth": {
+      "aliases": [],
+      "lat": 56.038871,
+      "lng": -3.420654,
+      "nation": "Scotland"
+    },
+    "Rotherham": {
+      "aliases": [],
+      "lat": 53.43,
+      "lng": -1.357,
+      "nation": "England"
+    },
+    "Rothesay": {
+      "aliases": [],
+      "lat": 55.837308,
+      "lng": -5.052244,
+      "nation": "Scotland"
+    },
+    "Rothwell": {
+      "aliases": [],
+      "lat": 52.4225111,
+      "lng": -0.7987301,
+      "nation": "England"
+    },
+    "Rowde": {
+      "aliases": [],
+      "lat": 51.364057,
+      "lng": -2.032235,
+      "nation": "England"
+    },
+    "Rowlands Gill": {
+      "aliases": [],
+      "lat": 54.9220987,
+      "lng": -1.7503658,
+      "nation": "England"
+    },
+    "Royal Wootton Bassett": {
+      "aliases": [],
+      "lat": 51.5417946,
+      "lng": -1.9047369,
+      "nation": "England"
+    },
+    "Ruabon": {
+      "aliases": [],
+      "lat": 52.987131,
+      "lng": -3.041497,
+      "nation": "Wales"
+    },
+    "Rubery": {
+      "aliases": [],
+      "lat": 52.3926619,
+      "lng": -2.0166846,
+      "nation": "England"
+    },
+    "Rugby": {
+      "aliases": [],
+      "lat": 52.372668,
+      "lng": -1.262004,
+      "nation": "England"
+    },
+    "Rumney": {
+      "aliases": [],
+      "lat": 51.5077197,
+      "lng": -3.1280845,
+      "nation": "Wales"
+    },
+    "Rushden": {
+      "aliases": [],
+      "lat": 52.291157,
+      "lng": -0.598818,
+      "nation": "England"
+    },
+    "Ruskington": {
+      "aliases": [],
+      "lat": 53.0413872,
+      "lng": -0.3804741,
+      "nation": "England"
+    },
+    "Rutherglen": {
+      "aliases": [],
+      "lat": 55.828432,
+      "lng": -4.21344,
+      "nation": "Scotland"
+    },
+    "Ruthin": {
+      "aliases": [],
+      "lat": 53.1115513,
+      "lng": -3.3052405,
+      "nation": "Wales"
+    },
+    "Sacriston": {
+      "aliases": [],
+      "lat": 54.818461,
+      "lng": -1.627859,
+      "nation": "England"
+    },
+    "Saint Andrews": {
+      "aliases": [],
+      "lat": 56.3403678,
+      "lng": -2.795044,
+      "nation": "Scotland"
+    },
+    "Saint Athan": {
+      "aliases": [],
+      "lat": 51.40436,
+      "lng": -3.4323332,
+      "nation": "Wales"
+    },
+    "Saint Austell": {
+      "aliases": [],
+      "lat": 51.42604,
+      "lng": -2.745625,
+      "nation": "England"
+    },
+    "Saint Boswells": {
+      "aliases": [
+        "St Boswells"
+      ],
+      "lat": 55.571251,
+      "lng": -2.643144,
+      "nation": "Scotland"
+    },
+    "Saint Clears": {
+      "aliases": [
+        "St Clears"
+      ],
+      "lat": 51.820656,
+      "lng": -4.494696,
+      "nation": "Wales"
+    },
+    "Saint Davids": {
+      "aliases": [],
+      "lat": 51.8820299,
+      "lng": -5.2684294,
+      "nation": "Wales"
+    },
+    "Saint Day": {
+      "aliases": [],
+      "lat": 52.5958595,
+      "lng": -1.0824503,
+      "nation": "England"
+    },
+    "Saint George's": {
+      "aliases": [],
+      "lat": 51.879478,
+      "lng": 0.91018,
+      "nation": "England"
+    },
+    "Saint Leonards": {
+      "aliases": [],
+      "lat": 53.8944971,
+      "lng": -2.3296934,
+      "nation": "England"
+    },
+    "Saint Neots": {
+      "aliases": [],
+      "lat": 52.22758,
+      "lng": -0.270379,
+      "nation": "England"
+    },
+    "Saintfield": {
+      "aliases": [],
+      "lat": 54.4603955,
+      "lng": -5.8325813,
+      "nation": "Northern Ireland"
+    },
+    "Salcombe": {
+      "aliases": [],
+      "lat": 50.2388158,
+      "lng": -3.7726121,
+      "nation": "England"
+    },
+    "Salisbury": {
+      "aliases": [],
+      "lat": 51.069,
+      "lng": -1.795,
+      "nation": "England"
+    },
+    "Saltburn-by-the-Sea": {
+      "aliases": [],
+      "lat": 54.584677,
+      "lng": -0.974092,
+      "nation": "England"
+    },
+    "Saltcoats": {
+      "aliases": [],
+      "lat": 55.6332429,
+      "lng": -4.7887547,
+      "nation": "Scotland"
+    },
+    "Saltford": {
+      "aliases": [],
+      "lat": 51.4017898,
+      "lng": -2.4589813,
+      "nation": "England"
+    },
+    "Saltney Ferry": {
+      "aliases": [],
+      "lat": 53.1804457,
+      "lng": -2.9459909,
+      "nation": "Wales"
+    },
+    "Sandbank": {
+      "aliases": [],
+      "lat": 55.9809199,
+      "lng": -4.9478478,
+      "nation": "Scotland"
+    },
+    "Sandhurst": {
+      "aliases": [],
+      "lat": 51.3502991,
+      "lng": -0.7872655,
+      "nation": "England"
+    },
+    "Sandwich": {
+      "aliases": [],
+      "lat": 51.275253,
+      "lng": 1.340831,
+      "nation": "England"
+    },
+    "Sanquhar": {
+      "aliases": [],
+      "lat": 55.367686,
+      "lng": -3.923677,
+      "nation": "Scotland"
+    },
+    "Sarratt": {
+      "aliases": [],
+      "lat": 51.681237,
+      "lng": -0.488619,
+      "nation": "England"
+    },
+    "Sauchie": {
+      "aliases": [],
+      "lat": 56.1279145,
+      "lng": -3.7809179,
+      "nation": "Scotland"
+    },
+    "Saundersfoot": {
+      "aliases": [],
+      "lat": 51.710887,
+      "lng": -4.699798,
+      "nation": "Wales"
+    },
+    "Scarning": {
+      "aliases": [],
+      "lat": 52.671002,
+      "lng": 0.888898,
+      "nation": "England"
+    },
+    "Scholes": {
+      "aliases": [],
+      "lat": 53.456001,
+      "lng": -1.414626,
+      "nation": "England"
+    },
+    "Scone": {
+      "aliases": [],
+      "lat": 56.420478,
+      "lng": -3.39916,
+      "nation": "Scotland"
+    },
+    "Scunthorpe": {
+      "aliases": [],
+      "lat": 53.588,
+      "lng": -0.651,
+      "nation": "England"
+    },
+    "Sealand": {
+      "aliases": [],
+      "lat": 53.2144555,
+      "lng": -2.9956689,
+      "nation": "Wales"
+    },
+    "Seasalter": {
+      "aliases": [],
+      "lat": 51.34822,
+      "lng": 1.005063,
+      "nation": "England"
+    },
+    "Seaton Delaval": {
+      "aliases": [],
+      "lat": 55.074728,
+      "lng": -1.538377,
+      "nation": "England"
+    },
+    "Sedbergh": {
+      "aliases": [],
+      "lat": 54.346007,
+      "lng": -2.483718,
+      "nation": "England"
+    },
+    "Selkirk": {
+      "aliases": [],
+      "lat": 55.5470714,
+      "lng": -2.8415411,
+      "nation": "Scotland"
+    },
+    "Selston": {
+      "aliases": [],
+      "lat": 53.0699495,
+      "lng": -1.3039614,
+      "nation": "England"
+    },
+    "Senghenydd": {
+      "aliases": [],
+      "lat": 51.6094104,
+      "lng": -3.2762115,
+      "nation": "Wales"
+    },
+    "Shanklin": {
+      "aliases": [],
+      "lat": 50.6288132,
+      "lng": -1.1779031,
+      "nation": "England"
+    },
+    "Shavington": {
+      "aliases": [],
+      "lat": 53.0635213,
+      "lng": -2.4480785,
+      "nation": "England"
+    },
+    "Sheffield": {
+      "aliases": [],
+      "lat": 53.383,
+      "lng": -1.468,
+      "nation": "England"
+    },
+    "Shenley": {
+      "aliases": [],
+      "lat": 51.6922678,
+      "lng": -0.2812672,
+      "nation": "England"
+    },
+    "Sherborne Saint John": {
+      "aliases": [],
+      "lat": 51.295128,
+      "lng": -1.105845,
+      "nation": "England"
+    },
+    "Sheringham": {
+      "aliases": [],
+      "lat": 52.9438831,
+      "lng": 1.21262,
+      "nation": "England"
+    },
+    "Shirebrook": {
+      "aliases": [],
+      "lat": 53.206304,
+      "lng": -1.220532,
+      "nation": "England"
+    },
+    "Shoreham-by-Sea": {
+      "aliases": [],
+      "lat": 50.8322307,
+      "lng": -0.2746717,
+      "nation": "England"
+    },
+    "Shotts": {
+      "aliases": [],
+      "lat": 55.819669,
+      "lng": -3.807323,
+      "nation": "Scotland"
+    },
+    "Shrewsbury": {
+      "aliases": [],
+      "lat": 52.708,
+      "lng": -2.754,
+      "nation": "England"
+    },
+    "Sidcup": {
+      "aliases": [],
+      "lat": 51.4264002,
+      "lng": 0.101044,
+      "nation": "England"
+    },
+    "Silverdale": {
+      "aliases": [],
+      "lat": 54.169343,
+      "lng": -2.803798,
+      "nation": "England"
+    },
+    "Skelmersdale": {
+      "aliases": [],
+      "lat": 53.5502169,
+      "lng": -2.7750747,
+      "nation": "England"
+    },
+    "Sketty": {
+      "aliases": [],
+      "lat": 51.6182045,
+      "lng": -3.986351,
+      "nation": "Wales"
+    },
+    "Skewen": {
+      "aliases": [],
+      "lat": 51.6570639,
+      "lng": -3.8469047,
+      "nation": "Wales"
+    },
+    "Slough": {
+      "aliases": [],
+      "lat": 51.511,
+      "lng": -0.595,
+      "nation": "England"
+    },
+    "Smethwick": {
+      "aliases": [],
+      "lat": 52.496816,
+      "lng": -1.973917,
+      "nation": "England"
+    },
+    "Snodland": {
+      "aliases": [],
+      "lat": 51.334919,
+      "lng": 0.432657,
+      "nation": "England"
+    },
+    "Soham": {
+      "aliases": [],
+      "lat": 52.333345,
+      "lng": 0.338747,
+      "nation": "England"
+    },
+    "Solihull": {
+      "aliases": [],
+      "lat": 52.413019,
+      "lng": -1.776893,
+      "nation": "England"
+    },
+    "Solva": {
+      "aliases": [],
+      "lat": 51.8735554,
+      "lng": -5.1979167,
+      "nation": "Wales"
+    },
+    "South Cave": {
+      "aliases": [],
+      "lat": 53.763569,
+      "lng": -0.618901,
+      "nation": "England"
+    },
+    "South Woodham Ferrers": {
+      "aliases": [],
+      "lat": 51.644036,
+      "lng": 0.617665,
+      "nation": "England"
+    },
+    "Southall": {
+      "aliases": [],
+      "lat": 51.5111461,
+      "lng": -0.3755169,
+      "nation": "England"
+    },
+    "Southampton": {
+      "aliases": [],
+      "lat": 50.905,
+      "lng": -1.404,
+      "nation": "England"
+    },
+    "Southend": {
+      "aliases": [],
+      "lat": 51.539,
+      "lng": 0.707,
+      "nation": "England"
+    },
+    "Southfleet": {
+      "aliases": [],
+      "lat": 51.41423,
+      "lng": 0.310017,
+      "nation": "England"
+    },
+    "Southgate": {
+      "aliases": [
+        "Southgate, Swansea"
+      ],
+      "lat": 51.569781,
+      "lng": -4.090869,
+      "nation": "Wales"
+    },
+    "Southwater": {
+      "aliases": [],
+      "lat": 51.0242057,
+      "lng": -0.3523171,
+      "nation": "England"
+    },
+    "Sowerby Bridge": {
+      "aliases": [],
+      "lat": 53.709761,
+      "lng": -1.908824,
+      "nation": "England"
+    },
+    "Staindrop": {
+      "aliases": [],
+      "lat": 54.583,
+      "lng": -1.8,
+      "nation": "England"
+    },
+    "Stanmore": {
+      "aliases": [],
+      "lat": 51.618853,
+      "lng": -0.302627,
+      "nation": "England"
+    },
+    "Stenhousemuir": {
+      "aliases": [],
+      "lat": 56.025827,
+      "lng": -3.816313,
+      "nation": "Scotland"
+    },
+    "Steventon": {
+      "aliases": [],
+      "lat": 51.2289303,
+      "lng": -1.2190958,
+      "nation": "England"
+    },
+    "Stewarton": {
+      "aliases": [],
+      "lat": 55.68208,
+      "lng": -4.518166,
+      "nation": "Scotland"
+    },
+    "Stirling": {
+      "aliases": [],
+      "lat": 56.12,
+      "lng": -3.937,
+      "nation": "Scotland"
+    },
+    "Stithians": {
+      "aliases": [],
+      "lat": 50.180767,
+      "lng": -5.177374,
+      "nation": "England"
+    },
+    "Stock": {
+      "aliases": [],
+      "lat": 51.667769,
+      "lng": 0.433681,
+      "nation": "England"
+    },
+    "Stockport": {
+      "aliases": [],
+      "lat": 53.406,
+      "lng": -2.159,
+      "nation": "England"
+    },
+    "Stoke-on-Trent": {
+      "aliases": [],
+      "lat": 53.003,
+      "lng": -2.18,
+      "nation": "England"
+    },
+    "Stonehaven": {
+      "aliases": [],
+      "lat": 56.9640234,
+      "lng": -2.2087993,
+      "nation": "Scotland"
+    },
+    "Stonehouse": {
+      "aliases": [],
+      "lat": 55.6982283,
+      "lng": -3.9813873,
+      "nation": "Scotland"
+    },
+    "Stoneyburn": {
+      "aliases": [],
+      "lat": 55.8481577,
+      "lng": -3.6270285,
+      "nation": "Scotland"
+    },
+    "Stornoway": {
+      "aliases": [],
+      "lat": 58.2167659,
+      "lng": -6.3946962,
+      "nation": "Scotland"
+    },
+    "Stourbridge": {
+      "aliases": [],
+      "lat": 52.457761,
+      "lng": -2.147435,
+      "nation": "England"
+    },
+    "Stourport-on-Severn": {
+      "aliases": [],
+      "lat": 52.339638,
+      "lng": -2.281165,
+      "nation": "England"
+    },
+    "Strabane": {
+      "aliases": [],
+      "lat": 54.826115,
+      "lng": -7.462799,
+      "nation": "Northern Ireland"
+    },
+    "Stranraer": {
+      "aliases": [],
+      "lat": 54.9044332,
+      "lng": -5.026204,
+      "nation": "Scotland"
+    },
+    "Stratford-upon-Avon": {
+      "aliases": [],
+      "lat": 52.19278,
+      "lng": -1.70634,
+      "nation": "England"
+    },
+    "Strathaven": {
+      "aliases": [],
+      "lat": 55.676514,
+      "lng": -4.065824,
+      "nation": "Scotland"
+    },
+    "Strathpeffer": {
+      "aliases": [],
+      "lat": 57.588014,
+      "lng": -4.538192,
+      "nation": "Scotland"
+    },
+    "Studley": {
+      "aliases": [],
+      "lat": 52.269119,
+      "lng": -1.895897,
+      "nation": "England"
+    },
+    "Sturton by Stow": {
+      "aliases": [],
+      "lat": 53.3138879,
+      "lng": -0.663853,
+      "nation": "England"
+    },
+    "Sully": {
+      "aliases": [],
+      "lat": 51.4071656,
+      "lng": -3.2143843,
+      "nation": "Wales"
+    },
+    "Sunderland": {
+      "aliases": [],
+      "lat": 54.906,
+      "lng": -1.381,
+      "nation": "England"
+    },
+    "Swanley": {
+      "aliases": [],
+      "lat": 51.397509,
+      "lng": 0.180226,
+      "nation": "England"
+    },
+    "Swanmore": {
+      "aliases": [],
+      "lat": 50.942382,
+      "lng": -1.175848,
+      "nation": "England"
+    },
+    "Swanscombe": {
+      "aliases": [],
+      "lat": 51.443697,
+      "lng": 0.306574,
+      "nation": "England"
+    },
+    "Swansea": {
+      "aliases": [],
+      "lat": 51.622,
+      "lng": -3.943,
+      "nation": "Wales"
+    },
+    "Swindon": {
+      "aliases": [],
+      "lat": 51.568,
+      "lng": -1.772,
+      "nation": "England"
+    },
+    "Symington": {
+      "aliases": [],
+      "lat": 55.600147,
+      "lng": -3.595407,
+      "nation": "Scotland"
+    },
+    "Tadcaster": {
+      "aliases": [],
+      "lat": 53.8852975,
+      "lng": -1.2595975,
+      "nation": "England"
+    },
+    "Taff's Well": {
+      "aliases": [],
+      "lat": 51.5385771,
+      "lng": -3.2606612,
+      "nation": "Wales"
+    },
+    "Tain": {
+      "aliases": [],
+      "lat": 57.8119372,
+      "lng": -4.0550663,
+      "nation": "Scotland"
+    },
+    "Talbot Green": {
+      "aliases": [],
+      "lat": 51.5364126,
+      "lng": -3.3867954,
+      "nation": "Wales"
+    },
+    "Talgarth": {
+      "aliases": [],
+      "lat": 51.9964038,
+      "lng": -3.2323446,
+      "nation": "Wales"
+    },
+    "Tamworth": {
+      "aliases": [],
+      "lat": 52.634582,
+      "lng": -1.694844,
+      "nation": "England"
+    },
+    "Tandragee": {
+      "aliases": [],
+      "lat": 54.3525124,
+      "lng": -6.4123562,
+      "nation": "Northern Ireland"
+    },
+    "Tarbolton": {
+      "aliases": [],
+      "lat": 55.513202,
+      "lng": -4.486449,
+      "nation": "Scotland"
+    },
+    "Tarland": {
+      "aliases": [],
+      "lat": 57.127451,
+      "lng": -2.858866,
+      "nation": "Scotland"
+    },
+    "Tarleton": {
+      "aliases": [],
+      "lat": 53.6690655,
+      "lng": -2.8625843,
+      "nation": "England"
+    },
+    "Tarves": {
+      "aliases": [],
+      "lat": 57.3710345,
+      "lng": -2.2212465,
+      "nation": "Scotland"
+    },
+    "Taunton": {
+      "aliases": [],
+      "lat": 51.015,
+      "lng": -3.107,
+      "nation": "England"
+    },
+    "Taverham": {
+      "aliases": [],
+      "lat": 52.6813393,
+      "lng": 1.1935934,
+      "nation": "England"
+    },
+    "Tayport": {
+      "aliases": [],
+      "lat": 56.449088,
+      "lng": -2.880719,
+      "nation": "Scotland"
+    },
+    "Telford": {
+      "aliases": [],
+      "lat": 52.677,
+      "lng": -2.449,
+      "nation": "England"
+    },
+    "Tenby": {
+      "aliases": [],
+      "lat": 51.6715576,
+      "lng": -4.7011849,
+      "nation": "Wales"
+    },
+    "Tetbury": {
+      "aliases": [],
+      "lat": 51.639272,
+      "lng": -2.1594783,
+      "nation": "England"
+    },
+    "Thatcham": {
+      "aliases": [],
+      "lat": 51.4024177,
+      "lng": -1.257412,
+      "nation": "England"
+    },
+    "The Mumbles": {
+      "aliases": [
+        "Mumbles"
+      ],
+      "lat": 51.572267,
+      "lng": -3.994503,
+      "nation": "Wales"
+    },
+    "Thornbury": {
+      "aliases": [],
+      "lat": 51.6078094,
+      "lng": -2.5254942,
+      "nation": "England"
+    },
+    "Thorne": {
+      "aliases": [],
+      "lat": 53.621117,
+      "lng": -0.930051,
+      "nation": "England"
+    },
+    "Thorner": {
+      "aliases": [],
+      "lat": 53.857668,
+      "lng": -1.423376,
+      "nation": "England"
+    },
+    "Thornhill": {
+      "aliases": [],
+      "lat": 55.2406579,
+      "lng": -3.7649206,
+      "nation": "Scotland"
+    },
+    "Thornton": {
+      "aliases": [],
+      "lat": 56.1663093,
+      "lng": -3.146012,
+      "nation": "Scotland"
+    },
+    "Thornton Hough": {
+      "aliases": [],
+      "lat": 53.320089,
+      "lng": -3.046117,
+      "nation": "England"
+    },
+    "Tillicoultry": {
+      "aliases": [],
+      "lat": 56.153139,
+      "lng": -3.741478,
+      "nation": "Scotland"
+    },
+    "Tingley": {
+      "aliases": [],
+      "lat": 53.728165,
+      "lng": -1.573448,
+      "nation": "England"
+    },
+    "Tintwistle": {
+      "aliases": [],
+      "lat": 53.4719227,
+      "lng": -1.9732931,
+      "nation": "England"
+    },
+    "Tiptree": {
+      "aliases": [],
+      "lat": 51.810562,
+      "lng": 0.750687,
+      "nation": "England"
+    },
+    "Titchfield": {
+      "aliases": [],
+      "lat": 50.8490257,
+      "lng": -1.2354298,
+      "nation": "England"
+    },
+    "Tittensor": {
+      "aliases": [],
+      "lat": 52.9423995,
+      "lng": -2.1898742,
+      "nation": "England"
+    },
+    "Tongwynlais": {
+      "aliases": [],
+      "lat": 51.531743,
+      "lng": -3.251788,
+      "nation": "Wales"
+    },
+    "Tonypandy": {
+      "aliases": [],
+      "lat": 51.6246695,
+      "lng": -3.4595279,
+      "nation": "Wales"
+    },
+    "Tonyrefail": {
+      "aliases": [],
+      "lat": 51.5832675,
+      "lng": -3.4311743,
+      "nation": "Wales"
+    },
+    "Torrance": {
+      "aliases": [],
+      "lat": 55.9397848,
+      "lng": -4.2113894,
+      "nation": "Scotland"
+    },
+    "Towyn": {
+      "aliases": [],
+      "lat": 52.5861123,
+      "lng": -4.0855906,
+      "nation": "Wales"
+    },
+    "Tranent": {
+      "aliases": [],
+      "lat": 55.944497,
+      "lng": -2.953494,
+      "nation": "Scotland"
+    },
+    "Tredegar": {
+      "aliases": [],
+      "lat": 51.773256,
+      "lng": -3.246954,
+      "nation": "Wales"
+    },
+    "Tregaron": {
+      "aliases": [],
+      "lat": 52.220029,
+      "lng": -3.934281,
+      "nation": "Wales"
+    },
+    "Tregarth": {
+      "aliases": [],
+      "lat": 53.1902945,
+      "lng": -4.0904847,
+      "nation": "Wales"
+    },
+    "Treharris": {
+      "aliases": [],
+      "lat": 51.6649488,
+      "lng": -3.3058374,
+      "nation": "Wales"
+    },
+    "Trelewis": {
+      "aliases": [],
+      "lat": 51.667972,
+      "lng": -3.296582,
+      "nation": "Wales"
+    },
+    "Treorchy": {
+      "aliases": [],
+      "lat": 51.6610568,
+      "lng": -3.5041501,
+      "nation": "Wales"
+    },
+    "Treuddyn": {
+      "aliases": [],
+      "lat": 53.1153235,
+      "lng": -3.1216008,
+      "nation": "Wales"
+    },
+    "Trimsaran": {
+      "aliases": [],
+      "lat": 51.720973,
+      "lng": -4.245393,
+      "nation": "Wales"
+    },
+    "Troedyrhiw": {
+      "aliases": [],
+      "lat": 52.216685,
+      "lng": -3.9195013,
+      "nation": "Wales"
+    },
+    "Troon": {
+      "aliases": [],
+      "lat": 55.5437893,
+      "lng": -4.663906,
+      "nation": "Scotland"
+    },
+    "Truro": {
+      "aliases": [],
+      "lat": 50.263317,
+      "lng": -5.051811,
+      "nation": "England"
+    },
+    "Tumble": {
+      "aliases": [
+        "Y Tymbl"
+      ],
+      "lat": 51.786253,
+      "lng": -4.11395,
+      "nation": "Wales"
+    },
+    "Turriff": {
+      "aliases": [],
+      "lat": 57.537482,
+      "lng": -2.4640839,
+      "nation": "Scotland"
+    },
+    "Tweedmouth": {
+      "aliases": [],
+      "lat": 57.303793,
+      "lng": -4.813915,
+      "nation": "Scotland"
+    },
+    "Tywyn": {
+      "aliases": [],
+      "lat": 52.5861123,
+      "lng": -4.0855906,
+      "nation": "Wales"
+    },
+    "Uddingston": {
+      "aliases": [],
+      "lat": 55.8189907,
+      "lng": -4.0821743,
+      "nation": "Scotland"
+    },
+    "Uffculme": {
+      "aliases": [],
+      "lat": 50.906364,
+      "lng": -3.326527,
+      "nation": "England"
+    },
+    "Uig": {
+      "aliases": [],
+      "lat": 57.5915181,
+      "lng": -6.3636237,
+      "nation": "Scotland"
+    },
+    "Undy": {
+      "aliases": [],
+      "lat": 51.578415,
+      "lng": -2.8137776,
+      "nation": "Wales"
+    },
+    "Up Holland": {
+      "aliases": [],
+      "lat": 53.54199,
+      "lng": -2.732548,
+      "nation": "England"
+    },
+    "Uphall": {
+      "aliases": [],
+      "lat": 55.9190379,
+      "lng": -3.5019033,
+      "nation": "Scotland"
+    },
+    "Upper Caldecote": {
+      "aliases": [],
+      "lat": 52.098747,
+      "lng": -0.299453,
+      "nation": "England"
+    },
+    "Urmston": {
+      "aliases": [],
+      "lat": 53.445366,
+      "lng": -2.352546,
+      "nation": "England"
+    },
+    "Usk": {
+      "aliases": [],
+      "lat": 51.7045076,
+      "lng": -2.9026437,
+      "nation": "Wales"
+    },
+    "Valley": {
+      "aliases": [
+        "Y Fali"
+      ],
+      "lat": 53.284518,
+      "lng": -4.561922,
+      "nation": "Wales"
+    },
+    "Verwood": {
+      "aliases": [],
+      "lat": 50.880124,
+      "lng": -1.875237,
+      "nation": "England"
+    },
+    "Waddington": {
+      "aliases": [],
+      "lat": 53.899592,
+      "lng": -2.4221637,
+      "nation": "England"
+    },
+    "Wadebridge": {
+      "aliases": [],
+      "lat": 50.5164359,
+      "lng": -4.837314,
+      "nation": "England"
+    },
+    "Wakefield": {
+      "aliases": [],
+      "lat": 53.683,
+      "lng": -1.498,
+      "nation": "England"
+    },
+    "Wallingford": {
+      "aliases": [],
+      "lat": 51.5982886,
+      "lng": -1.1251402,
+      "nation": "England"
+    },
+    "Wallyford": {
+      "aliases": [],
+      "lat": 55.940459,
+      "lng": -3.014788,
+      "nation": "Scotland"
+    },
+    "Walnut Tree": {
+      "aliases": [],
+      "lat": 52.019603,
+      "lng": -0.6921091,
+      "nation": "England"
+    },
+    "Walton-le-Dale": {
+      "aliases": [],
+      "lat": 53.7478395,
+      "lng": -2.6720358,
+      "nation": "England"
+    },
+    "Wantage": {
+      "aliases": [],
+      "lat": 51.587807,
+      "lng": -1.424926,
+      "nation": "England"
+    },
+    "Warfield": {
+      "aliases": [],
+      "lat": 51.441983,
+      "lng": -0.730602,
+      "nation": "England"
+    },
+    "Warley": {
+      "aliases": [],
+      "lat": 53.7199311,
+      "lng": -1.9151607,
+      "nation": "England"
+    },
+    "Warrenpoint": {
+      "aliases": [],
+      "lat": 54.0999923,
+      "lng": -6.2512827,
+      "nation": "Northern Ireland"
+    },
+    "Warrington": {
+      "aliases": [],
+      "lat": 53.39,
+      "lng": -2.597,
+      "nation": "England"
+    },
+    "Warsop": {
+      "aliases": [],
+      "lat": 53.204146,
+      "lng": -1.15456,
+      "nation": "England"
+    },
+    "Warwick": {
+      "aliases": [],
+      "lat": 52.2821379,
+      "lng": -1.5905593,
+      "nation": "England"
+    },
+    "Watchet": {
+      "aliases": [],
+      "lat": 51.179924,
+      "lng": -3.3306406,
+      "nation": "England"
+    },
+    "Waterloo": {
+      "aliases": [],
+      "lat": 51.503002,
+      "lng": -0.113981,
+      "nation": "England"
+    },
+    "Wath upon Dearne": {
+      "aliases": [],
+      "lat": 53.502524,
+      "lng": -1.345065,
+      "nation": "England"
+    },
+    "Waunfawr": {
+      "aliases": [],
+      "lat": 53.1096687,
+      "lng": -4.2005357,
+      "nation": "Wales"
+    },
+    "Wedmore": {
+      "aliases": [],
+      "lat": 51.2255,
+      "lng": -2.811439,
+      "nation": "England"
+    },
+    "Welford": {
+      "aliases": [],
+      "lat": 51.4572597,
+      "lng": -1.4106327,
+      "nation": "England"
+    },
+    "Wells": {
+      "aliases": [],
+      "lat": 51.2094511,
+      "lng": -2.6451203,
+      "nation": "England"
+    },
+    "Wendover": {
+      "aliases": [],
+      "lat": 51.767688,
+      "lng": -0.744321,
+      "nation": "England"
+    },
+    "Wenvoe": {
+      "aliases": [],
+      "lat": 51.4491468,
+      "lng": -3.2655793,
+      "nation": "Wales"
+    },
+    "Wernffrwd": {
+      "aliases": [],
+      "lat": 51.6264492,
+      "lng": -4.1453457,
+      "nation": "Wales"
+    },
+    "Werrington": {
+      "aliases": [],
+      "lat": 50.6655273,
+      "lng": -4.3650896,
+      "nation": "England"
+    },
+    "Wesham": {
+      "aliases": [],
+      "lat": 53.789343,
+      "lng": -2.885742,
+      "nation": "England"
+    },
+    "West Calder": {
+      "aliases": [],
+      "lat": 55.8537711,
+      "lng": -3.566816,
+      "nation": "Scotland"
+    },
+    "West Cross": {
+      "aliases": [],
+      "lat": 51.5872191,
+      "lng": -4.0102932,
+      "nation": "Wales"
+    },
+    "West Horsley": {
+      "aliases": [],
+      "lat": 51.262442,
+      "lng": -0.450487,
+      "nation": "England"
+    },
+    "West Kingsdown": {
+      "aliases": [],
+      "lat": 51.3424435,
+      "lng": 0.2536981,
+      "nation": "England"
+    },
+    "West Wickham": {
+      "aliases": [],
+      "lat": 52.117352,
+      "lng": 0.355389,
+      "nation": "England"
+    },
+    "Westfield": {
+      "aliases": [],
+      "lat": 51.5078484,
+      "lng": -0.221808,
+      "nation": "England"
+    },
+    "Westhill": {
+      "aliases": [],
+      "lat": 57.4733664,
+      "lng": -4.1411194,
+      "nation": "Scotland"
+    },
+    "Weston-super-Mare": {
+      "aliases": [],
+      "lat": 51.3471927,
+      "lng": -2.9778916,
+      "nation": "England"
+    },
+    "Westoning": {
+      "aliases": [],
+      "lat": 52.009,
+      "lng": -0.486,
+      "nation": "England"
+    },
+    "Weymouth": {
+      "aliases": [],
+      "lat": 50.6096257,
+      "lng": -2.4543424,
+      "nation": "England"
+    },
+    "Whaley Bridge": {
+      "aliases": [],
+      "lat": 53.3301509,
+      "lng": -1.9843242,
+      "nation": "England"
+    },
+    "Whitburn": {
+      "aliases": [],
+      "lat": 55.866782,
+      "lng": -3.684901,
+      "nation": "Scotland"
+    },
+    "Whitchurch": {
+      "aliases": [],
+      "lat": 52.969273,
+      "lng": -2.683953,
+      "nation": "England"
+    },
+    "Whitefield": {
+      "aliases": [],
+      "lat": 53.553368,
+      "lng": -2.296902,
+      "nation": "England"
+    },
+    "Whitehead": {
+      "aliases": [],
+      "lat": 54.7525197,
+      "lng": -5.7095385,
+      "nation": "Northern Ireland"
+    },
+    "Whitehill": {
+      "aliases": [],
+      "lat": 51.0977189,
+      "lng": -0.8640671,
+      "nation": "England"
+    },
+    "Whitland": {
+      "aliases": [],
+      "lat": 51.8179002,
+      "lng": -4.60975,
+      "nation": "Wales"
+    },
+    "Whitworth": {
+      "aliases": [],
+      "lat": 53.6644268,
+      "lng": -2.1734056,
+      "nation": "England"
+    },
+    "Wick": {
+      "aliases": [],
+      "lat": 50.609,
+      "lng": -2.995,
+      "nation": "England"
+    },
+    "Wickersley": {
+      "aliases": [],
+      "lat": 53.420329,
+      "lng": -1.281692,
+      "nation": "England"
+    },
+    "Wickham": {
+      "aliases": [],
+      "lat": 51.4435061,
+      "lng": -1.4333217,
+      "nation": "England"
+    },
+    "Wickwar": {
+      "aliases": [],
+      "lat": 51.5853895,
+      "lng": -2.4129632,
+      "nation": "England"
+    },
+    "Wigan": {
+      "aliases": [],
+      "lat": 53.546,
+      "lng": -2.632,
+      "nation": "England"
+    },
+    "Willingham": {
+      "aliases": [],
+      "lat": 52.321128,
+      "lng": 0.081145,
+      "nation": "England"
+    },
+    "Williton": {
+      "aliases": [],
+      "lat": 51.159,
+      "lng": -3.344,
+      "nation": "England"
+    },
+    "Wilnecote": {
+      "aliases": [],
+      "lat": 52.610623,
+      "lng": -1.679701,
+      "nation": "England"
+    },
+    "Winchburgh": {
+      "aliases": [],
+      "lat": 55.9601601,
+      "lng": -3.4664354,
+      "nation": "Scotland"
+    },
+    "Windermere": {
+      "aliases": [],
+      "lat": 54.3794828,
+      "lng": -2.9061994,
+      "nation": "England"
+    },
+    "Windlesham": {
+      "aliases": [],
+      "lat": 51.3632514,
+      "lng": -0.6807485,
+      "nation": "England"
+    },
+    "Windygates": {
+      "aliases": [],
+      "lat": 56.1930349,
+      "lng": -3.0549086,
+      "nation": "Scotland"
+    },
+    "Wingate": {
+      "aliases": [],
+      "lat": 54.730941,
+      "lng": -1.381031,
+      "nation": "England"
+    },
+    "Winslow": {
+      "aliases": [],
+      "lat": 51.942051,
+      "lng": -0.881741,
+      "nation": "England"
+    },
+    "Winterton": {
+      "aliases": [],
+      "lat": 53.6549545,
+      "lng": -0.5979698,
+      "nation": "England"
+    },
+    "Winwick": {
+      "aliases": [],
+      "lat": 52.411745,
+      "lng": -0.38086,
+      "nation": "England"
+    },
+    "Wisbech": {
+      "aliases": [],
+      "lat": 52.665173,
+      "lng": 0.160682,
+      "nation": "England"
+    },
+    "Wishaw": {
+      "aliases": [],
+      "lat": 55.774346,
+      "lng": -3.918413,
+      "nation": "Scotland"
+    },
+    "Witney": {
+      "aliases": [],
+      "lat": 51.783885,
+      "lng": -1.485286,
+      "nation": "England"
+    },
+    "Woburn Sands": {
+      "aliases": [],
+      "lat": 52.0119912,
+      "lng": -0.6472881,
+      "nation": "England"
+    },
+    "Woking": {
+      "aliases": [],
+      "lat": 51.320189,
+      "lng": -0.556473,
+      "nation": "England"
+    },
+    "Wokingham": {
+      "aliases": [],
+      "lat": 51.457085,
+      "lng": -0.886537,
+      "nation": "England"
+    },
+    "Wolverhampton": {
+      "aliases": [],
+      "lat": 52.587,
+      "lng": -2.129,
+      "nation": "England"
+    },
+    "Wolverton": {
+      "aliases": [],
+      "lat": 52.060942,
+      "lng": -0.811855,
+      "nation": "England"
+    },
+    "Wolvey": {
+      "aliases": [],
+      "lat": 52.48702,
+      "lng": -1.367896,
+      "nation": "England"
+    },
+    "Woodhall Spa": {
+      "aliases": [],
+      "lat": 53.146689,
+      "lng": -0.218946,
+      "nation": "England"
+    },
+    "Worcester": {
+      "aliases": [],
+      "lat": 52.192,
+      "lng": -2.22,
+      "nation": "England"
+    },
+    "Worcester Park": {
+      "aliases": [],
+      "lat": 51.3785033,
+      "lng": -0.2416597,
+      "nation": "England"
+    },
+    "Wraysbury": {
+      "aliases": [],
+      "lat": 51.457457,
+      "lng": -0.560647,
+      "nation": "England"
+    },
+    "Wrexham": {
+      "aliases": [],
+      "lat": 53.046,
+      "lng": -2.993,
+      "nation": "Wales"
+    },
+    "Writtle": {
+      "aliases": [],
+      "lat": 51.728476,
+      "lng": 0.411567,
+      "nation": "England"
+    },
+    "Wyke": {
+      "aliases": [],
+      "lat": 53.7398844,
+      "lng": -1.7657321,
+      "nation": "England"
+    },
+    "Wythenshawe": {
+      "aliases": [],
+      "lat": 53.389,
+      "lng": -2.263,
+      "nation": "England"
+    },
+    "Yeadon": {
+      "aliases": [],
+      "lat": 53.863661,
+      "lng": -1.685079,
+      "nation": "England"
+    },
+    "Yeovil": {
+      "aliases": [],
+      "lat": 50.942045,
+      "lng": -2.631863,
+      "nation": "England"
+    },
+    "Yetminster": {
+      "aliases": [],
+      "lat": 50.890366,
+      "lng": -2.569639,
+      "nation": "England"
+    },
+    "Ynysybwl": {
+      "aliases": [],
+      "lat": 51.6387679,
+      "lng": -3.3590171,
+      "nation": "Wales"
+    },
+    "York": {
+      "aliases": [],
+      "lat": 53.958,
+      "lng": -1.08,
+      "nation": "England"
+    },
+    "Ystalyfera": {
+      "aliases": [],
+      "lat": 51.7673807,
+      "lng": -3.7853362,
+      "nation": "Wales"
+    },
+    "Ystrad Mynach": {
+      "aliases": [],
+      "lat": 51.6418098,
+      "lng": -3.2373987,
+      "nation": "Wales"
+    },
+    "Ystradgynlais": {
+      "aliases": [],
+      "lat": 51.777311,
+      "lng": -3.758499,
+      "nation": "Wales"
+    }
+  },
+  "schema": "foodbank-heatmap.city_coordinates.v1",
+  "updated_from": "CITY_GEOCODES + data/trends_data.json + .deploy/trends_data.godaddy.json"
+}
