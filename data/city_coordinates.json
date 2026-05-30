@@ -348,6 +348,12 @@
       "lng": 1.280306,
       "nation": "England"
     },
+    "Ashbourne": {
+      "aliases": [],
+      "lat": 53.017333,
+      "lng": -1.734273,
+      "nation": "England"
+    },
     "Ashcott": {
       "aliases": [],
       "lat": 51.1286864,
@@ -726,6 +732,12 @@
       "lng": -1.0207327,
       "nation": "England"
     },
+    "Bayston Hill": {
+      "aliases": [],
+      "lat": 52.673715,
+      "lng": -2.767052,
+      "nation": "England"
+    },
     "Beaminster": {
       "aliases": [],
       "lat": 50.809033,
@@ -882,6 +894,12 @@
       "lng": -2.8420946,
       "nation": "England"
     },
+    "Bicton Heath": {
+      "aliases": [],
+      "lat": 52.713543,
+      "lng": -2.810159,
+      "nation": "England"
+    },
     "Biddenham": {
       "aliases": [],
       "lat": 52.140481,
@@ -1019,6 +1037,12 @@
       "lat": 56.5927172,
       "lng": -3.3389425,
       "nation": "Scotland"
+    },
+    "Blaydon": {
+      "aliases": [],
+      "lat": 54.965963,
+      "lng": -1.712881,
+      "nation": "England"
     },
     "Blyth": {
       "aliases": [],
@@ -1168,6 +1192,18 @@
       "aliases": [],
       "lat": 52.044945,
       "lng": -0.771276,
+      "nation": "England"
+    },
+    "Bramhope": {
+      "aliases": [],
+      "lat": 53.885516,
+      "lng": -1.620262,
+      "nation": "England"
+    },
+    "Bramley": {
+      "aliases": [],
+      "lat": 51.163366,
+      "lng": -0.549892,
       "nation": "England"
     },
     "Bratton Fleming": {
@@ -1348,6 +1384,12 @@
       "aliases": [],
       "lat": 52.5356492,
       "lng": -1.2308696,
+      "nation": "England"
+    },
+    "Brownhills": {
+      "aliases": [],
+      "lat": 52.642196,
+      "lng": -1.927161,
       "nation": "England"
     },
     "Brymbo": {
@@ -1782,10 +1824,16 @@
       "lng": -4.099311,
       "nation": "Scotland"
     },
-    "Church Stretton": {
+    "Chudleigh": {
       "aliases": [],
-      "lat": 52.539073,
-      "lng": -2.807766,
+      "lat": 50.615654,
+      "lng": -3.586945,
+      "nation": "England"
+    },
+    "Church Crookham": {
+      "aliases": [],
+      "lat": 51.262866,
+      "lng": -0.838534,
       "nation": "England"
     },
     "Church Stoke": {
@@ -1795,6 +1843,12 @@
       "lat": 52.540608,
       "lng": -3.07303,
       "nation": "Wales"
+    },
+    "Church Stretton": {
+      "aliases": [],
+      "lat": 52.539073,
+      "lng": -2.807766,
+      "nation": "England"
     },
     "Churchdown": {
       "aliases": [],
@@ -2126,6 +2180,12 @@
       "lng": -4.55272,
       "nation": "Scotland"
     },
+    "Crowborough": {
+      "aliases": [],
+      "lat": 51.059003,
+      "lng": 0.163586,
+      "nation": "England"
+    },
     "Crumlin": {
       "aliases": [],
       "lat": 54.6206167,
@@ -2252,6 +2312,12 @@
       "lng": 1.4027344,
       "nation": "England"
     },
+    "Deanshanger": {
+      "aliases": [],
+      "lat": 52.054902,
+      "lng": -0.892724,
+      "nation": "England"
+    },
     "Denbigh": {
       "aliases": [],
       "lat": 53.1853776,
@@ -2324,6 +2390,12 @@
       "lng": -1.209,
       "nation": "England"
     },
+    "Dipton": {
+      "aliases": [],
+      "lat": 54.877065,
+      "lng": -1.760997,
+      "nation": "England"
+    },
     "Distington": {
       "aliases": [],
       "lat": 54.5865959,
@@ -2389,6 +2461,12 @@
       "lat": 51.7625134,
       "lng": -3.3555584,
       "nation": "Wales"
+    },
+    "Downton": {
+      "aliases": [],
+      "lat": 50.992756,
+      "lng": -1.751752,
+      "nation": "England"
     },
     "Drefach": {
       "aliases": [],
@@ -2564,6 +2642,12 @@
       "lng": -0.4832171,
       "nation": "England"
     },
+    "East Tilbury": {
+      "aliases": [],
+      "lat": 51.483138,
+      "lng": 0.41672,
+      "nation": "England"
+    },
     "East Wemyss": {
       "aliases": [],
       "lat": 56.1616165,
@@ -2612,6 +2696,12 @@
       "lng": -2.902251,
       "nation": "England"
     },
+    "Ellington": {
+      "aliases": [],
+      "lat": 52.331612,
+      "lng": -0.286362,
+      "nation": "England"
+    },
     "Ellon": {
       "aliases": [],
       "lat": 57.365049,
@@ -2653,6 +2743,12 @@
       "lat": 55.904212,
       "lng": -4.449233,
       "nation": "Scotland"
+    },
+    "Esholt": {
+      "aliases": [],
+      "lat": 53.858648,
+      "lng": -1.724417,
+      "nation": "England"
     },
     "Exeter": {
       "aliases": [],
@@ -2706,6 +2802,12 @@
       "aliases": [],
       "lat": 51.55916,
       "lng": -0.612814,
+      "nation": "England"
+    },
+    "Farnworth": {
+      "aliases": [],
+      "lat": 53.548599,
+      "lng": -2.396998,
       "nation": "England"
     },
     "Fawley": {
@@ -2773,6 +2875,12 @@
       "lat": 57.6140998,
       "lng": -3.0974475,
       "nation": "Scotland"
+    },
+    "Fordham": {
+      "aliases": [],
+      "lat": 52.31037,
+      "lng": 0.387764,
+      "nation": "England"
     },
     "Forfar": {
       "aliases": [],
@@ -2990,6 +3098,12 @@
       "lng": -4.9960186,
       "nation": "Wales"
     },
+    "Goole": {
+      "aliases": [],
+      "lat": 53.703562,
+      "lng": -0.871595,
+      "nation": "England"
+    },
     "Gorebridge": {
       "aliases": [],
       "lat": 55.8399603,
@@ -3026,6 +3140,12 @@
       "lng": -3.6104018,
       "nation": "Scotland"
     },
+    "Great Chesterford": {
+      "aliases": [],
+      "lat": 52.065194,
+      "lng": 0.199112,
+      "nation": "England"
+    },
     "Great Linford": {
       "aliases": [],
       "lat": 52.0717778,
@@ -3055,6 +3175,12 @@
       "lat": 53.288492,
       "lng": -3.209983,
       "nation": "Wales"
+    },
+    "Greenford": {
+      "aliases": [],
+      "lat": 51.542118,
+      "lng": -0.3448,
+      "nation": "England"
     },
     "Greenock": {
       "aliases": [],
@@ -3170,6 +3296,12 @@
       "lng": -2.0514646,
       "nation": "England"
     },
+    "Halfway": {
+      "aliases": [],
+      "lat": 51.413031,
+      "lng": -1.415081,
+      "nation": "England"
+    },
     "Halifax": {
       "aliases": [],
       "lat": 53.725,
@@ -3254,6 +3386,12 @@
       "lng": -2.2472059,
       "nation": "England"
     },
+    "Hazel Grove": {
+      "aliases": [],
+      "lat": 53.377467,
+      "lng": -2.122151,
+      "nation": "England"
+    },
     "Heanor": {
       "aliases": [],
       "lat": 53.014582,
@@ -3306,6 +3444,18 @@
       "aliases": [],
       "lat": 52.056,
       "lng": -2.716,
+      "nation": "England"
+    },
+    "Hessle": {
+      "aliases": [],
+      "lat": 53.723159,
+      "lng": -0.434931,
+      "nation": "England"
+    },
+    "Heybridge": {
+      "aliases": [],
+      "lat": 51.732684,
+      "lng": 0.775164,
       "nation": "England"
     },
     "Heysham": {
@@ -3656,6 +3806,12 @@
       "lng": -2.9523291,
       "nation": "Scotland"
     },
+    "Kelsall": {
+      "aliases": [],
+      "lat": 53.213499,
+      "lng": -2.714466,
+      "nation": "England"
+    },
     "Kelso": {
       "aliases": [],
       "lat": 55.5983788,
@@ -3686,10 +3842,22 @@
       "lng": -3.2573033,
       "nation": "Wales"
     },
+    "Keswick": {
+      "aliases": [],
+      "lat": 54.600981,
+      "lng": -3.137582,
+      "nation": "England"
+    },
     "Keynsham": {
       "aliases": [],
       "lat": 51.415175,
       "lng": -2.498313,
+      "nation": "England"
+    },
+    "Kibworth Harcourt": {
+      "aliases": [],
+      "lat": 52.544213,
+      "lng": -0.993103,
       "nation": "England"
     },
     "Kidlington": {
@@ -3816,6 +3984,12 @@
       "aliases": [],
       "lat": 52.4967692,
       "lng": -2.1661721,
+      "nation": "England"
+    },
+    "Kingswood": {
+      "aliases": [],
+      "lat": 51.462741,
+      "lng": -2.508392,
       "nation": "England"
     },
     "Kinloss": {
@@ -4446,6 +4620,12 @@
       "aliases": [],
       "lat": 53.367516,
       "lng": -0.002238,
+      "nation": "England"
+    },
+    "Low Moor": {
+      "aliases": [],
+      "lat": 53.750137,
+      "lng": -1.752384,
       "nation": "England"
     },
     "Lowestoft": {
