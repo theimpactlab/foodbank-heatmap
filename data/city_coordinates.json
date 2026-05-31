@@ -132,6 +132,12 @@
       "lng": -2.779152,
       "nation": "Scotland"
     },
+    "Abridge": {
+      "aliases": [],
+      "lat": 51.650983,
+      "lng": 0.118657,
+      "nation": "England"
+    },
     "Accrington": {
       "aliases": [],
       "lat": 53.754116,
@@ -996,6 +1002,12 @@
       "lng": -4.092054,
       "nation": "Wales"
     },
+    "Black Notley": {
+      "aliases": [],
+      "lat": 51.8474,
+      "lng": 0.545814,
+      "nation": "England"
+    },
     "Blackburn": {
       "aliases": [],
       "lat": 57.208445,
@@ -1204,6 +1216,12 @@
       "aliases": [],
       "lat": 51.163366,
       "lng": -0.549892,
+      "nation": "England"
+    },
+    "Brampton": {
+      "aliases": [],
+      "lat": 54.94224,
+      "lng": -2.734453,
       "nation": "England"
     },
     "Bratton Fleming": {
@@ -1512,6 +1530,12 @@
       "lng": -0.664166,
       "nation": "England"
     },
+    "Burtonwood": {
+      "aliases": [],
+      "lat": 53.43117,
+      "lng": -2.654549,
+      "nation": "England"
+    },
     "Bushey": {
       "aliases": [],
       "lat": 51.642,
@@ -1619,6 +1643,12 @@
       "lat": 55.4241858,
       "lng": -5.6051005,
       "nation": "Scotland"
+    },
+    "Cannock": {
+      "aliases": [],
+      "lat": 52.688227,
+      "lng": -2.03242,
+      "nation": "England"
     },
     "Canterbury": {
       "aliases": [],
@@ -1776,6 +1806,18 @@
       "lng": -0.033591,
       "nation": "England"
     },
+    "Cheslyn Hay": {
+      "aliases": [],
+      "lat": 52.660891,
+      "lng": -2.03555,
+      "nation": "England"
+    },
+    "Chester": {
+      "aliases": [],
+      "lat": 53.190887,
+      "lng": -2.890896,
+      "nation": "England"
+    },
     "Chichester": {
       "aliases": [],
       "lat": 50.8364862,
@@ -1792,6 +1834,12 @@
       "aliases": [],
       "lat": 51.617644,
       "lng": 0.07572,
+      "nation": "England"
+    },
+    "Chilton": {
+      "aliases": [],
+      "lat": 51.800289,
+      "lng": -1.005784,
       "nation": "England"
     },
     "Chippenham": {
@@ -1945,6 +1993,12 @@
       "lat": 55.862489,
       "lng": -4.025989,
       "nation": "Scotland"
+    },
+    "Codsall": {
+      "aliases": [],
+      "lat": 52.627437,
+      "lng": -2.201816,
+      "nation": "England"
     },
     "Coedpoeth": {
       "aliases": [],
@@ -2300,6 +2354,12 @@
       "lng": -2.466509,
       "nation": "England"
     },
+    "Daventry": {
+      "aliases": [],
+      "lat": 52.257868,
+      "lng": -1.162657,
+      "nation": "England"
+    },
     "Dawlish": {
       "aliases": [],
       "lat": 50.5797391,
@@ -2360,6 +2420,12 @@
       "lng": -1.6302142,
       "nation": "England"
     },
+    "Dickleburgh": {
+      "aliases": [],
+      "lat": 52.396032,
+      "lng": 1.187561,
+      "nation": "England"
+    },
     "Didcot": {
       "aliases": [],
       "lat": 51.606359,
@@ -2394,6 +2460,12 @@
       "aliases": [],
       "lat": 54.877065,
       "lng": -1.760997,
+      "nation": "England"
+    },
+    "Disley": {
+      "aliases": [],
+      "lat": 53.353239,
+      "lng": -2.028995,
       "nation": "England"
     },
     "Distington": {
@@ -2654,6 +2726,12 @@
       "lng": -3.0624745,
       "nation": "Scotland"
     },
+    "East Woodhay": {
+      "aliases": [],
+      "lat": 51.350506,
+      "lng": -1.416916,
+      "nation": "England"
+    },
     "Eastchurch": {
       "aliases": [],
       "lat": 51.395084,
@@ -2708,6 +2786,12 @@
       "lng": -2.0710305,
       "nation": "Scotland"
     },
+    "Elm": {
+      "aliases": [],
+      "lat": 52.641233,
+      "lng": 0.171795,
+      "nation": "England"
+    },
     "Elstree": {
       "aliases": [],
       "lat": 51.643773,
@@ -2748,6 +2832,12 @@
       "aliases": [],
       "lat": 53.858648,
       "lng": -1.724417,
+      "nation": "England"
+    },
+    "Evesham": {
+      "aliases": [],
+      "lat": 52.094016,
+      "lng": -1.948308,
       "nation": "England"
     },
     "Exeter": {
@@ -2924,6 +3014,12 @@
       "lng": -2.169218,
       "nation": "England"
     },
+    "Fowey": {
+      "aliases": [],
+      "lat": 50.335088,
+      "lng": -4.635021,
+      "nation": "England"
+    },
     "Fraserburgh": {
       "aliases": [],
       "lat": 57.6935974,
@@ -3031,6 +3127,12 @@
       "lat": 51.8255754,
       "lng": -3.0927521,
       "nation": "Wales"
+    },
+    "Girton": {
+      "aliases": [],
+      "lat": 52.229011,
+      "lng": 0.08355,
+      "nation": "England"
     },
     "Glasgow": {
       "aliases": [],
@@ -3308,6 +3410,12 @@
       "lng": -1.863,
       "nation": "England"
     },
+    "Haltwhistle": {
+      "aliases": [],
+      "lat": 54.97053,
+      "lng": -2.458217,
+      "nation": "England"
+    },
     "Hamble-le-Rice": {
       "aliases": [],
       "lat": 50.862386,
@@ -3367,6 +3475,12 @@
       "lat": 57.4251056,
       "lng": -1.9160096,
       "nation": "Scotland"
+    },
+    "Haverhill": {
+      "aliases": [],
+      "lat": 52.083272,
+      "lng": 0.435393,
+      "nation": "England"
     },
     "Hawkinge": {
       "aliases": [],
@@ -3512,6 +3626,12 @@
       "lng": -3.512634,
       "nation": "Wales"
     },
+    "Holbeach": {
+      "aliases": [],
+      "lat": 52.80421,
+      "lng": 0.018004,
+      "nation": "England"
+    },
     "Holbury": {
       "aliases": [],
       "lat": 50.8314274,
@@ -3644,6 +3764,12 @@
       "lng": -0.335,
       "nation": "England"
     },
+    "Huntingdon": {
+      "aliases": [],
+      "lat": 52.330509,
+      "lng": -0.184351,
+      "nation": "England"
+    },
     "Huntington": {
       "aliases": [],
       "lat": 53.998817,
@@ -3752,6 +3878,12 @@
       "lng": -2.3742854,
       "nation": "Scotland"
     },
+    "Ipsden": {
+      "aliases": [],
+      "lat": 51.565265,
+      "lng": -1.069125,
+      "nation": "England"
+    },
     "Ipstones": {
       "aliases": [],
       "lat": 53.046002,
@@ -3846,6 +3978,12 @@
       "aliases": [],
       "lat": 54.600981,
       "lng": -3.137582,
+      "nation": "England"
+    },
+    "Ketton": {
+      "aliases": [],
+      "lat": 52.091894,
+      "lng": 0.487931,
       "nation": "England"
     },
     "Keynsham": {
@@ -4016,6 +4154,12 @@
       "lng": -1.293505,
       "nation": "England"
     },
+    "Kirkburton": {
+      "aliases": [],
+      "lat": 53.610369,
+      "lng": -1.701761,
+      "nation": "England"
+    },
     "Kirkcaldy": {
       "aliases": [],
       "lat": 56.1110218,
@@ -4153,6 +4297,12 @@
       "lat": 55.8507965,
       "lng": -4.2564398,
       "nation": "Scotland"
+    },
+    "Lea": {
+      "aliases": [],
+      "lat": 51.77232,
+      "lng": -0.150616,
+      "nation": "England"
     },
     "Leatherhead": {
       "aliases": [],
@@ -4296,6 +4446,12 @@
       "aliases": [],
       "lat": 53.408,
       "lng": -2.992,
+      "nation": "England"
+    },
+    "Liversedge": {
+      "aliases": [],
+      "lat": 53.712533,
+      "lng": -1.69426,
       "nation": "England"
     },
     "Livingston": {
@@ -4537,6 +4693,12 @@
       "lat": 54.9978678,
       "lng": -7.3213056,
       "nation": "Northern Ireland"
+    },
+    "Long Ashton": {
+      "aliases": [],
+      "lat": 51.43015,
+      "lng": -2.661841,
+      "nation": "England"
     },
     "Long Bennington": {
       "aliases": [],
@@ -4784,6 +4946,12 @@
       "lng": -3.069358,
       "nation": "Wales"
     },
+    "Marske-by-the-Sea": {
+      "aliases": [],
+      "lat": 54.591927,
+      "lng": -1.019679,
+      "nation": "England"
+    },
     "Marston Green": {
       "aliases": [],
       "lat": 52.466881,
@@ -4854,6 +5022,12 @@
       "aliases": [],
       "lat": 51.0894379,
       "lng": -2.2684427,
+      "nation": "England"
+    },
+    "Merstham": {
+      "aliases": [],
+      "lat": 51.260756,
+      "lng": -0.148182,
       "nation": "England"
     },
     "Merthyr Tydfil": {
@@ -6328,6 +6502,12 @@
       "aliases": [],
       "lat": 53.0635213,
       "lng": -2.4480785,
+      "nation": "England"
+    },
+    "Shaw": {
+      "aliases": [],
+      "lat": 53.578226,
+      "lng": -2.093497,
       "nation": "England"
     },
     "Sheffield": {
