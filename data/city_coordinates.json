@@ -180,6 +180,12 @@
       "lng": -0.763,
       "nation": "England"
     },
+    "Aldington": {
+      "aliases": [],
+      "lat": 52.095649,
+      "lng": -1.908351,
+      "nation": "England"
+    },
     "Alexandria": {
       "aliases": [],
       "lat": 55.9878736,
@@ -378,6 +384,12 @@
       "lng": -1.57027,
       "nation": "England"
     },
+    "Ashton-in-Makerfield": {
+      "aliases": [],
+      "lat": 53.485213,
+      "lng": -2.641777,
+      "nation": "England"
+    },
     "Ashton-under-Lyne": {
       "aliases": [],
       "lat": 53.486541,
@@ -448,6 +460,12 @@
       "aliases": [],
       "lat": 51.309309,
       "lng": 0.486733,
+      "nation": "England"
+    },
+    "Aylsham": {
+      "aliases": [],
+      "lat": 52.795003,
+      "lng": 1.251189,
       "nation": "England"
     },
     "Ayr": {
@@ -1272,6 +1290,12 @@
       "lng": 0.301866,
       "nation": "England"
     },
+    "Brewood": {
+      "aliases": [],
+      "lat": 52.677373,
+      "lng": -2.171634,
+      "nation": "England"
+    },
     "Bridge of Allan": {
       "aliases": [],
       "lat": 56.1550362,
@@ -1770,6 +1794,12 @@
       "lng": -1.914835,
       "nation": "England"
     },
+    "Charnock Richard": {
+      "aliases": [],
+      "lat": 53.634718,
+      "lng": -2.666926,
+      "nation": "England"
+    },
     "Cheadle": {
       "aliases": [],
       "lat": 53.3936441,
@@ -1968,6 +1998,12 @@
       "aliases": [],
       "lat": 52.383084,
       "lng": -1.222453,
+      "nation": "England"
+    },
+    "Clowne": {
+      "aliases": [],
+      "lat": 53.274635,
+      "lng": -1.268535,
       "nation": "England"
     },
     "Clydach": {
@@ -2354,6 +2390,12 @@
       "lng": -2.466509,
       "nation": "England"
     },
+    "Davenham": {
+      "aliases": [],
+      "lat": 53.229649,
+      "lng": -2.490896,
+      "nation": "England"
+    },
     "Daventry": {
       "aliases": [],
       "lat": 52.257868,
@@ -2618,6 +2660,12 @@
       "lng": -3.4616183,
       "nation": "Scotland"
     },
+    "Dunkeswell": {
+      "aliases": [],
+      "lat": 50.863808,
+      "lng": -3.222279,
+      "nation": "England"
+    },
     "Dunlop": {
       "aliases": [],
       "lat": 55.7119142,
@@ -2725,6 +2773,12 @@
       "lat": 56.1616165,
       "lng": -3.0624745,
       "nation": "Scotland"
+    },
+    "East Wittering": {
+      "aliases": [],
+      "lat": 50.768483,
+      "lng": -0.861549,
+      "nation": "England"
     },
     "East Woodhay": {
       "aliases": [],
@@ -2954,11 +3008,23 @@
       "lng": -0.8316334,
       "nation": "England"
     },
+    "Fleetwood": {
+      "aliases": [],
+      "lat": 53.921959,
+      "lng": -3.032729,
+      "nation": "England"
+    },
     "Flint": {
       "aliases": [],
       "lat": 53.249283,
       "lng": -3.134526,
       "nation": "Wales"
+    },
+    "Flitwick": {
+      "aliases": [],
+      "lat": 52.004324,
+      "lng": -0.493734,
+      "nation": "England"
     },
     "Fochabers": {
       "aliases": [],
@@ -3110,6 +3176,12 @@
       "lng": -2.2881032,
       "nation": "England"
     },
+    "Gilberdyke": {
+      "aliases": [],
+      "lat": 53.748023,
+      "lng": -0.73161,
+      "nation": "England"
+    },
     "Gilfach Goch": {
       "aliases": [],
       "lat": 51.593581,
@@ -3145,6 +3217,12 @@
       "lat": 55.8934973,
       "lng": -4.0457383,
       "nation": "Scotland"
+    },
+    "Glenfield": {
+      "aliases": [],
+      "lat": 52.649918,
+      "lng": -1.205235,
+      "nation": "England"
     },
     "Glengormley": {
       "aliases": [],
@@ -3224,6 +3302,12 @@
       "lng": -4.07366,
       "nation": "Wales"
     },
+    "Gosport": {
+      "aliases": [],
+      "lat": 50.795207,
+      "lng": -1.121085,
+      "nation": "England"
+    },
     "Grangemouth": {
       "aliases": [],
       "lat": 56.0189027,
@@ -3241,6 +3325,12 @@
       "lat": 57.3295089,
       "lng": -3.6104018,
       "nation": "Scotland"
+    },
+    "Great Bardfield": {
+      "aliases": [],
+      "lat": 51.945682,
+      "lng": 0.443229,
+      "nation": "England"
     },
     "Great Chesterford": {
       "aliases": [],
@@ -3356,6 +3446,18 @@
       "lng": -1.051085,
       "nation": "England"
     },
+    "Guiseley": {
+      "aliases": [],
+      "lat": 53.87483,
+      "lng": -1.707511,
+      "nation": "England"
+    },
+    "Gunnislake": {
+      "aliases": [],
+      "lat": 50.523883,
+      "lng": -4.216192,
+      "nation": "England"
+    },
     "Gwaun-Cae-Gurwen": {
       "aliases": [],
       "lat": 51.789955,
@@ -3434,6 +3536,12 @@
       "lng": -4.033442,
       "nation": "Scotland"
     },
+    "Handforth": {
+      "aliases": [],
+      "lat": 53.350176,
+      "lng": -2.215825,
+      "nation": "England"
+    },
     "Hardley": {
       "aliases": [],
       "lat": 50.8411142,
@@ -3506,6 +3614,12 @@
       "lng": -2.122151,
       "nation": "England"
     },
+    "Heacham": {
+      "aliases": [],
+      "lat": 52.908693,
+      "lng": 0.494085,
+      "nation": "England"
+    },
     "Heanor": {
       "aliases": [],
       "lat": 53.014582,
@@ -3529,6 +3643,12 @@
       "lat": 56.0033464,
       "lng": -4.7342935,
       "nation": "Scotland"
+    },
+    "Helsby": {
+      "aliases": [],
+      "lat": 53.275305,
+      "lng": -2.766054,
+      "nation": "England"
     },
     "Hemsworth": {
       "aliases": [],
@@ -3564,6 +3684,12 @@
       "aliases": [],
       "lat": 53.723159,
       "lng": -0.434931,
+      "nation": "England"
+    },
+    "Hetton-le-Hole": {
+      "aliases": [],
+      "lat": 54.821258,
+      "lng": -1.452796,
       "nation": "England"
     },
     "Heybridge": {
@@ -3914,6 +4040,12 @@
       "lng": -4.6696399,
       "nation": "Scotland"
     },
+    "Isleham": {
+      "aliases": [],
+      "lat": 52.355008,
+      "lng": 0.395806,
+      "nation": "England"
+    },
     "Jedburgh": {
       "aliases": [],
       "lat": 55.4776435,
@@ -3978,6 +4110,12 @@
       "aliases": [],
       "lat": 54.600981,
       "lng": -3.137582,
+      "nation": "England"
+    },
+    "Ketley": {
+      "aliases": [],
+      "lat": 52.695475,
+      "lng": -2.48102,
       "nation": "England"
     },
     "Ketton": {
@@ -4068,6 +4206,12 @@
       "aliases": [],
       "lat": 52.1574699,
       "lng": -1.5080688,
+      "nation": "England"
+    },
+    "King's Lynn": {
+      "aliases": [],
+      "lat": 52.753867,
+      "lng": 0.395477,
       "nation": "England"
     },
     "Kinghorn": {
@@ -4405,6 +4549,12 @@
       "lat": 57.6355473,
       "lng": -3.2163153,
       "nation": "Scotland"
+    },
+    "Lichfield": {
+      "aliases": [],
+      "lat": 52.68437,
+      "lng": -1.827529,
+      "nation": "England"
     },
     "Limavady": {
       "aliases": [],
@@ -4748,6 +4898,12 @@
       "lng": -2.600844,
       "nation": "England"
     },
+    "Longton": {
+      "aliases": [],
+      "lat": 52.988809,
+      "lng": -2.135656,
+      "nation": "England"
+    },
     "Looe": {
       "aliases": [],
       "lat": 50.353465,
@@ -4916,6 +5072,12 @@
       "lng": -2.244,
       "nation": "England"
     },
+    "Mansfield Woodhouse": {
+      "aliases": [],
+      "lat": 53.16538,
+      "lng": -1.191874,
+      "nation": "England"
+    },
     "Marden": {
       "aliases": [],
       "lat": 51.176838,
@@ -5004,6 +5166,12 @@
       "aliases": [],
       "lat": 51.3759342,
       "lng": -2.1314633,
+      "nation": "England"
+    },
+    "Mellor": {
+      "aliases": [],
+      "lat": 53.772188,
+      "lng": -2.525028,
       "nation": "England"
     },
     "Meltham": {
@@ -5113,6 +5281,12 @@
       "lat": 51.5194352,
       "lng": -3.375041,
       "nation": "Wales"
+    },
+    "Mobberley": {
+      "aliases": [],
+      "lat": 53.324118,
+      "lng": -2.310649,
+      "nation": "England"
     },
     "Moffat": {
       "aliases": [],
