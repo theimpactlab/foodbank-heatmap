@@ -12,16 +12,30 @@ LOG_FILE="$LOG_DIR/enrich_city_coordinates_$(date +%Y%m%d_%H%M%S).log"
 LOCK_DIR="/tmp/openclaw-foodbank-heatmap-coordinate-enrich.lock"
 LIMIT="${CITY_COORD_ENRICH_LIMIT:-30}"
 DELAY="${CITY_COORD_ENRICH_DELAY:-1.2}"
+WORKTREE_DIR=""
+LOCK_HELD=false
 
 mkdir -p "$LOG_DIR"
 
 log() { echo "$*" | tee -a "$LOG_FILE"; }
 
-if ! mkdir "$LOCK_DIR" 2>/dev/null; then
-  log "SKIP: coordinate enrichment already running (lock: $LOCK_DIR)"
-  exit 0
+cleanup() {
+  if [[ -n "$WORKTREE_DIR" ]]; then
+    git -C "$PROJECT_DIR" worktree remove --force "$WORKTREE_DIR" >/dev/null 2>&1 || true
+  fi
+  if [[ "$LOCK_HELD" == "true" ]]; then
+    rmdir "$LOCK_DIR" 2>/dev/null || true
+  fi
+}
+trap cleanup EXIT
+
+if [[ "${COORD_ENRICH_LOCK_HELD:-false}" != "true" ]]; then
+  if ! mkdir "$LOCK_DIR" 2>/dev/null; then
+    log "SKIP: coordinate enrichment already running (lock: $LOCK_DIR)"
+    exit 0
+  fi
+  LOCK_HELD=true
 fi
-trap 'rmdir "$LOCK_DIR" 2>/dev/null || true' EXIT
 
 cd "$PROJECT_DIR"
 
@@ -30,6 +44,23 @@ log "Started: $(date)"
 log "Project: $PROJECT_DIR"
 log "Limit: $LIMIT"
 log "Delay: $DELAY"
+
+if [[ "${SKIP_GIT_PUSH:-false}" != "true" && "${COORD_ENRICH_IN_WORKTREE:-false}" != "true" ]]; then
+  log "Preparing clean worktree from current origin/main..."
+  git fetch origin main 2>&1 | tee -a "$LOG_FILE"
+  WORKTREE_DIR="$(mktemp -d /tmp/foodbank-coordinate-enrich.XXXXXX)"
+  rmdir "$WORKTREE_DIR"
+  git worktree add --detach "$WORKTREE_DIR" origin/main 2>&1 | tee -a "$LOG_FILE"
+  log "Running enrichment in clean worktree: $WORKTREE_DIR"
+  COORD_ENRICH_IN_WORKTREE=true \
+  COORD_ENRICH_LOCK_HELD=true \
+  CITY_COORD_ENRICH_LIMIT="$LIMIT" \
+  CITY_COORD_ENRICH_DELAY="$DELAY" \
+    /bin/bash "$WORKTREE_DIR/scripts/enrich_city_coordinates_nightly.sh" 2>&1 | tee -a "$LOG_FILE"
+  log "Completed: $(date)"
+  log "=== Done ==="
+  exit 0
+fi
 
 if [[ ! -f data/unmatched_cities.json ]]; then
   log "No unmatched_cities.json found; nothing to enrich."
@@ -88,7 +119,12 @@ if [[ "${SKIP_GIT_PUSH:-false}" != "true" ]]; then
     log "Coordinate files changed — committing and pushing..."
     git add data/city_coordinates.json data/unmatched_cities.json scripts/enrich_city_coordinates.py scripts/enrich_city_coordinates_nightly.sh
     git commit -m "Enrich food bank heatmap city coordinates $(date -u +'%Y-%m-%d %H:%M UTC')" 2>&1 | tee -a "$LOG_FILE"
-    git push origin main 2>&1 | tee -a "$LOG_FILE"
+    if ! git push origin HEAD:main 2>&1 | tee -a "$LOG_FILE"; then
+      log "Push rejected; rebasing on latest origin/main and retrying..."
+      git fetch origin main 2>&1 | tee -a "$LOG_FILE"
+      git rebase origin/main 2>&1 | tee -a "$LOG_FILE"
+      git push origin HEAD:main 2>&1 | tee -a "$LOG_FILE"
+    fi
     log "Pushed coordinate enrichment changes."
   fi
 else
