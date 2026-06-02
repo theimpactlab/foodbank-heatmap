@@ -150,6 +150,12 @@
       "lng": -1.325333,
       "nation": "England"
     },
+    "Adderbury": {
+      "aliases": [],
+      "lat": 52.016501,
+      "lng": -1.313117,
+      "nation": "England"
+    },
     "Admaston": {
       "aliases": [],
       "lat": 52.71387,
@@ -1494,6 +1500,12 @@
       "lng": -3.4058015,
       "nation": "Wales"
     },
+    "Bunbury": {
+      "aliases": [],
+      "lat": 53.119613,
+      "lng": -2.640938,
+      "nation": "England"
+    },
     "Bungay": {
       "aliases": [],
       "lat": 52.456225,
@@ -1806,6 +1818,18 @@
       "lng": -2.2122068,
       "nation": "England"
     },
+    "Cheadle Hulme": {
+      "aliases": [],
+      "lat": 53.376026,
+      "lng": -2.18835,
+      "nation": "England"
+    },
+    "Cheddar": {
+      "aliases": [],
+      "lat": 51.275337,
+      "lng": -2.776654,
+      "nation": "England"
+    },
     "Cheddington": {
       "aliases": [],
       "lat": 51.851182,
@@ -1962,6 +1986,12 @@
       "aliases": [],
       "lat": 53.1652765,
       "lng": -1.4132383,
+      "nation": "England"
+    },
+    "Claygate": {
+      "aliases": [],
+      "lat": 51.360266,
+      "lng": -0.337505,
       "nation": "England"
     },
     "Clayton-le-Moors": {
@@ -2570,6 +2600,12 @@
       "lng": -3.848002,
       "nation": "Scotland"
     },
+    "Doveridge": {
+      "aliases": [],
+      "lat": 52.904462,
+      "lng": -1.828309,
+      "nation": "England"
+    },
     "Dowlais": {
       "aliases": [],
       "lat": 51.7625134,
@@ -2858,6 +2894,12 @@
       "lng": -1.629248,
       "nation": "England"
     },
+    "Emsworth": {
+      "aliases": [],
+      "lat": 50.847321,
+      "lng": -0.937134,
+      "nation": "England"
+    },
     "Enfield": {
       "aliases": [],
       "lat": 51.652085,
@@ -3116,10 +3158,22 @@
       "lng": 0.164784,
       "nation": "England"
     },
+    "Friskney": {
+      "aliases": [],
+      "lat": 53.050851,
+      "lng": 0.228897,
+      "nation": "England"
+    },
     "Fulford": {
       "aliases": [],
       "lat": 53.9396739,
       "lng": -1.0740062,
+      "nation": "England"
+    },
+    "Furner's Green": {
+      "aliases": [],
+      "lat": 51.017744,
+      "lng": 0.006534,
       "nation": "England"
     },
     "Gaerwen": {
@@ -3500,6 +3554,12 @@
       "lng": -2.0514646,
       "nation": "England"
     },
+    "Halesworth": {
+      "aliases": [],
+      "lat": 52.341815,
+      "lng": 1.500165,
+      "nation": "England"
+    },
     "Halfway": {
       "aliases": [],
       "lat": 51.413031,
@@ -3812,6 +3872,12 @@
       "lng": -3.189088,
       "nation": "England"
     },
+    "Hoo": {
+      "aliases": [],
+      "lat": 52.182218,
+      "lng": 1.300844,
+      "nation": "England"
+    },
     "Horam": {
       "aliases": [],
       "lat": 50.9322055,
@@ -3888,6 +3954,24 @@
       "aliases": [],
       "lat": 53.745,
       "lng": -0.335,
+      "nation": "England"
+    },
+    "Humberston": {
+      "aliases": [],
+      "lat": 53.533969,
+      "lng": -0.023475,
+      "nation": "England"
+    },
+    "Hungerford": {
+      "aliases": [],
+      "lat": 51.415256,
+      "lng": -1.515401,
+      "nation": "England"
+    },
+    "Hunmanby": {
+      "aliases": [],
+      "lat": 54.166474,
+      "lng": -0.329143,
       "nation": "England"
     },
     "Huntingdon": {
@@ -4274,6 +4358,12 @@
       "lng": -2.508392,
       "nation": "England"
     },
+    "Kington": {
+      "aliases": [],
+      "lat": 52.202916,
+      "lng": -3.028878,
+      "nation": "England"
+    },
     "Kinloss": {
       "aliases": [],
       "lat": 57.634864,
@@ -4375,6 +4465,12 @@
       "lat": 56.274246,
       "lng": -3.121595,
       "nation": "Scotland"
+    },
+    "Lambourn": {
+      "aliases": [],
+      "lat": 51.508309,
+      "lng": -1.530902,
+      "nation": "England"
     },
     "Lampeter": {
       "aliases": [],
@@ -4584,6 +4680,12 @@
       "aliases": [],
       "lat": 53.2829132,
       "lng": -3.0512176,
+      "nation": "England"
+    },
+    "Littleborough": {
+      "aliases": [],
+      "lat": 53.641054,
+      "lng": -2.091402,
       "nation": "England"
     },
     "Littleport": {
@@ -4836,6 +4938,12 @@
       "aliases": [],
       "lat": 51.507,
       "lng": -0.128,
+      "nation": "England"
+    },
+    "London Colney": {
+      "aliases": [],
+      "lat": 51.723876,
+      "lng": -0.295664,
       "nation": "England"
     },
     "Londonderry": {
@@ -5102,6 +5210,12 @@
       "lng": -2.300311,
       "nation": "England"
     },
+    "Marple": {
+      "aliases": [],
+      "lat": 53.393015,
+      "lng": -2.069313,
+      "nation": "England"
+    },
     "Marshfield": {
       "aliases": [],
       "lat": 51.536537,
@@ -5118,6 +5232,12 @@
       "aliases": [],
       "lat": 52.466881,
       "lng": -1.755095,
+      "nation": "England"
+    },
+    "Matfield": {
+      "aliases": [],
+      "lat": 51.151695,
+      "lng": 0.369352,
       "nation": "England"
     },
     "Mauchline": {
@@ -5642,6 +5762,12 @@
       "lng": -1.387761,
       "nation": "England"
     },
+    "Northallerton": {
+      "aliases": [],
+      "lat": 54.340481,
+      "lng": -1.434494,
+      "nation": "England"
+    },
     "Northampton": {
       "aliases": [],
       "lat": 52.241,
@@ -6080,6 +6206,12 @@
       "lng": -3.70407,
       "nation": "Wales"
     },
+    "Porthleven": {
+      "aliases": [],
+      "lat": 50.088686,
+      "lng": -5.304824,
+      "nation": "England"
+    },
     "Porthmadog": {
       "aliases": [],
       "lat": 52.9256029,
@@ -6230,10 +6362,22 @@
       "lng": -6.1603136,
       "nation": "Northern Ireland"
     },
+    "Rayne": {
+      "aliases": [],
+      "lat": 51.887915,
+      "lng": 0.494432,
+      "nation": "England"
+    },
     "Reading": {
       "aliases": [],
       "lat": 51.455,
       "lng": -0.978,
+      "nation": "England"
+    },
+    "Redruth": {
+      "aliases": [],
+      "lat": 50.233989,
+      "lng": -5.227647,
       "nation": "England"
     },
     "Renton": {
@@ -6302,6 +6446,12 @@
       "lng": -3.4907258,
       "nation": "Wales"
     },
+    "Richmond": {
+      "aliases": [],
+      "lat": 51.440553,
+      "lng": -0.307639,
+      "nation": "England"
+    },
     "Riddings": {
       "aliases": [],
       "lat": 53.0673874,
@@ -6330,6 +6480,12 @@
       "aliases": [],
       "lat": 53.6220628,
       "lng": -2.5454159,
+      "nation": "England"
+    },
+    "Roade": {
+      "aliases": [],
+      "lat": 52.1588,
+      "lng": -0.894136,
       "nation": "England"
     },
     "Rochdale": {
@@ -6392,10 +6548,28 @@
       "lng": -1.7503658,
       "nation": "England"
     },
+    "Rowley Regis": {
+      "aliases": [],
+      "lat": 52.483333,
+      "lng": -2.067407,
+      "nation": "England"
+    },
+    "Rowsley": {
+      "aliases": [],
+      "lat": 53.189219,
+      "lng": -1.617026,
+      "nation": "England"
+    },
     "Royal Wootton Bassett": {
       "aliases": [],
       "lat": 51.5417946,
       "lng": -1.9047369,
+      "nation": "England"
+    },
+    "Royton": {
+      "aliases": [],
+      "lat": 53.565249,
+      "lng": -2.123609,
       "nation": "England"
     },
     "Ruabon": {
@@ -6408,6 +6582,12 @@
       "aliases": [],
       "lat": 52.3926619,
       "lng": -2.0166846,
+      "nation": "England"
+    },
+    "Ruddington": {
+      "aliases": [],
+      "lat": 52.892113,
+      "lng": -1.150237,
       "nation": "England"
     },
     "Rugby": {

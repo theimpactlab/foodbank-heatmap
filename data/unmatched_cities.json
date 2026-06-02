@@ -1,90 +1,10 @@
 {
   "schema": "foodbank-heatmap.unmatched_cities.v1",
-  "generated_at": "2026-05-31T23:02:33.612638Z",
-  "count": 64,
+  "generated_at": "2026-06-01T23:04:41.537186Z",
+  "count": 48,
   "cities": [
     {
-      "name": "Creech Saint Michael",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Much Hadham",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "New Brancepeth",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Niton",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "North Walsham",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Norton Canes",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Ormesby",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Orsett",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Ponteland",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Porthleven",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Prestwich",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Probus",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Purfleet",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Redruth",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Rowsley",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Ruddington",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Saint Just",
+      "name": "Saint Margaret's at Cliffe",
       "nation_hint": "England",
       "score_90d": 0
     },
@@ -94,22 +14,12 @@
       "score_90d": 0
     },
     {
-      "name": "Scampton",
+      "name": "Seaford",
       "nation_hint": "England",
       "score_90d": 0
     },
     {
-      "name": "Seaham",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Seaton",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Sheerness",
+      "name": "Seaton Burn",
       "nation_hint": "England",
       "score_90d": 0
     },
@@ -119,17 +29,32 @@
       "score_90d": 0
     },
     {
+      "name": "Stanton",
+      "nation_hint": "England",
+      "score_90d": 0
+    },
+    {
       "name": "Stantonbury",
       "nation_hint": "England",
       "score_90d": 0
     },
     {
-      "name": "Stewartby",
+      "name": "Stradbroke",
       "nation_hint": "England",
       "score_90d": 0
     },
     {
-      "name": "Sutton Bridge",
+      "name": "Tangmere",
+      "nation_hint": "England",
+      "score_90d": 0
+    },
+    {
+      "name": "Tavistock",
+      "nation_hint": "England",
+      "score_90d": 0
+    },
+    {
+      "name": "Trowbridge",
       "nation_hint": "England",
       "score_90d": 0
     },
@@ -139,37 +64,32 @@
       "score_90d": 0
     },
     {
-      "name": "West Drayton",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
-      "name": "Weston",
-      "nation_hint": "England",
-      "score_90d": 0
-    },
-    {
       "name": "Wigton",
       "nation_hint": "England",
       "score_90d": 0
     },
     {
-      "name": "Wimblington",
+      "name": "Wimborne Minster",
       "nation_hint": "England",
       "score_90d": 0
     },
     {
-      "name": "Yate",
+      "name": "Wingerworth",
       "nation_hint": "England",
       "score_90d": 0
     },
     {
-      "name": "Alness",
+      "name": "Ballyclare",
+      "nation_hint": "Northern Ireland",
+      "score_90d": 0
+    },
+    {
+      "name": "Aviemore",
       "nation_hint": "Scotland",
       "score_90d": 0
     },
     {
-      "name": "Bridge of Weir",
+      "name": "Avoch",
       "nation_hint": "Scotland",
       "score_90d": 0
     },
@@ -179,32 +99,27 @@
       "score_90d": 0
     },
     {
+      "name": "Cairneyhill",
+      "nation_hint": "Scotland",
+      "score_90d": 0
+    },
+    {
       "name": "Cardenden",
       "nation_hint": "Scotland",
       "score_90d": 0
     },
     {
-      "name": "Darvel",
+      "name": "Crail",
       "nation_hint": "Scotland",
       "score_90d": 0
     },
     {
-      "name": "Dunblane",
+      "name": "Evanton",
       "nation_hint": "Scotland",
       "score_90d": 0
     },
     {
-      "name": "Fauldhouse",
-      "nation_hint": "Scotland",
-      "score_90d": 0
-    },
-    {
-      "name": "Houston",
-      "nation_hint": "Scotland",
-      "score_90d": 0
-    },
-    {
-      "name": "Kelty",
+      "name": "Larbert",
       "nation_hint": "Scotland",
       "score_90d": 0
     },
@@ -214,22 +129,12 @@
       "score_90d": 0
     },
     {
-      "name": "Markinch",
-      "nation_hint": "Scotland",
-      "score_90d": 0
-    },
-    {
-      "name": "Menstrie",
+      "name": "Mayfield",
       "nation_hint": "Scotland",
       "score_90d": 0
     },
     {
       "name": "North Berwick",
-      "nation_hint": "Scotland",
-      "score_90d": 0
-    },
-    {
-      "name": "Old Kilpatrick",
       "nation_hint": "Scotland",
       "score_90d": 0
     },
@@ -244,18 +149,8 @@
       "score_90d": 0
     },
     {
-      "name": "Aberporth",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Acrefair",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Bargoed",
-      "nation_hint": "Wales",
+      "name": "Strathblane",
+      "nation_hint": "Scotland",
       "score_90d": 0
     },
     {
@@ -264,12 +159,7 @@
       "score_90d": 0
     },
     {
-      "name": "Blaengarw",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Burry Port",
+      "name": "Caergwrle",
       "nation_hint": "Wales",
       "score_90d": 0
     },
@@ -289,12 +179,17 @@
       "score_90d": 0
     },
     {
+      "name": "Crynant",
+      "nation_hint": "Wales",
+      "score_90d": 0
+    },
+    {
       "name": "Ebbw Vale",
       "nation_hint": "Wales",
       "score_90d": 0
     },
     {
-      "name": "Gwernymynydd",
+      "name": "Gowerton",
       "nation_hint": "Wales",
       "score_90d": 0
     },
@@ -304,12 +199,32 @@
       "score_90d": 0
     },
     {
+      "name": "Llanfair Caereinion",
+      "nation_hint": "Wales",
+      "score_90d": 0
+    },
+    {
+      "name": "Marchwiel",
+      "nation_hint": "Wales",
+      "score_90d": 0
+    },
+    {
       "name": "Nefyn",
       "nation_hint": "Wales",
       "score_90d": 0
     },
     {
-      "name": "Overton",
+      "name": "Ogmore Vale",
+      "nation_hint": "Wales",
+      "score_90d": 0
+    },
+    {
+      "name": "Pentre",
+      "nation_hint": "Wales",
+      "score_90d": 0
+    },
+    {
+      "name": "Pontycymer",
       "nation_hint": "Wales",
       "score_90d": 0
     },
@@ -319,10 +234,15 @@
       "score_90d": 0
     },
     {
-      "name": "Saint Mellons",
+      "name": "Rossett",
+      "nation_hint": "Wales",
+      "score_90d": 0
+    },
+    {
+      "name": "Upper Brynamman",
       "nation_hint": "Wales",
       "score_90d": 0
     }
   ],
-  "last_enriched_at": "2026-06-01T00:01:25Z"
+  "last_enriched_at": "2026-06-02T00:01:20Z"
 }
