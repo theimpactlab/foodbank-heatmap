@@ -456,6 +456,18 @@
       "lng": 0.2561792,
       "nation": "England"
     },
+    "Aviemore": {
+      "aliases": [],
+      "lat": 57.193753,
+      "lng": -3.82875,
+      "nation": "Scotland"
+    },
+    "Avoch": {
+      "aliases": [],
+      "lat": 57.566903,
+      "lng": -4.170935,
+      "nation": "Scotland"
+    },
     "Avonbridge": {
       "aliases": [],
       "lat": 55.934302,
@@ -538,6 +550,12 @@
       "aliases": [],
       "lat": 55.2006882,
       "lng": -6.250282,
+      "nation": "Northern Ireland"
+    },
+    "Ballyclare": {
+      "aliases": [],
+      "lat": 54.75253,
+      "lng": -6.001091,
       "nation": "Northern Ireland"
     },
     "Ballymena": {
@@ -1416,6 +1434,12 @@
       "lng": -0.6350115,
       "nation": "England"
     },
+    "Brora": {
+      "aliases": [],
+      "lat": 58.01104,
+      "lng": -3.855118,
+      "nation": "Scotland"
+    },
     "Broughshane": {
       "aliases": [],
       "lat": 54.893692,
@@ -1614,6 +1638,12 @@
       "lng": -2.7643084,
       "nation": "Wales"
     },
+    "Cairneyhill": {
+      "aliases": [],
+      "lat": 56.060107,
+      "lng": -3.533148,
+      "nation": "Scotland"
+    },
     "Cairnryan": {
       "aliases": [],
       "lat": 54.9738045,
@@ -1703,6 +1733,12 @@
       "lat": 50.196791,
       "lng": -5.464633,
       "nation": "England"
+    },
+    "Cardenden": {
+      "aliases": [],
+      "lat": 56.141062,
+      "lng": -3.260981,
+      "nation": "Scotland"
     },
     "Cardiff": {
       "aliases": [],
@@ -2227,6 +2263,12 @@
       "lat": 54.447,
       "lng": -6.389,
       "nation": "Northern Ireland"
+    },
+    "Crail": {
+      "aliases": [],
+      "lat": 56.260677,
+      "lng": -2.626712,
+      "nation": "Scotland"
     },
     "Craven Arms": {
       "aliases": [],
@@ -2929,6 +2971,12 @@
       "lat": 53.858648,
       "lng": -1.724417,
       "nation": "England"
+    },
+    "Evanton": {
+      "aliases": [],
+      "lat": 57.663309,
+      "lng": -4.337468,
+      "nation": "Scotland"
     },
     "Evesham": {
       "aliases": [],
@@ -4502,6 +4550,12 @@
       "lng": -2.998331,
       "nation": "Scotland"
     },
+    "Larbert": {
+      "aliases": [],
+      "lat": 56.022135,
+      "lng": -3.829793,
+      "nation": "Scotland"
+    },
     "Largs": {
       "aliases": [],
       "lat": 55.7948829,
@@ -5018,6 +5072,12 @@
       "lng": -4.453949,
       "nation": "England"
     },
+    "Lossiemouth": {
+      "aliases": [],
+      "lat": 57.722077,
+      "lng": -3.281462,
+      "nation": "Scotland"
+    },
     "Lostock Hall": {
       "aliases": [],
       "lat": 53.72435,
@@ -5262,6 +5322,12 @@
       "aliases": [],
       "lat": 55.3550738,
       "lng": -4.6801392,
+      "nation": "Scotland"
+    },
+    "Mayfield": {
+      "aliases": [],
+      "lat": 55.934292,
+      "lng": -3.173963,
       "nation": "Scotland"
     },
     "Medstead": {
@@ -5743,6 +5809,12 @@
       "lat": 53.165651,
       "lng": -4.3582469,
       "nation": "Wales"
+    },
+    "North Berwick": {
+      "aliases": [],
+      "lat": 56.058118,
+      "lng": -2.720913,
+      "nation": "Scotland"
     },
     "North Cornelly": {
       "aliases": [],
@@ -6308,6 +6380,12 @@
       "lng": -2.2773034,
       "nation": "England"
     },
+    "Queensferry": {
+      "aliases": [],
+      "lat": 55.990229,
+      "lng": -3.3967,
+      "nation": "Scotland"
+    },
     "Quinton": {
       "aliases": [],
       "lat": 52.1823153,
@@ -6690,6 +6768,12 @@
       "lng": -2.3296934,
       "nation": "England"
     },
+    "Saint Margaret's at Cliffe": {
+      "aliases": [],
+      "lat": 51.152309,
+      "lng": 1.38043,
+      "nation": "England"
+    },
     "Saint Neots": {
       "aliases": [],
       "lat": 52.22758,
@@ -6780,6 +6864,12 @@
       "lng": -4.699798,
       "nation": "Wales"
     },
+    "Sawtry": {
+      "aliases": [],
+      "lat": 52.438067,
+      "lng": -0.282055,
+      "nation": "England"
+    },
     "Scarning": {
       "aliases": [],
       "lat": 52.671002,
@@ -6804,6 +6894,12 @@
       "lng": -0.651,
       "nation": "England"
     },
+    "Seaford": {
+      "aliases": [],
+      "lat": 50.778254,
+      "lng": 0.110676,
+      "nation": "England"
+    },
     "Sealand": {
       "aliases": [],
       "lat": 53.2144555,
@@ -6814,6 +6910,12 @@
       "aliases": [],
       "lat": 51.34822,
       "lng": 1.005063,
+      "nation": "England"
+    },
+    "Seaton Burn": {
+      "aliases": [],
+      "lat": 55.058911,
+      "lng": -1.625659,
       "nation": "England"
     },
     "Seaton Delaval": {
@@ -7040,10 +7142,28 @@
       "lng": -1.8,
       "nation": "England"
     },
+    "Staines-upon-Thames": {
+      "aliases": [],
+      "lat": 51.434012,
+      "lng": -0.511044,
+      "nation": "England"
+    },
     "Stanmore": {
       "aliases": [],
       "lat": 51.618853,
       "lng": -0.302627,
+      "nation": "England"
+    },
+    "Stanton": {
+      "aliases": [],
+      "lat": 52.008126,
+      "lng": -1.908624,
+      "nation": "England"
+    },
+    "Stantonbury": {
+      "aliases": [],
+      "lat": 52.063818,
+      "lng": -0.767867,
       "nation": "England"
     },
     "Stenhousemuir": {
@@ -7136,6 +7256,12 @@
       "lng": -7.462799,
       "nation": "Northern Ireland"
     },
+    "Stradbroke": {
+      "aliases": [],
+      "lat": 52.317595,
+      "lng": 1.272829,
+      "nation": "England"
+    },
     "Stranraer": {
       "aliases": [],
       "lat": 54.9044332,
@@ -7152,6 +7278,12 @@
       "aliases": [],
       "lat": 55.676514,
       "lng": -4.065824,
+      "nation": "Scotland"
+    },
+    "Strathblane": {
+      "aliases": [],
+      "lat": 55.985568,
+      "lng": -4.306266,
       "nation": "Scotland"
     },
     "Strathpeffer": {
@@ -7262,6 +7394,12 @@
       "lng": -6.4123562,
       "nation": "Northern Ireland"
     },
+    "Tangmere": {
+      "aliases": [],
+      "lat": 50.845204,
+      "lng": -0.710691,
+      "nation": "England"
+    },
     "Tarbolton": {
       "aliases": [],
       "lat": 55.513202,
@@ -7296,6 +7434,12 @@
       "aliases": [],
       "lat": 52.6813393,
       "lng": 1.1935934,
+      "nation": "England"
+    },
+    "Tavistock": {
+      "aliases": [],
+      "lat": 50.549615,
+      "lng": -4.144636,
       "nation": "England"
     },
     "Tayport": {
@@ -7503,6 +7647,12 @@
       "lat": 55.5437893,
       "lng": -4.663906,
       "nation": "Scotland"
+    },
+    "Trowbridge": {
+      "aliases": [],
+      "lat": 51.316157,
+      "lng": -2.202432,
+      "nation": "England"
     },
     "Truro": {
       "aliases": [],
@@ -7718,6 +7868,12 @@
       "lng": -2.811439,
       "nation": "England"
     },
+    "Weedon Bec": {
+      "aliases": [],
+      "lat": 52.222175,
+      "lng": -1.090917,
+      "nation": "England"
+    },
     "Welford": {
       "aliases": [],
       "lat": 51.4572597,
@@ -7898,6 +8054,12 @@
       "lng": -2.632,
       "nation": "England"
     },
+    "Wigton": {
+      "aliases": [],
+      "lat": 54.82468,
+      "lng": -3.161094,
+      "nation": "England"
+    },
     "Willingham": {
       "aliases": [],
       "lat": 52.321128,
@@ -7914,6 +8076,12 @@
       "aliases": [],
       "lat": 52.610623,
       "lng": -1.679701,
+      "nation": "England"
+    },
+    "Wimborne Minster": {
+      "aliases": [],
+      "lat": 50.799519,
+      "lng": -1.987339,
       "nation": "England"
     },
     "Winchburgh": {
@@ -7944,6 +8112,12 @@
       "aliases": [],
       "lat": 54.730941,
       "lng": -1.381031,
+      "nation": "England"
+    },
+    "Wingerworth": {
+      "aliases": [],
+      "lat": 53.203215,
+      "lng": -1.434738,
       "nation": "England"
     },
     "Winslow": {
