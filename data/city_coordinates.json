@@ -828,6 +828,12 @@
       "lng": -3.313794,
       "nation": "Wales"
     },
+    "Bedwas": {
+      "aliases": [],
+      "lat": 51.591648,
+      "lng": -3.198851,
+      "nation": "Wales"
+    },
     "Bedworth": {
       "aliases": [],
       "lat": 52.479283,
@@ -1614,6 +1620,12 @@
       "lng": -0.456191,
       "nation": "England"
     },
+    "Caergwrle": {
+      "aliases": [],
+      "lat": 53.110378,
+      "lng": -3.039831,
+      "nation": "Wales"
+    },
     "Caerleon": {
       "aliases": [],
       "lat": 51.612004,
@@ -1649,6 +1661,12 @@
       "lat": 54.9738045,
       "lng": -5.0250851,
       "nation": "Scotland"
+    },
+    "Caldicot": {
+      "aliases": [],
+      "lat": 51.591247,
+      "lng": -2.751763,
+      "nation": "Wales"
     },
     "Callander": {
       "aliases": [],
@@ -2252,6 +2270,12 @@
       "lng": -3.868786,
       "nation": "Scotland"
     },
+    "Coychurch": {
+      "aliases": [],
+      "lat": 51.504346,
+      "lng": -3.532616,
+      "nation": "Wales"
+    },
     "Cradley Heath": {
       "aliases": [],
       "lat": 52.469443,
@@ -2298,6 +2322,12 @@
       "aliases": [],
       "lat": 52.9206106,
       "lng": -4.2332414,
+      "nation": "Wales"
+    },
+    "Crickhowell": {
+      "aliases": [],
+      "lat": 51.859112,
+      "lng": -3.138355,
       "nation": "Wales"
     },
     "Cricklade": {
@@ -2353,6 +2383,12 @@
       "lat": 54.6206167,
       "lng": -6.2149351,
       "nation": "Northern Ireland"
+    },
+    "Crynant": {
+      "aliases": [],
+      "lat": 51.733133,
+      "lng": -3.750695,
+      "nation": "Wales"
     },
     "Cudworth": {
       "aliases": [],
@@ -2875,6 +2911,12 @@
       "lat": 54.245487,
       "lng": -0.400193,
       "nation": "England"
+    },
+    "Ebbw Vale": {
+      "aliases": [],
+      "lat": 51.781292,
+      "lng": -3.208438,
+      "nation": "Wales"
     },
     "Edenfield": {
       "aliases": [],
@@ -3410,6 +3452,12 @@
       "lng": -1.121085,
       "nation": "England"
     },
+    "Gowerton": {
+      "aliases": [],
+      "lat": 51.648135,
+      "lng": -4.041224,
+      "nation": "Wales"
+    },
     "Grangemouth": {
       "aliases": [],
       "lat": 56.0189027,
@@ -3667,6 +3715,12 @@
       "lat": 51.6041828,
       "lng": -0.4825622,
       "nation": "England"
+    },
+    "Harlech": {
+      "aliases": [],
+      "lat": 52.858767,
+      "lng": -4.10745,
+      "nation": "Wales"
     },
     "Harlington": {
       "aliases": [],
@@ -4820,6 +4874,12 @@
       "lng": -4.163,
       "nation": "Wales"
     },
+    "Llanfair Caereinion": {
+      "aliases": [],
+      "lat": 52.648798,
+      "lng": -3.324028,
+      "nation": "Wales"
+    },
     "Llanfairfechan": {
       "aliases": [],
       "lat": 53.2531977,
@@ -5246,6 +5306,12 @@
       "lng": -1.191874,
       "nation": "England"
     },
+    "Marchwiel": {
+      "aliases": [],
+      "lat": 53.023457,
+      "lng": -2.959893,
+      "nation": "Wales"
+    },
     "Marden": {
       "aliases": [],
       "lat": 51.176838,
@@ -5636,6 +5702,12 @@
       "lng": -3.8039117,
       "nation": "Wales"
     },
+    "Nefyn": {
+      "aliases": [],
+      "lat": 52.935621,
+      "lng": -4.51917,
+      "nation": "Wales"
+    },
     "Neilston": {
       "aliases": [],
       "lat": 55.782815,
@@ -5894,6 +5966,12 @@
       "lng": -4.36263,
       "nation": "Scotland"
     },
+    "Ogmore Vale": {
+      "aliases": [],
+      "lat": 51.602996,
+      "lng": -3.541649,
+      "nation": "Wales"
+    },
     "Old Colwyn": {
       "aliases": [],
       "lat": 53.2885433,
@@ -6092,6 +6170,12 @@
       "lng": -4.2145365,
       "nation": "Wales"
     },
+    "Pentre": {
+      "aliases": [],
+      "lat": 51.65536,
+      "lng": -3.490524,
+      "nation": "Wales"
+    },
     "Penycae": {
       "aliases": [],
       "lat": 53.000922,
@@ -6218,6 +6302,12 @@
       "lng": -4.1748134,
       "nation": "Wales"
     },
+    "Pontycymer": {
+      "aliases": [],
+      "lat": 51.608863,
+      "lng": -3.579752,
+      "nation": "Wales"
+    },
     "Pontypool": {
       "aliases": [],
       "lat": 51.7016878,
@@ -6342,6 +6432,12 @@
       "aliases": [],
       "lat": 53.3345598,
       "lng": -3.4029487,
+      "nation": "Wales"
+    },
+    "Presteigne": {
+      "aliases": [],
+      "lat": 52.292656,
+      "lng": -3.030528,
       "nation": "Wales"
     },
     "Preston": {
@@ -6589,6 +6685,12 @@
       "lat": 55.8573199,
       "lng": -3.1645521,
       "nation": "Scotland"
+    },
+    "Rossett": {
+      "aliases": [],
+      "lat": 53.109623,
+      "lng": -2.94491,
+      "nation": "Wales"
     },
     "Rosyth": {
       "aliases": [],
@@ -7721,6 +7823,12 @@
       "lat": 55.9190379,
       "lng": -3.5019033,
       "nation": "Scotland"
+    },
+    "Upper Brynamman": {
+      "aliases": [],
+      "lat": 51.813714,
+      "lng": -3.863869,
+      "nation": "Wales"
     },
     "Upper Caldecote": {
       "aliases": [],

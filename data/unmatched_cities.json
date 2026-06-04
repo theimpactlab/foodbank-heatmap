@@ -1,103 +1,13 @@
 {
   "schema": "foodbank-heatmap.unmatched_cities.v1",
   "generated_at": "2026-06-01T23:04:41.537186Z",
-  "count": 19,
+  "count": 1,
   "cities": [
     {
       "name": "Saint Cyrus",
       "nation_hint": "Scotland",
       "score_90d": 0
-    },
-    {
-      "name": "Bedwas",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Caergwrle",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Caldicot",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Coychurch",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Crickhowell",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Crynant",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Ebbw Vale",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Gowerton",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Harlech",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Llanfair Caereinion",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Marchwiel",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Nefyn",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Ogmore Vale",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Pentre",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Pontycymer",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Presteigne",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Rossett",
-      "nation_hint": "Wales",
-      "score_90d": 0
-    },
-    {
-      "name": "Upper Brynamman",
-      "nation_hint": "Wales",
-      "score_90d": 0
     }
   ],
-  "last_enriched_at": "2026-06-03T00:01:09Z"
+  "last_enriched_at": "2026-06-04T00:00:48Z"
 }
