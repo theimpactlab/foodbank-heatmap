@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-14T09:36:34.661071Z",
+  "last_updated": "2026-06-14T14:05:06.241589Z",
   "timeframe_1d": "now 1-d",
   "timeframe_short": "now 7-d",
   "timeframe_long": "today 3-m",
@@ -327,11 +327,11 @@
     },
     {
       "date": "2026-06-02",
-      "value": 42
+      "value": 41
     },
     {
       "date": "2026-06-03",
-      "value": 42
+      "value": 43
     },
     {
       "date": "2026-06-04",
@@ -351,7 +351,7 @@
     },
     {
       "date": "2026-06-08",
-      "value": 41
+      "value": 40
     },
     {
       "date": "2026-06-09",
@@ -363,19 +363,19 @@
     },
     {
       "date": "2026-06-11",
-      "value": 39
+      "value": 38
     },
     {
       "date": "2026-06-12",
-      "value": 55
+      "value": 58
     },
     {
       "date": "2026-06-13",
-      "value": 24
+      "value": 23
     },
     {
       "date": "2026-06-14",
-      "value": 21
+      "value": 23
     }
   ],
   "cities": []
