@@ -1,13 +1,7 @@
 {
   "schema": "foodbank-heatmap.unmatched_cities.v1",
   "generated_at": "2026-06-01T23:04:41.537186Z",
-  "count": 1,
-  "cities": [
-    {
-      "name": "Saint Cyrus",
-      "nation_hint": "Scotland",
-      "score_90d": 0
-    }
-  ],
-  "last_enriched_at": "2026-06-04T00:00:48Z"
+  "count": 0,
+  "cities": [],
+  "last_enriched_at": "2026-06-15T00:26:11Z"
 }
