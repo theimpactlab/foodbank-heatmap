@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T23:00:18.637927Z",
+  "last_updated": "2026-08-06T23:00:16.957235Z",
   "timeframe": "today 3-m",
   "regions": [
     {
@@ -429,13 +429,6 @@
       "lng": -3.444357
     },
     {
-      "name": "Senghenydd",
-      "nation": "Wales",
-      "score_90d": 100,
-      "lat": 51.6094104,
-      "lng": -3.2762115
-    },
-    {
       "name": "Crumlin",
       "nation": "Northern Ireland",
       "score_90d": 100,
@@ -443,165 +436,39 @@
       "lng": -6.2149351
     },
     {
-      "name": "Bentley",
+      "name": "Alvechurch",
       "nation": "England",
-      "score_90d": 0,
-      "lat": 51.989667,
-      "lng": 1.075096
+      "score_90d": 79,
+      "lat": 52.3507123,
+      "lng": -1.9579114
     },
     {
-      "name": "Aston Clinton",
+      "name": "London",
       "nation": "England",
-      "score_90d": 0,
-      "lat": 51.8025136,
-      "lng": -0.7274903
+      "score_90d": 76,
+      "lat": 51.507,
+      "lng": -0.128
     },
     {
-      "name": "Earlswood",
+      "name": "Highfields Caldecote",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.366599,
-      "lng": -1.861403
+      "lat": 52.209607,
+      "lng": -0.024368
     },
     {
-      "name": "Astwood Bank",
+      "name": "Wantage",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.261342,
-      "lng": -1.939149
+      "lat": 51.587807,
+      "lng": -1.424926
     },
     {
-      "name": "Hungerford",
+      "name": "Ash",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.415256,
-      "lng": -1.515401
-    },
-    {
-      "name": "Louth",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.367516,
-      "lng": -0.002238
-    },
-    {
-      "name": "Quinton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.1823153,
-      "lng": -0.8646611
-    },
-    {
-      "name": "Braunstone Town",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.615963,
-      "lng": -1.1826524
-    },
-    {
-      "name": "Great Bardfield",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.945682,
-      "lng": 0.443229
-    },
-    {
-      "name": "Keswick",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 54.600981,
-      "lng": -3.137582
-    },
-    {
-      "name": "Stock",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.667769,
-      "lng": 0.433681
-    },
-    {
-      "name": "Brampton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 54.94224,
-      "lng": -2.734453
-    },
-    {
-      "name": "Bungay",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.456225,
-      "lng": 1.437341
-    },
-    {
-      "name": "Upper Caldecote",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.098747,
-      "lng": -0.299453
-    },
-    {
-      "name": "Windermere",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 54.3794828,
-      "lng": -2.9061994
-    },
-    {
-      "name": "Huntingdon",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.330509,
-      "lng": -0.184351
-    },
-    {
-      "name": "Chapel-en-le-Frith",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.323251,
-      "lng": -1.914835
-    },
-    {
-      "name": "Ipsden",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.565265,
-      "lng": -1.069125
-    },
-    {
-      "name": "Heybridge",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.732684,
-      "lng": 0.775164
-    },
-    {
-      "name": "Hutton Rudby",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 54.44912,
-      "lng": -1.27821
-    },
-    {
-      "name": "Worcester",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.192,
-      "lng": -2.22
-    },
-    {
-      "name": "Guisborough",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 54.535955,
-      "lng": -1.051085
-    },
-    {
-      "name": "Halesowen",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.4492074,
-      "lng": -2.0514646
+      "lat": 51.280986,
+      "lng": 1.280306
     },
     {
       "name": "Shenley",
@@ -611,53 +478,60 @@
       "lng": -0.2812672
     },
     {
-      "name": "Glenfield",
+      "name": "Quinton",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.649918,
-      "lng": -1.205235
+      "lat": 52.1823153,
+      "lng": -0.8646611
     },
     {
-      "name": "Castle Cary",
+      "name": "Downton",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.0785623,
-      "lng": -2.5313643
+      "lat": 50.992756,
+      "lng": -1.751752
     },
     {
-      "name": "Stratford-upon-Avon",
+      "name": "Bentley",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.19278,
-      "lng": -1.70634
+      "lat": 51.989667,
+      "lng": 1.075096
     },
     {
-      "name": "Barnstaple",
+      "name": "Dawlish",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.080406,
-      "lng": -4.060047
+      "lat": 50.5797391,
+      "lng": -3.468931
     },
     {
-      "name": "Hemsworth",
+      "name": "Morpeth",
       "nation": "England",
       "score_90d": 0,
-      "lat": 53.613316,
-      "lng": -1.353829
+      "lat": 55.167544,
+      "lng": -1.690744
     },
     {
-      "name": "Daventry",
+      "name": "Chester",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.257868,
-      "lng": -1.162657
+      "lat": 53.190887,
+      "lng": -2.890896
     },
     {
-      "name": "Verwood",
+      "name": "Heybridge",
       "nation": "England",
       "score_90d": 0,
-      "lat": 50.880124,
-      "lng": -1.875237
+      "lat": 51.732684,
+      "lng": 0.775164
+    },
+    {
+      "name": "Newport",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.589,
+      "lng": -2.998
     },
     {
       "name": "Kidlington",
@@ -667,88 +541,32 @@
       "lng": -1.288532
     },
     {
-      "name": "Porthleven",
+      "name": "Bideford",
       "nation": "England",
       "score_90d": 0,
-      "lat": 50.088686,
-      "lng": -5.304824
+      "lat": 51.018145,
+      "lng": -4.206422
     },
     {
-      "name": "Andover",
+      "name": "Woodhall Spa",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.207828,
-      "lng": -1.479355
+      "lat": 53.146689,
+      "lng": -0.218946
     },
     {
-      "name": "Meldreth",
+      "name": "Locking",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.095421,
-      "lng": 0.008808
+      "lat": 51.333664,
+      "lng": -2.914121
     },
     {
-      "name": "Clifton",
+      "name": "Caddington",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.461588,
-      "lng": -2.620285
-    },
-    {
-      "name": "Atherton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.524968,
-      "lng": -2.49058
-    },
-    {
-      "name": "Morley",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.744075,
-      "lng": -1.59886
-    },
-    {
-      "name": "Kingsteignton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 50.549595,
-      "lng": -3.5955735
-    },
-    {
-      "name": "Beverley",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.8425488,
-      "lng": -0.4315677
-    },
-    {
-      "name": "Appleby Magna",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.684401,
-      "lng": -1.532821
-    },
-    {
-      "name": "Sheringham",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.9438831,
-      "lng": 1.21262
-    },
-    {
-      "name": "Byfield",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.180531,
-      "lng": -1.254174
-    },
-    {
-      "name": "Shoreham-by-Sea",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 50.8322307,
-      "lng": -0.2746717
+      "lat": 51.8656601,
+      "lng": -0.456191
     },
     {
       "name": "Bingham",
@@ -758,207 +576,18 @@
       "lng": -0.952245
     },
     {
-      "name": "Hailsham",
+      "name": "Midsomer Norton",
       "nation": "England",
       "score_90d": 0,
-      "lat": 50.862823,
-      "lng": 0.273061
+      "lat": 51.2865803,
+      "lng": -2.4808115
     },
     {
-      "name": "Nazeing",
+      "name": "Ashton-under-Lyne",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.7399272,
-      "lng": 0.0470351
-    },
-    {
-      "name": "Broughton Astley",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.5356492,
-      "lng": -1.2308696
-    },
-    {
-      "name": "Chilton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.800289,
-      "lng": -1.005784
-    },
-    {
-      "name": "Rainham",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.3633052,
-      "lng": 0.6083609
-    },
-    {
-      "name": "Heysham",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 54.0494955,
-      "lng": -2.890311
-    },
-    {
-      "name": "Congresbury",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.372009,
-      "lng": -2.805563
-    },
-    {
-      "name": "Crediton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 50.789587,
-      "lng": -3.658963
-    },
-    {
-      "name": "Blyth",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 55.12709,
-      "lng": -1.509973
-    },
-    {
-      "name": "Thornbury",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.6078094,
-      "lng": -2.5254942
-    },
-    {
-      "name": "Launton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.89769,
-      "lng": -1.115968
-    },
-    {
-      "name": "Berwick-upon-Tweed",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 55.7692442,
-      "lng": -2.0026472
-    },
-    {
-      "name": "Newick",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 50.972662,
-      "lng": 0.022715
-    },
-    {
-      "name": "Lymington",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 50.7583753,
-      "lng": -1.5426885
-    },
-    {
-      "name": "Lydney",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.725929,
-      "lng": -2.531349
-    },
-    {
-      "name": "Silverdale",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 54.169343,
-      "lng": -2.803798
-    },
-    {
-      "name": "Inkberrow",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.2117658,
-      "lng": -1.9784307
-    },
-    {
-      "name": "Maltby",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 54.513785,
-      "lng": -1.279213
-    },
-    {
-      "name": "Saint Neots",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.22758,
-      "lng": -0.270379
-    },
-    {
-      "name": "Long Buckby",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.3025587,
-      "lng": -1.0806839
-    },
-    {
-      "name": "Corringham",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.525058,
-      "lng": 0.44771
-    },
-    {
-      "name": "Tintwistle",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.4719227,
-      "lng": -1.9732931
-    },
-    {
-      "name": "Saint Leonards",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.8944971,
-      "lng": -2.3296934
-    },
-    {
-      "name": "Low Moor",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.750137,
-      "lng": -1.752384
-    },
-    {
-      "name": "Newbury",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.402024,
-      "lng": -1.324221
-    },
-    {
-      "name": "Erith",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.480819,
-      "lng": 0.1792322
-    },
-    {
-      "name": "Rushden",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.291157,
-      "lng": -0.598818
-    },
-    {
-      "name": "Halfway",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.413031,
-      "lng": -1.415081
-    },
-    {
-      "name": "Lichfield",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.68437,
-      "lng": -1.827529
+      "lat": 53.486541,
+      "lng": -2.098691
     },
     {
       "name": "Bredon",
@@ -968,123 +597,81 @@
       "lng": -2.112163
     },
     {
-      "name": "Radlett",
+      "name": "Barnstaple",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.684423,
-      "lng": -0.317677
+      "lat": 51.080406,
+      "lng": -4.060047
     },
     {
-      "name": "East Preston",
+      "name": "Congresbury",
       "nation": "England",
       "score_90d": 0,
-      "lat": 50.8087876,
-      "lng": -0.4832171
+      "lat": 51.372009,
+      "lng": -2.805563
     },
     {
-      "name": "Long Eaton",
+      "name": "Braunstone Town",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.898572,
-      "lng": -1.270813
+      "lat": 52.615963,
+      "lng": -1.1826524
     },
     {
-      "name": "Wesham",
+      "name": "Much Hoole",
       "nation": "England",
       "score_90d": 0,
-      "lat": 53.789343,
-      "lng": -2.885742
+      "lat": 53.69695,
+      "lng": -2.795015
     },
     {
-      "name": "Friskney",
+      "name": "Corfe Castle",
       "nation": "England",
       "score_90d": 0,
-      "lat": 53.050851,
-      "lng": 0.228897
+      "lat": 50.638888,
+      "lng": -2.057226
     },
     {
-      "name": "Bartestree",
+      "name": "Saint Leonards",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.067111,
-      "lng": -2.628887
+      "lat": 53.8944971,
+      "lng": -2.3296934
     },
     {
-      "name": "Droitwich Spa",
+      "name": "Bracknell",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.26851,
-      "lng": -2.148607
+      "lat": 51.41657,
+      "lng": -0.749388
     },
     {
-      "name": "Swindon",
+      "name": "Halesowen",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.568,
-      "lng": -1.772
+      "lat": 52.4492074,
+      "lng": -2.0514646
     },
     {
-      "name": "Up Holland",
+      "name": "Prees",
       "nation": "England",
       "score_90d": 0,
-      "lat": 53.54199,
-      "lng": -2.732548
+      "lat": 52.897032,
+      "lng": -2.666002
     },
     {
-      "name": "Great Torrington",
+      "name": "Burton Latimer",
       "nation": "England",
       "score_90d": 0,
-      "lat": 50.961639,
-      "lng": -4.139834
+      "lat": 52.364069,
+      "lng": -0.664166
     },
     {
-      "name": "Ashton-in-Makerfield",
+      "name": "New Ollerton",
       "nation": "England",
       "score_90d": 0,
-      "lat": 53.485213,
-      "lng": -2.641777
-    },
-    {
-      "name": "Williton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.159,
-      "lng": -3.344
-    },
-    {
-      "name": "Barnet",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 51.65309,
-      "lng": -0.2002261
-    },
-    {
-      "name": "Brixham",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 50.3952404,
-      "lng": -3.514544
-    },
-    {
-      "name": "Seaton Delaval",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 55.074728,
-      "lng": -1.538377
-    },
-    {
-      "name": "Solihull",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 52.413019,
-      "lng": -1.776893
-    },
-    {
-      "name": "Honiton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 50.799686,
-      "lng": -3.189088
+      "lat": 53.204241,
+      "lng": -1.00676
     },
     {
       "name": "Abingdon",
@@ -1094,11 +681,452 @@
       "lng": -1.2779715
     },
     {
-      "name": "Gloucester",
+      "name": "London Colney",
       "nation": "England",
       "score_90d": 0,
-      "lat": 51.864,
-      "lng": -2.245
+      "lat": 51.723876,
+      "lng": -0.295664
+    },
+    {
+      "name": "Witney",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.783885,
+      "lng": -1.485286
+    },
+    {
+      "name": "Bedale",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.288201,
+      "lng": -1.591446
+    },
+    {
+      "name": "Truro",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 50.263317,
+      "lng": -5.051811
+    },
+    {
+      "name": "Ipsden",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.565265,
+      "lng": -1.069125
+    },
+    {
+      "name": "Windlesham",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.3632514,
+      "lng": -0.6807485
+    },
+    {
+      "name": "Bungay",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.456225,
+      "lng": 1.437341
+    },
+    {
+      "name": "Mullion",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 50.006996,
+      "lng": -5.242131
+    },
+    {
+      "name": "Melksham",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.3759342,
+      "lng": -2.1314633
+    },
+    {
+      "name": "Waterloo",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.503002,
+      "lng": -0.113981
+    },
+    {
+      "name": "Letchworth Garden City",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.979498,
+      "lng": -0.229461
+    },
+    {
+      "name": "Distington",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.5865959,
+      "lng": -3.5200489
+    },
+    {
+      "name": "Writtle",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.728476,
+      "lng": 0.411567
+    },
+    {
+      "name": "Glenfield",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.649918,
+      "lng": -1.205235
+    },
+    {
+      "name": "Stratford-upon-Avon",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.19278,
+      "lng": -1.70634
+    },
+    {
+      "name": "Stourport-on-Severn",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.339638,
+      "lng": -2.281165
+    },
+    {
+      "name": "Kirk Hammerton",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.991421,
+      "lng": -1.293505
+    },
+    {
+      "name": "Adderbury",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.016501,
+      "lng": -1.313117
+    },
+    {
+      "name": "Low Moor",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.750137,
+      "lng": -1.752384
+    },
+    {
+      "name": "Guisborough",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.535955,
+      "lng": -1.051085
+    },
+    {
+      "name": "Cricklade",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.641419,
+      "lng": -1.857941
+    },
+    {
+      "name": "Silverdale",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.169343,
+      "lng": -2.803798
+    },
+    {
+      "name": "Camborne",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 50.2138802,
+      "lng": -5.299378
+    },
+    {
+      "name": "Erith",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.480819,
+      "lng": 0.1792322
+    },
+    {
+      "name": "Meldreth",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.095421,
+      "lng": 0.008808
+    },
+    {
+      "name": "Romsey",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 50.98914,
+      "lng": -1.499904
+    },
+    {
+      "name": "Pinner",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.596871,
+      "lng": -0.377014
+    },
+    {
+      "name": "Fleetwood",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.921959,
+      "lng": -3.032729
+    },
+    {
+      "name": "Narborough",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.5722525,
+      "lng": -1.2065723
+    },
+    {
+      "name": "Shoreham-by-Sea",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 50.8322307,
+      "lng": -0.2746717
+    },
+    {
+      "name": "Royal Wootton Bassett",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.5417946,
+      "lng": -1.9047369
+    },
+    {
+      "name": "Sherborne Saint John",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.295128,
+      "lng": -1.105845
+    },
+    {
+      "name": "Hessle",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.723159,
+      "lng": -0.434931
+    },
+    {
+      "name": "New Addington",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.342541,
+      "lng": -0.016292
+    },
+    {
+      "name": "Solihull",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.413019,
+      "lng": -1.776893
+    },
+    {
+      "name": "Radlett",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.684423,
+      "lng": -0.317677
+    },
+    {
+      "name": "Nazeing",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.7399272,
+      "lng": 0.0470351
+    },
+    {
+      "name": "Chapel-en-le-Frith",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.323251,
+      "lng": -1.914835
+    },
+    {
+      "name": "Leven",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.8942472,
+      "lng": -0.3476196
+    },
+    {
+      "name": "Malborough",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 50.2335829,
+      "lng": -3.8248806
+    },
+    {
+      "name": "Greenford",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.542118,
+      "lng": -0.3448
+    },
+    {
+      "name": "Norton",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.127981,
+      "lng": -0.785037
+    },
+    {
+      "name": "Wolvey",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.48702,
+      "lng": -1.367896
+    },
+    {
+      "name": "Cannock",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.688227,
+      "lng": -2.03242
+    },
+    {
+      "name": "Brean",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.3062859,
+      "lng": -3.016137
+    },
+    {
+      "name": "Copford",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.866758,
+      "lng": 0.795726
+    },
+    {
+      "name": "Farnham Common",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.55916,
+      "lng": -0.612814
+    },
+    {
+      "name": "Uffculme",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 50.906364,
+      "lng": -3.326527
+    },
+    {
+      "name": "Brampton",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.94224,
+      "lng": -2.734453
+    },
+    {
+      "name": "Hutton Rudby",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.44912,
+      "lng": -1.27821
+    },
+    {
+      "name": "Dinnington",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.368,
+      "lng": -1.209
+    },
+    {
+      "name": "Taunton",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.015,
+      "lng": -3.107
+    },
+    {
+      "name": "Aldington",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.095649,
+      "lng": -1.908351
+    },
+    {
+      "name": "Calne",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.4388615,
+      "lng": -2.0013196
+    },
+    {
+      "name": "Ludlow",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.36799,
+      "lng": -2.719311
+    },
+    {
+      "name": "Upper Caldecote",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.098747,
+      "lng": -0.299453
+    },
+    {
+      "name": "Southwater",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.0242057,
+      "lng": -0.3523171
+    },
+    {
+      "name": "Dunstable",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.886132,
+      "lng": -0.520934
+    },
+    {
+      "name": "Durham",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.666667,
+      "lng": -1.75
+    },
+    {
+      "name": "Worcester",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.192,
+      "lng": -2.22
+    },
+    {
+      "name": "Cawthorne",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.567583,
+      "lng": -1.570401
+    },
+    {
+      "name": "Crookham Village",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.2611407,
+      "lng": -0.8622987
+    },
+    {
+      "name": "Sidcup",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 51.4264002,
+      "lng": 0.101044
+    },
+    {
+      "name": "Wythenshawe",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.389,
+      "lng": -2.263
     },
     {
       "name": "Ashington",
@@ -1108,46 +1136,81 @@
       "lng": -1.57027
     },
     {
-      "name": "Prudhoe",
+      "name": "Bartestree",
       "nation": "England",
       "score_90d": 0,
-      "lat": 54.9544857,
-      "lng": -1.8646841
+      "lat": 52.067111,
+      "lng": -2.628887
     },
     {
-      "name": "Callow End",
+      "name": "Liversedge",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.1435428,
-      "lng": -2.242468
+      "lat": 53.712533,
+      "lng": -1.69426
     },
     {
-      "name": "Wickersley",
+      "name": "Ibstock",
       "nation": "England",
       "score_90d": 0,
-      "lat": 53.420329,
-      "lng": -1.281692
+      "lat": 52.6883907,
+      "lng": -1.3987871
     },
     {
-      "name": "Ochiltree",
-      "nation": "Scotland",
+      "name": "Yeovil",
+      "nation": "England",
       "score_90d": 0,
-      "lat": 55.4615754,
-      "lng": -4.36263
+      "lat": 50.942045,
+      "lng": -2.631863
     },
     {
-      "name": "Newhouse",
-      "nation": "Scotland",
+      "name": "Bournemouth",
+      "nation": "England",
       "score_90d": 0,
-      "lat": 55.831825,
-      "lng": -3.928102
+      "lat": 50.72,
+      "lng": -1.879
     },
     {
-      "name": "Dingwall",
+      "name": "Lymington",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 50.7583753,
+      "lng": -1.5426885
+    },
+    {
+      "name": "Wigan",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.546,
+      "lng": -2.632
+    },
+    {
+      "name": "Halifax",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 53.725,
+      "lng": -1.863
+    },
+    {
+      "name": "Staindrop",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 54.583,
+      "lng": -1.8
+    },
+    {
+      "name": "Golspie",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 57.5954797,
-      "lng": -4.4284337
+      "lat": 57.973318,
+      "lng": -3.9758786
+    },
+    {
+      "name": "Hillside",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.740491,
+      "lng": -2.476761
     },
     {
       "name": "Fort Augustus",
@@ -1157,67 +1220,39 @@
       "lng": -4.681487
     },
     {
-      "name": "Coupar Angus",
+      "name": "Stoneyburn",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.545417,
-      "lng": -3.26743
+      "lat": 55.8481577,
+      "lng": -3.6270285
     },
     {
-      "name": "Windygates",
+      "name": "Newton Stewart",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.1930349,
-      "lng": -3.0549086
+      "lat": 54.959045,
+      "lng": -4.4836737
     },
     {
-      "name": "Leslie",
+      "name": "Lanark",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.2013764,
-      "lng": -3.215211
+      "lat": 55.673627,
+      "lng": -3.778036
     },
     {
-      "name": "Haddington",
+      "name": "Rothesay",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.955614,
-      "lng": -2.779317
+      "lat": 55.837308,
+      "lng": -5.052244
     },
     {
-      "name": "Galston",
+      "name": "Muirkirk",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.60041,
-      "lng": -4.379746
-    },
-    {
-      "name": "Moodiesburn",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.9136347,
-      "lng": -4.0844767
-    },
-    {
-      "name": "Stranraer",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 54.9044332,
-      "lng": -5.026204
-    },
-    {
-      "name": "Kelso",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.5983788,
-      "lng": -2.4338366
-    },
-    {
-      "name": "Lennoxtown",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.973149,
-      "lng": -4.199243
+      "lat": 55.522275,
+      "lng": -4.06598
     },
     {
       "name": "Burntisland",
@@ -1227,200 +1262,46 @@
       "lng": -3.233099
     },
     {
-      "name": "Peterculter",
+      "name": "Stranraer",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 57.0961144,
-      "lng": -2.2674497
+      "lat": 54.9044332,
+      "lng": -5.026204
     },
     {
-      "name": "Kilbirnie",
+      "name": "Sauchie",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.7551369,
-      "lng": -4.6854587
+      "lat": 56.1279145,
+      "lng": -3.7809179
     },
     {
-      "name": "Coatbridge",
+      "name": "Locharbriggs",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.862489,
-      "lng": -4.025989
+      "lat": 55.104641,
+      "lng": -3.5838279
     },
     {
-      "name": "Tranent",
+      "name": "Coupar Angus",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.944497,
-      "lng": -2.953494
+      "lat": 56.545417,
+      "lng": -3.26743
     },
     {
-      "name": "Aboyne",
+      "name": "Leslie",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 57.076583,
-      "lng": -2.779152
+      "lat": 56.2013764,
+      "lng": -3.215211
     },
     {
-      "name": "Musselburgh",
+      "name": "Lennoxtown",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.94212,
-      "lng": -3.053852
-    },
-    {
-      "name": "Newport-on-Tay",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.4397014,
-      "lng": -2.9416726
-    },
-    {
-      "name": "Catrine",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.5043269,
-      "lng": -4.3318299
-    },
-    {
-      "name": "Tain",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.8119372,
-      "lng": -4.0550663
-    },
-    {
-      "name": "Forres",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.609864,
-      "lng": -3.613215
-    },
-    {
-      "name": "Helensburgh",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.0033464,
-      "lng": -4.7342935
-    },
-    {
-      "name": "Balmedie",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.246473,
-      "lng": -2.0571418
-    },
-    {
-      "name": "Anstruther",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.2227638,
-      "lng": -2.7005643
-    },
-    {
-      "name": "Newburgh",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.319409,
-      "lng": -2.003677
-    },
-    {
-      "name": "Armadale",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.066008,
-      "lng": -5.898656
-    },
-    {
-      "name": "Eyemouth",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.8722469,
-      "lng": -2.0893924
-    },
-    {
-      "name": "Rutherglen",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.828432,
-      "lng": -4.21344
-    },
-    {
-      "name": "Jedburgh",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.4776435,
-      "lng": -2.5553768
-    },
-    {
-      "name": "Inverkeithing",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.0308767,
-      "lng": -3.3977498
-    },
-    {
-      "name": "Conon Bridge",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.565245,
-      "lng": -4.434724
-    },
-    {
-      "name": "Galashiels",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.6156505,
-      "lng": -2.8061618
-    },
-    {
-      "name": "Kirriemuir",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.6731057,
-      "lng": -3.0043927
-    },
-    {
-      "name": "Carluke",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.73432,
-      "lng": -3.838255
-    },
-    {
-      "name": "Drongan",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.4349632,
-      "lng": -4.4581786
-    },
-    {
-      "name": "Bellshill",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.8189311,
-      "lng": -4.0225794
-    },
-    {
-      "name": "Bonnyrigg",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.875119,
-      "lng": -3.105908
-    },
-    {
-      "name": "Bo'ness",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.017687,
-      "lng": -3.60736
-    },
-    {
-      "name": "Kinross",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.2033706,
-      "lng": -3.4214864
+      "lat": 55.973149,
+      "lng": -4.199243
     },
     {
       "name": "Bothwell",
@@ -1430,11 +1311,179 @@
       "lng": -4.067696
     },
     {
-      "name": "Fort William",
+      "name": "Tain",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.817826,
-      "lng": -5.110952
+      "lat": 57.8119372,
+      "lng": -4.0550663
+    },
+    {
+      "name": "Portree",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.4130532,
+      "lng": -6.194446
+    },
+    {
+      "name": "Biggar",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.6244917,
+      "lng": -3.5215795
+    },
+    {
+      "name": "Mintlaw",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.5233507,
+      "lng": -2.0008451
+    },
+    {
+      "name": "Cullen",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.6911126,
+      "lng": -2.8195913
+    },
+    {
+      "name": "Forfar",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.644301,
+      "lng": -2.888212
+    },
+    {
+      "name": "Stenhousemuir",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.025827,
+      "lng": -3.816313
+    },
+    {
+      "name": "Newmachar",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.2666569,
+      "lng": -2.1912473
+    },
+    {
+      "name": "Dalbeattie",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 54.9307016,
+      "lng": -3.8200724
+    },
+    {
+      "name": "Patna",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.3637553,
+      "lng": -4.504322
+    },
+    {
+      "name": "Anstruther",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.2227638,
+      "lng": -2.7005643
+    },
+    {
+      "name": "Kirriemuir",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.6731057,
+      "lng": -3.0043927
+    },
+    {
+      "name": "Fochabers",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.6140998,
+      "lng": -3.0974475
+    },
+    {
+      "name": "Lochgilphead",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.037502,
+      "lng": -5.43309
+    },
+    {
+      "name": "Monkton",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.516418,
+      "lng": -4.602795
+    },
+    {
+      "name": "Chryston",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.906462,
+      "lng": -4.099311
+    },
+    {
+      "name": "Howwood",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.810572,
+      "lng": -4.562509
+    },
+    {
+      "name": "Helensburgh",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.0033464,
+      "lng": -4.7342935
+    },
+    {
+      "name": "Invergordon",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.6884029,
+      "lng": -4.1692103
+    },
+    {
+      "name": "Lerwick",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 60.153111,
+      "lng": -1.142707
+    },
+    {
+      "name": "Saint Boswells",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.571251,
+      "lng": -2.643144
+    },
+    {
+      "name": "Glenrothes",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.1961905,
+      "lng": -3.1716324
+    },
+    {
+      "name": "Kinloss",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.634864,
+      "lng": -3.5702598
+    },
+    {
+      "name": "Dunbar",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.002139,
+      "lng": -2.515824
+    },
+    {
+      "name": "Kingswells",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.1575045,
+      "lng": -2.2234447
     },
     {
       "name": "Insch",
@@ -1451,62 +1500,6 @@
       "lng": -3.1199524
     },
     {
-      "name": "Dalgety Bay",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.0422731,
-      "lng": -3.367249
-    },
-    {
-      "name": "Grangemouth",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.0189027,
-      "lng": -3.7230303
-    },
-    {
-      "name": "Uddingston",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.8189907,
-      "lng": -4.0821743
-    },
-    {
-      "name": "Cambuslang",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.8191936,
-      "lng": -4.1685904
-    },
-    {
-      "name": "Roslin",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.8573199,
-      "lng": -3.1645521
-    },
-    {
-      "name": "Kilwinning",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.654005,
-      "lng": -4.699201
-    },
-    {
-      "name": "Peterhead",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.5052909,
-      "lng": -1.7813194
-    },
-    {
-      "name": "Blairgowrie and Rattray",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.5927172,
-      "lng": -3.3389425
-    },
-    {
       "name": "Ballingry",
       "nation": "Scotland",
       "score_90d": 0,
@@ -1514,95 +1507,32 @@
       "lng": -3.325291
     },
     {
-      "name": "Saltcoats",
+      "name": "Troon",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.6332429,
-      "lng": -4.7887547
+      "lat": 55.5437893,
+      "lng": -4.663906
     },
     {
-      "name": "Ingliston",
+      "name": "Largs",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.9409887,
-      "lng": -3.3600787
+      "lat": 55.7948829,
+      "lng": -4.8695014
     },
     {
-      "name": "Howwood",
+      "name": "Gorebridge",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.810572,
-      "lng": -4.562509
+      "lat": 55.8399603,
+      "lng": -3.0461111
     },
     {
-      "name": "Bishopbriggs",
+      "name": "Garelochhead",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.9039668,
-      "lng": -4.2245231
-    },
-    {
-      "name": "Maybole",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.3550738,
-      "lng": -4.6801392
-    },
-    {
-      "name": "Lhanbryde",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.6355473,
-      "lng": -3.2163153
-    },
-    {
-      "name": "Irvine",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.6131309,
-      "lng": -4.6696399
-    },
-    {
-      "name": "Golspie",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.973318,
-      "lng": -3.9758786
-    },
-    {
-      "name": "Thornhill",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.2406579,
-      "lng": -3.7649206
-    },
-    {
-      "name": "Muirkirk",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.522275,
-      "lng": -4.06598
-    },
-    {
-      "name": "Westhill",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.4733664,
-      "lng": -4.1411194
-    },
-    {
-      "name": "Bridge of Earn",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.3490571,
-      "lng": -3.4064791
-    },
-    {
-      "name": "Alexandria",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.9878736,
-      "lng": -4.5822088
+      "lat": 56.0802337,
+      "lng": -4.8253592
     },
     {
       "name": "Dunfermline",
@@ -1612,53 +1542,116 @@
       "lng": -3.4616183
     },
     {
-      "name": "Falkirk",
+      "name": "Shotts",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.001,
-      "lng": -3.784
+      "lat": 55.819669,
+      "lng": -3.807323
     },
     {
-      "name": "Monifieth",
+      "name": "Danderhall",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.481796,
-      "lng": -2.8180074
+      "lat": 55.9139849,
+      "lng": -3.1104118
     },
     {
-      "name": "Stonehouse",
+      "name": "Sandbank",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.6982283,
-      "lng": -3.9813873
+      "lat": 55.9809199,
+      "lng": -4.9478478
     },
     {
-      "name": "Larkhall",
+      "name": "Pencaitland",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.7401064,
-      "lng": -3.9746052
+      "lat": 55.911207,
+      "lng": -2.891473
     },
     {
-      "name": "Killearn",
+      "name": "Grangemouth",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.0440105,
-      "lng": -4.372733
+      "lat": 56.0189027,
+      "lng": -3.7230303
     },
     {
-      "name": "Glenmavis",
+      "name": "Clydebank",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.8864105,
-      "lng": -3.9958428
+      "lat": 55.9026837,
+      "lng": -4.4034151
     },
     {
-      "name": "Edinburgh",
+      "name": "Auchterarder",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.953,
-      "lng": -3.189
+      "lat": 56.2963188,
+      "lng": -3.7065827
+    },
+    {
+      "name": "Abernethy",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.3327064,
+      "lng": -3.31157
+    },
+    {
+      "name": "Portlethen",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.061466,
+      "lng": -2.129707
+    },
+    {
+      "name": "Irvine",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.6131309,
+      "lng": -4.6696399
+    },
+    {
+      "name": "Bearsden",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.920461,
+      "lng": -4.333205
+    },
+    {
+      "name": "Whitburn",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.866782,
+      "lng": -3.684901
+    },
+    {
+      "name": "Thornhill",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.2406579,
+      "lng": -3.7649206
+    },
+    {
+      "name": "Ladybank",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.274246,
+      "lng": -3.121595
+    },
+    {
+      "name": "Cambuslang",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.8191936,
+      "lng": -4.1685904
+    },
+    {
+      "name": "Bishopbriggs",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.9039668,
+      "lng": -4.2245231
     },
     {
       "name": "Greenock",
@@ -1668,6 +1661,69 @@
       "lng": -4.7564721
     },
     {
+      "name": "Saltcoats",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.6332429,
+      "lng": -4.7887547
+    },
+    {
+      "name": "Peterhead",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.5052909,
+      "lng": -1.7813194
+    },
+    {
+      "name": "Perth",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.395,
+      "lng": -3.437
+    },
+    {
+      "name": "Leuchars",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.374796,
+      "lng": -2.8938545
+    },
+    {
+      "name": "Uddingston",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.8189907,
+      "lng": -4.0821743
+    },
+    {
+      "name": "Edinburgh",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.953,
+      "lng": -3.189
+    },
+    {
+      "name": "Westhill",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.4733664,
+      "lng": -4.1411194
+    },
+    {
+      "name": "Blairgowrie and Rattray",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.5927172,
+      "lng": -3.3389425
+    },
+    {
+      "name": "Stonehouse",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.6982283,
+      "lng": -3.9813873
+    },
+    {
       "name": "Paisley",
       "nation": "Scotland",
       "score_90d": 0,
@@ -1675,11 +1731,25 @@
       "lng": -4.424
     },
     {
-      "name": "Cumbernauld",
+      "name": "Larkhall",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.9477764,
-      "lng": -3.9882568
+      "lat": 55.7401064,
+      "lng": -3.9746052
+    },
+    {
+      "name": "Huntly",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.4474806,
+      "lng": -2.7864246
+    },
+    {
+      "name": "Glenmavis",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.8864105,
+      "lng": -3.9958428
     },
     {
       "name": "Dundee",
@@ -1696,11 +1766,11 @@
       "lng": -4.177663
     },
     {
-      "name": "Portlethen",
+      "name": "Muir of Ord",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 57.061466,
-      "lng": -2.129707
+      "lat": 57.5176698,
+      "lng": -4.4583927
     },
     {
       "name": "Aberfeldy",
@@ -1708,6 +1778,13 @@
       "score_90d": 0,
       "lat": 56.619321,
       "lng": -3.86509
+    },
+    {
+      "name": "Cowdenbeath",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.1110634,
+      "lng": -3.3438843
     },
     {
       "name": "Glasgow",
@@ -1724,326 +1801,46 @@
       "lng": -4.033442
     },
     {
-      "name": "Neilston",
+      "name": "Cumbernauld",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.782815,
-      "lng": -4.427202
+      "lat": 55.9477764,
+      "lng": -3.9882568
     },
     {
-      "name": "Blackridge",
+      "name": "Windygates",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.8843825,
-      "lng": -3.7502801
+      "lat": 56.1930349,
+      "lng": -3.0549086
     },
     {
-      "name": "Livingston",
+      "name": "Heathhall",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.883,
-      "lng": -3.516
+      "lat": 55.0961464,
+      "lng": -3.5773549
     },
     {
-      "name": "Ladybank",
+      "name": "Bridge of Earn",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.274246,
-      "lng": -3.121595
+      "lat": 56.3490571,
+      "lng": -3.4064791
     },
     {
-      "name": "Glenboig",
+      "name": "Newport-on-Tay",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.8934973,
-      "lng": -4.0457383
+      "lat": 56.4397014,
+      "lng": -2.9416726
     },
     {
-      "name": "Lundin Links",
+      "name": "Strathaven",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.2126211,
-      "lng": -2.9544147
-    },
-    {
-      "name": "Blackburn",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.208445,
-      "lng": -2.2899714
-    },
-    {
-      "name": "Lerwick",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 60.153111,
-      "lng": -1.142707
-    },
-    {
-      "name": "Dunbar",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.002139,
-      "lng": -2.515824
-    },
-    {
-      "name": "Prestonpans",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.959395,
-      "lng": -2.98424
-    },
-    {
-      "name": "Sauchie",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.1279145,
-      "lng": -3.7809179
-    },
-    {
-      "name": "Longniddry",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.9762365,
-      "lng": -2.8886468
-    },
-    {
-      "name": "New Cumnock",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.4022358,
-      "lng": -4.1833546
-    },
-    {
-      "name": "Aberdeen",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.15,
-      "lng": -2.094
-    },
-    {
-      "name": "Lanark",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.673627,
-      "lng": -3.778036
-    },
-    {
-      "name": "Banknock",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.989822,
-      "lng": -3.955378
-    },
-    {
-      "name": "Abernethy",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.3327064,
-      "lng": -3.31157
-    },
-    {
-      "name": "West Calder",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.8537711,
-      "lng": -3.566816
-    },
-    {
-      "name": "Forfar",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.644301,
-      "lng": -2.888212
-    },
-    {
-      "name": "Alloa",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.1156137,
-      "lng": -3.7922423
-    },
-    {
-      "name": "Fochabers",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.6140998,
-      "lng": -3.0974475
-    },
-    {
-      "name": "Dumfries",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.0691831,
-      "lng": -3.6106856
-    },
-    {
-      "name": "Mauchline",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.5159992,
-      "lng": -4.3790696
-    },
-    {
-      "name": "Johnstone",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.836517,
-      "lng": -4.512283
-    },
-    {
-      "name": "Sandbank",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.9809199,
-      "lng": -4.9478478
-    },
-    {
-      "name": "Rosyth",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.038871,
-      "lng": -3.420654
-    },
-    {
-      "name": "Kennoway",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.2114871,
-      "lng": -3.0490999
-    },
-    {
-      "name": "Camelon",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.0062328,
-      "lng": -3.8183922
-    },
-    {
-      "name": "Largs",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.7948829,
-      "lng": -4.8695014
-    },
-    {
-      "name": "Troon",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.5437893,
-      "lng": -4.663906
-    },
-    {
-      "name": "Banff",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.6645459,
-      "lng": -2.5217539
-    },
-    {
-      "name": "Giffnock",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.8039361,
-      "lng": -4.2929605
-    },
-    {
-      "name": "Kirkliston",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.95609,
-      "lng": -3.401921
-    },
-    {
-      "name": "Scone",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.420478,
-      "lng": -3.39916
-    },
-    {
-      "name": "Inchinnan",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.891458,
-      "lng": -4.437219
-    },
-    {
-      "name": "Kinghorn",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.070737,
-      "lng": -3.174228
-    },
-    {
-      "name": "Stewarton",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.68208,
-      "lng": -4.518166
-    },
-    {
-      "name": "Newmachar",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.2666569,
-      "lng": -2.1912473
-    },
-    {
-      "name": "Kinglassie",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.1736338,
-      "lng": -3.2428208
-    },
-    {
-      "name": "Newton Stewart",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 54.959045,
-      "lng": -4.4836737
-    },
-    {
-      "name": "Whitburn",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.866782,
-      "lng": -3.684901
-    },
-    {
-      "name": "Brechin",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.7315193,
-      "lng": -2.6600193
-    },
-    {
-      "name": "Pitlochry",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.701969,
-      "lng": -3.7306846
-    },
-    {
-      "name": "Glenrothes",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.1961905,
-      "lng": -3.1716324
-    },
-    {
-      "name": "Coldstream",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.6511811,
-      "lng": -2.252957
-    },
-    {
-      "name": "Muirhead",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.4973583,
-      "lng": -3.0678975
+      "lat": 55.676514,
+      "lng": -4.065824
     },
     {
       "name": "Kintore",
@@ -2053,20 +1850,6 @@
       "lng": -2.3455269
     },
     {
-      "name": "Kilmarnock",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.611,
-      "lng": -4.495
-    },
-    {
-      "name": "Innerleithen",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.6190744,
-      "lng": -3.0633843
-    },
-    {
       "name": "Dyce",
       "nation": "Scotland",
       "score_90d": 0,
@@ -2074,172 +1857,25 @@
       "lng": -2.1926918
     },
     {
-      "name": "Letham",
+      "name": "Lochgelly",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 56.6288329,
-      "lng": -2.7695401
+      "lat": 56.1348998,
+      "lng": -3.3134751
     },
     {
-      "name": "Dumbarton",
+      "name": "Gretna",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.9432443,
-      "lng": -4.5708479
+      "lat": 54.9953097,
+      "lng": -3.0669404
     },
     {
-      "name": "Barrhead",
+      "name": "Alexandria",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.8011027,
-      "lng": -4.3899826
-    },
-    {
-      "name": "Crossgates",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.0849176,
-      "lng": -3.3757208
-    },
-    {
-      "name": "Dollar",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.1628355,
-      "lng": -3.6740886
-    },
-    {
-      "name": "Erskine",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.904212,
-      "lng": -4.449233
-    },
-    {
-      "name": "Motherwell",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.7893512,
-      "lng": -3.9904173
-    },
-    {
-      "name": "Inverness",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.478,
-      "lng": -4.224
-    },
-    {
-      "name": "Eaglesham",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.7407281,
-      "lng": -4.2738525
-    },
-    {
-      "name": "Bathgate",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.9009224,
-      "lng": -3.6414828
-    },
-    {
-      "name": "Perth",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.395,
-      "lng": -3.437
-    },
-    {
-      "name": "Winchburgh",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.9601601,
-      "lng": -3.4664354
-    },
-    {
-      "name": "Bishopton",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.902358,
-      "lng": -4.5008
-    },
-    {
-      "name": "Kinloss",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.634864,
-      "lng": -3.5702598
-    },
-    {
-      "name": "Stonehaven",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.9640234,
-      "lng": -2.2087993
-    },
-    {
-      "name": "Kirkintilloch",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.938391,
-      "lng": -4.154905
-    },
-    {
-      "name": "Danderhall",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.9139849,
-      "lng": -3.1104118
-    },
-    {
-      "name": "Clydebank",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.9026837,
-      "lng": -4.4034151
-    },
-    {
-      "name": "Kirkcaldy",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.1110218,
-      "lng": -3.1582296
-    },
-    {
-      "name": "Auchterarder",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 56.2963188,
-      "lng": -3.7065827
-    },
-    {
-      "name": "Balerno",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.8839143,
-      "lng": -3.3387606
-    },
-    {
-      "name": "Bearsden",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.920461,
-      "lng": -4.333205
-    },
-    {
-      "name": "Cairnryan",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 54.9738045,
-      "lng": -5.0250851
-    },
-    {
-      "name": "Turriff",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 57.537482,
-      "lng": -2.4640839
+      "lat": 55.9878736,
+      "lng": -4.5822088
     },
     {
       "name": "Oldmeldrum",
@@ -2249,25 +1885,361 @@
       "lng": -2.319738
     },
     {
-      "name": "Kemnay",
+      "name": "Moodiesburn",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 57.2348184,
-      "lng": -2.4462028
+      "lat": 55.9136347,
+      "lng": -4.0844767
     },
     {
-      "name": "Kingswells",
+      "name": "Inverness",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 57.1575045,
-      "lng": -2.2234447
+      "lat": 57.478,
+      "lng": -4.224
     },
     {
-      "name": "Milltimber",
+      "name": "Conon Bridge",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 57.107519,
-      "lng": -2.233274
+      "lat": 57.565245,
+      "lng": -4.434724
+    },
+    {
+      "name": "Aboyne",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.076583,
+      "lng": -2.779152
+    },
+    {
+      "name": "Aberdeen",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.15,
+      "lng": -2.094
+    },
+    {
+      "name": "Galston",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.60041,
+      "lng": -4.379746
+    },
+    {
+      "name": "Kilsyth",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.9765389,
+      "lng": -4.0559704
+    },
+    {
+      "name": "Prestonpans",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.959395,
+      "lng": -2.98424
+    },
+    {
+      "name": "Kirkcaldy",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.1110218,
+      "lng": -3.1582296
+    },
+    {
+      "name": "Letham",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.6288329,
+      "lng": -2.7695401
+    },
+    {
+      "name": "Stewarton",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.68208,
+      "lng": -4.518166
+    },
+    {
+      "name": "Glenboig",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.8934973,
+      "lng": -4.0457383
+    },
+    {
+      "name": "Fraserburgh",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.6935974,
+      "lng": -2.0051497
+    },
+    {
+      "name": "Peterculter",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.0961144,
+      "lng": -2.2674497
+    },
+    {
+      "name": "Berwick-upon-Tweed",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 55.7692442,
+      "lng": -2.0026472
+    },
+    {
+      "name": "Jedburgh",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.4776435,
+      "lng": -2.5553768
+    },
+    {
+      "name": "Stornoway",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 58.2167659,
+      "lng": -6.3946962
+    },
+    {
+      "name": "Saint Andrews",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.3403678,
+      "lng": -2.795044
+    },
+    {
+      "name": "Kinglassie",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.1736338,
+      "lng": -3.2428208
+    },
+    {
+      "name": "Barrhead",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.8011027,
+      "lng": -4.3899826
+    },
+    {
+      "name": "Armadale",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.066008,
+      "lng": -5.898656
+    },
+    {
+      "name": "Maddiston",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.9718953,
+      "lng": -3.700389
+    },
+    {
+      "name": "Dollar",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.1628355,
+      "lng": -3.6740886
+    },
+    {
+      "name": "Stirling",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.12,
+      "lng": -3.937
+    },
+    {
+      "name": "Port Seton",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.9719375,
+      "lng": -2.9515817
+    },
+    {
+      "name": "Rosyth",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.038871,
+      "lng": -3.420654
+    },
+    {
+      "name": "Bonnyrigg",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.875119,
+      "lng": -3.105908
+    },
+    {
+      "name": "Dumbarton",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.9432443,
+      "lng": -4.5708479
+    },
+    {
+      "name": "Coldstream",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.6511811,
+      "lng": -2.252957
+    },
+    {
+      "name": "Innerleithen",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.6190744,
+      "lng": -3.0633843
+    },
+    {
+      "name": "Bathgate",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.9009224,
+      "lng": -3.6414828
+    },
+    {
+      "name": "Inchinnan",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.891458,
+      "lng": -4.437219
+    },
+    {
+      "name": "Kilmarnock",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.611,
+      "lng": -4.495
+    },
+    {
+      "name": "Kennoway",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.2114871,
+      "lng": -3.0490999
+    },
+    {
+      "name": "Lhanbryde",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 57.6355473,
+      "lng": -3.2163153
+    },
+    {
+      "name": "Johnstone",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.836517,
+      "lng": -4.512283
+    },
+    {
+      "name": "Ingliston",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.9409887,
+      "lng": -3.3600787
+    },
+    {
+      "name": "East Calder",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.894922,
+      "lng": -3.46425
+    },
+    {
+      "name": "Eaglesham",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.7407281,
+      "lng": -4.2738525
+    },
+    {
+      "name": "Kilwinning",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.654005,
+      "lng": -4.699201
+    },
+    {
+      "name": "Roslin",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.8573199,
+      "lng": -3.1645521
+    },
+    {
+      "name": "Killearn",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.0440105,
+      "lng": -4.372733
+    },
+    {
+      "name": "Monifieth",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.481796,
+      "lng": -2.8180074
+    },
+    {
+      "name": "Muirhead",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.4973583,
+      "lng": -3.0678975
+    },
+    {
+      "name": "Bishopton",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.902358,
+      "lng": -4.5008
+    },
+    {
+      "name": "Motherwell",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.7893512,
+      "lng": -3.9904173
+    },
+    {
+      "name": "Brechin",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.7315193,
+      "lng": -2.6600193
+    },
+    {
+      "name": "Allanton",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.7819164,
+      "lng": -2.2158486
+    },
+    {
+      "name": "Kirkintilloch",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.938391,
+      "lng": -4.154905
+    },
+    {
+      "name": "Crossgates",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.0849176,
+      "lng": -3.3757208
+    },
+    {
+      "name": "Bo'ness",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.017687,
+      "lng": -3.60736
     },
     {
       "name": "Bridge of Don",
@@ -2277,11 +2249,81 @@
       "lng": -2.0905805
     },
     {
-      "name": "Fraserburgh",
+      "name": "Bellshill",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 57.6935974,
-      "lng": -2.0051497
+      "lat": 55.8189311,
+      "lng": -4.0225794
+    },
+    {
+      "name": "Ayr",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.459,
+      "lng": -4.629
+    },
+    {
+      "name": "Erskine",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.904212,
+      "lng": -4.449233
+    },
+    {
+      "name": "Stonehaven",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.9640234,
+      "lng": -2.2087993
+    },
+    {
+      "name": "Livingston",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.883,
+      "lng": -3.516
+    },
+    {
+      "name": "Winchburgh",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.9601601,
+      "lng": -3.4664354
+    },
+    {
+      "name": "Maybole",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.3550738,
+      "lng": -4.6801392
+    },
+    {
+      "name": "Balerno",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.8839143,
+      "lng": -3.3387606
+    },
+    {
+      "name": "Falkirk",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 56.001,
+      "lng": -3.784
+    },
+    {
+      "name": "Cairnryan",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 54.9738045,
+      "lng": -5.0250851
+    },
+    {
+      "name": "Kelso",
+      "nation": "Scotland",
+      "score_90d": 0,
+      "lat": 55.5983788,
+      "lng": -2.4338366
     },
     {
       "name": "Selkirk",
@@ -2298,13 +2340,6 @@
       "lng": -3.2620207
     },
     {
-      "name": "Gretna",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 54.9953097,
-      "lng": -3.0669404
-    },
-    {
       "name": "Gatehouse of Fleet",
       "nation": "Scotland",
       "score_90d": 0,
@@ -2319,32 +2354,18 @@
       "lng": -4.0543927
     },
     {
-      "name": "Dalbeattie",
+      "name": "Dumfries",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 54.9307016,
-      "lng": -3.8200724
+      "lat": 55.0691831,
+      "lng": -3.6106856
     },
     {
-      "name": "Locharbriggs",
+      "name": "New Cumnock",
       "nation": "Scotland",
       "score_90d": 0,
-      "lat": 55.104641,
-      "lng": -3.5838279
-    },
-    {
-      "name": "Heathhall",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.0961464,
-      "lng": -3.5773549
-    },
-    {
-      "name": "Biggar",
-      "nation": "Scotland",
-      "score_90d": 0,
-      "lat": 55.6244917,
-      "lng": -3.5215795
+      "lat": 55.4022358,
+      "lng": -4.1833546
     },
     {
       "name": "Cumnock",
@@ -2354,18 +2375,25 @@
       "lng": -4.2660965
     },
     {
-      "name": "Patna",
-      "nation": "Scotland",
+      "name": "Kidwelly",
+      "nation": "Wales",
       "score_90d": 0,
-      "lat": 55.3637553,
-      "lng": -4.504322
+      "lat": 51.7363873,
+      "lng": -4.3062309
     },
     {
-      "name": "Ayr",
-      "nation": "Scotland",
+      "name": "Drefach",
+      "nation": "Wales",
       "score_90d": 0,
-      "lat": 55.459,
-      "lng": -4.629
+      "lat": 52.023337,
+      "lng": -4.399215
+    },
+    {
+      "name": "Wernffrwd",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6264492,
+      "lng": -4.1453457
     },
     {
       "name": "Bangor-on-Dee",
@@ -2375,32 +2403,11 @@
       "lng": -2.909153
     },
     {
-      "name": "Ruabon",
+      "name": "Pentraeth",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.987131,
-      "lng": -3.041497
-    },
-    {
-      "name": "Maerdy",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.674585,
-      "lng": -3.485174
-    },
-    {
-      "name": "Llanidloes",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.4482359,
-      "lng": -3.5410891
-    },
-    {
-      "name": "Llanfairpwllgwyngyll",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2218931,
-      "lng": -4.2064976
+      "lat": 53.2816608,
+      "lng": -4.2145365
     },
     {
       "name": "Knighton",
@@ -2410,88 +2417,18 @@
       "lng": -3.049562
     },
     {
-      "name": "Llanbradach",
+      "name": "Llanfairpwllgwyngyll",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.604107,
-      "lng": -3.233052
+      "lat": 53.2218931,
+      "lng": -4.2064976
     },
     {
-      "name": "Newcastle Emlyn",
+      "name": "Loughor",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.039014,
-      "lng": -4.468914
-    },
-    {
-      "name": "Ystalyfera",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7673807,
-      "lng": -3.7853362
-    },
-    {
-      "name": "Kidwelly",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7363873,
-      "lng": -4.3062309
-    },
-    {
-      "name": "The Mumbles",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.572267,
-      "lng": -3.994503
-    },
-    {
-      "name": "Birchgrove",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.521535,
-      "lng": -3.20246
-    },
-    {
-      "name": "Dowlais",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7625134,
-      "lng": -3.3555584
-    },
-    {
-      "name": "Abergele",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2840692,
-      "lng": -3.5810655
-    },
-    {
-      "name": "Llandudno Junction",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2871333,
-      "lng": -3.8105036
-    },
-    {
-      "name": "Rogerstone",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.591707,
-      "lng": -3.0546846
-    },
-    {
-      "name": "Colwyn Bay",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2953269,
-      "lng": -3.7262534
-    },
-    {
-      "name": "Penlan",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6476785,
-      "lng": -3.9633315
+      "lat": 51.6654032,
+      "lng": -4.0677598
     },
     {
       "name": "Llanberis",
@@ -2501,466 +2438,39 @@
       "lng": -4.1277481
     },
     {
-      "name": "Whitland",
+      "name": "Llandovery",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.8179002,
-      "lng": -4.60975
+      "lat": 51.995459,
+      "lng": -3.797707
     },
     {
-      "name": "Taff's Well",
+      "name": "Marford",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.5385771,
-      "lng": -3.2606612
+      "lat": 53.0911459,
+      "lng": -2.9600738
     },
     {
-      "name": "Blackwood",
+      "name": "Cwmafan",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.6663189,
-      "lng": -3.1974329
+      "lat": 51.6130794,
+      "lng": -3.7626552
     },
     {
-      "name": "Brymbo",
+      "name": "Mold",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.0766362,
-      "lng": -3.0607814
+      "lat": 53.1666274,
+      "lng": -3.1414228
     },
     {
-      "name": "Penyffordd",
+      "name": "Llandrindod Wells",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.1454462,
-      "lng": -3.0477811
-    },
-    {
-      "name": "Greenfield",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.288492,
-      "lng": -3.209983
-    },
-    {
-      "name": "Llantwit Major",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.4083212,
-      "lng": -3.4857779
-    },
-    {
-      "name": "Port Tennant",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6222941,
-      "lng": -3.9164987
-    },
-    {
-      "name": "Rhyl",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.3207425,
-      "lng": -3.4907258
-    },
-    {
-      "name": "Llangefni",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2560986,
-      "lng": -4.3114568
-    },
-    {
-      "name": "Saint Clears",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.820656,
-      "lng": -4.494696
-    },
-    {
-      "name": "Troedyrhiw",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.216685,
-      "lng": -3.9195013
-    },
-    {
-      "name": "Builth Wells",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.1493287,
-      "lng": -3.4058015
-    },
-    {
-      "name": "Swansea",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.622,
-      "lng": -3.943
-    },
-    {
-      "name": "Lampeter",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.1130523,
-      "lng": -4.078761
-    },
-    {
-      "name": "Towyn",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.5861123,
-      "lng": -4.0855906
-    },
-    {
-      "name": "Maesteg",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6091804,
-      "lng": -3.658015
-    },
-    {
-      "name": "Undy",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.578415,
-      "lng": -2.8137776
-    },
-    {
-      "name": "Pentraeth",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2816608,
-      "lng": -4.2145365
-    },
-    {
-      "name": "Rhos on Sea",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.3129676,
-      "lng": -3.7439749
-    },
-    {
-      "name": "Merthyr Tydfil",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.748,
-      "lng": -3.378
-    },
-    {
-      "name": "Pencoed",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5256116,
-      "lng": -3.506453
-    },
-    {
-      "name": "Abersoch",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.8226822,
-      "lng": -4.5075491
-    },
-    {
-      "name": "Bon-y-maen",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6406601,
-      "lng": -3.9080659
-    },
-    {
-      "name": "Bryncethin",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.54764,
-      "lng": -3.568331
-    },
-    {
-      "name": "Sketty",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6182045,
-      "lng": -3.986351
-    },
-    {
-      "name": "Porthcawl",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.479556,
-      "lng": -3.70407
-    },
-    {
-      "name": "Rhuddlan",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2914745,
-      "lng": -3.4655568
-    },
-    {
-      "name": "Pen-y-fai",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.525366,
-      "lng": -3.595837
-    },
-    {
-      "name": "Pontardawe",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.721986,
-      "lng": -3.848878
-    },
-    {
-      "name": "Llandudno",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.322475,
-      "lng": -3.8243251
-    },
-    {
-      "name": "Denbigh",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.1853776,
-      "lng": -3.4178289
-    },
-    {
-      "name": "Killay",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6195821,
-      "lng": -4.0188081
-    },
-    {
-      "name": "Bodelwyddan",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2705527,
-      "lng": -3.5129657
-    },
-    {
-      "name": "Tredegar",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.773256,
-      "lng": -3.246954
-    },
-    {
-      "name": "Milford Haven",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7130946,
-      "lng": -5.0359395
-    },
-    {
-      "name": "Rumney",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5077197,
-      "lng": -3.1280845
-    },
-    {
-      "name": "Aberkenfig",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5410988,
-      "lng": -3.5974384
-    },
-    {
-      "name": "West Cross",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5872191,
-      "lng": -4.0102932
-    },
-    {
-      "name": "Ystradgynlais",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.777311,
-      "lng": -3.758499
-    },
-    {
-      "name": "Tonyrefail",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5832675,
-      "lng": -3.4311743
-    },
-    {
-      "name": "Cowbridge",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.4616852,
-      "lng": -3.4472705
-    },
-    {
-      "name": "Bettws",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6108349,
-      "lng": -3.0281527
-    },
-    {
-      "name": "Resolven",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7110541,
-      "lng": -3.6955499
-    },
-    {
-      "name": "Brynmawr",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7982408,
-      "lng": -3.1740109
-    },
-    {
-      "name": "Bedlinog",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.702558,
-      "lng": -3.313794
-    },
-    {
-      "name": "Neath",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6628422,
-      "lng": -3.8039117
-    },
-    {
-      "name": "Cwmbran",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6536438,
-      "lng": -3.0208217
-    },
-    {
-      "name": "Buckley",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.170226,
-      "lng": -3.079987
-    },
-    {
-      "name": "Talgarth",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.9964038,
-      "lng": -3.2323446
-    },
-    {
-      "name": "Bridgend",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.504,
-      "lng": -3.577
-    },
-    {
-      "name": "Bassaleg",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5766335,
-      "lng": -3.0480378
-    },
-    {
-      "name": "Connah's Quay",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2199037,
-      "lng": -3.0661782
-    },
-    {
-      "name": "Letterston",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.9278455,
-      "lng": -4.9916123
-    },
-    {
-      "name": "Crofty",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.635465,
-      "lng": -4.129858
-    },
-    {
-      "name": "Aberystwyth",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.416,
-      "lng": -4.082
-    },
-    {
-      "name": "Llangollen",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.9694033,
-      "lng": -3.1711111
-    },
-    {
-      "name": "Ynysybwl",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6387679,
-      "lng": -3.3590171
-    },
-    {
-      "name": "Broughton",
-      "nation": "England",
-      "score_90d": 0,
-      "lat": 53.5655669,
-      "lng": -0.5536713
-    },
-    {
-      "name": "Efail Isaf",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5515232,
-      "lng": -3.3227515
-    },
-    {
-      "name": "Caerphilly",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6723809,
-      "lng": -3.1783938
-    },
-    {
-      "name": "Llanelli",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.684,
-      "lng": -4.163
-    },
-    {
-      "name": "Cardiff",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.481,
-      "lng": -3.179
-    },
-    {
-      "name": "Coedpoeth",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.0539823,
-      "lng": -3.063956
-    },
-    {
-      "name": "Barry",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.4,
-      "lng": -3.268
-    },
-    {
-      "name": "Sully",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.4071656,
-      "lng": -3.2143843
+      "lat": 52.240522,
+      "lng": -3.379361
     },
     {
       "name": "Bala",
@@ -2970,256 +2480,95 @@
       "lng": -3.59947
     },
     {
-      "name": "New Quay",
+      "name": "Dowlais",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.214003,
-      "lng": -4.360321
+      "lat": 51.7625134,
+      "lng": -3.3555584
     },
     {
-      "name": "Dinas Powys",
+      "name": "Birchgrove",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.4334895,
-      "lng": -3.213502
+      "lat": 51.521535,
+      "lng": -3.20246
     },
     {
-      "name": "Penygroes",
+      "name": "Builth Wells",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.0540164,
-      "lng": -4.2834874
+      "lat": 52.1493287,
+      "lng": -3.4058015
     },
     {
-      "name": "Brynna",
+      "name": "Llantwit Major",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.5389249,
-      "lng": -3.4631462
+      "lat": 51.4083212,
+      "lng": -3.4857779
     },
     {
-      "name": "Tregaron",
+      "name": "Abertysswg",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.220029,
-      "lng": -3.934281
+      "lat": 51.7425871,
+      "lng": -3.2601049
     },
     {
-      "name": "Mayals",
+      "name": "Saint Davids",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.5938097,
-      "lng": -4.0099331
+      "lat": 51.8820299,
+      "lng": -5.2684294
     },
     {
-      "name": "Llay",
+      "name": "Swansea",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.0970796,
-      "lng": -2.9994725
+      "lat": 51.622,
+      "lng": -3.943
     },
     {
-      "name": "Porthmadog",
+      "name": "Rhos",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.9256029,
-      "lng": -4.129694
+      "lat": 53.0127346,
+      "lng": -3.059416
     },
     {
-      "name": "Criccieth",
+      "name": "Valley",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.9206106,
-      "lng": -4.2332414
+      "lat": 53.284518,
+      "lng": -4.561922
     },
     {
-      "name": "Rhostyllen",
+      "name": "Senghenydd",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.0316266,
-      "lng": -3.0251932
+      "lat": 51.6094104,
+      "lng": -3.2762115
     },
     {
-      "name": "Barmouth",
+      "name": "Usk",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.7210389,
-      "lng": -4.0535692
+      "lat": 51.7045076,
+      "lng": -2.9026437
     },
     {
-      "name": "Pontypridd",
+      "name": "Dolgellau",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.602,
-      "lng": -3.342
+      "lat": 52.7426873,
+      "lng": -3.8855673
     },
     {
-      "name": "Llanrwst",
+      "name": "Killay",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.1415318,
-      "lng": -3.7939311
-    },
-    {
-      "name": "Wenvoe",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.4491468,
-      "lng": -3.2655793
-    },
-    {
-      "name": "Abertridwr",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.760048,
-      "lng": -3.434
-    },
-    {
-      "name": "Ammanford",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7955509,
-      "lng": -3.996828
-    },
-    {
-      "name": "Gwaun-Cae-Gurwen",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.789955,
-      "lng": -3.8808632
-    },
-    {
-      "name": "Pontypool",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7016878,
-      "lng": -3.0405374
-    },
-    {
-      "name": "Llanrhaeadr-ym-Mochnant",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.8251536,
-      "lng": -3.3014351
-    },
-    {
-      "name": "Abergavenny",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.8213212,
-      "lng": -3.0147935
-    },
-    {
-      "name": "Brecon",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.9472048,
-      "lng": -3.391696
-    },
-    {
-      "name": "Llansanffraid Glan Conwy",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2683303,
-      "lng": -3.7944098
-    },
-    {
-      "name": "Morriston",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6667495,
-      "lng": -3.9243273
-    },
-    {
-      "name": "Church Stoke",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.540608,
-      "lng": -3.07303
-    },
-    {
-      "name": "Prestatyn",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.3345598,
-      "lng": -3.4029487
-    },
-    {
-      "name": "Newtown",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.5135785,
-      "lng": -3.314371
-    },
-    {
-      "name": "Old Colwyn",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2885433,
-      "lng": -3.7015251
-    },
-    {
-      "name": "Tonypandy",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6246695,
-      "lng": -3.4595279
-    },
-    {
-      "name": "Aberteifi",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 52.083997,
-      "lng": -4.660422
-    },
-    {
-      "name": "Port Talbot",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5952353,
-      "lng": -3.7824148
-    },
-    {
-      "name": "Hirwaun",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.7403304,
-      "lng": -3.512634
-    },
-    {
-      "name": "Conwy",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.1460931,
-      "lng": -3.7599202
-    },
-    {
-      "name": "Treorchy",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6610568,
-      "lng": -3.5041501
-    },
-    {
-      "name": "Talbot Green",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5364126,
-      "lng": -3.3867954
-    },
-    {
-      "name": "Dyserth",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.3004802,
-      "lng": -3.4130545
-    },
-    {
-      "name": "Portskewett",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.5904472,
-      "lng": -2.7262919
+      "lat": 51.6195821,
+      "lng": -4.0188081
     },
     {
       "name": "Blaenavon",
@@ -3229,25 +2578,137 @@
       "lng": -3.0843833
     },
     {
-      "name": "Rassau",
+      "name": "Treorchy",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.7993404,
-      "lng": -3.2216353
+      "lat": 51.6610568,
+      "lng": -3.5041501
     },
     {
-      "name": "Llanrumney",
+      "name": "Rogerstone",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.5195945,
-      "lng": -3.1213256
+      "lat": 51.591707,
+      "lng": -3.0546846
     },
     {
-      "name": "Porth",
+      "name": "Griffithstown",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.6125883,
-      "lng": -3.4085863
+      "lat": 51.6887716,
+      "lng": -3.0322361
+    },
+    {
+      "name": "Creigiau",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5241838,
+      "lng": -3.3247038
+    },
+    {
+      "name": "Abersoch",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.8226822,
+      "lng": -4.5075491
+    },
+    {
+      "name": "Aberdulais",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6791431,
+      "lng": -3.7794145
+    },
+    {
+      "name": "Greenfield",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.288492,
+      "lng": -3.209983
+    },
+    {
+      "name": "Portskewett",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5904472,
+      "lng": -2.7262919
+    },
+    {
+      "name": "Saundersfoot",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.710887,
+      "lng": -4.699798
+    },
+    {
+      "name": "Bryncethin",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.54764,
+      "lng": -3.568331
+    },
+    {
+      "name": "Blaenau Ffestiniog",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.9945942,
+      "lng": -3.9379224
+    },
+    {
+      "name": "Pontyberem",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.7782395,
+      "lng": -4.1748134
+    },
+    {
+      "name": "Llanrwst",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.1415318,
+      "lng": -3.7939311
+    },
+    {
+      "name": "Letterston",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.9278455,
+      "lng": -4.9916123
+    },
+    {
+      "name": "Talgarth",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.9964038,
+      "lng": -3.2323446
+    },
+    {
+      "name": "Lampeter",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.1130523,
+      "lng": -4.078761
+    },
+    {
+      "name": "Tonyrefail",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5832675,
+      "lng": -3.4311743
+    },
+    {
+      "name": "Morriston",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6667495,
+      "lng": -3.9243273
+    },
+    {
+      "name": "Guilsfield",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.695412,
+      "lng": -3.1532907
     },
     {
       "name": "Glyncorrwg",
@@ -3257,25 +2718,18 @@
       "lng": -3.6273026
     },
     {
-      "name": "Mountain Ash",
+      "name": "Tonypandy",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.6821033,
-      "lng": -3.3764418
+      "lat": 51.6246695,
+      "lng": -3.4595279
     },
     {
-      "name": "Clydach",
+      "name": "Denbigh",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.6964314,
-      "lng": -3.8916304
-    },
-    {
-      "name": "Sealand",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2144555,
-      "lng": -2.9956689
+      "lat": 53.1853776,
+      "lng": -3.4178289
     },
     {
       "name": "Penarth",
@@ -3285,74 +2739,60 @@
       "lng": -3.175096
     },
     {
-      "name": "Solva",
+      "name": "Blackwood",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.8735554,
-      "lng": -5.1979167
+      "lat": 51.6663189,
+      "lng": -3.1974329
     },
     {
-      "name": "Rhayader",
+      "name": "Aberkenfig",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.2995285,
-      "lng": -3.5099938
+      "lat": 51.5410988,
+      "lng": -3.5974384
     },
     {
-      "name": "Fforest-fach",
+      "name": "Port Talbot",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.6480336,
-      "lng": -3.9856602
+      "lat": 51.5952353,
+      "lng": -3.7824148
     },
     {
-      "name": "Holyhead",
+      "name": "Bedlinog",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.3106715,
-      "lng": -4.6330966
+      "lat": 51.702558,
+      "lng": -3.313794
     },
     {
-      "name": "Bangor",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.228,
-      "lng": -4.129
-    },
-    {
-      "name": "Ystrad Mynach",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.6418098,
-      "lng": -3.2373987
-    },
-    {
-      "name": "Llansamlet",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.663004,
-      "lng": -3.89939
-    },
-    {
-      "name": "Holywell",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.2714061,
-      "lng": -3.2212991
-    },
-    {
-      "name": "Holt",
+      "name": "Broughton",
       "nation": "England",
       "score_90d": 0,
-      "lat": 52.905438,
-      "lng": 1.092832
+      "lat": 53.5655669,
+      "lng": -0.5536713
     },
     {
-      "name": "Skewen",
+      "name": "Bettws",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.6570639,
-      "lng": -3.8469047
+      "lat": 51.6108349,
+      "lng": -3.0281527
+    },
+    {
+      "name": "Connah's Quay",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2199037,
+      "lng": -3.0661782
+    },
+    {
+      "name": "Ystradgynlais",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.777311,
+      "lng": -3.758499
     },
     {
       "name": "Pontllanfraith",
@@ -3362,25 +2802,494 @@
       "lng": -3.1941208
     },
     {
-      "name": "Wrexham",
+      "name": "Llanrhaeadr-ym-Mochnant",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.046,
-      "lng": -2.993
+      "lat": 52.8251536,
+      "lng": -3.3014351
     },
     {
-      "name": "Risca",
+      "name": "Rassau",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.611954,
-      "lng": -3.096482
+      "lat": 51.7993404,
+      "lng": -3.2216353
     },
     {
-      "name": "Monmouth",
+      "name": "Aberystwyth",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.8098882,
-      "lng": -2.7160441
+      "lat": 52.416,
+      "lng": -4.082
+    },
+    {
+      "name": "Cowbridge",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.4616852,
+      "lng": -3.4472705
+    },
+    {
+      "name": "Llysfaen",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.282711,
+      "lng": -3.659833
+    },
+    {
+      "name": "Llangollen",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.9694033,
+      "lng": -3.1711111
+    },
+    {
+      "name": "Bodelwyddan",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2705527,
+      "lng": -3.5129657
+    },
+    {
+      "name": "Llandudno",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.322475,
+      "lng": -3.8243251
+    },
+    {
+      "name": "Bassaleg",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5766335,
+      "lng": -3.0480378
+    },
+    {
+      "name": "Cardiff",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.481,
+      "lng": -3.179
+    },
+    {
+      "name": "Gilwern",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.8255754,
+      "lng": -3.0927521
+    },
+    {
+      "name": "Brecon",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.9472048,
+      "lng": -3.391696
+    },
+    {
+      "name": "Treharris",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6649488,
+      "lng": -3.3058374
+    },
+    {
+      "name": "Barry",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.4,
+      "lng": -3.268
+    },
+    {
+      "name": "Abertridwr",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.760048,
+      "lng": -3.434
+    },
+    {
+      "name": "Cwmbran",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6536438,
+      "lng": -3.0208217
+    },
+    {
+      "name": "Efail Isaf",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5515232,
+      "lng": -3.3227515
+    },
+    {
+      "name": "Menai Bridge",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2259347,
+      "lng": -4.1631064
+    },
+    {
+      "name": "Llanidloes",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.4482359,
+      "lng": -3.5410891
+    },
+    {
+      "name": "Pencader",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.0001337,
+      "lng": -4.2685111
+    },
+    {
+      "name": "Penyffordd",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.1454462,
+      "lng": -3.0477811
+    },
+    {
+      "name": "Dinas Powys",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.4334895,
+      "lng": -3.213502
+    },
+    {
+      "name": "Undy",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.578415,
+      "lng": -2.8137776
+    },
+    {
+      "name": "Old Colwyn",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2885433,
+      "lng": -3.7015251
+    },
+    {
+      "name": "Church Stoke",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.540608,
+      "lng": -3.07303
+    },
+    {
+      "name": "Tredegar",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.773256,
+      "lng": -3.246954
+    },
+    {
+      "name": "Ruabon",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.987131,
+      "lng": -3.041497
+    },
+    {
+      "name": "Saltney Ferry",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.1804457,
+      "lng": -2.9459909
+    },
+    {
+      "name": "Ynysybwl",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6387679,
+      "lng": -3.3590171
+    },
+    {
+      "name": "Ammanford",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.7955509,
+      "lng": -3.996828
+    },
+    {
+      "name": "Penmaenmawr",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2681395,
+      "lng": -3.9200268
+    },
+    {
+      "name": "Caerwent",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6100619,
+      "lng": -2.7643084
+    },
+    {
+      "name": "Fforest-fach",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6480336,
+      "lng": -3.9856602
+    },
+    {
+      "name": "Glynneath",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.748412,
+      "lng": -3.61693
+    },
+    {
+      "name": "Barmouth",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.7210389,
+      "lng": -4.0535692
+    },
+    {
+      "name": "Penlan",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6476785,
+      "lng": -3.9633315
+    },
+    {
+      "name": "Saint Clears",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.820656,
+      "lng": -4.494696
+    },
+    {
+      "name": "Raglan",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.765054,
+      "lng": -2.85406
+    },
+    {
+      "name": "Solva",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.8735554,
+      "lng": -5.1979167
+    },
+    {
+      "name": "Troedyrhiw",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.216685,
+      "lng": -3.9195013
+    },
+    {
+      "name": "Cross Hands",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.7949672,
+      "lng": -4.08594
+    },
+    {
+      "name": "Criccieth",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.9206106,
+      "lng": -4.2332414
+    },
+    {
+      "name": "Sealand",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2144555,
+      "lng": -2.9956689
+    },
+    {
+      "name": "Hendy",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.714833,
+      "lng": -4.055137
+    },
+    {
+      "name": "Penygroes",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.0540164,
+      "lng": -4.2834874
+    },
+    {
+      "name": "Pontypool",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.7016878,
+      "lng": -3.0405374
+    },
+    {
+      "name": "Sully",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.4071656,
+      "lng": -3.2143843
+    },
+    {
+      "name": "Llandeilo",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.8853935,
+      "lng": -3.9925144
+    },
+    {
+      "name": "Pontlliw",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6902162,
+      "lng": -4.0126017
+    },
+    {
+      "name": "Neath",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6628422,
+      "lng": -3.8039117
+    },
+    {
+      "name": "Port Tennant",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6222941,
+      "lng": -3.9164987
+    },
+    {
+      "name": "Brynmawr",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.7982408,
+      "lng": -3.1740109
+    },
+    {
+      "name": "Brynna",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5389249,
+      "lng": -3.4631462
+    },
+    {
+      "name": "Rhyl",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.3207425,
+      "lng": -3.4907258
+    },
+    {
+      "name": "Talbot Green",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5364126,
+      "lng": -3.3867954
+    },
+    {
+      "name": "Clydach",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6964314,
+      "lng": -3.8916304
+    },
+    {
+      "name": "Llansanffraid Glan Conwy",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2683303,
+      "lng": -3.7944098
+    },
+    {
+      "name": "Pencoed",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5256116,
+      "lng": -3.506453
+    },
+    {
+      "name": "Rhuddlan",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2914745,
+      "lng": -3.4655568
+    },
+    {
+      "name": "Mountain Ash",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6821033,
+      "lng": -3.3764418
+    },
+    {
+      "name": "Llansamlet",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.663004,
+      "lng": -3.89939
+    },
+    {
+      "name": "Buckley",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.170226,
+      "lng": -3.079987
+    },
+    {
+      "name": "Maesteg",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6091804,
+      "lng": -3.658015
+    },
+    {
+      "name": "Rhayader",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 52.2995285,
+      "lng": -3.5099938
+    },
+    {
+      "name": "Nelson",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6512503,
+      "lng": -3.2827132
+    },
+    {
+      "name": "Merthyr Tydfil",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.748,
+      "lng": -3.378
+    },
+    {
+      "name": "Gwaun-Cae-Gurwen",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.789955,
+      "lng": -3.8808632
+    },
+    {
+      "name": "Bangor",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.228,
+      "lng": -4.129
+    },
+    {
+      "name": "Pontardawe",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.721986,
+      "lng": -3.848878
+    },
+    {
+      "name": "Conwy",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.1460931,
+      "lng": -3.7599202
     },
     {
       "name": "Pembroke Dock",
@@ -3390,32 +3299,109 @@
       "lng": -4.9411056
     },
     {
-      "name": "Newport",
+      "name": "Holywell",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.589,
-      "lng": -2.998
+      "lat": 53.2714061,
+      "lng": -3.2212991
     },
     {
-      "name": "Tongwynlais",
+      "name": "Resolven",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.531743,
-      "lng": -3.251788
+      "lat": 51.7110541,
+      "lng": -3.6955499
     },
     {
-      "name": "Radyr",
+      "name": "Milford Haven",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.5165903,
-      "lng": -3.2490261
+      "lat": 51.7130946,
+      "lng": -5.0359395
     },
     {
-      "name": "Treharris",
+      "name": "Gorseinon",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.6649488,
-      "lng": -3.3058374
+      "lat": 51.66938,
+      "lng": -4.041592
+    },
+    {
+      "name": "Wrexham",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.046,
+      "lng": -2.993
+    },
+    {
+      "name": "Tregarth",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.1902945,
+      "lng": -4.0904847
+    },
+    {
+      "name": "Hirwaun",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.7403304,
+      "lng": -3.512634
+    },
+    {
+      "name": "Skewen",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6570639,
+      "lng": -3.8469047
+    },
+    {
+      "name": "Rumney",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.5077197,
+      "lng": -3.1280845
+    },
+    {
+      "name": "Ystrad Mynach",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6418098,
+      "lng": -3.2373987
+    },
+    {
+      "name": "Monmouth",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.8098882,
+      "lng": -2.7160441
+    },
+    {
+      "name": "Risca",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.611954,
+      "lng": -3.096482
+    },
+    {
+      "name": "Holt",
+      "nation": "England",
+      "score_90d": 0,
+      "lat": 52.905438,
+      "lng": 1.092832
+    },
+    {
+      "name": "Caerphilly",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.6723809,
+      "lng": -3.1783938
+    },
+    {
+      "name": "Bridgend",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.504,
+      "lng": -3.577
     },
     {
       "name": "Miskin",
@@ -3432,11 +3418,11 @@
       "lng": -3.3747857
     },
     {
-      "name": "Creigiau",
+      "name": "Pontypridd",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 51.5241838,
-      "lng": -3.3247038
+      "lat": 51.602,
+      "lng": -3.342
     },
     {
       "name": "Rhoose",
@@ -3444,6 +3430,13 @@
       "score_90d": 0,
       "lat": 51.3871547,
       "lng": -3.3494457
+    },
+    {
+      "name": "Wenvoe",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 51.4491468,
+      "lng": -3.2655793
     },
     {
       "name": "Tenby",
@@ -3460,25 +3453,11 @@
       "lng": -4.7427383
     },
     {
-      "name": "Saint Davids",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 51.8820299,
-      "lng": -5.2684294
-    },
-    {
       "name": "Fishguard",
       "nation": "Wales",
       "score_90d": 0,
       "lat": 51.9938353,
       "lng": -4.97681
-    },
-    {
-      "name": "Valley",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.284518,
-      "lng": -4.561922
     },
     {
       "name": "Groeslon",
@@ -3495,11 +3474,11 @@
       "lng": -4.0855906
     },
     {
-      "name": "Dolgellau",
+      "name": "Porthmadog",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.7426873,
-      "lng": -3.8855673
+      "lat": 52.9256029,
+      "lng": -4.129694
     },
     {
       "name": "Llanfyllin",
@@ -3516,32 +3495,46 @@
       "lng": -3.3052405
     },
     {
-      "name": "Mold",
+      "name": "Dyserth",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.1666274,
-      "lng": -3.1414228
+      "lat": 53.3004802,
+      "lng": -3.4130545
     },
     {
-      "name": "Llysfaen",
+      "name": "Towyn",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.282711,
-      "lng": -3.659833
+      "lat": 52.5861123,
+      "lng": -4.0855906
     },
     {
-      "name": "Penmaenmawr",
+      "name": "Rhos on Sea",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.2681395,
-      "lng": -3.9200268
+      "lat": 53.3129676,
+      "lng": -3.7439749
     },
     {
-      "name": "Blaenau Ffestiniog",
+      "name": "Llandudno Junction",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 52.9945942,
-      "lng": -3.9379224
+      "lat": 53.2871333,
+      "lng": -3.8105036
+    },
+    {
+      "name": "Colwyn Bay",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2953269,
+      "lng": -3.7262534
+    },
+    {
+      "name": "Abergele",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2840692,
+      "lng": -3.5810655
     },
     {
       "name": "Penrhyndeudraeth",
@@ -3558,13 +3551,6 @@
       "lng": -4.2769751
     },
     {
-      "name": "Tregarth",
-      "nation": "Wales",
-      "score_90d": 0,
-      "lat": 53.1902945,
-      "lng": -4.0904847
-    },
-    {
       "name": "Llanfairfechan",
       "nation": "Wales",
       "score_90d": 0,
@@ -3572,18 +3558,25 @@
       "lng": -3.9750615
     },
     {
-      "name": "Menai Bridge",
+      "name": "Holyhead",
       "nation": "Wales",
       "score_90d": 0,
-      "lat": 53.2259347,
-      "lng": -4.1631064
+      "lat": 53.3106715,
+      "lng": -4.6330966
     },
     {
-      "name": "Newcastle",
-      "nation": "England",
+      "name": "Prestatyn",
+      "nation": "Wales",
       "score_90d": 0,
-      "lat": 54.978,
-      "lng": -1.618
+      "lat": 53.3345598,
+      "lng": -3.4029487
+    },
+    {
+      "name": "Llangefni",
+      "nation": "Wales",
+      "score_90d": 0,
+      "lat": 53.2560986,
+      "lng": -4.3114568
     },
     {
       "name": "Strabane",
@@ -3593,20 +3586,6 @@
       "lng": -7.462799
     },
     {
-      "name": "Coleraine",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 55.1315912,
-      "lng": -6.671861
-    },
-    {
-      "name": "Warrenpoint",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.0999923,
-      "lng": -6.2512827
-    },
-    {
       "name": "Castlewellan",
       "nation": "Northern Ireland",
       "score_90d": 0,
@@ -3614,18 +3593,11 @@
       "lng": -5.9435178
     },
     {
-      "name": "Donaghadee",
+      "name": "Hillsborough",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.6425446,
-      "lng": -5.5375794
-    },
-    {
-      "name": "Cookstown",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.643673,
-      "lng": -6.741601
+      "lat": 54.462813,
+      "lng": -6.0830844
     },
     {
       "name": "Limavady",
@@ -3635,11 +3607,25 @@
       "lng": -6.9505134
     },
     {
-      "name": "Randalstown",
+      "name": "Dromore",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.7498918,
-      "lng": -6.3197638
+      "lat": 54.5128552,
+      "lng": -7.4576175
+    },
+    {
+      "name": "Holywood",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.6404494,
+      "lng": -5.8361723
+    },
+    {
+      "name": "Enniskillen",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.344,
+      "lng": -7.639
     },
     {
       "name": "Aghalee",
@@ -3649,60 +3635,11 @@
       "lng": -6.2679269
     },
     {
-      "name": "Newry",
+      "name": "Magherafelt",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.176,
-      "lng": -6.337
-    },
-    {
-      "name": "Portstewart",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 55.1829096,
-      "lng": -6.7187008
-    },
-    {
-      "name": "Larne",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.8508458,
-      "lng": -5.8183116
-    },
-    {
-      "name": "Kilkeel",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.0626664,
-      "lng": -6.0059949
-    },
-    {
-      "name": "Whitehead",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.7525197,
-      "lng": -5.7095385
-    },
-    {
-      "name": "Moy",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.4467386,
-      "lng": -6.6911155
-    },
-    {
-      "name": "Armagh",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.3161086,
-      "lng": -6.7189182
-    },
-    {
-      "name": "Dundonald",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.5947412,
-      "lng": -5.8105342
+      "lat": 54.7544757,
+      "lng": -6.6078073
     },
     {
       "name": "Garvagh",
@@ -3712,18 +3649,25 @@
       "lng": -6.6877148
     },
     {
+      "name": "Whitehead",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.7525197,
+      "lng": -5.7095385
+    },
+    {
+      "name": "Portstewart",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 55.1829096,
+      "lng": -6.7187008
+    },
+    {
       "name": "Belfast",
       "nation": "Northern Ireland",
       "score_90d": 0,
       "lat": 54.597,
       "lng": -5.93
-    },
-    {
-      "name": "Moira",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.4792925,
-      "lng": -6.2301652
     },
     {
       "name": "Newbuildings",
@@ -3733,11 +3677,11 @@
       "lng": -7.3587103
     },
     {
-      "name": "Craigavon",
+      "name": "Moira",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.447,
-      "lng": -6.389
+      "lat": 54.4792925,
+      "lng": -6.2301652
     },
     {
       "name": "Londonderry",
@@ -3747,18 +3691,25 @@
       "lng": -7.3213056
     },
     {
+      "name": "Castlederg",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.7087956,
+      "lng": -7.593125
+    },
+    {
+      "name": "Larne",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.8508458,
+      "lng": -5.8183116
+    },
+    {
       "name": "Banbridge",
       "nation": "Northern Ireland",
       "score_90d": 0,
       "lat": 54.3514168,
       "lng": -6.2714623
-    },
-    {
-      "name": "Glengormley",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.6718077,
-      "lng": -5.9594082
     },
     {
       "name": "Tandragee",
@@ -3768,11 +3719,74 @@
       "lng": -6.4123562
     },
     {
-      "name": "Ballymena",
+      "name": "Cookstown",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.864,
-      "lng": -6.276
+      "lat": 54.643673,
+      "lng": -6.741601
+    },
+    {
+      "name": "Craigavon",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.447,
+      "lng": -6.389
+    },
+    {
+      "name": "Donaghadee",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.6425446,
+      "lng": -5.5375794
+    },
+    {
+      "name": "Warrenpoint",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.0999923,
+      "lng": -6.2512827
+    },
+    {
+      "name": "Lisburn",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.51,
+      "lng": -6.038
+    },
+    {
+      "name": "Glengormley",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.6718077,
+      "lng": -5.9594082
+    },
+    {
+      "name": "Ballycastle",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 55.2006882,
+      "lng": -6.250282
+    },
+    {
+      "name": "Newry",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.176,
+      "lng": -6.337
+    },
+    {
+      "name": "Dundonald",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.5947412,
+      "lng": -5.8105342
+    },
+    {
+      "name": "Moy",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.4467386,
+      "lng": -6.6911155
     },
     {
       "name": "Dunloy",
@@ -3789,11 +3803,18 @@
       "lng": -5.8073112
     },
     {
-      "name": "Ballycastle",
+      "name": "Dunmurry",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 55.2006882,
-      "lng": -6.250282
+      "lat": 54.5532988,
+      "lng": -6.0030208
+    },
+    {
+      "name": "Kilkeel",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.0626664,
+      "lng": -6.0059949
     },
     {
       "name": "Lurgan",
@@ -3803,32 +3824,11 @@
       "lng": -6.3292491
     },
     {
-      "name": "Ballynahinch",
+      "name": "Coleraine",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.4026038,
-      "lng": -5.8960151
-    },
-    {
-      "name": "Enniskillen",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.344,
-      "lng": -7.639
-    },
-    {
-      "name": "Holywood",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.6404494,
-      "lng": -5.8361723
-    },
-    {
-      "name": "Dunmurry",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.5532988,
-      "lng": -6.0030208
+      "lat": 55.1315912,
+      "lng": -6.671861
     },
     {
       "name": "Carryduff",
@@ -3838,25 +3838,32 @@
       "lng": -5.8874586
     },
     {
-      "name": "Hillsborough",
-      "nation": "Northern Ireland",
+      "name": "Newcastle",
+      "nation": "England",
       "score_90d": 0,
-      "lat": 54.462813,
-      "lng": -6.0830844
+      "lat": 54.978,
+      "lng": -1.618
     },
     {
-      "name": "Lisburn",
+      "name": "Ballynahinch",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.51,
-      "lng": -6.038
+      "lat": 54.4026038,
+      "lng": -5.8960151
     },
     {
-      "name": "Dromore",
+      "name": "Armagh",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.5128552,
-      "lng": -7.4576175
+      "lat": 54.3161086,
+      "lng": -6.7189182
+    },
+    {
+      "name": "Randalstown",
+      "nation": "Northern Ireland",
+      "score_90d": 0,
+      "lat": 54.7498918,
+      "lng": -6.3197638
     },
     {
       "name": "Antrim",
@@ -3880,18 +3887,11 @@
       "lng": -6.6718648
     },
     {
-      "name": "Magherafelt",
+      "name": "Ballymena",
       "nation": "Northern Ireland",
       "score_90d": 0,
-      "lat": 54.7544757,
-      "lng": -6.6078073
-    },
-    {
-      "name": "Castlederg",
-      "nation": "Northern Ireland",
-      "score_90d": 0,
-      "lat": 54.7087956,
-      "lng": -7.593125
+      "lat": 54.864,
+      "lng": -6.276
     },
     {
       "name": "Broughshane",
